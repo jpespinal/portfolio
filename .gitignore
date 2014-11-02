@@ -3,5 +3,5 @@
 .sass-cache/
 *.sublime-*
 sass/_susy.scss
-/sass/_susyone.css
+/sass/_susyone.scss
 /sass/susy/
