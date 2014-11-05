@@ -1,7 +1,11 @@
+config.rb
+sass/_grids.scss
+sass/custom.scss
+sass/ie.scss
+sass/print.scss
+sass/screen.scss
+stylesheets/
 *.DS_Store
-/css
+css/
 .sass-cache/
 *.sublime-*
-sass/_susy.scss
-/sass/_susyone.scss
-/sass/susy/
