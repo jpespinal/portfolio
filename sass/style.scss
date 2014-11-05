@@ -1,18 +1,18 @@
-@import "susy";
+// Screen
+// ======
+@import "compass/reset";
+@import "grids";
+@import "breakpoint";
 
 $susy: (
-  global-box-sizing: border-box,
+    columns: 12,
+    global-box-sizing: border-box,
 );
 
 @include border-box-sizing;
 
-body {
-    margin: 0em;
-}
-
-ul {
-    list-style: none;
-    padding-left: 0em;
+img {
+    max-width: 100%;
 }
 
 .container {
@@ -21,7 +21,6 @@ ul {
 
 .nav {
     @include span(3 of 12);
-    margin-right: 0em;
     padding-left: span(1 of 12) + gutter(12);
 }
 
