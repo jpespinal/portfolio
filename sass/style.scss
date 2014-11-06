@@ -1,11 +1,12 @@
 // Screen
 // ======
 @import "compass/reset";
+@import "compass/css3";
 @import "grids";
 @import "breakpoint";
 
 $susy: (
-    columns: 12,
+    columns: 2,
     global-box-sizing: border-box,
 );
 
@@ -20,12 +21,11 @@ img {
 }
 
 .nav {
-    @include span(3 of 12);
-    padding-left: span(1 of 12) + gutter(12);
+    @include span(2);
 }
 
 .window {
-    @include span(9 of 12 last);
+    @include span(2);
 }
 
 .nav-links {
