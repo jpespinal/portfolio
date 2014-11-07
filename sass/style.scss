@@ -14,7 +14,7 @@ $susy: (
 
 // Variables //
 
-$font-family: 'Oswald';
+$font-family-sans: 'Oswald', sans-serif;
 
 // Breakpoint Variables //
 
@@ -86,6 +86,51 @@ abbr, acronym {
 
 // Global Styles //
 
+.center {
+    text-align: center;
+}
+
+.inline-b {
+    display: inline-block;
+}
+
+.oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.oswald-light {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+.oswald-bold {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.cabin-sketch {
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.red {
+    color: #DF4949;
+}
+
+.green {
+    color: #45B29D;
+}
+
+.yellow {
+    color: #EFC94C;
+}
+
+.orange {
+    color: #E27A3F;
+}
+
+.blue {
+    color: #334D5C;
+}
 
 // //
 
@@ -102,6 +147,9 @@ abbr, acronym {
         @include span(2);
     }
 
-    .nav-links {
+    .social-links {
+        display: inline;
+        width: 30px;
+        height: 30px;
     }
 }
