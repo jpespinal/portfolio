@@ -1,7 +1,7 @@
-// Screen
-// ======
+// Imports - Compass (Reset, CSS3, Utilities, Susy, Breakpoint) //
 @import "compass/reset";
 @import "compass/css3";
+@import "compass/utilities";
 @import "grids";
 @import "breakpoint";
 
@@ -12,21 +12,96 @@ $susy: (
 
 @include border-box-sizing;
 
+// Variables //
+
+$font-family: 'Oswald';
+
+// Breakpoint Variables //
+
+$phone-width: 320px 400px;
+
+// Base Styles - Starting point after CSS reset. //
+
+html, body {
+    font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+h6 {
+    font-size: 1.1rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+p, fieldset, table, pre {
+    margin-bottom: 1rem;
+}
+
 img {
     max-width: 100%;
 }
 
-.container {
-    @include container;
+blockquote,ul,ol,dl {
+    margin: 1rem;
 }
 
-.nav {
-    @include span(2);
+em {
+    font-style: italic;
 }
 
-.window {
-    @include span(2);
+strong {
+    font-weight: bold;
 }
 
-.nav-links {
+abbr, acronym {
+    border-bottom: 1px dotted #000;
+    cursor: help;
+}
+
+// Global Styles //
+
+
+// //
+
+@include breakpoint($phone-width) {
+    .container {
+        @include container;
+    }
+
+    .nav {
+        @include span(2);
+    }
+
+    .main {
+        @include span(2);
+    }
+
+    .nav-links {
+    }
 }
