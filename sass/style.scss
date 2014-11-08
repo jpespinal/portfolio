@@ -6,7 +6,7 @@
 @import "breakpoint";
 
 $susy: (
-    columns: 2,
+    columns: 4,
     global-box-sizing: border-box,
 );
 
@@ -140,11 +140,12 @@ abbr, acronym {
     }
 
     .nav {
-        @include span(2);
+        @include span(4);
     }
 
     .main {
-        @include span(2);
+        @include span(4);
+        padding: 0 5%;
     }
 
     .social-links {
