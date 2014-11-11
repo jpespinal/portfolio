@@ -20,6 +20,13 @@ $font-family-sans: 'Oswald', sans-serif;
 
 $phone-width: 320px 400px;
 
+$red: #DF4949;
+$orange: #E27A3F;
+$yellow: #EFC94C;
+$green: #45B29D;
+$blue: #334D5C;
+$black: #454545;
+
 // Base Styles - Starting point after CSS reset. //
 
 html, body {
@@ -64,10 +71,11 @@ p, fieldset, table, pre {
 }
 
 img {
+    display: inline-block;
     max-width: 100%;
 }
 
-blockquote,ul,ol,dl {
+blockquote, ul, ol, dl {
     margin: 1rem;
 }
 
@@ -103,11 +111,6 @@ abbr, acronym {
     font-weight: 300;
 }
 
-.oswald-bold {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-}
-
 .cabin-sketch {
     font-family: 'Cabin Sketch', cursive;
 }
@@ -132,6 +135,31 @@ abbr, acronym {
     color: #334D5C;
 }
 
+.black {
+    color: #454545;
+}
+
+.menu {
+    fill: $black;
+}
+
+.name {
+    border-bottom: 1px solid $black;
+    color: $black;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    padding: 0.5em 0em;
+    text-align: center;
+}
+
+.nav-links {
+    margin: 0 auto 1em;
+}
+
+.social-links {
+    display: inline;
+}
+
 // //
 
 @include breakpoint($phone-width) {
@@ -140,17 +168,21 @@ abbr, acronym {
     }
 
     .nav {
+        height: 100%;
         @include span(4);
+        ul li {
+            margin: 1em 0em;
+        }
+    }
+
+    .social-links {
+    width: 30px;
+    height: 30px;
     }
 
     .main {
         @include span(4);
-        padding: 0 5%;
-    }
-
-    .social-links {
-        display: inline;
-        width: 30px;
-        height: 30px;
+        margin-top: 2em;
+        padding: 0 2.5%;
     }
 }
