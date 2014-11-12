@@ -5,6 +5,8 @@
 @import "grids";
 @import "breakpoint";
 
+// Initial Susy Settings //
+
 $susy: (
     columns: 4,
     global-box-sizing: border-box,
@@ -12,13 +14,16 @@ $susy: (
 
 @include border-box-sizing;
 
-// Variables //
+// Font Variables //
 
-$font-family-sans: 'Oswald', sans-serif;
+$font-family-primary: 'Cabin', sans-serif;
+$font-family-secondary: 'Cabin Sketch', cursive;
 
 // Breakpoint Variables //
 
 $phone-width: 320px 400px;
+
+// Color Variables //
 
 $red: #DF4949;
 $orange: #E27A3F;
@@ -70,13 +75,17 @@ p, fieldset, table, pre {
     margin-bottom: 1rem;
 }
 
+a {
+    display: block;
+}
+
 img {
     display: inline-block;
     max-width: 100%;
 }
 
 blockquote, ul, ol, dl {
-    margin: 1rem;
+    // margin: 1rem;
 }
 
 em {
@@ -94,95 +103,91 @@ abbr, acronym {
 
 // Global Styles //
 
-.center {
+.container {
+    @include container;
+}
+
+.nav {
+    padding: 0 2.5%;
     text-align: center;
-}
-
-.inline-b {
-    display: inline-block;
-}
-
-.oswald {
-    font-family: 'Oswald', sans-serif;
-}
-
-.oswald-light {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-}
-
-.cabin-sketch {
-    font-family: 'Cabin Sketch', cursive;
-}
-
-.red {
-    color: #DF4949;
-}
-
-.green {
-    color: #45B29D;
-}
-
-.yellow {
-    color: #EFC94C;
-}
-
-.orange {
-    color: #E27A3F;
-}
-
-.blue {
-    color: #334D5C;
-}
-
-.black {
-    color: #454545;
-}
-
-.menu {
-    fill: $black;
 }
 
 .name {
-    border-bottom: 1px solid $black;
+    color: $black;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    margin: 0rem auto;
+    padding: 0.5rem 0rem;
+}
+
+.nav-link {
     color: $black;
     display: inline-block;
-    font-family: 'Oswald', sans-serif;
-    padding: 0.5em 0em;
+    font-family: $font-family-primary;
+}
+
+.nav-link a {
+    display: block;
+    padding: 0.5rem;
+}
+
+.main {
+    margin-top: 1rem;
+    padding: 0 2.5%;
+}
+
+.title {
+    color: $red;
+    font-family: $font-family-secondary;
     text-align: center;
 }
 
-.nav-links {
-    margin: 0 auto 1em;
+.text {
+    color: $blue;
+    font-family: $font-family-secondary;
+}
+
+.keyword {
+    color: $orange;
+    font-family: $font-family-secondary;
+}
+
+.footer {
+    text-align: center;
 }
 
 .social-links {
-    display: inline;
+    display: inline-block;
+    margin: 0rem 1rem;
+}
+
+.copyright {
+    color: $black;
+    font-family: $font-family-primary;
 }
 
 // //
 
 @include breakpoint($phone-width) {
-    .container {
-        @include container;
-    }
-
     .nav {
-        height: 100%;
         @include span(4);
-        ul li {
-            margin: 1em 0em;
-        }
     }
 
-    .social-links {
-    width: 30px;
-    height: 30px;
+    .nav header nav {
+        border: 1px solid $black;
+        margin-top: 1rem;
     }
 
     .main {
         @include span(4);
-        margin-top: 2em;
-        padding: 0 2.5%;
+    }
+
+    .footer {
+        @include span(4);
+    }
+
+    .social-links {
+    width: 40px;
+    height: 40px;
     }
 }
