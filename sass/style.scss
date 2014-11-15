@@ -21,7 +21,7 @@ $font-family-secondary: 'Cabin Sketch', cursive;
 
 // Breakpoint Variables //
 
-$phone-width: 320px 400px;
+$phone-width: 320px;
 
 // Color Variables //
 
@@ -31,6 +31,7 @@ $yellow: #EFC94C;
 $green: #45B29D;
 $blue: #334D5C;
 $black: #454545;
+$white: #FFFFFF;
 
 // Base Styles - Starting point after CSS reset. //
 
@@ -104,6 +105,7 @@ abbr, acronym {
 // Global Styles //
 
 .container {
+    height: 100%;   
     @include container;
 }
 
@@ -124,11 +126,11 @@ abbr, acronym {
     color: $black;
     display: inline-block;
     font-family: $font-family-primary;
+    text-align: center;
 }
 
 .nav-link a {
     display: block;
-    padding: 0.5rem;
 }
 
 .main {
@@ -169,17 +171,45 @@ abbr, acronym {
 // //
 
 @include breakpoint($phone-width) {
+
     .nav {
+        background-color: #EFC94C;
+        height: 8rem;
         @include span(4);
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
     }
 
-    .nav header nav {
-        border: 1px solid $black;
+    nav {
+        border: 1px solid $white;
         margin-top: 1rem;
+    }
+
+    header {
+        height: 7rem;
+    }
+
+    .name {
+        margin-bottom: 2rem;
+    }
+
+    .nav-link {
+        width: 32.45%;
+        a {
+            color: $black;
+            padding: 0.5rem;
+            text-decoration: none;
+            &:hover {
+                background-color: $white;
+            }
+        }
     }
 
     .main {
         @include span(4);
+        margin: 12rem 0rem 2rem;
     }
 
     .footer {
@@ -187,7 +217,7 @@ abbr, acronym {
     }
 
     .social-links {
-    width: 40px;
-    height: 40px;
+    height: 3rem;
+    width: 12%;
     }
 }
