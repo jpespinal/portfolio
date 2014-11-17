@@ -21,7 +21,7 @@ $font-family-secondary: 'Cabin Sketch', cursive;
 
 // Breakpoint Variables //
 
-$phone-width: 320px;
+$phone-width: 320px 400px;
 
 // Color Variables //
 
@@ -36,7 +36,8 @@ $white: #FFFFFF;
 // Base Styles - Starting point after CSS reset. //
 
 html, body {
-    font-size: 100%;
+    font-size: 16px;
+    height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -89,6 +90,10 @@ blockquote, ul, ol, dl {
     // margin: 1rem;
 }
 
+li {
+    display: inline-block;
+}
+
 em {
     font-style: italic;
 }
@@ -105,32 +110,19 @@ abbr, acronym {
 // Global Styles //
 
 .container {
-    height: 100%;   
     @include container;
+    height: 100%;   
 }
 
-.nav {
+.top {
     padding: 0 2.5%;
     text-align: center;
 }
 
-.name {
-    color: $black;
-    font-family: 'Cabin', sans-serif;
-    font-weight: 400;
-    margin: 0rem auto;
-    padding: 0.5rem 0rem;
-}
-
 .nav-link {
     color: $black;
-    display: inline-block;
     font-family: $font-family-primary;
     text-align: center;
-}
-
-.nav-link a {
-    display: block;
 }
 
 .main {
@@ -159,7 +151,6 @@ abbr, acronym {
 }
 
 .social-links {
-    display: inline-block;
     margin: 0rem 1rem;
 }
 
@@ -172,27 +163,20 @@ abbr, acronym {
 
 @include breakpoint($phone-width) {
 
-    .nav {
-        background-color: #EFC94C;
-        height: 8rem;
+    .top {
         @include span(4);
+        background-color: $yellow;
+        height: 4.5rem;
+        padding-top: 1rem;
         position: fixed;
         top: 0;
         right: 0;
         left: 0;
     }
 
-    nav {
-        border: 1px solid $white;
-        margin-top: 1rem;
-    }
-
-    header {
-        height: 7rem;
-    }
-
-    .name {
-        margin-bottom: 2rem;
+    .nav {
+        border: 1px solid $black;
+        @include border-radius(5px);
     }
 
     .nav-link {
@@ -202,14 +186,16 @@ abbr, acronym {
             padding: 0.5rem;
             text-decoration: none;
             &:hover {
-                background-color: $white;
+                background-color: $black;
+                color: $white;
+
             }
         }
     }
 
     .main {
         @include span(4);
-        margin: 12rem 0rem 2rem;
+        margin: 6rem 0rem 2rem;
     }
 
     .footer {
