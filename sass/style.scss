@@ -171,21 +171,25 @@ abbr, acronym {
 
     .nav {
         border: 1px solid $black;
-        @include border-radius(5px);
     }
 
     .nav-link {
-        width: 32.45%;
+        width: 32.5%;
         a {
             color: $black;
             padding: 0.5rem;
             text-decoration: none;
             &:hover {
-                background-color: $black;
-                color: $white;
+                background-color: $white;
+                color: $black;
 
             }
         }
+    }
+
+    .active {
+        background-color: $white;
+        color: $black;
     }
 
     .main {
