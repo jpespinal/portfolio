@@ -128,7 +128,6 @@ abbr, acronym {
 }
 
 .main {
-    margin-top: 1rem;
     padding: 0 2.5%;
 }
 
@@ -142,21 +141,26 @@ abbr, acronym {
 }
 
 .footer {
+    background-color: $black;
     text-align: center;
 }
 
-.social-links {
-    margin: 0rem 1rem;
+.footer-title {
+    color: $white;
+}
+
+.social-links a {
+    border: 1px solid $white;
 }
 
 .copyright {
-    color: $black;
+    color: $white;
     font-family: $font-family-primary;
 }
 
-// //
-
 @include breakpoint($phone-width) {
+
+    // Top section of Portfolio //
 
     .top {
         @include span(4);
@@ -167,10 +171,13 @@ abbr, acronym {
         top: 0;
         right: 0;
         left: 0;
+        z-index: 1;
     }
 
     .nav {
-        border: 1px solid $black;
+        background-color: $white;
+        border: 1px solid $white;
+        @include border-radius;
     }
 
     .nav-link {
@@ -180,7 +187,7 @@ abbr, acronym {
             padding: 0.5rem;
             text-decoration: none;
             &:hover {
-                background-color: $white;
+                background-color: $yellow;
                 color: $black;
 
             }
@@ -188,21 +195,43 @@ abbr, acronym {
     }
 
     .active {
-        background-color: $white;
-        color: $black;
+        background-color: $yellow;
     }
 
-    .main {
-        @include span(4);
-        margin: 6rem 0rem 2rem;
+    .first {
+        @include border-left-radius(5px);
     }
+
+    .last {
+        @include border-right-radius(5px);
+    }
+
+    // Footer section of Portfolio.
 
     .footer {
         @include span(4);
     }
 
+    .footer-title {
+        margin: 1rem 0rem 2rem;
+    }
+
     .social-links {
-    height: 3rem;
-    width: 12%;
+        border: 1px solid $white;
+        height: 50px;
+        margin: 0rem 1rem;
+        width: 50px;
+    }
+
+    .copyright {
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+
+    // Main section of Home Page. //
+
+    .main {
+        @include span(4);
+        margin: 6rem 0rem 2rem;
     }
 }
