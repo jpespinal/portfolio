@@ -17,11 +17,11 @@ $susy: (
 // Font Variables //
 
 $font-family-primary: 'Cabin', sans-serif;
-$font-family-secondary: 'Cabin Sketch', cursive;
+$font-family-secondary: 'Cabin Sketch', serif;
 
 // Breakpoint Variables //
 
-$phone-width: 320px 400px;
+$phone-width: 320px;
 
 // Color Variables //
 
@@ -35,15 +35,21 @@ $white: #FFFFFF;
 
 // Base Styles - Starting point after CSS reset. //
 
-html, body {
+html {
+    font-size: 16px;
+}
+
+body {
+    background: $white;
+    background-image: linear-gradient(left, transparent 2.1%, #ABCED4 2.1%, #ABCED4 2.4%, transparent 2.4%), linear-gradient(#EEE .1rem, transparent .1rem);
+    background-size: 100% 1.1rem;
     color: $blue;
     font-family: $font-family-secondary;
-    font-size: 16px;
     height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
     font-weight: bold;
 }
 
@@ -133,6 +139,7 @@ abbr, acronym {
 
 .title {
     color: $red;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -149,7 +156,7 @@ abbr, acronym {
     color: $white;
 }
 
-.social-links a {
+.social-links {
     border: 1px solid $white;
 }
 
@@ -162,6 +169,10 @@ abbr, acronym {
 
     // Top section of Portfolio //
 
+    body {
+        padding-top: 6rem;
+    }
+
     .top {
         @include span(4);
         background-color: $yellow;
@@ -172,6 +183,20 @@ abbr, acronym {
         right: 0;
         left: 0;
         z-index: 1;
+    }
+
+    .top::after {
+        height: 1rem;
+        background: linear-gradient(135deg, rgba(239, 201, 76, 1) 50%, rgba(255, 255, 255, 0) 50%), linear-gradient(-135deg, rgba(239, 201, 76, 1) 50%, rgba(255, 255, 255, 0) 50%);
+        background-repeat: repeat-x;
+        background-size: 1rem 1rem;
+        content: "";
+        display: block;
+        position: fixed;
+        top: 4.5rem;
+        right: 0;
+        left: 0;
+        width: 100%;
     }
 
     .nav {
@@ -198,11 +223,11 @@ abbr, acronym {
         background-color: $yellow;
     }
 
-    .first {
+    .radius-left {
         @include border-left-radius(5px);
     }
 
-    .last {
+    .radius-right {
         @include border-right-radius(5px);
     }
 
@@ -210,6 +235,21 @@ abbr, acronym {
 
     .footer {
         @include span(4);
+        height: 13rem;
+    }
+
+    .footer::before{
+        height: 1rem;
+        background: linear-gradient(45deg, rgba(69, 69, 69, 1) 50%, rgba(255, 255, 255, 0) 50%), linear-gradient(-45deg, rgba(69, 69, 69, 1) 50%, rgba(255, 255, 255, 0) 50%);
+        background-repeat: repeat-x;
+        background-size: 1rem 1rem;
+        content: "";
+        display: block;
+        position: relative;
+        right: 0;
+        bottom: 1rem;
+        left: 0;
+        width: 100%;
     }
 
     .footer-title {
@@ -225,13 +265,13 @@ abbr, acronym {
 
     .copyright {
         font-size: 0.8rem;
-        margin-top: 1rem;
+        margin-top: 2rem;
     }
 
     // Main section of Home Page. //
 
     .main {
         @include span(4);
-        margin: 6rem 0rem 2rem;
+        margin-bottom: 2rem;
     }
 }
