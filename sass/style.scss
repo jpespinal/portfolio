@@ -149,14 +149,21 @@ body {
 }
 
 .title {
-    box-sizing: content-box;
     color: $red;
     font-family: $cabin-sketch;
-    text-align: center;
+}
+
+.text {
+    font-weight: 700;
 }
 
 .highlight {
     color: $green;
+}
+
+.highlight-line {
+    text-decoration: underline;
+    text-decoration-color: $green;
 }
 
 .link {
@@ -171,8 +178,16 @@ body {
     text-align: center;
 }
 
+.footer-title {
+    font-family: $cabin-sketch;
+}
+
 .social-links {
     border: 1px solid $white;
+}
+
+.copyright {
+    font-family: $cabin;
 }
 
 @include breakpoint($small-width) {
@@ -180,8 +195,6 @@ body {
     // Top section of Portfolio //
 
     .container {
-        @include container;
-        height: 100%;
         padding-top: 6rem;
     }
 
@@ -247,43 +260,59 @@ body {
 
     .main {
         @include span(4);
-        margin-bottom: 2rem;
+        padding: 0rem 2.5%;
     }
 
-    .main-title {
+    .title {
         font-size: 4rem;
         font-weight: 700;
         margin: 2.5rem 0rem 3rem;
+        padding: 0rem 2.5%;
+        // text-align: center;
     }
 
     .text {
-        font-weight: 700;
-        margin: 0rem auto 2rem;
-        max-width: 95%;
+        margin-bottom: 2rem;
+        padding: 0rem 2.5%;
     }
 
     .direct {
-        text-align: center;
+        margin-bottom: 4rem;
+        padding: 0rem 2.5%;
     }
 
     // Main section of Work Page.//
 
     .panel {
-        border: 0.5rem solid $blue;
+        background-color: #FFFFFF;
+        border: 0.35rem solid $blue;
         height: 24rem;
-        margin: 0rem auto 2rem;
+        margin: 0rem auto 4rem;
         max-width: 95%;
         padding: 0rem 2.5%;
     }
 
     .panel-title {
-        color: $green;
-        padding: 1rem 0rem;
+        color: $blue;
+        font-weight: 700;
+        margin-bottom: 0.25rem;
+        padding-top: 1rem;
         text-align: center;
+    }
+
+    .panel-subtitle {
+        border-bottom: 1px solid $blue;
+        color: $green;
+        font-family: $cabin-sketch;
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 0.5rem;
     }
 
     .panel-text {
         margin: auto;
+        max-width: 90%;
     }
 
     // Footer section of Portfolio.
@@ -306,6 +335,10 @@ body {
         width: 100%;
     }
 
+    .footer-title {
+        letter-spacing: 1px;
+    }
+
     .social {
         margin: 2rem 0rem;
     }
@@ -319,5 +352,6 @@ body {
 
     .copyright {
         font-size: 0.8rem;
+        text-align: center;
     }
 }
