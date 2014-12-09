@@ -1,38 +1,38 @@
-// Imports - Compass (Reset, CSS3, Utilities, Susy, Breakpoint) //
-@import "compass/reset";
+/* ============================================================
+   Imports - Compass (Reset, CSS3, Utilities, Susy, Breakpoint)
+   ============================================================ */
+@import "normalize";
 @import "compass/css3";
 @import "compass/typography";
 @import "compass/utilities";
 @import "grids";
 @import "breakpoint";
 
-// Initial Settings //
+/* ============================================================
+   Establish Vertical Rhythm using Compass
+   ============================================================ */
 
-$susy: (
-    columns: 4,
-    global-box-sizing: border-box,
-);
-
-@include border-box-sizing;
-
-// Establish Vertical Rhythm using Compass //
-
-$rhythm-unit: "rem";
 $base-font-size: 16px;
-$base-line-height: 1.5rem;
+$base-line-height: 1.5em;
 
 @include establish-baseline;
 
-// Font Variables //
+/* ============================================================
+   Font Variables
+   ============================================================ */
 
 $cabin: 'Cabin', sans-serif;
 $cabin-sketch: 'Cabin Sketch', serif;
 
-// Breakpoint Variables //
+/* ============================================================
+   Breakpoint Variables
+   ============================================================ */
 
 $small-width: 320px;
 
-// Color Variables //
+/* ============================================================
+   Color Variables
+   ============================================================ */
 
 $red: #DF4949;
 $orange: #E27A3F;
@@ -44,90 +44,98 @@ $blue: #334D5C;
 $black: #3C3C3C;
 $white: #FFFFFF;
 
-// Base Styles - Starting point after CSS reset. //
+// /* ============================================================
+//    Base Styles
+//    ============================================================ */
 
-html, body {
-    height: 100%;
-}
+// html, body {
+//     height: 100%;
+// }
 
-h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 1rem;
-    font-weight: bold;
-}
+// h1, h2, h3, h4, h5, h6 {
+//     margin-bottom: 1rem;
+//     font-weight: bold;
+// }
 
-h1 {
-    font-size: 1.6rem;
-}
+// h1 {
+//     font-size: 1.6rem;
+// }
 
-h2 {
-    font-size: 1.5rem;
-}
+// h2 {
+//     font-size: 1.5rem;
+// }
 
-h3 {
-    font-size: 1.4rem;
-}
+// h3 {
+//     font-size: 1.4rem;
+// }
 
-h4 {
-    font-size: 1.3rem;
-}
+// h4 {
+//     font-size: 1.3rem;
+// }
 
-h5 {
-    font-size: 1.2rem;
-}
+// h5 {
+//     font-size: 1.2rem;
+// }
 
-h6 {
-    font-size: 1.1rem;
-}
+// h6 {
+//     font-size: 1.1rem;
+// }
 
-p {
-    font-size: 1rem;
-}
+// p {
+//     font-size: 1rem;
+// }
 
-p, fieldset, table, pre {
-    margin-bottom: 1rem;
-}
+// p, fieldset, table, pre {
+//     margin-bottom: 1rem;
+// }
 
-a {
-    display: block;
-}
+// a {
+//     display: block;
+// }
 
-img {
-    display: inline-block;
-    max-width: 100%;
-}
+// img {
+//     display: inline-block;
+//     max-width: 100%;
+// }
 
-blockquote, ul, ol, dl {
-    // margin: 1rem;
-}
+// blockquote, ul, ol, dl {
+//     // margin: 1rem;
+// }
 
-li {
-    display: inline-block;
-}
+// ol, ul {
+//     list-style: none;
+// }
 
-br {
-    margin-bottom: 1rem;
-}
+// li {
+//     display: inline-block;
+// }
 
-em {
-    font-style: italic;
-}
+// br {
+//     margin-bottom: 1rem;
+// }
 
-strong {
-    font-weight: bold;
-}
+// em {
+//     font-style: italic;
+// }
 
-abbr, acronym {
-    border-bottom: 1px dotted #000;
-    cursor: help;
-}
+// strong {
+//     font-weight: bold;
+// }
 
-// Global Styles //
+// abbr, acronym {
+//     border-bottom: 1px dotted #000;
+//     cursor: help;
+// }
+
+/* ============================================================
+   Global Styles
+   ============================================================ */
 
 body {
     background: #FFFFFF;
     color: $blue;
     font-family: $cabin;
-    font-weight: 400;
+    font-weight: 700;
     height: 100%;
 }
 
@@ -150,13 +158,9 @@ body {
     padding: 0 2.5%;
 }
 
-.title {
+.title, .sub-title {
     color: $red;
     font-family: $cabin-sketch;
-    text-align: center;
-}
-
-.text {
     font-weight: 700;
 }
 
@@ -205,12 +209,16 @@ body {
     font-family: $cabin;
 }
 
-@include breakpoint($small-width) {
+/* ========================================================
+   Media Queries
+   ======================================================== */
+
+@media screen and (min-width: $small-width) {
 
     // Top section of Portfolio //
 
     .container {
-        padding-top: 6rem;
+        padding-top: 4.8em;
     }
 
     .top {
@@ -232,10 +240,11 @@ body {
     }
 
     .nav-link {
-        width: 32.52%;
+        min-width: 32.3%;
         a {
             color: $black;
-            padding: 0.5rem;
+            font-weight: 400;
+            padding: 0.5em;
             text-decoration: none;
             &:hover {
                 background-color: $light-yellow;
@@ -266,16 +275,42 @@ body {
         padding: 0rem 2.5%;
     }
 
+    .title, .sub-title {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
     .title {
         font-size: 4rem;
-        font-weight: 700;
-        margin: 2.5rem 0rem 3rem;
-        padding: 0rem 2.5%;
-        // text-align: center;
+        margin: 3rem 0rem;
+    }
+
+    .sub-title {
+        font-size: 2rem;
     }
 
     // Main section of About Page. //
 
+    .section {
+        margin-top: 2rem;
+    }
+
+    .workplace {
+        margin: 0rem;
+    }
+
+    .job {
+        color: $green;
+        font-size: 0.8rem;
+    }
+
+    .list {
+        list-style-type: disc;
+    }
+
+    .item {
+        display: block;
+    }
 
     // Main section of Portfolio Page.//
 
