@@ -1,11 +1,12 @@
 /* ============================================================
    Imports - Compass (Reset, CSS3, Utilities, Susy, Breakpoint)
    ============================================================ */
-@import "normalize";
+
+@import "compass/reset";
 @import "compass/css3";
 @import "compass/typography";
 @import "compass/utilities";
-@import "grids";
+@import "susy";
 @import "breakpoint";
 
 /* ============================================================
@@ -18,7 +19,19 @@ $base-line-height: 1.5em;
 @include establish-baseline;
 
 /* ============================================================
-   Font Variables
+   Establish Vertical Rhythm using Compass
+   ============================================================ */
+
+$susy: (
+    columns: 4,
+    global-box-sizing: border-box,
+    gutters: 1/4,
+);
+
+@include global-box-sizing;
+
+/* ============================================================
+   Typefaces / Fonts
    ============================================================ */
 
 $cabin: 'Cabin', sans-serif;
@@ -28,6 +41,7 @@ $cabin-sketch: 'Cabin Sketch', serif;
    Breakpoint Variables
    ============================================================ */
 
+$smallest-width: 24px;
 $small-width: 320px;
 
 /* ============================================================
@@ -44,88 +58,88 @@ $blue: #334D5C;
 $black: #3C3C3C;
 $white: #FFFFFF;
 
-// /* ============================================================
-//    Base Styles
-//    ============================================================ */
+/* ============================================================
+   Base Styles
+   ============================================================ */
 
-// html, body {
-//     height: 100%;
-// }
+html, body {
+    height: 100%;
+}
 
-// h1, h2, h3, h4, h5, h6 {
-//     margin-bottom: 1rem;
-//     font-weight: bold;
-// }
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
 
-// h1 {
-//     font-size: 1.6rem;
-// }
+h1 {
+    font-size: 1.6rem;
+}
 
-// h2 {
-//     font-size: 1.5rem;
-// }
+h2 {
+    font-size: 1.5rem;
+}
 
-// h3 {
-//     font-size: 1.4rem;
-// }
+h3 {
+    font-size: 1.4rem;
+}
 
-// h4 {
-//     font-size: 1.3rem;
-// }
+h4 {
+    font-size: 1.3rem;
+}
 
-// h5 {
-//     font-size: 1.2rem;
-// }
+h5 {
+    font-size: 1.2rem;
+}
 
-// h6 {
-//     font-size: 1.1rem;
-// }
+h6 {
+    font-size: 1.1rem;
+}
 
-// p {
-//     font-size: 1rem;
-// }
+p {
+    font-size: 1rem;
+}
 
-// p, fieldset, table, pre {
-//     margin-bottom: 1rem;
-// }
+p, fieldset, table, pre {
+    margin-bottom: 1rem;
+}
 
-// a {
-//     display: block;
-// }
+a {
+    display: block;
+}
 
-// img {
-//     display: inline-block;
-//     max-width: 100%;
-// }
+img {
+    display: inline-block;
+    max-width: 100%;
+}
 
-// blockquote, ul, ol, dl {
-//     // margin: 1rem;
-// }
+blockquote, ul, ol, dl {
+    // margin: 1rem;
+}
 
-// ol, ul {
-//     list-style: none;
-// }
+ol, ul {
+    list-style: none;
+}
 
-// li {
-//     display: inline-block;
-// }
+li {
+    display: inline-block;
+}
 
-// br {
-//     margin-bottom: 1rem;
-// }
+br {
+    margin-bottom: 1rem;
+}
 
-// em {
-//     font-style: italic;
-// }
+em {
+    font-style: italic;
+}
 
-// strong {
-//     font-weight: bold;
-// }
+strong {
+    font-weight: bold;
+}
 
-// abbr, acronym {
-//     border-bottom: 1px dotted #000;
-//     cursor: help;
-// }
+abbr, acronym {
+    border-bottom: 1px dotted #000;
+    cursor: help;
+}
 
 /* ============================================================
    Global Styles
@@ -215,10 +229,10 @@ body {
 
 @media screen and (min-width: $small-width) {
 
-    // Top section of Portfolio //
+    // Top section. //
 
     .container {
-        padding-top: 4.8em;
+        padding-top: 4.8rem;
     }
 
     .top {
@@ -240,11 +254,11 @@ body {
     }
 
     .nav-link {
-        min-width: 32.3%;
+        min-width: 32.35%;
         a {
             color: $black;
             font-weight: 400;
-            padding: 0.5em;
+            padding: 0.5rem;
             text-decoration: none;
             &:hover {
                 background-color: $light-yellow;
@@ -268,7 +282,7 @@ body {
         @include border-right-radius(5px);
     }
 
-    // Main section of Home Page. //
+    // About section. //
 
     .main {
         @include span(4);
@@ -289,10 +303,10 @@ body {
         font-size: 2rem;
     }
 
-    // Main section of About Page. //
+    // Skills Section. //
 
     .section {
-        margin-top: 2rem;
+        margin: 2rem 0rem;
     }
 
     .workplace {
@@ -312,7 +326,7 @@ body {
         display: block;
     }
 
-    // Main section of Portfolio Page.//
+    // My Work section. //
 
     .panel {
         background-color: #FFFFFF;
@@ -347,16 +361,12 @@ body {
         max-width: 90%;
     }
 
-    // Footer section.
+    // Footer section. //
 
     .bottom {
         @include span(4);
         margin-top: 3rem;
         padding-top: 2rem;
-    }
-
-    .footer-title {
-        letter-spacing: 1px;
     }
 
     .social {
