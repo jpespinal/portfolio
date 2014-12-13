@@ -14,7 +14,7 @@
    ============================================================ */
 
 $base-font-size: 16px;
-$base-line-height: 1.5em;
+$base-line-height: 1.5rem;
 
 @include establish-baseline;
 
@@ -34,14 +34,14 @@ $susy: (
    Typefaces / Fonts
    ============================================================ */
 
-$cabin: 'Cabin', sans-serif;
-$cabin-sketch: 'Cabin Sketch', serif;
+$cabin: 'Cabin', arial, sans-serif;
+$cabin-sketch: 'Cabin Sketch', georgia, serif;
 
 /* ============================================================
    Breakpoint Variables
    ============================================================ */
 
-$smallest-width: 24px;
+$smallest-width: 240px;
 $small-width: 320px;
 
 /* ============================================================
@@ -53,8 +53,8 @@ $orange: #E27A3F;
 $yellow: #EFC94C;
 $light-yellow: #FFDD60;
 $green: #45B29D;
-$light-blue: #476170;
 $blue: #334D5C;
+$light-blue: #476170;
 $black: #3C3C3C;
 $white: #FFFFFF;
 
@@ -112,14 +112,6 @@ img {
     max-width: 100%;
 }
 
-blockquote, ul, ol, dl {
-    // margin: 1rem;
-}
-
-ol, ul {
-    list-style: none;
-}
-
 li {
     display: inline-block;
 }
@@ -149,13 +141,11 @@ body {
     background: #FFFFFF;
     color: $blue;
     font-family: $cabin;
-    font-weight: 700;
-    height: 100%;
 }
 
 .container {
     @include container;
-    height: 100%;   
+    height: 100%;
 }
 
 .top {
@@ -182,9 +172,8 @@ body {
     color: $green;
 }
 
-.highlight-line {
-    text-decoration: underline;
-    text-decoration-color: $green;
+.text {
+    font-weight: 400;
 }
 
 .link {
@@ -194,15 +183,6 @@ body {
     &:hover {
         text-decoration: none;
     }
-}
-
-.workflow {
-    list-style-type: disc;
-}
-
-.tool:after {
-    content: ", ";
-    color: $green;
 }
 
 .bottom {
@@ -229,13 +209,9 @@ body {
 
 @media screen and (min-width: $small-width) {
 
-    // Top section. //
+    // Top Section. //
 
-    .container {
-        padding-top: 4.8rem;
-    }
-
-    .top {
+   .top {
         @include span(4);
         background-color: $yellow;
         height: 4.8rem;
@@ -254,7 +230,7 @@ body {
     }
 
     .nav-link {
-        min-width: 32.35%;
+        min-width: 32.3%;
         a {
             color: $black;
             font-weight: 400;
@@ -282,31 +258,34 @@ body {
         @include border-right-radius(5px);
     }
 
-    // About section. //
+    // About Section. //
 
     .main {
         @include span(4);
         padding: 0rem 2.5%;
     }
 
-    .title, .sub-title {
-        margin-bottom: 2rem;
-        text-align: center;
+    .full-section {
+        height: 100%;
+        padding-top: 4.8rem;
     }
 
     .title {
         font-size: 4rem;
         margin: 3rem 0rem;
+        max-width: 95%;
+        text-align: center;
     }
 
     .sub-title {
         font-size: 2rem;
+        margin-bottom: 1.5rem;
     }
 
     // Skills Section. //
 
-    .section {
-        margin: 2rem 0rem;
+    .sub-section {
+        margin: 2rem 0rem 1rem;
     }
 
     .workplace {
@@ -319,14 +298,14 @@ body {
     }
 
     .list {
-        list-style-type: disc;
+        list-style: disc outside url('../assets/list-diamond.svg');
     }
 
     .item {
         display: block;
     }
 
-    // My Work section. //
+    // My Work Section. //
 
     .panel {
         background-color: #FFFFFF;
@@ -340,7 +319,6 @@ body {
     .panel-title {
         color: $blue;
         font-family: $cabin-sketch;
-        font-weight: 700;
         margin-bottom: 0.25rem;
         padding-top: 1rem;
         text-align: center;
@@ -351,7 +329,6 @@ body {
         color: $green;
         font-family: $cabin-sketch;
         font-size: 1rem;
-        font-weight: 700;
         text-align: center;
         padding-bottom: 0.5rem;
     }
@@ -361,7 +338,7 @@ body {
         max-width: 90%;
     }
 
-    // Footer section. //
+    // Footer Section. //
 
     .bottom {
         @include span(4);
