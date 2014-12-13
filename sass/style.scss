@@ -112,10 +112,6 @@ img {
     max-width: 100%;
 }
 
-li {
-    display: inline-block;
-}
-
 br {
     margin-bottom: 1rem;
 }
@@ -141,6 +137,10 @@ body {
     background: #FFFFFF;
     color: $blue;
     font-family: $cabin;
+}
+
+li.nav-link, ul.social li {
+    display: inline-block;
 }
 
 .container {
@@ -172,8 +172,10 @@ body {
     color: $green;
 }
 
-.text {
-    font-weight: 400;
+ul.list {
+    margin-right: 1em;
+    list-style-position: inside;
+    list-style-image: url(../assets/list-diamond.svg);
 }
 
 .link {
@@ -295,14 +297,6 @@ body {
     .job {
         color: $green;
         font-size: 0.8rem;
-    }
-
-    .list {
-        list-style: disc outside url('../assets/list-diamond.svg');
-    }
-
-    .item {
-        display: block;
     }
 
     // My Work Section. //
