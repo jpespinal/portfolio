@@ -1,5 +1,5 @@
 /* ============================================================
-   Imports - Compass (Reset, CSS3, Utilities, Susy, Breakpoint)
+   Imports - Compass (Reset, CSS3, Utilities, Susy, Breakpoint).
    ============================================================ */
 
 @import "compass/reset";
@@ -19,7 +19,7 @@ $base-line-height: 24px;
 @include establish-baseline;
 
 /* ============================================================
-   Susy Settings
+   Susy Settings.
    ============================================================ */
 
 $susy: (
@@ -31,7 +31,7 @@ $susy: (
 @include global-box-sizing;
 
 /* ============================================================
-   Typefaces / Fonts
+   Typefaces / Fonts.
    ============================================================ */
 
 $cabin: 'Cabin', arial, sans-serif;
@@ -50,69 +50,74 @@ $cabin-sketch: 'Comic Serif Pro', 'Cabin Sketch', georgia, serif;
 }
 
 /* ============================================================
-   Breakpoint Variables
+   Breakpoint Variables.
    ============================================================ */
 
 $smallest-width: 240px;
 $small-width: 320px;
 
 /* ============================================================
-   Color Variables
+   Color Variables.
    ============================================================ */
 
 $red: #DF4949;
+$light-red: #F35D5D;
 $orange: #E27A3F;
+$light-orange: #F68E53;
 $yellow: #EFC94C;
 $light-yellow: #FFDD60;
 $green: #45B29D;
+$light-green: #59C6B1;
 $blue: #334D5C;
 $light-blue: #476170;
 $black: #3C3C3C;
 $white: #FFFFFF;
+$light-grey: #F3F3F3;
 
 /* ============================================================
-   Base Styles
+   Base Styles.
    ============================================================ */
 
 html, body {
     height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 1rem;
-    font-weight: bold;
-}
-
 h1 {
-    font-size: 1.6rem;
+    font-size: 1.6em;
+    margin-bottom: 0.625em;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.5em;
+    margin-bottom: 0.66666667em;
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 1.4em;
+    margin-bottom: 0.71428571em;
 }
 
 h4 {
-    font-size: 1.3rem;
+    font-size: 1.3em;
+    margin-bottom: 0.76923077em;
 }
 
 h5 {
-    font-size: 1.2rem;
+    font-size: 1.2em;
+    margin-bottom: 0.83333333em;
 }
 
 h6 {
-    font-size: 1.1rem;
+    font-size: 1.1em;
+    margin-bottom: 0.90909091em;
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 p, fieldset, table, pre {
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 }
 
 a {
@@ -125,7 +130,7 @@ img {
 }
 
 br {
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 }
 
 em {
@@ -142,7 +147,7 @@ abbr, acronym {
 }
 
 /* ============================================================
-   Global Styles
+   Global Styles.
    ============================================================ */
 
 body {
@@ -160,23 +165,24 @@ li.nav-link, ul.social li {
     height: 100%;
 }
 
-// .top {
-//     padding: 0 2.5%;
-// }
-
 .nav-link {
     color: $black;
     font-family: $cabin;
+    margin-right: -0.25em;
     text-align: center;
 }
 
-.main {
-    padding: 0 2.5%;
+.title, .sub-title {
+    font-family: $cabin-sketch;
 }
 
-.title, .sub-title {
+.title {
     color: $red;
-    font-family: $cabin-sketch;
+    text-align: center;
+}
+
+.sub-title {
+    color: $light-red;
 }
 
 .highlight {
@@ -191,7 +197,6 @@ ul.list {
 .link {
     color: $orange;
     display: inline-block;
-    font-family: $cabin;
     &:hover {
         text-decoration: none;
     }
@@ -209,6 +214,7 @@ ul.list {
 
 .social-links {
     border: 1px solid $white;
+    margin-right: -0.25em;
 }
 
 .copyright {
@@ -216,7 +222,7 @@ ul.list {
 }
 
 /* ========================================================
-   Media Queries
+   Media Queries.
    ======================================================== */
 
 @media screen and (min-width: $small-width) {
@@ -226,7 +232,7 @@ ul.list {
    .top {
         @include span(4);
         background-color: $yellow;
-        height: 4.8rem;
+        height: 4.8em;
         padding: 1em 2.5%;
         position: fixed;
         top: 0;
@@ -247,12 +253,11 @@ ul.list {
     }
 
     .nav-link {
-        margin-right: -0.25rem;
         width: 33.333333%;
         a {
             color: $black;
-            font-size: 1rem;
-            padding: 0.5rem;
+            font-size: 1em;
+            padding: 0.5em;
             text-decoration: none;
             &:hover {
                 background-color: $light-yellow;
@@ -280,29 +285,30 @@ ul.list {
 
     .main {
         @include span(4);
-        padding: 0rem 2.5%;
     }
 
     .full-section {
-        padding-top: 4.8rem;
+        padding: 4.8em 2.5% 0em;
     }
 
     .title {
-        font-size: 4rem;
-        margin: 3rem 0% 5rem;
-        max-width: 95%;
-        text-align: center;
+        font-size: 4em;
+        margin: 0.75em 0% 1.25em;
     }
 
     .sub-title {
-        font-size: 2rem;
-        margin-bottom: 1.5rem;
+        font-size: 2em;
+        margin-bottom: 0.75em;
     }
 
     // Skills Section. //
 
     .sub-section {
-        margin: 2rem 0 1rem;
+        margin: 2em 0% 3em;
+    }
+
+    .workplace, .job {
+        font-weight: 400;
     }
 
     .workplace {
@@ -311,26 +317,26 @@ ul.list {
 
     .job {
         color: $green;
-        font-size: 1rem;
+        font-size: 1em;
     }
 
     // My Work Section. //
 
     .panel {
         background-color: #FFFFFF;
-        border: 0.35rem solid $light-blue;
-        height: 24rem;
-        margin: 0rem auto 4rem;
+        border: 0.35em solid $light-blue;
+        height: 24em;
+        margin: 0em auto 4em;
         max-width: 95%;
-        padding: 0rem 2.5%;
+        padding: 0em 2.5%;
     }
 
     .panel-title {
         color: $blue;
-        font-family: $cabin;
-        font-size: 1.5rem;
-        margin-bottom: 0.25rem;
-        padding-top: 1rem;
+        font-family: $cabin-sketch;
+        font-size: 1.5em;
+        margin-bottom: 0.16666667em;
+        padding-top: 0.66666667em;
         text-align: center;
     }
 
@@ -338,9 +344,9 @@ ul.list {
         border-bottom: 1px solid $light-blue;
         color: $green;
         font-family: $cabin;
-        font-size: 1rem;
+        font-size: 1em;
         text-align: center;
-        padding-bottom: 0.5rem;
+        padding-bottom: 0.5em;
     }
 
     .panel-text {
@@ -352,23 +358,22 @@ ul.list {
 
     .bottom {
         @include span(4);
-        margin-top: 3rem;
-        padding-top: 2rem;
+        margin-top: 3em;
+        padding-top: 2em;
     }
 
     .social {
-        margin: 2rem 0rem;
+        margin: 2em 0em;
     }
 
     .social-links {
-        border: 1px solid $white;
         height: 50px;
-        margin: 0rem 1.5rem;
+        margin: 0em 1.5em;
         width: 50px;
     }
 
     .copyright {
-        font-size: 0.8rem;
+        font-size: 0.8em;
         text-align: center;
     }
 }
