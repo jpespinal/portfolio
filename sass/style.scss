@@ -62,24 +62,37 @@ $small-width: 320px;
 
 $red: #DF4949;
 $light-red: #F35D5D;
+
 $orange: #E27A3F;
 $light-orange: #F68E53;
+
 $yellow: #EFC94C;
 $light-yellow: #FFDD60;
+$lightest-yellow: #FFFF9C;
+
 $green: #45B29D;
 $light-green: #59C6B1;
+
 $blue: #334D5C;
 $light-blue: #476170;
-$black: #3C3C3C;
+
+$black: #454545;
+$lighter-black: #737373;
+
 $white: #FFFFFF;
+
 $light-grey: #F3F3F3;
 
 /* ============================================================
    Base Styles.
    ============================================================ */
 
-html, body {
+html {
     height: 100%;
+}
+
+body {
+    min-height: 100%;
 }
 
 h1 {
@@ -151,25 +164,14 @@ abbr, acronym {
    ============================================================ */
 
 body {
-    background: #FFFFFF;
+    background: $light-grey;
     color: $blue;
     font-family: $cabin;
-}
-
-li.nav-link, ul.social li {
-    display: inline-block;
 }
 
 .container {
     @include container;
     height: 100%;
-}
-
-.nav-link {
-    color: $black;
-    font-family: $cabin;
-    margin-right: -0.25em;
-    text-align: center;
 }
 
 .title, .sub-title {
@@ -189,22 +191,76 @@ li.nav-link, ul.social li {
     color: $green;
 }
 
-ul.list {
-    list-style-position: inside;
-    list-style-image: url(../assets/list-diamond.svg);
-}
-
 .link {
     color: $orange;
+    font-family: $cabin-sketch;
     display: inline-block;
     &:hover {
         text-decoration: none;
     }
 }
 
+// Top Section //
+
+li.nav-links, li.social-links {
+    display: inline-block;
+}
+
+.nav-links {
+    font-family: $cabin-sketch;
+    margin-right: -0.25em;
+    text-align: center;
+}
+
+// Main Section //
+
+.full-section {
+    padding: 4.8em 2.5% 0em;
+}
+
+// Start Page //
+
+#start {
+    background-color: $red;
+    min-height: 100%;
+    max-height: 100%;
+    position: relative;
+    z-index: 3;
+    & .title {
+        color: $white;
+    }
+}
+
+.button {
+    border: 1px solid white;
+    color: white;
+    display: inline-block;
+    @include border-radius;
+    margin: 1em auto;
+    padding: 1em;
+    position: relative;
+}
+
+// About Section //
+
+// Projects Section //
+
+#projects {
+    background-color: $blue;
+}
+
+// Skills Section //
+
+.skills-list {
+    list-style-position: inside;
+    list-style-image: url(../assets/list-diamond.svg);
+}
+
+// Bottom Section //
+
 .bottom {
     background-color: $black;
-    color: $white;
+    color: $yellow;
     text-align: center;
 }
 
@@ -213,12 +269,8 @@ ul.list {
 }
 
 .social-links {
-    border: 1px solid $white;
+    border: 1px solid $yellow;
     margin-right: -0.25em;
-}
-
-.copyright {
-    font-family: $cabin;
 }
 
 /* ========================================================
@@ -242,17 +294,18 @@ ul.list {
     }
 
     .nav {
-        background-color: $white;
-        border: 1px solid $white;
+        background-color: $light-grey;
+        border: 1px solid $light-grey;
         @include border-radius;
         width: 100%;
     }
 
     .nav ul {
+        height: 100%;
         width: 100%;
     }
 
-    .nav-link {
+    .nav-links {
         width: 33.333333%;
         a {
             color: $black;
@@ -260,17 +313,18 @@ ul.list {
             padding: 0.5em;
             text-decoration: none;
             &:hover {
-                background-color: $light-yellow;
-                @include border-radius;
-                color: $black;
+                text-decoration: underline;
+                text-decoration-color: $orange;
+                color: $orange;
 
             }
         }
     }
 
     .active {
-        background-color: $light-yellow;
-        @include border-radius;
+        color: $orange;
+        text-decoration: underline;
+        // @include border-radius;
     }
 
     .radius-left {
@@ -285,10 +339,6 @@ ul.list {
 
     .main {
         @include span(4);
-    }
-
-    .full-section {
-        padding: 4.8em 2.5% 0em;
     }
 
     .title {
