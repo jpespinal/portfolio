@@ -127,10 +127,7 @@ h6 {
 
 p {
     font-size: 1em;
-}
-
-p, fieldset, table, pre {
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 a {
@@ -185,7 +182,8 @@ body {
 }
 
 .highlight {
-    color: $green;
+    background-color: $green;
+    padding: 0.2em;
 }
 
 .link {
@@ -204,7 +202,8 @@ li.nav-links {
 }
 
 .nav-links {
-    font-family: $cabin-sketch;
+    font-family: $cabin;
+    font-weight: 700;
     margin-right: -0.25em;
     text-align: center;
 }
@@ -212,7 +211,7 @@ li.nav-links {
 // Main Section //
 
 .full-section {
-    padding: 4.8em 2.5% 0em;
+    padding: 2em 2.5% 0em;
 }
 
 .sub-section {
@@ -223,7 +222,7 @@ li.nav-links {
 
 #about {
     background-color: $red;
-    color: $light-grey;
+    color: $white   ;
     & .title {
         color: $blue;
     }
@@ -233,10 +232,9 @@ li.nav-links {
 
 #projects {
     background-color: $blue;
-}
-
-#projects .title {
-    color: $red;
+    & .title {
+        color: $red;
+    }
 }
 
 // Skills Section //
@@ -264,11 +262,6 @@ li.nav-links {
     color: $light-grey;
 }
 
-// .contact-links {
-//     border: 1px solid $blue;
-//     margin-right: -0.25em;
-// }
-
 .content-label {
     display: inline-block;
 }
@@ -293,9 +286,8 @@ li.nav-links {
         @include span(4);
         background-color: $yellow;
         height: 4.8em;
-        padding: 1em 2.5%;
+        padding-top: 1em;
         position: fixed;
-        // top: 0;
         right: 0;
         bottom: 0;
         left: 0;
@@ -303,14 +295,8 @@ li.nav-links {
     }
 
     .nav {
-        background-color: $light-grey;
-        border: 1px solid $light-grey;
-        @include border-radius;
-        width: 100%;
-    }
-
-    .nav ul {
-        height: 100%;
+        background-color: $yellow;
+        border: 1px solid $yellow;
         width: 100%;
     }
 
@@ -321,27 +307,37 @@ li.nav-links {
             font-size: 1em;
             padding: 0.5em;
             text-decoration: none;
-            &:hover {
+            &.radius-right:hover, &.radius-left:hover, &:hover {
+                background-color: $white;
+                border: 1px solid $white;
+                color: $black;
                 text-decoration: underline;
-                text-decoration-color: $orange;
-                color: $orange;
-
+            }
+            &.radius-left:hover {
+                @include border-left-radius;
+            }
+            &.radius-right:hover {
+                @include border-right-radius;
+            }
+            &.no-radius:hover {
+                @include border-radius;
             }
         }
     }
 
     .active {
-        color: $orange;
+        background-color: $white;
+        border: 1px solid $white;
+        color: $black;
         text-decoration: underline;
-        // @include border-radius;
     }
 
-    .radius-left {
-        @include border-left-radius(5px);
+    .active.radius-right {
+        @include border-right-radius;
     }
 
-    .radius-right {
-        @include border-right-radius(5px);
+    .active.radius-left {
+        @include border-left-radius;
     }
 
     // Main Section. //
@@ -351,7 +347,7 @@ li.nav-links {
     }
 
     .full-section {
-        padding-bottom: 1em;
+        padding-bottom: 4em;
     }
 
     .sub-section {
@@ -361,12 +357,12 @@ li.nav-links {
     .title {
         font-size: 4em;
         height: auto;
-        margin: 0.75em 0% 1.25em;
+        margin-bottom: 1em;
     }
 
     .sub-title {
         font-size: 2em;
-        margin-bottom: 0.75em;
+        margin-bottom: 0.5em;
     }
 
 
@@ -435,7 +431,6 @@ li.nav-links {
     // Footer Section. //
 
     .bottom {
-        @include span(4);
         padding: 0.4em 0%;
     }
 
