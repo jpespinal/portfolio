@@ -164,8 +164,6 @@ abbr, acronym {
    ============================================================ */
 
 body {
-    background: $light-grey;
-    color: $blue;
     font-family: $cabin;
 }
 
@@ -211,27 +209,6 @@ li.nav-links {
     text-align: center;
 }
 
-// Start Page //
-
-#start {
-    background-color: $red;
-    position: relative;
-    z-index: 3;
-    & .title {
-        color: $blue;
-    }
-}
-
-.button {
-    border: 1px solid $blue;
-    color: $blue;
-    @include border-radius;
-    margin: 1em auto;
-    padding: 1em;
-    position: relative;
-    text-align: center;
-}
-
 // Main Section //
 
 .full-section {
@@ -244,6 +221,14 @@ li.nav-links {
 
 // About Section //
 
+#about {
+    background-color: $red;
+    color: $light-grey;
+    & .title {
+        color: $blue;
+    }
+}
+
 // Projects Section //
 
 #projects {
@@ -255,6 +240,14 @@ li.nav-links {
 }
 
 // Skills Section //
+
+#skills {
+    background-color: $light-grey;
+    color: $blue;
+    & .title {
+        color: $orange;
+    }
+}
 
 .skills-list {
     list-style-position: inside;
@@ -302,8 +295,9 @@ li.nav-links {
         height: 4.8em;
         padding: 1em 2.5%;
         position: fixed;
-        top: 0;
+        // top: 0;
         right: 0;
+        bottom: 0;
         left: 0;
         z-index: 2;
     }
