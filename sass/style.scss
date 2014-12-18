@@ -178,7 +178,7 @@ body {
 }
 
 .sub-title {
-    color: $light-orange;
+    color: $orange;
 }
 
 .highlight {
@@ -211,7 +211,7 @@ li.nav-links {
 // Main Section //
 
 .full-section {
-    padding: 2em 2.5% 0em;
+    padding: 3em 2.5% 0em;
 }
 
 .sub-section {
@@ -295,8 +295,9 @@ li.nav-links {
     }
 
     .nav {
-        background-color: $yellow;
-        border: 1px solid $yellow;
+        background-color: $white;
+        border: 1px solid $black;
+        @include border-radius(5px);
         width: 100%;
     }
 
@@ -310,28 +311,28 @@ li.nav-links {
                 color: $yellow;
             }
             &.radius-right:hover, &.radius-left:hover, &:hover {
-                background-color: $white;
-                border: 1px solid $white;
-                @include border-radius;
-                color: $black;
+                background-color: $black;
+                border: 1px solid $black;
+                @include border-radius(5px);
+                color: $yellow;
                 // text-decoration: underline;
             }
             &.radius-left:hover {
-                @include border-left-radius;
+                @include border-left-radius(5px);
             }
             &.radius-right:hover {
-                @include border-right-radius;
+                @include border-right-radius(5px);
             }
             &.no-radius:hover {
-                @include border-radius;
+                @include border-radius(5px);
             }
         }
     }
 
-    .active {
+    .active, .active:hover {
         background-color: $black;
         border: 1px solid $black;
-        @include border-radius;
+        @include border-radius(5px);
         text-decoration: none;
     }
 
@@ -368,30 +369,29 @@ li.nav-links {
     // Projects Section. //
 
     .panel {
-        background-color: $light-grey;
-        border: 0.35em solid $red;
-        height: 24em;
-        margin: 0em auto 4em;
-        max-width: 95%;
-        padding: 0em 2.5%;
+        background-color: $green;
+        border: 1px solid $green;
+        @include border-radius(5px);
+        margin: 0em auto 1em;
+        padding: 0em 1.5%;
+        text-align: center;
+        width: 75%;
+    }
+
+    .panel-title, .panel-subtitle {
+        display: inline-block;
+        font-family: $cabin;
     }
 
     .panel-title {
-        color: $blue;
-        font-family: $cabin-sketch;
+        color: $light-grey;
         font-size: 1.5em;
-        margin-bottom: 0.16666667em;
-        padding-top: 0.66666667em;
-        text-align: center;
+        margin-bottom: 0.1em;
     }
 
     .panel-subtitle {
-        border-bottom: 1px solid $light-blue;
-        color: $green;
-        font-family: $cabin;
+        color: $blue;
         font-size: 1em;
-        text-align: center;
-        padding-bottom: 0.5em;
     }
 
     .panel-text {
@@ -408,6 +408,7 @@ li.nav-links {
 
     .workplace {
         margin: 0;
+        font-weight: 700;
     }
 
     .job {
