@@ -231,6 +231,7 @@ li.nav-links {
 // Projects Section //
 
 #projects {
+    @include container;
     background-color: $blue;
     & .title {
         color: $red;
@@ -292,7 +293,7 @@ li.nav-links {
 
     .nav {
         background-color: $black;
-        border: 1px solid $black;
+        border: 1px solid $yellow;
         @include border-radius(5px);
         width: 100%;
     }
@@ -309,7 +310,7 @@ li.nav-links {
             }
             &.radius-right:hover, &.radius-left:hover, &:hover {
                 background-color: $white;
-                border: 1px solid $white;
+                border: 1px solid $black;
                 @include border-radius(5px);
                 color: $black;
             }
@@ -327,7 +328,7 @@ li.nav-links {
 
     .active, .active:hover {
         background-color: $white;
-        border: 1px solid $white;
+        border: 1px solid $black;
         @include border-radius(5px);
         text-decoration: underline;
     }
@@ -343,7 +344,7 @@ li.nav-links {
     }
 
     .sub-section {
-        margin: 2em 0% 3em;
+        margin: 2em 0%;
     }
 
     .title {
@@ -364,45 +365,68 @@ li.nav-links {
 
     // Projects Section. //
 
-    .panel {
+    #projects .title {
+        margin-bottom: 0.75em;
+    }
+
+    .row {
+        height: 4em;
+        margin-bottom: 1em;
+        vertical-align: middle;
+    }
+
+    .labels {
+        @include container;
+        color: $red;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .links-label {
+        @include span(3);
+    }
+
+    .moreinfo-label {
+        @include span(1 last);
+    }
+
+    button {
+        @include span(3);
         background-color: $light-blue;
         border: 1px solid $light-blue;
         @include border-radius(5px);
-        margin-bottom: 1em;
         padding: 0.2em 1.5%;
         text-align: center;
-        width: 75%;
+        &:hover {
+            border: 1px solid $white;
+        }
     }
 
-    .panel-title, .panel-subtitle {
+    .button-title, .button-subtitle {
         font-family: $cabin;
         margin: 0 auto;
     }
 
-    .panel-title {
-        color: $red;
-        font-size: 1.5em;
+    .button-title {
+        color: $green;
+        font-size: 2em;
         font-weight: 700;
         margin-bottom: 0.1em;
     }
 
-    .panel-subtitle {
+    .button-subtitle {
         color: $light-grey;
-        font-size: 1em;
+        font-size: 1.5em;
         margin-bottom: 0;
     }
 
-    .panel-text {
-        margin: auto;
-        max-width: 90%;
+    .more-info {
+        @include span(1 last);
+        height: 3em;
     }
 
 
     // Skills Section. //
-
-    .workplace, .job {
-        font-weight: 400;
-    }
 
     .workplace {
         margin: 0;

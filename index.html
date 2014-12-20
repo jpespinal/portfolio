@@ -3,11 +3,12 @@
 	<head lang="en">
 		<meta charset="utf-8">
 		<title>J.P. Espinal</title>
+		<meta “name="viewport" content="initial-scale=1.0, width=320">
 		<meta name="description" content="I'm J.P. Espinal, a Front-End Web Developer in New York City. This is my portfolio site.">
 		<meta name="keywords" content="j.p. espinal, front-end web developer, portfolio">
 		<meta name="author" content="Juan Pablo Espinal">
 		<link rel="shortcut icon" href=""> <!-- Browser window/tab icon. -->
-		<link href="stylesheets/style.css" type="text/css" rel="stylesheet" />
+		<link href="stylesheets/style.css" type="text/css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
@@ -38,18 +39,34 @@
 				</section>
 				<section class="full-section" id="projects">
 					<h1 class="title">Projects</h1>
-					<article class="panel">
-						<h1 class="panel-title">From High Above, Inc.</h1>
-						<h2 class="panel-subtitle">Recording studio in the sky!</h2>
-					</article>
-					<article class="panel">
-						<h1 class="panel-title">Shelley Rosario</h1>
-						<h2 class="panel-subtitle">Fashion Stylist</h2>
-					</article>
+					<div class="labels">
+						<label class="moreinfo-label">more info</label>
+					</div>
+					<div class="row">
+						<button>
+							<h1 class="button-title">From High Above</h1>
+							<h2 class="button-subtitle">Recording studio in the sky!</h2>
+						</button>
+						<img class="more-info" src="assets/more-info.svg">
+					</div>
+					<div class="row">
+						<button>
+							<h1 class="button-title">Shelley Rosario</h1>
+							<h2 class="button-subtitle">Fashion Stylist Portfolio</h2>
+						</button>
+						<img class="more-info" src="assets/more-info.svg">
+					</div>	
+					<div class="row">
+						<button>
+							<h1 class="button-title">Title Here</h1>
+							<h2 class="button-subtitle">Sub Title Here</h2>
+						</button>
+						<img class="more-info" src="assets/more-info.svg">
+					</div>
 				</section>
 				<section class="full-section" id="skills">
 					<h1 class="title">Skills</h1>
-					<section class="sub-section">
+					<div class="sub-section">
 						<h2 class="sub-title">Core</h2>
 						<ul class="skills-list">
 							<li>HTML</li>
@@ -60,8 +77,8 @@
 							<li>Susy Grid System</li>
 							<li>Foundation Framework</li>
 						</ul>
-					</section>
-					<section class="sub-section">
+					</div>
+					<div class="sub-section">
 						<h2 class="sub-title">Workflow</h2>
 						<ul class="skills-list">
 							<li>W3C Validated, semantic HTML</li>
@@ -74,8 +91,8 @@
 							<li>Website Optimization</li>
 							<li>SEO</li>
 						</ul>
-					</section>
-					<section class="sub-section">
+					</div>
+					<div class="sub-section">
 						<h2 class="sub-title">Tools</h2>
 						<ul class="skills-list">
 							<li>Sublime Text</li>
@@ -83,13 +100,13 @@
 							<li>Trello</li>
 							<li>Redmine</li>
 						</ul>
-					</section>
-					<section class="sub-section">
+					</div>
+					<div class="sub-section">
 						<h2 class="sub-title">Work History</h2>
 						<h3 class="workplace">ArtistFan</h3>
 						<h4 class="job">Quality Assurance Tester<br/>Sept. 2013 - Oct. 2014</h4>
 						<p>I was in charge of manually testing our application across major web browsers (except Internet Explorer 8 and earlier). Responsible for documenting issues and anomalies using ticket tracking tool, in order to make sure features are implemented according to specifications. I provided feedback to Project Manager and development team on features being implemented,  retained knowledge of the application across development cycles.</p>
-					</section>
+					</div>
 				</section>
 				<section class="full-section" id="contact">
 					<h1 class="title">Contact</h1>
@@ -100,6 +117,11 @@
 							</a>
 						</li>
 						<li class="contact-links">
+							<a href="https://www.linkedin.com/in/jpespinal" target="_blank">
+								<img src="assets/linkedin.svg" alt="LinkedIn">
+							</a>
+						</li>
+						<li class="contact-links">
 							<a href="https://www.github.com/jpespinal" target="_blank">
 								<img src="assets/github.svg" alt="GitHub">
 							</a>
@@ -107,11 +129,6 @@
 						<li class="contact-links">
 							<a href="https://www.twitter.com/jpespinal" target="_blank">
 								<img src="assets/twitter.svg" alt="Twitter">
-							</a>
-						</li>
-						<li class="contact-links">
-							<a href="https://www.linkedin.com/in/jpespinal" target="_blank">
-								<img src="assets/linkedin.svg" alt="LinkedIn">
 							</a>
 						</li>
 					</ul>
