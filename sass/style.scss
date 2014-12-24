@@ -388,6 +388,7 @@ li.nav-links {
 
     .moreinfo-label {
         @include span(1 last);
+        margin: 0;
     }
 
     button {
