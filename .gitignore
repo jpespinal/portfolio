@@ -4,7 +4,6 @@ sass/custom.scss
 sass/ie.scss
 sass/print.scss
 sass/screen.scss
-stylesheets/
 *.DS_Store
 css/
 .sass-cache/
