@@ -277,10 +277,13 @@ li.nav-links {
 
 @media screen and (min-width: $small-width) {
 
+    .top, .main, .full-section {
+        @include span(4);
+    }
+
     // Top Section. //
 
    .top {
-        @include span(4);
         background-color: transparent;
         height: 2.8em;
         position: fixed;
@@ -334,9 +337,6 @@ li.nav-links {
 
     // Main Section. //
 
-    .main {
-        @include span(4);
-    }
 
     .full-section {
         padding-bottom: 4em;
@@ -375,15 +375,11 @@ li.nav-links {
     }
 
     .labels {
-        @include container;
         color: $red;
         margin-bottom: 1em;
         text-align: center;
     }
 
-    .links-label {
-        @include span(3);
-    }
 
     .moreinfo-label {
         @include span(1 last);

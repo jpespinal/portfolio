@@ -330,12 +330,16 @@ li.nav-links {
    Media Queries.
    ======================================================== */
 @media screen and (min-width: 320px) {
-  /* line 282, ../sass/style.scss */
-  .top {
+  /* line 280, ../sass/style.scss */
+  .top, .main, .full-section {
     width: 100%;
     float: left;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  /* line 286, ../sass/style.scss */
+  .top {
     background-color: transparent;
     height: 2.8em;
     position: fixed;
@@ -345,7 +349,7 @@ li.nav-links {
     z-index: 2;
   }
 
-  /* line 293, ../sass/style.scss */
+  /* line 296, ../sass/style.scss */
   .nav {
     background-color: #454545;
     border: 1px solid #EFC94C;
@@ -355,22 +359,22 @@ li.nav-links {
     width: 100%;
   }
 
-  /* line 300, ../sass/style.scss */
+  /* line 303, ../sass/style.scss */
   .nav-links {
     width: 25%;
   }
-  /* line 302, ../sass/style.scss */
+  /* line 305, ../sass/style.scss */
   .nav-links a {
     color: #EFC94C;
     font-size: 1em;
     padding: 0.5em;
     text-decoration: none;
   }
-  /* line 307, ../sass/style.scss */
+  /* line 310, ../sass/style.scss */
   .nav-links a.active {
     color: #454545;
   }
-  /* line 310, ../sass/style.scss */
+  /* line 313, ../sass/style.scss */
   .nav-links a.radius-right:hover, .nav-links a.radius-left:hover, .nav-links a:hover {
     background-color: #FFFFFF;
     border: 1px solid #454545;
@@ -379,7 +383,7 @@ li.nav-links {
     border-radius: 5px;
     color: #454545;
   }
-  /* line 316, ../sass/style.scss */
+  /* line 319, ../sass/style.scss */
   .nav-links a.radius-left:hover {
     -moz-border-radius-topleft: 5px;
     -webkit-border-top-left-radius: 5px;
@@ -388,7 +392,7 @@ li.nav-links {
     -webkit-border-bottom-left-radius: 5px;
     border-bottom-left-radius: 5px;
   }
-  /* line 319, ../sass/style.scss */
+  /* line 322, ../sass/style.scss */
   .nav-links a.radius-right:hover {
     -moz-border-radius-topright: 5px;
     -webkit-border-top-right-radius: 5px;
@@ -397,14 +401,14 @@ li.nav-links {
     -webkit-border-bottom-right-radius: 5px;
     border-bottom-right-radius: 5px;
   }
-  /* line 322, ../sass/style.scss */
+  /* line 325, ../sass/style.scss */
   .nav-links a.no-radius:hover {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
   }
 
-  /* line 328, ../sass/style.scss */
+  /* line 331, ../sass/style.scss */
   .active, .active:hover {
     background-color: #FFFFFF;
     border: 1px solid #454545;
@@ -412,14 +416,6 @@ li.nav-links {
     -webkit-border-radius: 5px;
     border-radius: 5px;
     text-decoration: underline;
-  }
-
-  /* line 337, ../sass/style.scss */
-  .main {
-    width: 100%;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
   }
 
   /* line 341, ../sass/style.scss */
@@ -459,28 +455,12 @@ li.nav-links {
 
   /* line 377, ../sass/style.scss */
   .labels {
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     color: #DF4949;
     margin-bottom: 1em;
     text-align: center;
   }
-  /* line 12, ../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
-  .labels:after {
-    content: " ";
-    display: block;
-    clear: both;
-  }
 
   /* line 384, ../sass/style.scss */
-  .links-label {
-    width: 73.68421%;
-    float: left;
-    margin-right: 5.26316%;
-  }
-
-  /* line 388, ../sass/style.scss */
   .moreinfo-label {
     width: 21.05263%;
     float: right;
@@ -488,7 +468,7 @@ li.nav-links {
     margin: 0;
   }
 
-  /* line 393, ../sass/style.scss */
+  /* line 389, ../sass/style.scss */
   button {
     width: 73.68421%;
     float: left;
@@ -501,18 +481,18 @@ li.nav-links {
     padding: 0.2em 1.5%;
     text-align: center;
   }
-  /* line 400, ../sass/style.scss */
+  /* line 396, ../sass/style.scss */
   button:hover {
     border: 1px solid #FFFFFF;
   }
 
-  /* line 405, ../sass/style.scss */
+  /* line 401, ../sass/style.scss */
   .button-title, .button-subtitle {
     font-family: "Cabin", arial, sans-serif;
     margin: 0 auto;
   }
 
-  /* line 410, ../sass/style.scss */
+  /* line 406, ../sass/style.scss */
   .button-title {
     color: #45B29D;
     font-size: 2em;
@@ -521,14 +501,14 @@ li.nav-links {
     text-decoration: underline;
   }
 
-  /* line 418, ../sass/style.scss */
+  /* line 414, ../sass/style.scss */
   .button-subtitle {
     color: #F3F3F3;
     font-size: 1.5em;
     margin-bottom: 0;
   }
 
-  /* line 424, ../sass/style.scss */
+  /* line 420, ../sass/style.scss */
   .more-info {
     width: 21.05263%;
     float: right;
@@ -536,31 +516,31 @@ li.nav-links {
     height: 3em;
   }
 
-  /* line 432, ../sass/style.scss */
+  /* line 428, ../sass/style.scss */
   .workplace {
     margin: 0;
     font-weight: 700;
   }
 
-  /* line 437, ../sass/style.scss */
+  /* line 433, ../sass/style.scss */
   .job {
     color: #45B29D;
     font-size: 1em;
   }
 
-  /* line 444, ../sass/style.scss */
+  /* line 440, ../sass/style.scss */
   .contact-links {
     height: 50px;
     margin: 0em auto 1.5em;
     width: 50px;
   }
 
-  /* line 452, ../sass/style.scss */
+  /* line 448, ../sass/style.scss */
   .bottom {
     padding: 0.4em 0%;
   }
 
-  /* line 456, ../sass/style.scss */
+  /* line 452, ../sass/style.scss */
   .copyright {
     font-size: 0.8em;
     margin: 0;
