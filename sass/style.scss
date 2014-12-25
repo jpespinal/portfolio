@@ -380,6 +380,11 @@ li.nav-links {
         text-align: center;
     }
 
+    .link-label {
+        @include span(3);
+        margin: 0;
+    }
+
 
     .moreinfo-label {
         @include span(1 last);
