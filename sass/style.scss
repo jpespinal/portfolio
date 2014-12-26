@@ -231,7 +231,6 @@ li.nav-links {
 // Projects Section //
 
 #projects {
-    @include container;
     background-color: $blue;
     & .title {
         color: $red;
@@ -257,10 +256,9 @@ li.nav-links {
 
 #contact {
     background-color: $orange;
-}
-
-#contact .title {
-    color: $light-grey;
+    & .title {
+        color: $light-grey;
+    }
 }
 
 // Footer Section //
@@ -377,7 +375,6 @@ li.nav-links {
     .labels {
         color: $red;
         margin-bottom: 1em;
-        text-align: center;
     }
 
     .link-label {
