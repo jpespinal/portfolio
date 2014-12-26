@@ -1,0 +1,163 @@
+/* ============================================================
+   Imports - Compass (Reset, CSS3, Utilities, Susy, Breakpoint).
+   ============================================================ */
+
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/typography";
+@import "compass/utilities";
+@import "susy";
+@import "breakpoint";
+
+/* ============================================================
+   Establish Vertical Rhythm, PX fall back for IE8 in Compass.
+   ============================================================ */
+
+$base-font-size: 16px; 
+$base-line-height: 24px;
+
+@include establish-baseline;
+
+/* ============================================================
+   Susy Settings.
+   ============================================================ */
+
+$susy: (
+  columns: 4, // Start with 4 columns in grid.
+  global-box-sizing: border-box, // Set up Border Box sizing.
+  gutters: 1/4, // Column gutters 1/4 size of columns.
+);
+
+@include global-box-sizing;
+
+/* ============================================================
+   Typefaces / Fonts.
+   ============================================================ */
+
+$cabin: 'Cabin', arial, sans-serif;
+$cabin-sketch: 'Comic Serif Pro', georgia, serif;
+
+@font-face {
+    font-family: 'Comic Serif Pro';
+    src: url('../typeface/hvd_comic_serif_pro-webfont.eot');
+    src: url('../typeface/hvd_comic_serif_pro-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../typeface/hvd_comic_serif_pro-webfont.woff2') format('woff2'),
+        url('../typeface/hvd_comic_serif_pro-webfont.woff') format('woff'),
+        url('../typeface/hvd_comic_serif_pro-webfont.ttf') format('truetype'),
+        url('../typeface/hvd_comic_serif_pro-webfont.svg#hvd_comic_serif_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ============================================================
+   Breakpoint Variables.
+   ============================================================ */
+
+$smallest-width: 240px;
+$small-width: 320px;
+
+/* ============================================================
+   Color Variables.
+   ============================================================ */
+
+$red: #DF4949;
+$light-red: #F35D5D;
+
+$orange: #E27A3F;
+$light-orange: #F68E53;
+
+$yellow: #EFC94C;
+$light-yellow: #FFDD60;
+$lightest-yellow: #FFFF9C;
+
+$green: #45B29D;
+$light-green: #59C6B1;
+
+$blue: #334D5C;
+$light-blue: #476170;
+
+$black: #454545;
+$lighter-black: #737373;
+
+$white: #FFFFFF;
+
+$light-grey: #F3F3F3;
+
+/* ============================================================
+   Base Styles.
+   ============================================================ */
+
+html {
+    height: 100%;
+}
+
+body {
+  background-color: white;
+  font-family: $cabin;
+  min-height: 100%;
+}
+
+h1 {
+  font-size: 1.6em;
+  margin-bottom: 0.625em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.66666667em;
+}
+
+h3 {
+  font-size: 1.4em;
+  margin-bottom: 0.71428571em;
+}
+
+h4 {
+  font-size: 1.3em;
+  margin-bottom: 0.76923077em;
+}
+
+h5 {
+    font-size: 1.2em;
+    margin-bottom: 0.83333333em;
+}
+
+h6 {
+    font-size: 1.1em;
+    margin-bottom: 0.90909091em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $cabin-sketch;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 2em;
+}
+
+a {
+    display: block;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+br {
+    margin-bottom: 1em;
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+abbr, acronym {
+    border-bottom: 1px dotted #000;
+    cursor: help;
+}

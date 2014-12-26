@@ -1,0 +1,189 @@
+/* ========================================================
+   Media Queries.
+   ======================================================== */
+
+@media screen and (min-width: $small-width) {
+
+    .top, .main, .full-section {
+        @include span(4);
+    }
+
+    // Top Section. //
+
+   .top {
+        background-color: transparent;
+        height: 2.8em;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+    }
+
+    .nav {
+        background-color: $black;
+        border: 1px solid $yellow;
+        @include border-radius(5px);
+        width: 100%;
+    }
+
+    .nav-links {
+        width: 25%;
+        a {
+            color: $yellow;
+            font-size: 1em;
+            padding: 0.5em;
+            text-decoration: none;
+            &.active {
+                color: $black;
+            }
+            &.radius-right:hover, &.radius-left:hover, &:hover {
+                background-color: $white;
+                border: 1px solid $black;
+                @include border-radius(5px);
+                color: $black;
+            }
+            &.radius-left:hover {
+                @include border-left-radius(5px);
+            }
+            &.radius-right:hover {
+                @include border-right-radius(5px);
+            }
+            &.no-radius:hover {
+                @include border-radius(5px);
+            }
+        }
+    }
+
+    .active, .active:hover {
+        background-color: $white;
+        border: 1px solid $black;
+        @include border-radius(5px);
+        text-decoration: underline;
+    }
+
+    // Main Section. //
+
+
+    .full-section {
+        padding-bottom: 4em;
+    }
+
+    .sub-section {
+        margin: 2em 0%;
+    }
+
+    .title {
+        font-size: 4em;
+        height: auto;
+        margin-bottom: 1em;
+    }
+
+    .sub-title {
+        font-size: 2em;
+        margin-bottom: 0.5em;
+    }
+
+
+    // About Section. //
+
+
+
+    // Projects Section. //
+
+    #projects .title {
+        margin-bottom: 0.75em;
+    }
+
+    .row {
+        height: 4em;
+        margin-bottom: 1em;
+        vertical-align: middle;
+    }
+
+    .labels {
+        color: $red;
+        margin-bottom: 1em;
+    }
+
+    .link-label {
+        @include span(3);
+        margin: 0;
+    }
+
+
+    .moreinfo-label {
+        @include span(1 last);
+        margin: 0;
+    }
+
+    button {
+        @include span(3);
+        background-color: $light-blue;
+        border: 1px solid $light-blue;
+        @include border-radius(5px);
+        padding: 0.2em 1.5%;
+        text-align: center;
+        &:hover {
+            border: 1px solid $white;
+        }
+    }
+
+    .button-title, .button-subtitle {
+        font-family: $cabin;
+        margin: 0 auto;
+    }
+
+    .button-title {
+        color: $green;
+        font-size: 2em;
+        font-weight: 700;
+        margin-bottom: 0.1em;
+        text-decoration: underline;
+    }
+
+    .button-subtitle {
+        color: $light-grey;
+        font-size: 1.5em;
+        margin-bottom: 0;
+    }
+
+    .more-info {
+        @include span(1 last);
+        height: 3em;
+    }
+
+
+    // Skills Section. //
+
+    .workplace {
+        margin: 0;
+        font-weight: 700;
+    }
+
+    .job {
+        color: $green;
+        font-size: 1em;
+    }
+
+    // Contact Section. //
+
+    .contact-links {
+        height: 50px;
+        margin: 0em auto 1.5em;
+        width: 50px;
+    }
+
+    // Footer Section. //
+
+    .bottom {
+        padding: 0.4em 0%;
+    }
+
+    .copyright {
+        font-size: 0.8em;
+        margin: 0;
+        text-align: center;
+        vertical-align: middle;
+    }
+}

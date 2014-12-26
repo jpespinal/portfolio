@@ -1,0 +1,73 @@
+// Top Section //
+
+li.nav-links {
+    display: inline-block;
+}
+
+.nav-links {
+    font-family: $cabin;
+    font-weight: 700;
+    margin-right: -0.25em;
+    text-align: center;
+}
+
+// Main Section //
+
+.full-section {
+    padding: 3em 2.5% 0em;
+}
+
+.sub-section {
+    padding: 1em 2.5% 0em;
+}
+
+// About Section //
+
+#about {
+    background-color: $red;
+    color: $white;
+    & h1 {
+        color: $blue;
+    }
+}
+
+// Projects Section //
+
+#projects {
+    background-color: $blue;
+    & h1 {
+        color: $red;
+    }
+}
+
+// Skills Section //
+
+#skills {
+    background-color: $light-grey;
+    color: $blue;
+    & h1 {
+        color: $orange;
+    }
+}
+
+.skills-list {
+    list-style-position: inside;
+    list-style-image: url(../assets/list-diamond.svg);
+}
+
+// Contact Section //
+
+#contact {
+    background-color: $orange;
+    & h1 {
+        color: $light-grey;
+    }
+}
+
+// Footer Section //
+
+.bottom {
+    background-color: $black;
+    color: $white;
+    text-align: center;
+}
