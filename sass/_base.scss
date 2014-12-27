@@ -1,9 +1,11 @@
+/* This is a starter page where a project is initialized from. */
+
 /* ============================================================
    Imports - Compass (Reset, CSS3, Utilities, Susy, Breakpoint).
    ============================================================ */
 
-@import "compass/reset";
-@import "compass/css3";
+@import "compass/reset";            // CSS Reset
+@import "compass/css3";             // 
 @import "compass/typography";
 @import "compass/utilities";
 @import "susy";
