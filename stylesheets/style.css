@@ -1,4 +1,5 @@
-/* This is a starter page where a project is initialized from. */
+/*  This is a starter page where a project is initialized from. Includes CSS Reset, initial 
+    settings for plug-ins, and base styles to be applied after the reset. */
 /* ============================================================
    Imports - Compass (Reset, CSS3, Utilities, Susy, Breakpoint).
    ============================================================ */
@@ -105,98 +106,111 @@ html {
 /* ============================================================
    Base Styles.
    ============================================================ */
-/* line 92, ../sass/_base.scss */
+/* line 93, ../sass/_base.scss */
 html {
   height: 100%;
 }
 
-/* line 96, ../sass/_base.scss */
+/* line 97, ../sass/_base.scss */
 body {
-  background-color: white;
-  font-family: "Cabin", arial, sans-serif;
   min-height: 100%;
 }
 
-/* line 102, ../sass/_base.scss */
+/* line 101, ../sass/_base.scss */
 h1 {
   font-size: 1.6em;
   margin-bottom: 0.625em;
 }
 
-/* line 107, ../sass/_base.scss */
+/* line 106, ../sass/_base.scss */
 h2 {
   font-size: 1.5em;
   margin-bottom: 0.66666667em;
 }
 
-/* line 112, ../sass/_base.scss */
+/* line 111, ../sass/_base.scss */
 h3 {
   font-size: 1.4em;
   margin-bottom: 0.71428571em;
 }
 
-/* line 117, ../sass/_base.scss */
+/* line 116, ../sass/_base.scss */
 h4 {
   font-size: 1.3em;
   margin-bottom: 0.76923077em;
 }
 
-/* line 122, ../sass/_base.scss */
+/* line 121, ../sass/_base.scss */
 h5 {
   font-size: 1.2em;
   margin-bottom: 0.83333333em;
 }
 
-/* line 127, ../sass/_base.scss */
+/* line 126, ../sass/_base.scss */
 h6 {
   font-size: 1.1em;
   margin-bottom: 0.90909091em;
 }
 
-/* line 132, ../sass/_base.scss */
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Comic Serif Pro", georgia, serif;
-}
-
-/* line 136, ../sass/_base.scss */
+/* line 131, ../sass/_base.scss */
 p {
   font-size: 1em;
   margin-bottom: 2em;
 }
 
-/* line 141, ../sass/_base.scss */
+/* line 136, ../sass/_base.scss */
 a {
   display: block;
 }
 
-/* line 145, ../sass/_base.scss */
+/* line 140, ../sass/_base.scss */
 img {
   display: inline-block;
   max-width: 100%;
 }
 
-/* line 150, ../sass/_base.scss */
+/* line 145, ../sass/_base.scss */
 br {
   margin-bottom: 1em;
 }
 
-/* line 154, ../sass/_base.scss */
+/* line 149, ../sass/_base.scss */
 em {
   font-style: italic;
 }
 
-/* line 158, ../sass/_base.scss */
+/* line 153, ../sass/_base.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 162, ../sass/_base.scss */
+/* line 157, ../sass/_base.scss */
 abbr, acronym {
   border-bottom: 1px dotted #000;
   cursor: help;
 }
 
-/* line 7, ../sass/_global.scss */
+/*  This is the global page, where styles that never change are defined. */
+/* line 3, ../sass/_global.scss */
+body {
+  background-color: white;
+  font-family: "Cabin", arial, sans-serif;
+}
+
+/* line 8, ../sass/_global.scss */
+#container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+#container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 14, ../sass/_global.scss */
 .nav-links {
   display: inline-block;
   font-weight: 700;
@@ -204,73 +218,90 @@ abbr, acronym {
   text-align: center;
 }
 
-/* line 16, ../sass/_global.scss */
+/* line 23, ../sass/_global.scss */
 .full-section {
   padding: 3em 2.5% 0em;
 }
 
-/* line 20, ../sass/_global.scss */
+/* line 27, ../sass/_global.scss */
 .sub-section {
   padding: 1em 2.5% 0em;
 }
 
-/* line 26, ../sass/_global.scss */
+/* line 31, ../sass/_global.scss */
+.title, .sub-title {
+  font-family: "Comic Serif Pro", georgia, serif;
+}
+
+/* line 37, ../sass/_global.scss */
 #about {
   background-color: #DF4949;
   color: #FFFFFF;
 }
-/* line 29, ../sass/_global.scss */
+/* line 40, ../sass/_global.scss */
 #about .title {
   color: #334D5C;
 }
 
-/* line 36, ../sass/_global.scss */
+/* line 45, ../sass/_global.scss */
+.highlight {
+  background-color: #45B29D;
+  padding: 0.2em;
+}
+
+/* line 52, ../sass/_global.scss */
 #projects {
   background-color: #334D5C;
 }
-/* line 38, ../sass/_global.scss */
+/* line 54, ../sass/_global.scss */
 #projects .title {
   color: #DF4949;
 }
 
-/* line 45, ../sass/_global.scss */
+/* line 61, ../sass/_global.scss */
 #skills {
   background-color: #F3F3F3;
   color: #334D5C;
 }
-/* line 48, ../sass/_global.scss */
+/* line 64, ../sass/_global.scss */
 #skills .title {
   color: #E27A3F;
 }
+/* line 67, ../sass/_global.scss */
+#skills .sub-title {
+  color: #F68E53;
+}
 
-/* line 53, ../sass/_global.scss */
+/* line 72, ../sass/_global.scss */
 .skills-list {
   list-style-position: inside;
   list-style-image: url(../assets/list-diamond.svg);
 }
 
-/* line 60, ../sass/_global.scss */
+/* line 79, ../sass/_global.scss */
 #contact {
   background-color: #E27A3F;
+  color: #45B29D;
 }
-/* line 62, ../sass/_global.scss */
+/* line 82, ../sass/_global.scss */
 #contact .title {
   color: #F3F3F3;
 }
 
-/* line 69, ../sass/_global.scss */
+/* line 89, ../sass/_global.scss */
 .bottom {
   background-color: #454545;
   color: #FFFFFF;
   text-align: center;
 }
 
+/* This is the state page, it is where the layout is defined based on device */
 /* ========================================================
    Media Queries.
    ======================================================== */
 @media screen and (min-width: 320px) {
   /* line 9, ../sass/_layout.scss */
-  .top, .main, .full-section, .bottom {
+  #top, #main, .full-section, #bottom {
     width: 100%;
     float: left;
     margin-left: 0;
@@ -278,12 +309,12 @@ abbr, acronym {
   }
 
   /* line 15, ../sass/_layout.scss */
-  .top {
+  #top {
     background-color: transparent;
     height: 2.8em;
     position: fixed;
+    top: 0;
     right: 0;
-    bottom: 0;
     left: 0;
     z-index: 2;
   }
@@ -482,7 +513,7 @@ abbr, acronym {
   }
 
   /* line 181, ../sass/_layout.scss */
-  .bottom {
+  #bottom {
     padding: 0.4em 0%;
   }
 
@@ -493,36 +524,4 @@ abbr, acronym {
     text-align: center;
     vertical-align: middle;
   }
-}
-/* ============================================================
-   Global Styles.
-   ============================================================ */
-/* line 9, ../sass/style.scss */
-#container {
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 12, ../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
-#container:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-
-/* line 13, ../sass/style.scss */
-.title {
-  color: #E27A3F;
-  text-align: center;
-}
-
-/* line 18, ../sass/style.scss */
-.sub-title {
-  color: #F68E53;
-}
-
-/* line 22, ../sass/style.scss */
-.highlight {
-  background-color: #45B29D;
-  padding: 0.2em;
 }

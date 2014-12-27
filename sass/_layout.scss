@@ -1,4 +1,4 @@
-// This is the state page, it is where 
+/* This is the state page, it is where the layout is defined based on device */
 
 /* ========================================================
    Media Queries.
@@ -6,18 +6,18 @@
 
 @media screen and (min-width: $small-width) {
 
-    .top, .main, .full-section, .bottom {
+    #top, #main, .full-section, #bottom {
         @include span(4);
     }
 
     // Top Section. //
 
-   .top {
+   #top {
         background-color: transparent;
         height: 2.8em;
         position: fixed;
+        top: 0;
         right: 0;
-        bottom: 0;
         left: 0;
         z-index: 2;
     }
@@ -178,7 +178,7 @@
 
     // Footer Section. //
 
-    .bottom {
+    #bottom {
         padding: 0.4em 0%;
     }
 
