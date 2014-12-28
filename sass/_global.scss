@@ -46,8 +46,9 @@ body {
 }
 
 .name {
-    font-family: $cabin-sketch;
     color: $light-blue;
+    font-family: $cabin-sketch;
+    font-size: 1.2em;
 }
 
 .highlight {
