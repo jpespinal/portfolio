@@ -11,6 +11,17 @@ body {
 
 // Top Section //
 
+#top {
+    background-color: $yellow;
+}
+
+.nav {
+    background-color: $black;
+    border: 1px solid $light-yellow;
+    @include border-radius(5px);
+    // width: 100%;
+}
+
 .nav-links {
     display: inline-block;
     font-weight: 700;
