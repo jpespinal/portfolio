@@ -122,12 +122,12 @@
     }
 
     .button-title, .button-subtitle {
-        font-family: $cabin;
         margin: 0 auto;
     }
 
     .button-title {
-        color: $green;
+        color: $light-red;
+        font-family: $cabin-sketch;
         font-size: 2em;
         font-weight: 700;
         margin-bottom: 0.1em;
@@ -136,6 +136,7 @@
 
     .button-subtitle {
         color: $light-grey;
+        font-family: $cabin;
         font-size: 1.5em;
         margin-bottom: 0;
     }
