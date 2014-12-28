@@ -45,6 +45,11 @@ body {
     }
 }
 
+.name {
+    font-family: $cabin-sketch;
+    color: $light-blue;
+}
+
 .highlight {
     background-color: $green;
     padding: 0.2em;
