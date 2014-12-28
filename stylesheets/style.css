@@ -233,71 +233,66 @@ body {
 }
 
 /* line 34, ../sass/_global.scss */
-.sub-section {
-  padding: 1em 2.5% 0em;
-}
-
-/* line 38, ../sass/_global.scss */
 .title, .sub-title {
   font-family: "Comic Serif Pro", georgia, serif;
 }
 
-/* line 44, ../sass/_global.scss */
+/* line 40, ../sass/_global.scss */
 #about {
   background-color: #DF4949;
   color: #FFFFFF;
 }
-/* line 47, ../sass/_global.scss */
+/* line 43, ../sass/_global.scss */
 #about .title {
   color: #334D5C;
 }
 
-/* line 52, ../sass/_global.scss */
+/* line 48, ../sass/_global.scss */
 .highlight {
   background-color: #45B29D;
   padding: 0.2em;
 }
 
-/* line 59, ../sass/_global.scss */
+/* line 55, ../sass/_global.scss */
 #projects {
   background-color: #334D5C;
 }
-/* line 61, ../sass/_global.scss */
+/* line 57, ../sass/_global.scss */
 #projects .title {
   color: #DF4949;
 }
 
-/* line 68, ../sass/_global.scss */
+/* line 64, ../sass/_global.scss */
 #skills {
   background-color: #F3F3F3;
   color: #334D5C;
 }
-/* line 71, ../sass/_global.scss */
+/* line 67, ../sass/_global.scss */
 #skills .title {
   color: #E27A3F;
 }
-/* line 74, ../sass/_global.scss */
+/* line 70, ../sass/_global.scss */
 #skills .sub-title {
   color: #F68E53;
 }
 
-/* line 79, ../sass/_global.scss */
+/* line 75, ../sass/_global.scss */
 .skills-list {
   list-style-position: inside;
   list-style-image: url(../assets/list-diamond.svg);
 }
 
-/* line 86, ../sass/_global.scss */
+/* line 82, ../sass/_global.scss */
 #contact {
   background-color: #E27A3F;
   color: #45B29D;
 }
-/* line 89, ../sass/_global.scss */
+/* line 85, ../sass/_global.scss */
 #contact .title {
   color: #F3F3F3;
 }
 
-/* line 96, ../sass/_global.scss */
+/* line 92, ../sass/_global.scss */
 .bottom {
   background-color: #454545;
   color: #FFFFFF;
