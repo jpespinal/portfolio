@@ -282,17 +282,32 @@ body {
   list-style-image: url(../assets/list-diamond.svg);
 }
 
-/* line 82, ../sass/_global.scss */
+/* line 80, ../sass/_global.scss */
+.workplace, .job {
+  font-weight: 700;
+}
+
+/* line 84, ../sass/_global.scss */
+.workplace {
+  margin: 0;
+}
+
+/* line 88, ../sass/_global.scss */
+.job {
+  color: #45B29D;
+}
+
+/* line 94, ../sass/_global.scss */
 #contact {
   background-color: #E27A3F;
   color: #45B29D;
 }
-/* line 85, ../sass/_global.scss */
+/* line 97, ../sass/_global.scss */
 #contact .title {
   color: #F3F3F3;
 }
 
-/* line 92, ../sass/_global.scss */
+/* line 104, ../sass/_global.scss */
 .bottom {
   background-color: #454545;
   color: #FFFFFF;
@@ -487,30 +502,23 @@ body {
   }
 
   /* line 150, ../sass/_layout.scss */
-  .workplace {
-    margin: 0;
-    font-weight: 700;
-  }
-
-  /* line 155, ../sass/_layout.scss */
   .job {
-    color: #45B29D;
     font-size: 1em;
   }
 
-  /* line 162, ../sass/_layout.scss */
+  /* line 156, ../sass/_layout.scss */
   .contact-links {
     height: 50px;
     margin: 0em auto 1.5em;
     width: 50px;
   }
 
-  /* line 170, ../sass/_layout.scss */
+  /* line 164, ../sass/_layout.scss */
   #bottom {
     padding: 0.4em 0%;
   }
 
-  /* line 174, ../sass/_layout.scss */
+  /* line 168, ../sass/_layout.scss */
   .copyright {
     font-size: 0.8em;
     margin: 0;

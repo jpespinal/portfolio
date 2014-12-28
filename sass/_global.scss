@@ -77,6 +77,18 @@ body {
     list-style-image: url(../assets/list-diamond.svg);
 }
 
+.workplace, .job {
+    font-weight: 700;
+}
+
+.workplace {
+    margin: 0;
+}
+
+.job {
+    color: $green;
+}
+
 // Contact Section //
 
 #contact {
