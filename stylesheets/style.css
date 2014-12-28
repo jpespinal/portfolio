@@ -405,34 +405,35 @@ body {
   /* line 73, ../sass/_layout.scss */
   .title {
     font-size: 4em;
-    margin: 0.5em auto;
+    margin: 0.5em 0;
+    text-align: center;
   }
 
-  /* line 78, ../sass/_layout.scss */
+  /* line 79, ../sass/_layout.scss */
   .sub-title {
     font-size: 2em;
     margin-bottom: 0.5em;
   }
 
-  /* line 90, ../sass/_layout.scss */
+  /* line 91, ../sass/_layout.scss */
   #projects .title {
     margin-bottom: 0.75em;
   }
 
-  /* line 94, ../sass/_layout.scss */
+  /* line 95, ../sass/_layout.scss */
   .row {
     height: 4em;
     margin-bottom: 1em;
     vertical-align: middle;
   }
 
-  /* line 100, ../sass/_layout.scss */
+  /* line 101, ../sass/_layout.scss */
   .labels {
     color: #DF4949;
     margin-bottom: 1em;
   }
 
-  /* line 105, ../sass/_layout.scss */
+  /* line 106, ../sass/_layout.scss */
   .link-label {
     width: 73.68421%;
     float: left;
@@ -440,7 +441,7 @@ body {
     margin: 0;
   }
 
-  /* line 111, ../sass/_layout.scss */
+  /* line 112, ../sass/_layout.scss */
   .moreinfo-label {
     width: 21.05263%;
     float: right;
@@ -448,7 +449,7 @@ body {
     margin: 0;
   }
 
-  /* line 116, ../sass/_layout.scss */
+  /* line 117, ../sass/_layout.scss */
   button {
     width: 73.68421%;
     float: left;
@@ -461,18 +462,18 @@ body {
     padding: 0.2em 1.5%;
     text-align: center;
   }
-  /* line 123, ../sass/_layout.scss */
+  /* line 124, ../sass/_layout.scss */
   button:hover {
     border: 1px solid #FFFFFF;
   }
 
-  /* line 128, ../sass/_layout.scss */
+  /* line 129, ../sass/_layout.scss */
   .button-title, .button-subtitle {
     font-family: "Cabin", arial, sans-serif;
     margin: 0 auto;
   }
 
-  /* line 133, ../sass/_layout.scss */
+  /* line 134, ../sass/_layout.scss */
   .button-title {
     color: #45B29D;
     font-size: 2em;
@@ -481,14 +482,14 @@ body {
     text-decoration: underline;
   }
 
-  /* line 141, ../sass/_layout.scss */
+  /* line 142, ../sass/_layout.scss */
   .button-subtitle {
     color: #F3F3F3;
     font-size: 1.5em;
     margin-bottom: 0;
   }
 
-  /* line 147, ../sass/_layout.scss */
+  /* line 148, ../sass/_layout.scss */
   .more-info {
     width: 21.05263%;
     float: right;
@@ -496,31 +497,31 @@ body {
     height: 3em;
   }
 
-  /* line 155, ../sass/_layout.scss */
+  /* line 156, ../sass/_layout.scss */
   .workplace {
     margin: 0;
     font-weight: 700;
   }
 
-  /* line 160, ../sass/_layout.scss */
+  /* line 161, ../sass/_layout.scss */
   .job {
     color: #45B29D;
     font-size: 1em;
   }
 
-  /* line 167, ../sass/_layout.scss */
+  /* line 168, ../sass/_layout.scss */
   .contact-links {
     height: 50px;
     margin: 0em auto 1.5em;
     width: 50px;
   }
 
-  /* line 175, ../sass/_layout.scss */
+  /* line 176, ../sass/_layout.scss */
   #bottom {
     padding: 0.4em 0%;
   }
 
-  /* line 179, ../sass/_layout.scss */
+  /* line 180, ../sass/_layout.scss */
   .copyright {
     font-size: 0.8em;
     margin: 0;
