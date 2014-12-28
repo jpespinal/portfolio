@@ -122,23 +122,21 @@
     }
 
     .button-title, .button-subtitle {
-        margin: 0 auto;
+        font-family: $cabin;
     }
 
     .button-title {
         color: $light-red;
-        font-family: $cabin-sketch;
         font-size: 2em;
         font-weight: 700;
-        margin-bottom: 0.1em;
+        margin: 0em 0% 0.1em;
         text-decoration: underline;
     }
 
     .button-subtitle {
         color: $light-grey;
-        font-family: $cabin;
         font-size: 1.5em;
-        margin-bottom: 0;
+        margin: 0em auto;
     }
 
     .more-info {
