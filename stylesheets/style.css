@@ -405,7 +405,7 @@ body {
   /* line 73, ../sass/_layout.scss */
   .title {
     font-size: 4em;
-    margin: 0.5em 0;
+    margin: 0.50em 0% 0.75em;
     text-align: center;
   }
 
