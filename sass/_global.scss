@@ -39,14 +39,14 @@ body {
 
 #about {
     background-color: $green;
-    color: $blue;
+    color: $light-grey;
     & .title {
         color: $orange;
     }
 }
 
 .name {
-    color: $light-grey;
+    color: $blue;
     font-family: $cabin-sketch;
     // font-size: 1.2em;
 }

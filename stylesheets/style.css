@@ -240,7 +240,7 @@ body {
 /* line 40, ../sass/_global.scss */
 #about {
   background-color: #45B29D;
-  color: #334D5C;
+  color: #F3F3F3;
 }
 /* line 43, ../sass/_global.scss */
 #about .title {
@@ -249,7 +249,7 @@ body {
 
 /* line 48, ../sass/_global.scss */
 .name {
-  color: #F3F3F3;
+  color: #334D5C;
   font-family: "Comic Serif Pro", georgia, serif;
 }
 
