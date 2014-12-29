@@ -83,10 +83,6 @@
 
     // Projects Section. //
 
-    #projects .title {
-        margin-bottom: 0.75em;
-    }
-
     .row {
         @include span(4);
         // height: 4em;
@@ -94,15 +90,18 @@
         // vertical-align: middle;
     }
 
+    .link-label, .moreinfo-label {
+        color: $light-grey;
+        margin: 0;
+    }
+
     .link-label {
         @include span(3);
-        margin: 0;
     }
 
 
     .moreinfo-label {
         @include span(1 last);
-        margin: 0;
     }
 
     button {
