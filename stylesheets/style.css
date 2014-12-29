@@ -106,85 +106,85 @@ html {
 /* ============================================================
    Base Styles.
    ============================================================ */
-/* line 93, ../sass/_base.scss */
+/* line 94, ../sass/_base.scss */
 html {
   height: 100%;
 }
 
-/* line 97, ../sass/_base.scss */
+/* line 98, ../sass/_base.scss */
 body {
   min-height: 100%;
 }
 
-/* line 101, ../sass/_base.scss */
+/* line 102, ../sass/_base.scss */
 h1 {
   font-size: 1.6em;
   margin-bottom: 0.625em;
 }
 
-/* line 106, ../sass/_base.scss */
+/* line 107, ../sass/_base.scss */
 h2 {
   font-size: 1.5em;
   margin-bottom: 0.66666667em;
 }
 
-/* line 111, ../sass/_base.scss */
+/* line 112, ../sass/_base.scss */
 h3 {
   font-size: 1.4em;
   margin-bottom: 0.71428571em;
 }
 
-/* line 116, ../sass/_base.scss */
+/* line 117, ../sass/_base.scss */
 h4 {
   font-size: 1.3em;
   margin-bottom: 0.76923077em;
 }
 
-/* line 121, ../sass/_base.scss */
+/* line 122, ../sass/_base.scss */
 h5 {
   font-size: 1.2em;
   margin-bottom: 0.83333333em;
 }
 
-/* line 126, ../sass/_base.scss */
+/* line 127, ../sass/_base.scss */
 h6 {
   font-size: 1.1em;
   margin-bottom: 0.90909091em;
 }
 
-/* line 131, ../sass/_base.scss */
+/* line 132, ../sass/_base.scss */
 p {
   font-size: 1em;
   margin-bottom: 2em;
 }
 
-/* line 136, ../sass/_base.scss */
+/* line 137, ../sass/_base.scss */
 a {
   display: block;
 }
 
-/* line 140, ../sass/_base.scss */
+/* line 141, ../sass/_base.scss */
 img {
   display: inline-block;
   max-width: 100%;
 }
 
-/* line 145, ../sass/_base.scss */
+/* line 146, ../sass/_base.scss */
 br {
   margin-bottom: 1em;
 }
 
-/* line 149, ../sass/_base.scss */
+/* line 150, ../sass/_base.scss */
 em {
   font-style: italic;
 }
 
-/* line 153, ../sass/_base.scss */
+/* line 154, ../sass/_base.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 157, ../sass/_base.scss */
+/* line 158, ../sass/_base.scss */
 abbr, acronym {
   border-bottom: 1px dotted #000;
   cursor: help;
@@ -264,7 +264,7 @@ body {
 }
 /* line 63, ../sass/_global.scss */
 #projects .title {
-  color: #F3F3F3;
+  color: #45B29D;
 }
 
 /* line 70, ../sass/_global.scss */
