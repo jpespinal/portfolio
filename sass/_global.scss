@@ -68,13 +68,13 @@ body {
 // Skills Section //
 
 #skills {
-    background-color: $light-grey;
-    color: $blue;
+    background-color: $blue;
+    color: $light-grey;
     & .title {
-        color: $orange;
+        color: $red;
     }
     & .sub-title {
-        color: $light-orange;
+        color: $light-red;
     }
 }
 

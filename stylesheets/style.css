@@ -269,16 +269,16 @@ body {
 
 /* line 70, ../sass/_global.scss */
 #skills {
-  background-color: #F3F3F3;
-  color: #334D5C;
+  background-color: #334D5C;
+  color: #F3F3F3;
 }
 /* line 73, ../sass/_global.scss */
 #skills .title {
-  color: #E27A3F;
+  color: #DF4949;
 }
 /* line 76, ../sass/_global.scss */
 #skills .sub-title {
-  color: #F68E53;
+  color: #F35D5D;
 }
 
 /* line 81, ../sass/_global.scss */
