@@ -38,15 +38,15 @@ body {
 // About Section //
 
 #about {
-    background-color: $green;
-    color: $light-grey;
+    background-color: $light-grey;
+    color: $blue;
     & .title {
-        color: $blue;
+        color: $green;
     }
 }
 
 .name {
-    color: $blue;
+    color: $red;
     font-family: $cabin-sketch;
     // font-size: 1.2em;
 }
