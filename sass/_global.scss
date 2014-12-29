@@ -46,14 +46,14 @@ body {
 }
 
 .name {
-    color: $light-blue;
+    color: $green;
     font-family: $cabin-sketch;
     font-size: 1.2em;
 }
 
 .highlight {
-    background-color: $green;
-    padding: 0.2em;
+    color: $green;
+    // padding: 0.2em;
 }
 
 // Projects Section //
