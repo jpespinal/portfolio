@@ -465,7 +465,7 @@ body {
     float: left;
     margin-right: 5.26316%;
     background-color: #F3F3F3;
-    border: 1px solid #F3F3F3;
+    border: 2px solid #F3F3F3;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
@@ -474,7 +474,7 @@ body {
   }
   /* line 119, ../sass/_layout.scss */
   button:hover {
-    border: 1px solid #334D5C;
+    border: 2px solid #334D5C;
   }
 
   /* line 124, ../sass/_layout.scss */

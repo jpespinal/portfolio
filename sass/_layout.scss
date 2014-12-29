@@ -112,12 +112,12 @@
     button {
         @include span(3);
         background-color: $light-grey;
-        border: 1px solid $light-grey;
+        border: 2px solid $light-grey;
         @include border-radius(5px);
         padding: 0.2em 1.5%;
         text-align: center;
         &:hover {
-            border: 1px solid $blue;
+            border: 2px solid $blue;
         }
     }
 
