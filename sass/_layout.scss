@@ -88,6 +88,7 @@
     }
 
     .row {
+        @include span(4);
         height: 4em;
         margin-bottom: 1em;
         vertical-align: middle;
