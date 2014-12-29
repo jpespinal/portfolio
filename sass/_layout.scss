@@ -111,8 +111,8 @@
 
     button {
         @include span(3);
-        background-color: $light-grey;
-        border: 1px solid $light-grey;
+        background-color: $light-orange;
+        border: 1px solid $light-orange;
         @include border-radius(5px);
         padding: 0.2em 1.5%;
         text-align: center;
