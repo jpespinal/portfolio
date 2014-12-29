@@ -103,6 +103,7 @@
 
     .moreinfo-label {
         @include span(1 last);
+        text-align: center;
     }
 
     button {
