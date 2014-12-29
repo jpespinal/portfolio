@@ -94,7 +94,7 @@
     }
 
     .labels {
-        color: $red;
+        color: $green;
         margin-bottom: 1em;
     }
 
@@ -111,13 +111,13 @@
 
     button {
         @include span(3);
-        background-color: $light-blue;
-        border: 1px solid $light-blue;
+        background-color: $light-grey;
+        border: 1px solid $light-grey;
         @include border-radius(5px);
         padding: 0.2em 1.5%;
         text-align: center;
         &:hover {
-            border: 1px solid $white;
+            border: 1px solid $green;
         }
     }
 
@@ -126,7 +126,7 @@
     }
 
     .button-title {
-        color: $light-red;
+        color: $blue;
         font-size: 2em;
         font-weight: 700;
         margin: 0em 0% 0.1em;
@@ -134,7 +134,7 @@
     }
 
     .button-subtitle {
-        color: $light-grey;
+        color: $green;
         font-size: 1.5em;
         margin: 0em auto;
     }

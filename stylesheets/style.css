@@ -439,7 +439,7 @@ body {
 
   /* line 96, ../sass/_layout.scss */
   .labels {
-    color: #DF4949;
+    color: #45B29D;
     margin-bottom: 1em;
   }
 
@@ -464,8 +464,8 @@ body {
     width: 73.68421%;
     float: left;
     margin-right: 5.26316%;
-    background-color: #476170;
-    border: 1px solid #476170;
+    background-color: #F3F3F3;
+    border: 1px solid #F3F3F3;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
@@ -474,7 +474,7 @@ body {
   }
   /* line 119, ../sass/_layout.scss */
   button:hover {
-    border: 1px solid #FFFFFF;
+    border: 1px solid #45B29D;
   }
 
   /* line 124, ../sass/_layout.scss */
@@ -484,7 +484,7 @@ body {
 
   /* line 128, ../sass/_layout.scss */
   .button-title {
-    color: #F35D5D;
+    color: #334D5C;
     font-size: 2em;
     font-weight: 700;
     margin: 0em 0% 0.1em;
@@ -493,7 +493,7 @@ body {
 
   /* line 136, ../sass/_layout.scss */
   .button-subtitle {
-    color: #F3F3F3;
+    color: #45B29D;
     font-size: 1.5em;
     margin: 0em auto;
   }
