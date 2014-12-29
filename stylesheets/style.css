@@ -436,19 +436,10 @@ body {
     float: left;
     margin-left: 0;
     margin-right: 0;
-    height: 4em;
     margin-bottom: 1em;
-    vertical-align: middle;
   }
 
   /* line 97, ../sass/_layout.scss */
-  .labels {
-    color: #F3F3F3;
-    display: block;
-    margin-bottom: 1em;
-  }
-
-  /* line 103, ../sass/_layout.scss */
   .link-label {
     width: 73.68421%;
     float: left;
@@ -456,7 +447,7 @@ body {
     margin: 0;
   }
 
-  /* line 109, ../sass/_layout.scss */
+  /* line 103, ../sass/_layout.scss */
   .moreinfo-label {
     width: 21.05263%;
     float: right;
@@ -464,7 +455,7 @@ body {
     margin: 0;
   }
 
-  /* line 114, ../sass/_layout.scss */
+  /* line 108, ../sass/_layout.scss */
   button {
     width: 73.68421%;
     float: left;
@@ -477,17 +468,17 @@ body {
     padding: 0.2em 1.5%;
     text-align: center;
   }
-  /* line 121, ../sass/_layout.scss */
+  /* line 115, ../sass/_layout.scss */
   button:hover {
     border: 3px solid #334D5C;
   }
 
-  /* line 126, ../sass/_layout.scss */
+  /* line 120, ../sass/_layout.scss */
   .button-title, .button-subtitle {
     font-family: "Cabin", arial, sans-serif;
   }
 
-  /* line 130, ../sass/_layout.scss */
+  /* line 124, ../sass/_layout.scss */
   .button-title {
     color: #45B29D;
     font-size: 2em;
@@ -495,14 +486,14 @@ body {
     text-decoration: underline;
   }
 
-  /* line 137, ../sass/_layout.scss */
+  /* line 131, ../sass/_layout.scss */
   .button-subtitle {
     color: #334D5C;
     font-size: 1.5em;
     margin: 0em auto;
   }
 
-  /* line 143, ../sass/_layout.scss */
+  /* line 137, ../sass/_layout.scss */
   .more-info {
     width: 21.05263%;
     float: right;
@@ -510,24 +501,24 @@ body {
     height: 3em;
   }
 
-  /* line 151, ../sass/_layout.scss */
+  /* line 145, ../sass/_layout.scss */
   .job {
     font-size: 1em;
   }
 
-  /* line 157, ../sass/_layout.scss */
+  /* line 151, ../sass/_layout.scss */
   .contact-links {
     height: 50px;
     margin: 0em auto 1.5em;
     width: 50px;
   }
 
-  /* line 165, ../sass/_layout.scss */
+  /* line 159, ../sass/_layout.scss */
   #bottom {
     padding: 0.5em 2.5%;
   }
 
-  /* line 169, ../sass/_layout.scss */
+  /* line 163, ../sass/_layout.scss */
   .copyright {
     font-size: 1em;
     margin: 0;
