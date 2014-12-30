@@ -458,31 +458,30 @@ body {
     margin-bottom: 0.1em;
   }
 
-  /* line 114, ../sass/_layout.scss */
+  /* line 113, ../sass/_layout.scss */
   .button-subtitle {
     color: #334D5C;
     font-size: 1.5em;
-    margin: 0em auto;
   }
 
-  /* line 122, ../sass/_layout.scss */
+  /* line 120, ../sass/_layout.scss */
   .job {
     font-size: 1em;
   }
 
-  /* line 128, ../sass/_layout.scss */
+  /* line 126, ../sass/_layout.scss */
   .contact-links {
     height: 50px;
     margin: 0em auto 1.5em;
     width: 50px;
   }
 
-  /* line 136, ../sass/_layout.scss */
+  /* line 134, ../sass/_layout.scss */
   #bottom {
     padding: 0.5em 2.5%;
   }
 
-  /* line 140, ../sass/_layout.scss */
+  /* line 138, ../sass/_layout.scss */
   .copyright {
     color: #F3F3F3;
     font-size: 1em;
