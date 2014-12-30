@@ -17,7 +17,6 @@ body {
 
 .nav {
     background-color: $black;
-    border: 1px solid $light-yellow;
     @include border-radius(5px);
 }
 
@@ -30,7 +29,7 @@ body {
 
 // Main Section //
 
-.title, .sub-title {
+.title, .sub-title, .bold {
   font-family: $cabin-sketch;
 }
 
@@ -42,11 +41,6 @@ body {
     & .title {
         color: $green;
     }
-}
-
-.name {
-    color: $blue;
-    font-family: $cabin-sketch;
 }
 
 .highlight {
