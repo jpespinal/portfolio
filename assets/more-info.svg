@@ -5,9 +5,13 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="more-info" sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)" stroke-width="2" stroke="#334D5C" fill="#F7F7F7">
+        <g id="more-info" sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)" stroke-width="2" stroke="#DF4949" fill="#F7F7F7">
             <g id="Page-1" sketch:type="MSShapeGroup">
-                <path d="M12,12 L0,12 L0,20 L12,20 L12,32 L20,32 L20,20 L32,20 L32,12 L20,12 L20,0 L12,0 L12,12 L12,12 Z" id="Rectangle-1"></path>
+                <g id="more-info">
+                    <g id="Page-1">
+                        <path d="M12,12 L0,12 L0,20 L12,20 L12,32 L20,32 L20,20 L32,20 L32,12 L20,12 L20,0 L12,0 L12,12 L12,12 Z" id="Rectangle-1"></path>
+                    </g>
+                </g>
             </g>
         </g>
     </g>

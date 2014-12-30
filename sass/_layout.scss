@@ -85,13 +85,14 @@
 
     .row {
         @include span(4);
-        margin-bottom: 2em;
+        margin-bottom: 1.5em;
     }
 
     .link-label, .moreinfo-label {
         color: $light-grey;
         font-family: $cabin-sketch;
         margin: 0;
+        text-align: center;
     }
 
     .link-label {
@@ -101,7 +102,6 @@
 
     .moreinfo-label {
         @include span(1 last);
-        text-align: center;
     }
 
     button {
