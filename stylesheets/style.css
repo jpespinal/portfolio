@@ -449,13 +449,13 @@ body {
   /* line 103, ../sass/_layout.scss */
   .button-title, .button-subtitle {
     font-family: "Cabin", arial, sans-serif;
+    margin-bottom: 0.1em;
   }
 
-  /* line 107, ../sass/_layout.scss */
+  /* line 108, ../sass/_layout.scss */
   .button-title {
     color: #DF4949;
     font-size: 2em;
-    margin-bottom: 0.1em;
   }
 
   /* line 113, ../sass/_layout.scss */
