@@ -83,27 +83,6 @@
 
     // Projects Section. //
 
-    .row {
-        @include span(4);
-        margin-bottom: 1.5em;
-    }
-
-    .link-label, .moreinfo-label {
-        color: $light-grey;
-        font-family: $cabin-sketch;
-        margin: 0;
-        text-align: center;
-    }
-
-    .link-label {
-        @include span(3);
-    }
-
-
-    .moreinfo-label {
-        @include span(1 last);
-    }
-
     button {
         @include span(3);
         background-color: $light-grey;
@@ -132,12 +111,6 @@
         font-size: 1.5em;
         margin: 0em auto;
     }
-
-    .more-info {
-        @include span(1 last);
-        height: 3em;
-    }
-
 
     // Skills Section. //
 
