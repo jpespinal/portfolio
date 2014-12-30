@@ -5,10 +5,10 @@
    Imports - Compass (Reset, CSS3, Utilities, Susy, Breakpoint).
    ============================================================ */
 
-@import "compass/reset";            // CSS Reset
-@import "compass";
-@import "susy";
-@import "breakpoint";
+@import "compass";                  // Import Compass Framework into Project.
+@import "compass/reset";            // CSS Reset.
+@import "susy";                     // Importing Susy Grid Framework into Project.
+@import "breakpoint";               // Importing Breakpoint Compass plug-in.
 
 /* ============================================================
    Establish Vertical Rhythm, PX fall back for IE8 in Compass.
@@ -16,6 +16,7 @@
 
 $base-font-size: 16px; 
 $base-line-height: 24px;
+$rhythm-unit: "em";
 
 @include establish-baseline;
 
