@@ -106,85 +106,85 @@ html {
 /* ============================================================
    Base Styles.
    ============================================================ */
-/* line 92, ../sass/_base.scss */
+/* line 91, ../sass/_base.scss */
 html {
   height: 100%;
 }
 
-/* line 96, ../sass/_base.scss */
+/* line 95, ../sass/_base.scss */
 body {
   min-height: 100%;
 }
 
-/* line 100, ../sass/_base.scss */
+/* line 99, ../sass/_base.scss */
 h1 {
   font-size: 1.6em;
   margin-bottom: 0.625em;
 }
 
-/* line 105, ../sass/_base.scss */
+/* line 104, ../sass/_base.scss */
 h2 {
   font-size: 1.5em;
   margin-bottom: 0.66666667em;
 }
 
-/* line 110, ../sass/_base.scss */
+/* line 109, ../sass/_base.scss */
 h3 {
   font-size: 1.4em;
   margin-bottom: 0.71428571em;
 }
 
-/* line 115, ../sass/_base.scss */
+/* line 114, ../sass/_base.scss */
 h4 {
   font-size: 1.3em;
   margin-bottom: 0.76923077em;
 }
 
-/* line 120, ../sass/_base.scss */
+/* line 119, ../sass/_base.scss */
 h5 {
   font-size: 1.2em;
   margin-bottom: 0.83333333em;
 }
 
-/* line 125, ../sass/_base.scss */
+/* line 124, ../sass/_base.scss */
 h6 {
   font-size: 1.1em;
   margin-bottom: 0.90909091em;
 }
 
-/* line 130, ../sass/_base.scss */
+/* line 129, ../sass/_base.scss */
 p {
   font-size: 1em;
   margin-bottom: 2em;
 }
 
-/* line 135, ../sass/_base.scss */
+/* line 134, ../sass/_base.scss */
 a {
   display: block;
 }
 
-/* line 139, ../sass/_base.scss */
+/* line 138, ../sass/_base.scss */
 img {
   display: inline-block;
   max-width: 100%;
 }
 
-/* line 144, ../sass/_base.scss */
+/* line 143, ../sass/_base.scss */
 br {
   margin-bottom: 1em;
 }
 
-/* line 148, ../sass/_base.scss */
+/* line 147, ../sass/_base.scss */
 em {
   font-style: italic;
 }
 
-/* line 152, ../sass/_base.scss */
+/* line 151, ../sass/_base.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 156, ../sass/_base.scss */
+/* line 155, ../sass/_base.scss */
 abbr, acronym {
   border-bottom: 1px dotted #000;
   cursor: help;
@@ -217,7 +217,7 @@ body {
 
 /* line 18, ../sass/_global.scss */
 .nav {
-  background-color: #737373;
+  background-color: #3C3C3C;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -307,7 +307,7 @@ body {
 
 /* line 101, ../sass/_global.scss */
 #bottom {
-  background-color: #737373;
+  background-color: #3C3C3C;
   text-align: center;
 }
 
@@ -347,16 +347,16 @@ body {
   }
   /* line 33, ../sass/_layout.scss */
   .nav-links a.active {
-    color: #454545;
+    color: #3C3C3C;
   }
   /* line 36, ../sass/_layout.scss */
   .nav-links a.radius-right:hover, .nav-links a.radius-left:hover, .nav-links a:hover {
     background-color: #FFFFFF;
-    border: 1px solid #454545;
+    border: 1px solid #3C3C3C;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    color: #454545;
+    color: #3C3C3C;
   }
   /* line 42, ../sass/_layout.scss */
   .nav-links a.radius-left:hover {
@@ -386,7 +386,7 @@ body {
   /* line 54, ../sass/_layout.scss */
   .active {
     background-color: #FFFFFF;
-    border: 1px solid #454545;
+    border: 1px solid #3C3C3C;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
