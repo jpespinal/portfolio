@@ -313,9 +313,8 @@ body {
 }
 
 /* line 111, ../sass/_global.scss */
-.bottom {
+#bottom {
   background-color: #E27A3F;
-  color: #454545;
   text-align: center;
 }
 
@@ -521,8 +520,8 @@ body {
 
   /* line 164, ../sass/_layout.scss */
   .copyright {
+    color: #454545;
     font-size: 1em;
     margin: 0;
-    text-align: center;
   }
 }
