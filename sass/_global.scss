@@ -16,7 +16,7 @@ body {
 }
 
 .nav {
-    background-color: $black;
+    background-color: $lighter-black;
     @include border-radius(5px);
 }
 
@@ -99,6 +99,6 @@ body {
 // Footer Section //
 
 #bottom {
-    background-color: $black;
+    background-color: $lighter-black;
     text-align: center;
 }

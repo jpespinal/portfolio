@@ -217,7 +217,7 @@ body {
 
 /* line 18, ../sass/_global.scss */
 .nav {
-  background-color: #454545;
+  background-color: #737373;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -307,7 +307,7 @@ body {
 
 /* line 101, ../sass/_global.scss */
 #bottom {
-  background-color: #454545;
+  background-color: #737373;
   text-align: center;
 }
 
