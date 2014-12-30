@@ -87,6 +87,7 @@
         background-color: $light-grey;
         border: 3px solid $light-grey;
         @include border-radius(5px);
+        display: block;
         margin: 0.75em auto;
         padding: 0.2em 1.5%;
         text-align: center;
