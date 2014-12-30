@@ -224,7 +224,7 @@ body {
   border-radius: 5px;
 }
 
-/* line 25, ../sass/_global.scss */
+/* line 24, ../sass/_global.scss */
 .nav-links {
   display: inline-block;
   font-weight: 700;
@@ -232,87 +232,82 @@ body {
   text-align: center;
 }
 
-/* line 34, ../sass/_global.scss */
+/* line 33, ../sass/_global.scss */
 .title, .sub-title {
   font-family: "Comic Serif Pro", georgia, serif;
 }
 
-/* line 40, ../sass/_global.scss */
+/* line 39, ../sass/_global.scss */
 #about {
   background-color: #F3F3F3;
   color: #334D5C;
 }
-/* line 43, ../sass/_global.scss */
+/* line 42, ../sass/_global.scss */
 #about .title {
   color: #45B29D;
 }
 
-/* line 48, ../sass/_global.scss */
+/* line 47, ../sass/_global.scss */
 .name {
   color: #334D5C;
   font-family: "Comic Serif Pro", georgia, serif;
 }
 
 /* line 54, ../sass/_global.scss */
-.highlight {
-  color: #DF4949;
-}
-
-/* line 62, ../sass/_global.scss */
 #projects {
   background-color: #45B29D;
 }
-/* line 64, ../sass/_global.scss */
+/* line 56, ../sass/_global.scss */
 #projects .title {
   color: #F3F3F3;
 }
 
-/* line 71, ../sass/_global.scss */
+/* line 63, ../sass/_global.scss */
 #skills {
   background-color: #334D5C;
   color: #F3F3F3;
 }
-/* line 74, ../sass/_global.scss */
+/* line 66, ../sass/_global.scss */
 #skills .title {
   color: #DF4949;
 }
-/* line 77, ../sass/_global.scss */
+/* line 69, ../sass/_global.scss */
 #skills .sub-title {
   color: #DF4949;
 }
 
-/* line 82, ../sass/_global.scss */
+/* line 74, ../sass/_global.scss */
 .skills-list {
   list-style-position: inside;
   list-style-image: url(../assets/list-diamond.svg);
 }
 
-/* line 87, ../sass/_global.scss */
+/* line 79, ../sass/_global.scss */
 .workplace, .job {
   font-weight: 700;
 }
 
-/* line 91, ../sass/_global.scss */
+/* line 83, ../sass/_global.scss */
 .workplace {
   margin: 0;
 }
 
-/* line 95, ../sass/_global.scss */
+/* line 87, ../sass/_global.scss */
 .job {
   color: #45B29D;
 }
 
-/* line 101, ../sass/_global.scss */
+/* line 93, ../sass/_global.scss */
 #contact {
   background-color: #DF4949;
   color: #334D5C;
 }
-/* line 104, ../sass/_global.scss */
+/* line 96, ../sass/_global.scss */
 #contact .title {
   color: #334D5C;
 }
 
-/* line 111, ../sass/_global.scss */
+/* line 103, ../sass/_global.scss */
 #bottom {
   background-color: #454545;
   text-align: center;
@@ -414,7 +409,7 @@ body {
   /* line 73, ../sass/_layout.scss */
   .title {
     font-size: 4em;
-    margin: 0.50em 0% 0.75em;
+    margin: 0.50em 0% 1em;
     text-align: center;
   }
 
@@ -483,7 +478,7 @@ body {
 
   /* line 138, ../sass/_layout.scss */
   .copyright {
-    color: #F3F3F3;
+    color: #EFC94C;
     font-size: 1em;
     margin: 0;
   }

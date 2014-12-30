@@ -19,7 +19,6 @@ body {
     background-color: $black;
     border: 1px solid $light-yellow;
     @include border-radius(5px);
-    // width: 100%;
 }
 
 .nav-links {
@@ -48,13 +47,6 @@ body {
 .name {
     color: $blue;
     font-family: $cabin-sketch;
-    // font-size: 1.2em;
-}
-
-.highlight {
-    // background-color: $red;
-    color: $red;
-    // padding: 0.2em;
 }
 
 // Projects Section //
