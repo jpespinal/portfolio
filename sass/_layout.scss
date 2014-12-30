@@ -86,6 +86,7 @@
     .row {
         @include span(4);
         margin-bottom: 1.5em;
+        position: relative;
     }
 
     .link-label, .moreinfo-label {
@@ -136,6 +137,8 @@
     .more-info {
         @include span(1 last);
         height: 3em;
+        position: absolute;
+        top: 50%;
     }
 
 
