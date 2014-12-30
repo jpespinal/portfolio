@@ -314,7 +314,7 @@ body {
 
 /* line 111, ../sass/_global.scss */
 #bottom {
-  background-color: #E27A3F;
+  background-color: #454545;
   text-align: center;
 }
 
@@ -520,7 +520,7 @@ body {
 
   /* line 164, ../sass/_layout.scss */
   .copyright {
-    color: #454545;
+    color: #F3F3F3;
     font-size: 1em;
     margin: 0;
   }
