@@ -471,7 +471,7 @@ body {
   }
   /* line 116, ../sass/_layout.scss */
   button:hover {
-    border: 3px solid #334D5C;
+    border: 3px solid #DF4949;
   }
 
   /* line 121, ../sass/_layout.scss */
@@ -481,7 +481,7 @@ body {
 
   /* line 125, ../sass/_layout.scss */
   .button-title {
-    color: #45B29D;
+    color: #DF4949;
     font-size: 2em;
     margin-bottom: 0.1em;
     text-decoration: underline;
