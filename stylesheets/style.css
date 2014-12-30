@@ -426,9 +426,6 @@ body {
 
   /* line 86, ../sass/_layout.scss */
   button {
-    width: 73.68421%;
-    float: left;
-    margin-right: 5.26316%;
     background-color: #F3F3F3;
     border: 3px solid #F3F3F3;
     -moz-border-radius: 5px;
@@ -437,6 +434,7 @@ body {
     margin: 0.75em auto;
     padding: 0.2em 1.5%;
     text-align: center;
+    width: 75%;
   }
   /* line 94, ../sass/_layout.scss */
   button:hover {
