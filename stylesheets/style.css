@@ -464,16 +464,18 @@ body {
 
   /* line 126, ../sass/_layout.scss */
   .contact-links {
+    color: #45B29D;
+    font-family: "Comic Serif Pro", georgia, serif;
     height: 50px;
     width: 50px;
   }
 
-  /* line 134, ../sass/_layout.scss */
+  /* line 136, ../sass/_layout.scss */
   #bottom {
     padding: 0.5em 2.5%;
   }
 
-  /* line 138, ../sass/_layout.scss */
+  /* line 140, ../sass/_layout.scss */
   .copyright {
     color: #EFC94C;
     font-size: 1em;
