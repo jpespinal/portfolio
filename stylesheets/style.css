@@ -420,12 +420,12 @@ body {
   /* line 86, ../sass/_layout.scss */
   button {
     background-color: #F3F3F3;
-    border: 3px solid #F3F3F3;
+    border: 3px solid #59C6B1;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
     display: block;
-    margin: 0em auto 2em;
+    margin: 0em auto 3em;
     padding: 0.2em 1.5%;
     text-align: center;
     width: 75%;
