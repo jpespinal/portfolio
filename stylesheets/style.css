@@ -463,26 +463,32 @@ body {
   }
 
   /* line 126, ../sass/_layout.scss */
+  #contact ul {
+    margin: auto;
+    text-align: center;
+  }
+
+  /* line 131, ../sass/_layout.scss */
   .contact-label {
     color: #334D5C;
     display: inline-block;
     font-family: "Comic Serif Pro", georgia, serif;
-    margin: 0em auto 1em;
+    margin-bottom: 0.5em;
   }
 
-  /* line 133, ../sass/_layout.scss */
+  /* line 138, ../sass/_layout.scss */
   .contact-links {
     height: 50px;
-    margin-bottom: 1em;
+    margin-bottom: 1.25em;
     width: 50px;
   }
 
-  /* line 141, ../sass/_layout.scss */
+  /* line 146, ../sass/_layout.scss */
   #bottom {
     padding: 0.5em 2.5%;
   }
 
-  /* line 145, ../sass/_layout.scss */
+  /* line 150, ../sass/_layout.scss */
   .copyright {
     color: #EFC94C;
     font-size: 1em;
