@@ -467,7 +467,7 @@ body {
     color: #334D5C;
     display: inline-block;
     font-family: "Comic Serif Pro", georgia, serif;
-    margin: auto;
+    margin: 0em auto;
   }
 
   /* line 133, ../sass/_layout.scss */
