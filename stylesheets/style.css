@@ -409,15 +409,16 @@ body {
     line-height: 1em;
     margin: 0.375em 0% 0.75em;
     text-align: center;
+    width: 95%;
   }
 
-  /* line 79, ../sass/_layout.scss */
+  /* line 80, ../sass/_layout.scss */
   .sub-title {
     font-size: 2em;
     margin-bottom: 0.5em;
   }
 
-  /* line 86, ../sass/_layout.scss */
+  /* line 87, ../sass/_layout.scss */
   button {
     background-color: #F3F3F3;
     border: 3px solid #59C6B1;
@@ -430,63 +431,63 @@ body {
     text-align: center;
     width: 75%;
   }
-  /* line 95, ../sass/_layout.scss */
+  /* line 96, ../sass/_layout.scss */
   button:hover {
     border: 3px solid #DF4949;
   }
-  /* line 97, ../sass/_layout.scss */
+  /* line 98, ../sass/_layout.scss */
   button:hover .button-title {
     text-decoration: underline;
   }
 
-  /* line 103, ../sass/_layout.scss */
+  /* line 104, ../sass/_layout.scss */
   .button-title, .button-subtitle {
     font-family: "Cabin", arial, sans-serif;
     margin-bottom: 0.1em;
   }
 
-  /* line 108, ../sass/_layout.scss */
+  /* line 109, ../sass/_layout.scss */
   .button-title {
     color: #DF4949;
     font-size: 2em;
   }
 
-  /* line 113, ../sass/_layout.scss */
+  /* line 114, ../sass/_layout.scss */
   .button-subtitle {
     color: #334D5C;
     font-size: 1.5em;
   }
 
-  /* line 120, ../sass/_layout.scss */
+  /* line 121, ../sass/_layout.scss */
   .job {
     font-size: 1em;
   }
 
-  /* line 126, ../sass/_layout.scss */
+  /* line 127, ../sass/_layout.scss */
   .contact-list {
     text-align: center;
   }
 
-  /* line 130, ../sass/_layout.scss */
+  /* line 131, ../sass/_layout.scss */
   .contact-label {
     color: #334D5C;
     font-family: "Comic Serif Pro", georgia, serif;
     margin-bottom: 0.25em;
   }
 
-  /* line 136, ../sass/_layout.scss */
+  /* line 137, ../sass/_layout.scss */
   .contact-links {
     height: 50px;
     margin: 0em auto 1.25em;
     width: 50px;
   }
 
-  /* line 144, ../sass/_layout.scss */
+  /* line 145, ../sass/_layout.scss */
   #bottom {
     padding: 0.5em 2.5%;
   }
 
-  /* line 148, ../sass/_layout.scss */
+  /* line 149, ../sass/_layout.scss */
   .copyright {
     color: #EFC94C;
     font-size: 1em;
