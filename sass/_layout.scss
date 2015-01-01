@@ -125,7 +125,9 @@
 
     .contact-label {
         color: $blue;
+        display: inline-block;
         font-family: $cabin-sketch;
+        margin: auto;
     }
 
     .contact-links {
