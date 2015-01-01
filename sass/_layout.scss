@@ -4,7 +4,7 @@
    Media Queries.
    ======================================================== */
 
-@media screen and (min-width: $small-width) {
+@media screen and (min-width: $smallest-width) {
 
     #top, #main, .full-section, #bottom {
         @include span(4);

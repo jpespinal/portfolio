@@ -315,7 +315,7 @@ body {
 /* ========================================================
    Media Queries.
    ======================================================== */
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 240px) {
   /* line 9, ../sass/_layout.scss */
   #top, #main, .full-section, #bottom {
     width: 100%;
