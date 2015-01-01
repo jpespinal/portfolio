@@ -123,21 +123,19 @@
 
     // Contact Section. //
 
-    #contact ul {
-        margin: auto;
+    .contact-list {
         text-align: center;
     }
 
     .contact-label {
         color: $blue;
-        display: inline-block;
         font-family: $cabin-sketch;
         margin-bottom: 0.5em;
     }
 
     .contact-links {
         height: 50px;
-        margin-bottom: 1.25em;
+        margin: 0em auto 1.25em;
         width: 50px;
     }
 
