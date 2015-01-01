@@ -409,7 +409,7 @@ body {
     line-height: 1em;
     margin: 0.375em 0% 0.75em;
     text-align: center;
-    width: 95%;
+    max-width: 95%;
   }
 
   /* line 80, ../sass/_layout.scss */
