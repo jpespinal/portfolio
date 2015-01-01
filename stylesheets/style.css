@@ -467,12 +467,13 @@ body {
     color: #334D5C;
     display: inline-block;
     font-family: "Comic Serif Pro", georgia, serif;
-    margin: 0em auto 1.2em;
+    margin: 0em auto 1em;
   }
 
   /* line 133, ../sass/_layout.scss */
   .contact-links {
     height: 50px;
+    margin-bottom: 1em;
     width: 50px;
   }
 
