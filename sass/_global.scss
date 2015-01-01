@@ -30,7 +30,9 @@ body {
 // Main Section //
 
 .title, .sub-title, .bold {
-  font-family: $cabin-sketch;
+    font-family: $cabin-sketch;
+    max-width: 95%;      
+    text-align: center;
 }
 
 // About Section //
