@@ -33,10 +33,10 @@
             &.active {
                 color: $black;
             }
-            &.radius-right:hover, &.radius-left:hover, &:hover {
+            &.radius-right:hover, &.radius-left:hover {
                 background-color: $white;
                 border: 1px solid $black;
-                @include border-radius(5px);
+                // @include border-radius(5px);
                 color: $black;
             }
             &.radius-left:hover {
@@ -45,9 +45,9 @@
             &.radius-right:hover {
                 @include border-right-radius(5px);
             }
-            &.no-radius:hover {
-                @include border-radius(5px);
-            }
+            // &.no-radius:hover {
+            //     @include border-radius(5px);
+            // }
         }
     }
 

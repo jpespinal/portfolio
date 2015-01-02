@@ -358,12 +358,9 @@ body {
     color: #3C3C3C;
   }
   /* line 36, ../sass/_layout.scss */
-  .nav-links a.radius-right:hover, .nav-links a.radius-left:hover, .nav-links a:hover {
+  .nav-links a.radius-right:hover, .nav-links a.radius-left:hover {
     background-color: #FFFFFF;
     border: 1px solid #3C3C3C;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
     color: #3C3C3C;
   }
   /* line 42, ../sass/_layout.scss */
@@ -383,12 +380,6 @@ body {
     -moz-border-radius-bottomright: 5px;
     -webkit-border-bottom-right-radius: 5px;
     border-bottom-right-radius: 5px;
-  }
-  /* line 48, ../sass/_layout.scss */
-  .nav-links a.no-radius:hover {
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
   }
 
   /* line 54, ../sass/_layout.scss */
