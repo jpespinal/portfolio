@@ -356,7 +356,6 @@ body {
   /* line 36, ../sass/_layout.scss */
   .nav-links a.radius-right:hover, .nav-links a.radius-left:hover, .nav-links a.no-radius:hover {
     background-color: #FFFFFF;
-    border: 1px solid #3C3C3C;
     color: #3C3C3C;
   }
   /* line 42, ../sass/_layout.scss */
