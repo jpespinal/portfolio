@@ -29,9 +29,11 @@ body {
 
 // Main Section //
 
-.title, .sub-title, .bold {
+.title, .sub-title {
     font-family: $cabin-sketch;
-    max-width: 95%;      
+}
+
+.title {
     text-align: center;
 }
 
