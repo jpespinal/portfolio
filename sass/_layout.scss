@@ -3,8 +3,8 @@
 /* ========================================================
    Media Queries.
    ======================================================== */
-@media screen and (min-width: 0px and max-width: 239px) {
-    #container {
+@media screen and (min-width: 0px) and (max-width: 239px) {
+    body {
         width: 240px;
     }
 }
