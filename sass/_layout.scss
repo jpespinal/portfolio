@@ -3,6 +3,11 @@
 /* ========================================================
    Media Queries.
    ======================================================== */
+@media screen and (min-width: 0px) and (max-width: 239px) {
+    #container {
+        width: 240px;
+    }
+}
 
 @media screen and (min-width: $smallest-width) {
 
