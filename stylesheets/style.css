@@ -1,505 +1,83 @@
-/*  This is a starter page where a project is initialized from. Includes CSS Reset, initial 
-    settings for plug-ins, and base styles to be applied after the reset. */
-/* ============================================================
-   Imports - Compass (Reset, CSS3, Utilities, Susy, Breakpoint).
-   ============================================================ */
-/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
+/*
+Error: Invalid CSS after "...x and max-width": expected ")", was ": 239px) {"
+        on line 6 of /Users/juanpespinal/Developer/01 Websites/01 Portfolio/sass/_layout.scss
+        from line 3 of /Users/juanpespinal/Developer/01 Websites/01 Portfolio/sass/style.scss
 
-/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
-html {
-  line-height: 1;
-}
+1: /* This is the state page, it is where the layout is defined based on device *\/
+2: 
+3: /* ========================================================
+4:    Media Queries.
+5:    ======================================================== *\/
+6: @media screen and (min-width: 0px and max-width: 239px) {
+7:     #container {
+8:         width: 240px;
+9:     }
+10: }
+11: 
 
-/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none;
-}
-/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
-
-/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none;
-}
-
-/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-  display: block;
-}
-
-/* ============================================================
-   Establish Vertical Rhythm, PX fall back for IE8 in Compass.
-   ============================================================ */
-/* line 106, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/typography/_vertical_rhythm.scss */
-html {
-  font-size: 100%;
-  line-height: 1.5em;
-}
-
-/* ============================================================
-   Susy Settings.
-   ============================================================ */
-/* line 14, ../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/language/susy/_box-sizing.scss */
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-/* ============================================================
-   Typefaces / Fonts.
-   ============================================================ */
-@font-face {
-  font-family: 'Comic Serif Pro';
-  src: url("../typeface/hvd_comic_serif_pro-webfont.eot");
-  src: url("../typeface/hvd_comic_serif_pro-webfont.eot?#iefix") format("embedded-opentype"), url("../typeface/hvd_comic_serif_pro-webfont.woff2") format("woff2"), url("../typeface/hvd_comic_serif_pro-webfont.woff") format("woff"), url("../typeface/hvd_comic_serif_pro-webfont.ttf") format("truetype"), url("../typeface/hvd_comic_serif_pro-webfont.svg#hvd_comic_serif_proregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-/* ============================================================
-   Breakpoint Variables.
-   ============================================================ */
-/* ============================================================
-   Color Variables.
-   ============================================================ */
-/* ============================================================
-   Base Styles.
-   ============================================================ */
-/* line 91, ../sass/_base.scss */
-html {
-  height: 100%;
-}
-
-/* line 95, ../sass/_base.scss */
-body {
-  min-height: 100%;
-}
-
-/* line 99, ../sass/_base.scss */
-h1 {
-  font-size: 1.6em;
-  margin-bottom: 0.625em;
-}
-
-/* line 104, ../sass/_base.scss */
-h2 {
-  font-size: 1.5em;
-  margin-bottom: 0.66666667em;
-}
-
-/* line 109, ../sass/_base.scss */
-h3 {
-  font-size: 1.4em;
-  margin-bottom: 0.71428571em;
-}
-
-/* line 114, ../sass/_base.scss */
-h4 {
-  font-size: 1.3em;
-  margin-bottom: 0.76923077em;
-}
-
-/* line 119, ../sass/_base.scss */
-h5 {
-  font-size: 1.2em;
-  margin-bottom: 0.83333333em;
-}
-
-/* line 124, ../sass/_base.scss */
-h6 {
-  font-size: 1.1em;
-  margin-bottom: 0.90909091em;
-}
-
-/* line 129, ../sass/_base.scss */
-p {
-  font-size: 1em;
-  margin-bottom: 2em;
-}
-
-/* line 134, ../sass/_base.scss */
-a {
-  display: block;
-}
-
-/* line 138, ../sass/_base.scss */
-img {
-  display: inline-block;
-  max-width: 100%;
-}
-
-/* line 143, ../sass/_base.scss */
-br {
-  margin-bottom: 1em;
-}
-
-/* line 147, ../sass/_base.scss */
-em {
-  font-style: italic;
-}
-
-/* line 151, ../sass/_base.scss */
-strong {
-  font-weight: bold;
-}
-
-/* line 155, ../sass/_base.scss */
-abbr, acronym {
-  border-bottom: 1px dotted #000;
-  cursor: help;
-}
-
-/*  This is the global page, where styles that never change are defined. */
-/* line 3, ../sass/_global.scss */
-body {
-  background-color: white;
-  font-family: "Cabin", arial, sans-serif;
-}
-
-/* line 8, ../sass/_global.scss */
-#container {
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 12, ../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
-#container:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-
-/* line 14, ../sass/_global.scss */
-#top {
-  background-color: #EFC94C;
-}
-
-/* line 18, ../sass/_global.scss */
-.nav {
-  background-color: #3C3C3C;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-}
-
-/* line 23, ../sass/_global.scss */
-.nav-links {
-  display: inline-block;
-  font-weight: 700;
-  margin-right: -0.25em;
-  text-align: center;
-}
-
-/* line 32, ../sass/_global.scss */
-.title, .sub-title {
-  font-family: "Comic Serif Pro", georgia, serif;
-  line-height: 1em;
-}
-
-/* line 37, ../sass/_global.scss */
-.title {
-  text-align: center;
-}
-
-/* line 43, ../sass/_global.scss */
-#about {
-  background-color: #F3F3F3;
-  color: #334D5C;
-}
-/* line 46, ../sass/_global.scss */
-#about .title {
-  color: #45B29D;
-}
-
-/* line 51, ../sass/_global.scss */
-.highlight {
-  color: #DF4949;
-}
-
-/* line 57, ../sass/_global.scss */
-#projects {
-  background-color: #45B29D;
-}
-/* line 59, ../sass/_global.scss */
-#projects .title {
-  color: #F3F3F3;
-}
-
-/* line 66, ../sass/_global.scss */
-#skills {
-  background-color: #334D5C;
-  color: #F3F3F3;
-}
-/* line 69, ../sass/_global.scss */
-#skills .title {
-  color: #DF4949;
-}
-/* line 72, ../sass/_global.scss */
-#skills .sub-title {
-  color: #DF4949;
-}
-
-/* line 77, ../sass/_global.scss */
-.skills-list {
-  list-style-position: inside;
-  list-style-image: url(../assets/list-diamond.svg);
-}
-
-/* line 82, ../sass/_global.scss */
-.workplace, .job {
-  font-weight: 700;
-}
-
-/* line 86, ../sass/_global.scss */
-.workplace {
-  margin: 0;
-}
-
-/* line 90, ../sass/_global.scss */
-.job {
-  color: #45B29D;
-}
-
-/* line 96, ../sass/_global.scss */
-#contact {
-  background-color: #DF4949;
-  color: #334D5C;
-}
-/* line 99, ../sass/_global.scss */
-#contact .title {
-  color: #334D5C;
-}
-
-/* line 106, ../sass/_global.scss */
-#bottom {
-  background-color: #3C3C3C;
-  text-align: center;
-}
-
-/* This is the state page, it is where the layout is defined based on device */
-/* ========================================================
-   Media Queries.
-   ======================================================== */
-@media screen and (min-width: 0px) and (max-width: 239px) {
-  /* line 7, ../sass/_layout.scss */
-  #container {
-    width: 240px;
-  }
-}
-@media screen and (min-width: 240px) {
-  /* line 14, ../sass/_layout.scss */
-  #top, #main, .full-section, #bottom {
-    width: 100%;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  /* line 20, ../sass/_layout.scss */
-  #top {
-    height: 3.8em;
-    padding: 0.5em 2.5%;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 2;
-  }
-
-  /* line 32, ../sass/_layout.scss */
-  .nav-links {
-    width: 25%;
-  }
-  /* line 34, ../sass/_layout.scss */
-  .nav-links a {
-    color: #EFC94C;
-    font-size: 1em;
-    padding: 0.5em;
-  }
-  /* line 38, ../sass/_layout.scss */
-  .nav-links a.active {
-    color: #3C3C3C;
-  }
-  /* line 41, ../sass/_layout.scss */
-  .nav-links a.radius-right:hover, .nav-links a.radius-left:hover, .nav-links a:hover {
-    background-color: #FFFFFF;
-    border: 1px solid #3C3C3C;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    color: #3C3C3C;
-  }
-  /* line 47, ../sass/_layout.scss */
-  .nav-links a.radius-left:hover {
-    -moz-border-radius-topleft: 5px;
-    -webkit-border-top-left-radius: 5px;
-    border-top-left-radius: 5px;
-    -moz-border-radius-bottomleft: 5px;
-    -webkit-border-bottom-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-  }
-  /* line 50, ../sass/_layout.scss */
-  .nav-links a.radius-right:hover {
-    -moz-border-radius-topright: 5px;
-    -webkit-border-top-right-radius: 5px;
-    border-top-right-radius: 5px;
-    -moz-border-radius-bottomright: 5px;
-    -webkit-border-bottom-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-  }
-  /* line 53, ../sass/_layout.scss */
-  .nav-links a.no-radius:hover {
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-  }
-
-  /* line 59, ../sass/_layout.scss */
-  .active {
-    background-color: #FFFFFF;
-    border: 1px solid #3C3C3C;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-  }
-
-  /* line 69, ../sass/_layout.scss */
-  .full-section {
-    padding: 3.8em 2.5% 2em;
-  }
-
-  /* line 73, ../sass/_layout.scss */
-  .sub-section {
-    margin: 2em 0% 3em;
-  }
-
-  /* line 77, ../sass/_layout.scss */
-  .title {
-    font-size: 4em;
-    margin: 0.375em 0% 0.75em;
-  }
-
-  /* line 82, ../sass/_layout.scss */
-  .sub-title {
-    font-size: 2em;
-    margin-bottom: 0.5em;
-  }
-
-  /* line 89, ../sass/_layout.scss */
-  button {
-    background-color: #F3F3F3;
-    border: 3px solid #59C6B1;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    display: block;
-    margin: 0em auto 3em;
-    padding: 0.2em 1.5%;
-    text-align: center;
-    width: 75%;
-  }
-  /* line 98, ../sass/_layout.scss */
-  button:hover {
-    border: 3px solid #DF4949;
-  }
-  /* line 100, ../sass/_layout.scss */
-  button:hover .button-title {
-    text-decoration: underline;
-  }
-
-  /* line 106, ../sass/_layout.scss */
-  .button-title, .button-subtitle {
-    font-family: "Cabin", arial, sans-serif;
-    margin-bottom: 0.1em;
-  }
-
-  /* line 111, ../sass/_layout.scss */
-  .button-title {
-    color: #DF4949;
-    font-size: 2em;
-  }
-
-  /* line 116, ../sass/_layout.scss */
-  .button-subtitle {
-    color: #334D5C;
-    font-size: 1.5em;
-  }
-
-  /* line 123, ../sass/_layout.scss */
-  .job {
-    font-size: 1em;
-  }
-
-  /* line 129, ../sass/_layout.scss */
-  .contact-list {
-    text-align: center;
-  }
-
-  /* line 133, ../sass/_layout.scss */
-  .contact-label {
-    color: #334D5C;
-    font-family: "Comic Serif Pro", georgia, serif;
-    margin-bottom: 0.25em;
-  }
-
-  /* line 139, ../sass/_layout.scss */
-  .contact-links {
-    height: 50px;
-    margin: 0em auto 1.25em;
-    width: 50px;
-  }
-
-  /* line 147, ../sass/_layout.scss */
-  #bottom {
-    padding: 0.5em 2.5%;
-  }
-
-  /* line 151, ../sass/_layout.scss */
-  .copyright {
-    color: #EFC94C;
-    font-size: 1em;
-    margin: 0;
-  }
-}
+Backtrace:
+/Users/juanpespinal/Developer/01 Websites/01 Portfolio/sass/_layout.scss:6
+/Users/juanpespinal/Developer/01 Websites/01 Portfolio/sass/style.scss:3
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:1163:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:1099:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:1094:in `tok!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:467:in `query_expr'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:1077:in `expr!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:438:in `media_query'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:406:in `media_query_list'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:1077:in `expr!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:401:in `media_directive'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:219:in `special_directive'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:194:in `directive'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:660:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:650:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/scss/parser.rb:42:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/engine.rb:393:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/engine.rb:299:in `to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:313:in `block in visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/stack.rb:88:in `block in with_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/stack.rb:88:in `with_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:312:in `visit_import'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:52:in `map'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/tree/root_node.rb:20:in `render'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/engine.rb:268:in `render'
+/Library/Ruby/Gems/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/Library/Ruby/Gems/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/Library/Ruby/Gems/2.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:491:in `update_stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:469:in `on_file_changed'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.7/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...x and max-width\": expected \")\", was \": 239px) {\"\A         on line 6 of /Users/juanpespinal/Developer/01 Websites/01 Portfolio/sass/_layout.scss\A         from line 3 of /Users/juanpespinal/Developer/01 Websites/01 Portfolio/sass/style.scss\A \A 1: /* This is the state page, it is where the layout is defined based on device */\A 2: \A 3: /* ========================================================\A 4:    Media Queries.\A 5:    ======================================================== */\A 6: @media screen and (min-width: 0px and max-width: 239px) {\A 7:     #container {\A 8:         width: 240px;\A 9:     }\A 10: }\A 11: "; }
