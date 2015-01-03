@@ -492,12 +492,16 @@ body {
     width: 25%;
     float: left;
     margin-right: 5.26316%;
+    top: 0;
+    bottom: 0;
+    left: 0;
   }
 
-  /* line 150, ../sass/_layout.scss */
+  /* line 153, ../sass/_layout.scss */
   #main {
     width: 75%;
     float: right;
     margin-right: 0;
+    padding-left: 25%;
   }
 }
