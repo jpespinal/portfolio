@@ -30,13 +30,8 @@
             color: $yellow;
             font-size: 1em;
             padding: 0.5em;
-            // &.active {
-            //     color: $black;
-            // }
             &.radius-right:hover, &.radius-left:hover, &.no-radius:hover {
                 background-color: $white;
-                // border: 1px solid $black;
-                // @include border-radius(5px);
                 color: $black;
             }
             &.radius-left:hover {
@@ -45,9 +40,6 @@
             &.radius-right:hover {
                 @include border-right-radius(5px);
             }
-            // &.no-radius:hover {
-            //     @include border-radius(5px);
-            // }
         }
     }
 
