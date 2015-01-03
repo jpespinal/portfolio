@@ -486,3 +486,18 @@ body {
     margin: 0;
   }
 }
+@media screen and (min-width: 960px) {
+  /* line 146, ../sass/_layout.scss */
+  #top {
+    width: 25%;
+    float: left;
+    margin-right: 5.26316%;
+  }
+
+  /* line 150, ../sass/_layout.scss */
+  #main {
+    width: 75%;
+    float: left;
+    margin-right: 5.26316%;
+  }
+}

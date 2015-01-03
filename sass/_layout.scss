@@ -141,3 +141,13 @@
         margin: 0;
     }
 }
+
+@media screen and (min-width: 960px) {
+    #top {
+        @include span(25%);
+    }
+
+    #main {
+        @include span(75%);
+    }
+}
