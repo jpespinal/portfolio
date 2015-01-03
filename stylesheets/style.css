@@ -497,7 +497,7 @@ body {
   /* line 150, ../sass/_layout.scss */
   #main {
     width: 75%;
-    float: left;
-    margin-right: 5.26316%;
+    float: right;
+    margin-right: 0;
   }
 }

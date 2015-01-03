@@ -148,6 +148,6 @@
     }
 
     #main {
-        @include span(75%);
+        @include span(75% last);
     }
 }
