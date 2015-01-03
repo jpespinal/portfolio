@@ -497,20 +497,21 @@ body {
     bottom: 0;
     left: 0;
     margin: 0;
+    min-width: 0;
   }
 
-  /* line 155, ../sass/_layout.scss */
+  /* line 156, ../sass/_layout.scss */
   .nav {
     height: 100%;
   }
 
-  /* line 159, ../sass/_layout.scss */
+  /* line 160, ../sass/_layout.scss */
   .nav-links {
     display: block;
     height: 25%;
   }
 
-  /* line 164, ../sass/_layout.scss */
+  /* line 165, ../sass/_layout.scss */
   #main, #bottom {
     width: 81.01266%;
     float: right;
