@@ -496,22 +496,23 @@ body {
     top: 0;
     bottom: 0;
     left: 0;
-    margin: 0;
     min-width: 0;
+    padding-top: 20%;
+    padding-bottom: 20%;
   }
 
-  /* line 156, ../sass/_layout.scss */
+  /* line 157, ../sass/_layout.scss */
   .nav {
     height: 100%;
   }
 
-  /* line 160, ../sass/_layout.scss */
+  /* line 161, ../sass/_layout.scss */
   .nav-links {
     display: block;
     height: 25%;
   }
 
-  /* line 165, ../sass/_layout.scss */
+  /* line 166, ../sass/_layout.scss */
   #main, #bottom {
     width: 81.01266%;
     float: right;
