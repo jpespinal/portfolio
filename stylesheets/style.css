@@ -489,7 +489,7 @@ body {
 @media screen and (min-width: 960px) {
   /* line 146, ../sass/_layout.scss */
   #top {
-    width: 25%;
+    width: 20%;
     float: left;
     margin-right: 5.26316%;
     height: 100%;
@@ -500,9 +500,8 @@ body {
 
   /* line 154, ../sass/_layout.scss */
   #main {
-    width: 75%;
+    width: 80%;
     float: right;
     margin-right: 0;
-    padding-left: 25%;
   }
 }

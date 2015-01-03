@@ -144,7 +144,7 @@
 
 @media screen and (min-width: 960px) {
     #top {
-        @include span(25%);
+        @include span(20%);
         height: 100%;
         top: 0;
         bottom: 0;
@@ -152,7 +152,6 @@
     }
 
     #main {
-        @include span(75% last);
-        padding-left: 25%;
+        @include span(80% last);
     }
 }
