@@ -499,13 +499,18 @@ body {
   }
 
   /* line 154, ../sass/_layout.scss */
+  .nav {
+    height: 100%;
+  }
+
+  /* line 158, ../sass/_layout.scss */
   .nav-links {
     display: block;
     height: 25%;
   }
 
-  /* line 159, ../sass/_layout.scss */
-  #main {
+  /* line 163, ../sass/_layout.scss */
+  #main, .full-section, #bottom {
     width: 80%;
     float: right;
     margin-right: 0;

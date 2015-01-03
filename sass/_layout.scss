@@ -151,12 +151,16 @@
         left: 0;
     }
 
+    .nav {
+        height: 100%;
+    }
+
     .nav-links {
         display: block;
         height: 25%;
     }
 
-    #main {
+    #main, .full-section, #bottom {
         @include span(80% last);
     }
 }
