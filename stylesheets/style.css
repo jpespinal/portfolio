@@ -499,6 +499,12 @@ body {
   }
 
   /* line 154, ../sass/_layout.scss */
+  .nav-links {
+    display: block;
+    height: 25%;
+  }
+
+  /* line 159, ../sass/_layout.scss */
   #main {
     width: 80%;
     float: right;

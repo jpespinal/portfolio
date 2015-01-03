@@ -151,6 +151,11 @@
         left: 0;
     }
 
+    .nav-links {
+        display: block;
+        height: 25%;
+    }
+
     #main {
         @include span(80% last);
     }
