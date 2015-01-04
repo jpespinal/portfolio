@@ -253,66 +253,61 @@ body {
   color: #45B29D;
 }
 
-/* line 52, ../sass/_global.scss */
-.highlight {
-  color: #DF4949;
-}
-
-/* line 58, ../sass/_global.scss */
+/* line 54, ../sass/_global.scss */
 #projects {
   background-color: #45B29D;
 }
-/* line 60, ../sass/_global.scss */
+/* line 56, ../sass/_global.scss */
 #projects .title {
   color: #F3F3F3;
 }
 
-/* line 67, ../sass/_global.scss */
+/* line 63, ../sass/_global.scss */
 #skills {
   background-color: #334D5C;
   color: #F3F3F3;
 }
-/* line 70, ../sass/_global.scss */
+/* line 66, ../sass/_global.scss */
 #skills .title {
   color: #DF4949;
 }
-/* line 73, ../sass/_global.scss */
+/* line 69, ../sass/_global.scss */
 #skills .sub-title {
   color: #DF4949;
 }
 
-/* line 78, ../sass/_global.scss */
+/* line 74, ../sass/_global.scss */
 .skills-list {
   list-style-position: inside;
   list-style-image: url(../assets/list-diamond.svg);
 }
 
-/* line 83, ../sass/_global.scss */
+/* line 79, ../sass/_global.scss */
 .workplace, .job {
   font-weight: 700;
 }
 
-/* line 87, ../sass/_global.scss */
+/* line 83, ../sass/_global.scss */
 .workplace {
   margin: 0;
 }
 
-/* line 91, ../sass/_global.scss */
+/* line 87, ../sass/_global.scss */
 .job {
   color: #45B29D;
 }
 
-/* line 97, ../sass/_global.scss */
+/* line 93, ../sass/_global.scss */
 #contact {
   background-color: #DF4949;
   color: #334D5C;
 }
-/* line 100, ../sass/_global.scss */
+/* line 96, ../sass/_global.scss */
 #contact .title {
   color: #334D5C;
 }
 
-/* line 107, ../sass/_global.scss */
+/* line 103, ../sass/_global.scss */
 #bottom {
   background-color: #3C3C3C;
   text-align: center;
