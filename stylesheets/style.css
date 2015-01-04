@@ -511,12 +511,17 @@ body {
   }
 
   /* line 166, ../sass/_layout.scss */
+  .nav {
+    height: 100%;
+  }
+
+  /* line 170, ../sass/_layout.scss */
   .nav-links {
     display: block;
     height: 25%;
   }
 
-  /* line 171, ../sass/_layout.scss */
+  /* line 175, ../sass/_layout.scss */
   #main, #bottom {
     width: 81.01266%;
     float: right;
