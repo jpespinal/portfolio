@@ -505,16 +505,18 @@ body {
 
   /* line 160, ../sass/_layout.scss */
   .nav {
-    height: 30em;
+    height: 32em;
+    position: absolute;
+    top: 50%;
   }
 
-  /* line 164, ../sass/_layout.scss */
+  /* line 166, ../sass/_layout.scss */
   .nav-links {
     display: block;
     height: 25%;
   }
 
-  /* line 169, ../sass/_layout.scss */
+  /* line 171, ../sass/_layout.scss */
   #main, #bottom {
     width: 81.01266%;
     float: right;
