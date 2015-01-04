@@ -149,7 +149,7 @@
 
 @media screen and (min-width: 960px) {
     #top {
-        @include span(3 of 16);
+        @include span(3 wide of 16);
         height: 100%;
         right: auto;
         bottom: 0;
