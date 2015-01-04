@@ -146,12 +146,11 @@
     #top {
         @include span(3 of 16);
         height: 100%;
-        top: 0;
-        bottom: 0;
-        left: 0;
+        // top: 0;
+        // bottom: 0;
+        // left: 0;
         min-width: 0;
-        padding-top: 20%;
-        padding-bottom: 20%;
+        position: static;
     }
 
     .nav {
