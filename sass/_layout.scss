@@ -10,7 +10,7 @@
         min-width: 300px;
     }
 
-    #top, #main, .full-section, #bottom {
+    #top, #main, #bottom {
         @include span(4);
     }
 
@@ -148,6 +148,7 @@
 }
 
 @media screen and (min-width: 960px) {
+
     #top {
         @include span(3 wide of 16);
         height: 100%;

@@ -324,7 +324,7 @@ body {
   }
 
   /* line 13, ../sass/_layout.scss */
-  #top, #main, .full-section, #bottom {
+  #top, #main, #bottom {
     width: 100%;
     float: left;
     margin-left: 0;
@@ -486,7 +486,7 @@ body {
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 151, ../sass/_layout.scss */
+  /* line 152, ../sass/_layout.scss */
   #top {
     width: 18.98734%;
     float: left;
@@ -498,24 +498,24 @@ body {
     z-index: auto;
   }
 
-  /* line 160, ../sass/_layout.scss */
+  /* line 161, ../sass/_layout.scss */
   nav {
     height: 70%;
     position: relative;
     top: 15%;
   }
 
-  /* line 166, ../sass/_layout.scss */
+  /* line 167, ../sass/_layout.scss */
   .nav {
     height: 100%;
   }
 
-  /* line 170, ../sass/_layout.scss */
+  /* line 171, ../sass/_layout.scss */
   .n-link {
     height: 25%;
     width: 100%;
   }
-  /* line 173, ../sass/_layout.scss */
+  /* line 174, ../sass/_layout.scss */
   .n-link a {
     font-size: 2em;
     height: 100%;
@@ -523,7 +523,7 @@ body {
     width: 100%;
   }
 
-  /* line 182, ../sass/_layout.scss */
+  /* line 183, ../sass/_layout.scss */
   #main, #bottom {
     width: 81.01266%;
     float: right;
