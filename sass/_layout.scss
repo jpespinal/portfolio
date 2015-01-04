@@ -157,10 +157,13 @@
         z-index: auto;
     }
 
-    .nav {
-        height: 32em;
+    nav {
         position: relative;
-        top: 50%;
+        top: 25%;
+    }
+
+    .nav {
+        height: 50%;
     }
 
     .nav-links {

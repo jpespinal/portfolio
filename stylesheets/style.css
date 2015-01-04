@@ -504,19 +504,23 @@ body {
   }
 
   /* line 160, ../sass/_layout.scss */
-  .nav {
-    height: 32em;
+  nav {
     position: relative;
-    top: 50%;
+    top: 25%;
   }
 
-  /* line 166, ../sass/_layout.scss */
+  /* line 165, ../sass/_layout.scss */
+  .nav {
+    height: 50%;
+  }
+
+  /* line 169, ../sass/_layout.scss */
   .nav-links {
     display: block;
     height: 25%;
   }
 
-  /* line 171, ../sass/_layout.scss */
+  /* line 174, ../sass/_layout.scss */
   #main, #bottom {
     width: 81.01266%;
     float: right;
