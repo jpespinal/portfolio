@@ -322,7 +322,7 @@ body {
 /* ========================================================
    Media Queries.
    ======================================================== */
-@media screen and (min-width: 0px) and (max-width: 959px) {
+@media screen and (min-width: 0px) {
   /* line 9, ../sass/_layout.scss */
   body {
     min-width: 300px;
@@ -339,6 +339,7 @@ body {
   /* line 19, ../sass/_layout.scss */
   #top {
     height: 3.8em;
+    min-width: 300px;
     padding: 0.5em 2.5%;
     position: fixed;
     top: 0;
@@ -496,22 +497,24 @@ body {
     float: left;
     margin-right: 1.26582%;
     height: 100%;
+    right: auto;
+    bottom: 0;
     min-width: 0;
-    position: static;
+    z-index: auto;
   }
 
-  /* line 161, ../sass/_layout.scss */
+  /* line 160, ../sass/_layout.scss */
   .nav {
     height: 100%;
   }
 
-  /* line 165, ../sass/_layout.scss */
+  /* line 164, ../sass/_layout.scss */
   .nav-links {
     display: block;
     height: 25%;
   }
 
-  /* line 170, ../sass/_layout.scss */
+  /* line 169, ../sass/_layout.scss */
   #main, #bottom {
     width: 81.01266%;
     float: right;
