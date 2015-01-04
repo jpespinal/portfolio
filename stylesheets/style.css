@@ -516,9 +516,9 @@ body {
   }
 
   /* line 170, ../sass/_layout.scss */
-  .nav-links {
-    display: block;
+  .nav-links a {
     height: 25%;
+    width: 100%;
   }
 
   /* line 175, ../sass/_layout.scss */
