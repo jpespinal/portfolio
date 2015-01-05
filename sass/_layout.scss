@@ -35,14 +35,14 @@
             color: $yellow;
             font-size: 1em;
             padding: 0.5em;
-            &.radius-right:hover, &.radius-left:hover, &.no-radius:hover {
+            &:hover {
                 background-color: $white;
                 color: $black;
             }
-            &.radius-left:hover {
+            &.first-radius:hover {
                 @include border-left-radius(5px);
             }
-            &.radius-right:hover {
+            &.last-radius:hover {
                 @include border-right-radius(5px);
             }
         }
