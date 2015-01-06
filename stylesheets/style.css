@@ -586,20 +586,28 @@ body {
   }
 
   /* line 221, ../sass/_layout.scss */
-  #main, .full-section, #bottom {
+  #main, #bottom {
     width: 79.72973%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 227, ../sass/_layout.scss */
+  /* line 225, ../sass/_layout.scss */
+  .full-section {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* line 231, ../sass/_layout.scss */
   .core, .tools, .workflow {
     width: 23.72881%;
     float: left;
     margin-right: 1.69492%;
   }
 
-  /* line 231, ../sass/_layout.scss */
+  /* line 235, ../sass/_layout.scss */
   .work {
     width: 23.72881%;
     float: right;
