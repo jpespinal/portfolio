@@ -491,8 +491,19 @@ body {
     margin: 0;
   }
 }
+@media screen and (min-width: 480px) {
+  /* line 161, ../sass/_layout.scss */
+  .description {
+    margin: 0;
+  }
+
+  /* line 165, ../sass/_layout.scss */
+  .text {
+    font-size: 1.2em;
+  }
+}
 @media screen and (min-width: 960px) {
-  /* line 159, ../sass/_layout.scss */
+  /* line 172, ../sass/_layout.scss */
   #top {
     width: 18.98734%;
     float: left;
@@ -504,24 +515,24 @@ body {
     z-index: auto;
   }
 
-  /* line 168, ../sass/_layout.scss */
+  /* line 181, ../sass/_layout.scss */
   nav {
     height: 70%;
     position: relative;
     top: 15%;
   }
 
-  /* line 174, ../sass/_layout.scss */
+  /* line 187, ../sass/_layout.scss */
   .nav {
     height: 100%;
   }
 
-  /* line 178, ../sass/_layout.scss */
+  /* line 191, ../sass/_layout.scss */
   .n-link {
     height: 25%;
     width: 100%;
   }
-  /* line 181, ../sass/_layout.scss */
+  /* line 194, ../sass/_layout.scss */
   .n-link a {
     font-size: 2em;
     height: 100%;
@@ -529,7 +540,7 @@ body {
     width: 100%;
   }
 
-  /* line 190, ../sass/_layout.scss */
+  /* line 203, ../sass/_layout.scss */
   #main, #bottom {
     width: 81.01266%;
     float: right;
