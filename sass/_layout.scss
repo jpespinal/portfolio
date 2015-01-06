@@ -92,23 +92,23 @@
         width: 75%;
         &:hover {
             border: 3px solid $red;
-            & .button-title {
+            & .p-title {
                 text-decoration: underline;
             }
         }
     }
 
-    .button-title, .button-subtitle {
+    .p-title, .p-subtitle {
         font-family: $cabin;
         margin-bottom: 0.1em;
     }
 
-    .button-title {
+    .p-title {
         color: $red;
         font-size: 2em;
     }
 
-    .button-subtitle {
+    .p-subtitle {
         color: $blue;
         font-size: 1.5em;
     }
@@ -121,17 +121,14 @@
 
     // Contact Section. //
 
-    // .contact-list {
-    // }
-
-    .contact-label {
+    .c-label {
         color: $blue;
         font-family: $cabin-sketch;
         margin-bottom: 0.25em;
         text-align: center;
     }
 
-    .contact-links {
+    .c-links {
         margin: 0em auto 1.25em;
         & a {
             height: 50px;
@@ -172,11 +169,11 @@
 
     // Projects Section. //
 
-    .button-title {
+    .p-title {
         font-size: 2.2em;
     }
 
-    .button-subtitle {
+    .p-subtitle {
         font-size: 1.7em;
     }
 
