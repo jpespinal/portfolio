@@ -132,9 +132,11 @@
     }
 
     .contact-links {
-        height: 50px;
         margin: 0em auto 1.25em;
-        width: 50px;
+        & img {
+            height: 50px;
+            width: 50px;
+        }
     }
 
     // Footer Section. //
