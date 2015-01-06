@@ -520,7 +520,7 @@ body {
 @media screen and (min-width: 960px) {
   /* line 181, ../sass/_layout.scss */
   #top {
-    width: 18.98734%;
+    width: 25.31646%;
     float: left;
     margin-right: 1.25%;
     height: 100%;
@@ -587,7 +587,7 @@ body {
 
   /* line 219, ../sass/_layout.scss */
   #main, #bottom {
-    width: 81.01266%;
+    width: 74.68354%;
     float: right;
     margin-right: 0;
   }
