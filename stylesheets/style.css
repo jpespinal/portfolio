@@ -586,7 +586,7 @@ body {
   }
 
   /* line 221, ../sass/_layout.scss */
-  #main, #bottom {
+  #main, .full-section, #bottom {
     width: 79.72973%;
     float: right;
     margin-right: 0;
