@@ -460,16 +460,12 @@ body {
     font-size: 1em;
   }
 
-  /* line 124, ../sass/_layout.scss */
-  .contact-list {
-    text-align: center;
-  }
-
-  /* line 128, ../sass/_layout.scss */
+  /* line 127, ../sass/_layout.scss */
   .contact-label {
     color: #334D5C;
     font-family: "Comic Serif Pro", georgia, serif;
     margin-bottom: 0.25em;
+    text-align: center;
   }
 
   /* line 134, ../sass/_layout.scss */
@@ -591,28 +587,6 @@ body {
   /* line 232, ../sass/_layout.scss */
   #main, #bottom {
     width: 79.72973%;
-    float: right;
-    margin-right: 0;
-  }
-
-  /* line 236, ../sass/_layout.scss */
-  .full-section {
-    width: 100%;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  /* line 242, ../sass/_layout.scss */
-  .core, .tools, .workflow {
-    width: 23.72881%;
-    float: left;
-    margin-right: 1.69492%;
-  }
-
-  /* line 246, ../sass/_layout.scss */
-  .work {
-    width: 23.72881%;
     float: right;
     margin-right: 0;
   }

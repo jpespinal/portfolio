@@ -121,14 +121,14 @@
 
     // Contact Section. //
 
-    .contact-list {
-        text-align: center;
-    }
+    // .contact-list {
+    // }
 
     .contact-label {
         color: $blue;
         font-family: $cabin-sketch;
         margin-bottom: 0.25em;
+        text-align: center;
     }
 
     .contact-links {
@@ -231,19 +231,5 @@
     
     #main, #bottom {
         @include span(12 of 15 last);
-    }
-
-    .full-section {
-        @include span(12 of 12);
-    }
-
-    // Skills Section. //
-
-    .core, .tools, .workflow {
-        @include span(3 of 12);
-    }
-
-    .work {
-        @include span(3 of 12 last)
     }
 }
