@@ -598,14 +598,14 @@ body {
   }
 
   /* line 233, ../sass/_layout.scss */
-  .core, .workflow {
+  .core, .tools {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
   }
 
   /* line 237, ../sass/_layout.scss */
-  .tools {
+  .workflow {
     width: 32.20339%;
     float: right;
     margin-right: 0;
