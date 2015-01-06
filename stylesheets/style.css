@@ -521,7 +521,7 @@ body {
   }
 
   /* line 185, ../sass/_layout.scss */
-  .contact-label, .contact-links {
+  .contact-links {
     display: inline-block;
     float: left;
     width: 50%;
