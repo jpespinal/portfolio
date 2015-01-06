@@ -492,33 +492,39 @@ body {
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 156, ../sass/_layout.scss */
+  /* line 157, ../sass/_layout.scss */
   a, li, p {
     font-size: 1.2em;
   }
 
-  /* line 160, ../sass/_layout.scss */
+  /* line 163, ../sass/_layout.scss */
   .title {
     font-size: 4.2em;
   }
 
-  /* line 164, ../sass/_layout.scss */
+  /* line 167, ../sass/_layout.scss */
   .sub-title {
     font-size: 2.2em;
   }
 
-  /* line 168, ../sass/_layout.scss */
+  /* line 173, ../sass/_layout.scss */
   .button-title {
     font-size: 2.2em;
   }
 
-  /* line 172, ../sass/_layout.scss */
+  /* line 177, ../sass/_layout.scss */
   .button-subtitle {
     font-size: 1.7em;
   }
+
+  /* line 183, ../sass/_layout.scss */
+  .contact-label {
+    display: inline-block;
+    width: 50%;
+  }
 }
 @media screen and (min-width: 960px) {
-  /* line 181, ../sass/_layout.scss */
+  /* line 193, ../sass/_layout.scss */
   #top {
     width: 20.27027%;
     float: left;
@@ -530,31 +536,31 @@ body {
     z-index: auto;
   }
 
-  /* line 190, ../sass/_layout.scss */
+  /* line 202, ../sass/_layout.scss */
   nav {
     height: 70%;
     position: relative;
     top: 15%;
   }
 
-  /* line 196, ../sass/_layout.scss */
+  /* line 208, ../sass/_layout.scss */
   .nav {
     height: 100%;
   }
 
-  /* line 200, ../sass/_layout.scss */
+  /* line 212, ../sass/_layout.scss */
   .n-link {
     height: 25%;
     width: 100%;
   }
-  /* line 203, ../sass/_layout.scss */
+  /* line 215, ../sass/_layout.scss */
   .n-link a {
     font-size: 2em;
     height: 100%;
     padding-top: 1.65em;
     width: 100%;
   }
-  /* line 208, ../sass/_layout.scss */
+  /* line 220, ../sass/_layout.scss */
   .n-link a.first-radius:hover {
     -moz-border-radius-topleft: 0px;
     -webkit-border-top-left-radius: 0px;
@@ -569,7 +575,7 @@ body {
     -webkit-border-top-right-radius: 5px;
     border-top-right-radius: 5px;
   }
-  /* line 212, ../sass/_layout.scss */
+  /* line 224, ../sass/_layout.scss */
   .n-link a.last-radius:hover {
     -moz-border-radius-topright: 0px;
     -webkit-border-top-right-radius: 0px;
@@ -585,14 +591,14 @@ body {
     border-bottom-right-radius: 5px;
   }
 
-  /* line 221, ../sass/_layout.scss */
+  /* line 233, ../sass/_layout.scss */
   #main, #bottom {
     width: 79.72973%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 225, ../sass/_layout.scss */
+  /* line 237, ../sass/_layout.scss */
   .full-section {
     width: 100%;
     float: left;
@@ -600,14 +606,14 @@ body {
     margin-right: 0;
   }
 
-  /* line 231, ../sass/_layout.scss */
+  /* line 243, ../sass/_layout.scss */
   .core, .tools, .workflow {
     width: 23.72881%;
     float: left;
     margin-right: 1.69492%;
   }
 
-  /* line 235, ../sass/_layout.scss */
+  /* line 247, ../sass/_layout.scss */
   .work {
     width: 23.72881%;
     float: right;
