@@ -206,7 +206,7 @@
             padding-top: 1.65em;
             width: 100%;
             &.first-radius:hover {
-                @include border-right-radius(0px);
+                @include border-left-radius(0px);
                 @include border-top-radius(5px);
             }
             &.last-radius:hover {
@@ -218,5 +218,9 @@
     
     #main, #bottom {
         @include span(13 of 16 last);
+    }
+
+    .full-section {
+        height: 100vh;
     }
 }

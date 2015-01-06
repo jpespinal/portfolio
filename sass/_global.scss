@@ -21,11 +21,14 @@ body {
     @include border-radius(5px);
 }
 
-.n-link {
+.n-link, .n-link.last {
     display: inline-block;
     font-weight: 700;
-    margin-right: -0.25em;
     text-align: center;
+}
+
+.n-link {
+    margin-right: -0.25em;
 }
 
 // Main Section //

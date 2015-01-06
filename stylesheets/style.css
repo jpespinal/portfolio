@@ -225,89 +225,93 @@ body {
 }
 
 /* line 24, ../sass/_global.scss */
-.n-link {
+.n-link, .n-link.last {
   display: inline-block;
   font-weight: 700;
-  margin-right: -0.25em;
   text-align: center;
 }
 
-/* line 33, ../sass/_global.scss */
+/* line 30, ../sass/_global.scss */
+.n-link {
+  margin-right: -0.25em;
+}
+
+/* line 36, ../sass/_global.scss */
 .title, .sub-title {
   font-family: "Comic Serif Pro", georgia, serif;
   line-height: 1em;
 }
 
-/* line 38, ../sass/_global.scss */
+/* line 41, ../sass/_global.scss */
 .title {
   text-align: center;
 }
 
-/* line 44, ../sass/_global.scss */
+/* line 47, ../sass/_global.scss */
 #about {
   background-color: #F3F3F3;
   color: #334D5C;
 }
-/* line 47, ../sass/_global.scss */
+/* line 50, ../sass/_global.scss */
 #about .title {
   color: #45B29D;
 }
 
-/* line 54, ../sass/_global.scss */
+/* line 57, ../sass/_global.scss */
 #projects {
   background-color: #45B29D;
 }
-/* line 56, ../sass/_global.scss */
+/* line 59, ../sass/_global.scss */
 #projects .title {
   color: #F3F3F3;
 }
 
-/* line 63, ../sass/_global.scss */
+/* line 66, ../sass/_global.scss */
 #skills {
   background-color: #334D5C;
   color: #F3F3F3;
 }
-/* line 66, ../sass/_global.scss */
+/* line 69, ../sass/_global.scss */
 #skills .title {
   color: #DF4949;
 }
-/* line 69, ../sass/_global.scss */
+/* line 72, ../sass/_global.scss */
 #skills .sub-title {
   color: #DF4949;
 }
 
-/* line 74, ../sass/_global.scss */
+/* line 77, ../sass/_global.scss */
 .skills-list {
   list-style-position: inside;
   list-style-image: url(../assets/list-diamond.svg);
 }
 
-/* line 79, ../sass/_global.scss */
+/* line 82, ../sass/_global.scss */
 .workplace, .job {
   font-weight: 700;
 }
 
-/* line 83, ../sass/_global.scss */
+/* line 86, ../sass/_global.scss */
 .workplace {
   margin: 0;
 }
 
-/* line 87, ../sass/_global.scss */
+/* line 90, ../sass/_global.scss */
 .job {
   color: #45B29D;
 }
 
-/* line 93, ../sass/_global.scss */
+/* line 96, ../sass/_global.scss */
 #contact {
   background-color: #DF4949;
   color: #334D5C;
 }
-/* line 96, ../sass/_global.scss */
+/* line 99, ../sass/_global.scss */
 #contact .title {
   color: #334D5C;
 }
 
-/* line 103, ../sass/_global.scss */
+/* line 106, ../sass/_global.scss */
 #bottom {
   background-color: #3C3C3C;
   text-align: center;
@@ -556,12 +560,12 @@ body {
   }
   /* line 208, ../sass/_layout.scss */
   .n-link a.first-radius:hover {
-    -moz-border-radius-topright: 0px;
-    -webkit-border-top-right-radius: 0px;
-    border-top-right-radius: 0px;
-    -moz-border-radius-bottomright: 0px;
-    -webkit-border-bottom-right-radius: 0px;
-    border-bottom-right-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px;
     -moz-border-radius-topleft: 5px;
     -webkit-border-top-left-radius: 5px;
     border-top-left-radius: 5px;
@@ -590,5 +594,10 @@ body {
     width: 81.01266%;
     float: right;
     margin-right: 0;
+  }
+
+  /* line 223, ../sass/_layout.scss */
+  .full-section {
+    height: 100vh;
   }
 }
