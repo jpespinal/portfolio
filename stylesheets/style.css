@@ -107,84 +107,82 @@ html {
    Base Styles.
    ============================================================ */
 /* line 91, ../sass/_base.scss */
-html {
+html, body {
   height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
-/* line 95, ../sass/_base.scss */
-body {
-  min-height: 100%;
-}
-
-/* line 99, ../sass/_base.scss */
+/* line 98, ../sass/_base.scss */
 h1 {
   font-size: 1.6em;
   margin-bottom: 0.625em;
 }
 
-/* line 104, ../sass/_base.scss */
+/* line 103, ../sass/_base.scss */
 h2 {
   font-size: 1.5em;
   margin-bottom: 0.66666667em;
 }
 
-/* line 109, ../sass/_base.scss */
+/* line 108, ../sass/_base.scss */
 h3 {
   font-size: 1.4em;
   margin-bottom: 0.71428571em;
 }
 
-/* line 114, ../sass/_base.scss */
+/* line 113, ../sass/_base.scss */
 h4 {
   font-size: 1.3em;
   margin-bottom: 0.76923077em;
 }
 
-/* line 119, ../sass/_base.scss */
+/* line 118, ../sass/_base.scss */
 h5 {
   font-size: 1.2em;
   margin-bottom: 0.83333333em;
 }
 
-/* line 124, ../sass/_base.scss */
+/* line 123, ../sass/_base.scss */
 h6 {
   font-size: 1.1em;
   margin-bottom: 0.90909091em;
 }
 
-/* line 129, ../sass/_base.scss */
+/* line 128, ../sass/_base.scss */
 p {
   font-size: 1em;
   margin-bottom: 2em;
 }
 
-/* line 134, ../sass/_base.scss */
+/* line 133, ../sass/_base.scss */
 a {
   display: block;
 }
 
-/* line 138, ../sass/_base.scss */
+/* line 137, ../sass/_base.scss */
 img {
   display: inline-block;
   max-width: 100%;
 }
 
-/* line 143, ../sass/_base.scss */
+/* line 142, ../sass/_base.scss */
 br {
   margin-bottom: 1em;
 }
 
-/* line 147, ../sass/_base.scss */
+/* line 146, ../sass/_base.scss */
 em {
   color: #DF4949;
 }
 
-/* line 151, ../sass/_base.scss */
+/* line 150, ../sass/_base.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 155, ../sass/_base.scss */
+/* line 154, ../sass/_base.scss */
 abbr, acronym {
   border-bottom: 1px dotted #000;
   cursor: help;
@@ -594,17 +592,19 @@ body {
 
   /* line 227, ../sass/_layout.scss */
   .full-section {
-    height: 100vh;
+    height: 100%;
+    position: relative;
+    width: 100%;
   }
 
-  /* line 233, ../sass/_layout.scss */
+  /* line 235, ../sass/_layout.scss */
   .core, .tools, .workflow {
     width: 23.72881%;
     float: left;
     margin-right: 1.69492%;
   }
 
-  /* line 237, ../sass/_layout.scss */
+  /* line 239, ../sass/_layout.scss */
   .work {
     width: 23.72881%;
     float: right;
