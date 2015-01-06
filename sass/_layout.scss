@@ -27,8 +27,6 @@
         z-index: 2;
     }
 
-
-
     .n-link {
         width: 25%;
         a {
@@ -222,12 +220,6 @@
     
     #main, #bottom {
         @include span(12 of 15 last);
-    }
-
-    .full-section {
-        height: 100%;
-        position: relative;
-        width: 100%;
     }
 
     // Skills Section. //
