@@ -556,6 +556,12 @@ body {
   }
   /* line 208, ../sass/_layout.scss */
   .n-link a.first-radius:hover {
+    -moz-border-radius-topright: 0px;
+    -webkit-border-top-right-radius: 0px;
+    border-top-right-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+    border-bottom-right-radius: 0px;
     -moz-border-radius-topleft: 5px;
     -webkit-border-top-left-radius: 5px;
     border-top-left-radius: 5px;
@@ -563,8 +569,14 @@ body {
     -webkit-border-top-right-radius: 5px;
     border-top-right-radius: 5px;
   }
-  /* line 211, ../sass/_layout.scss */
+  /* line 212, ../sass/_layout.scss */
   .n-link a.last-radius:hover {
+    -moz-border-radius-topright: 0px;
+    -webkit-border-top-right-radius: 0px;
+    border-top-right-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+    border-bottom-right-radius: 0px;
     -moz-border-radius-bottomleft: 5px;
     -webkit-border-bottom-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -573,7 +585,7 @@ body {
     border-bottom-right-radius: 5px;
   }
 
-  /* line 217, ../sass/_layout.scss */
+  /* line 219, ../sass/_layout.scss */
   #main, #bottom {
     width: 81.01266%;
     float: right;
