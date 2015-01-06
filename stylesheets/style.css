@@ -554,8 +554,26 @@ body {
     padding-top: 1.65em;
     width: 100%;
   }
+  /* line 208, ../sass/_layout.scss */
+  .n-link a.first-radius:hover {
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  /* line 211, ../sass/_layout.scss */
+  .n-link a.last-radius:hover {
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
 
-  /* line 212, ../sass/_layout.scss */
+  /* line 217, ../sass/_layout.scss */
   #main, #bottom {
     width: 81.01266%;
     float: right;
