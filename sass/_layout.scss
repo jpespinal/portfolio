@@ -133,7 +133,7 @@
 
     .contact-links {
         margin: 0em auto 1.25em;
-        & img {
+        & a {
             height: 50px;
             width: 50px;
         }
@@ -182,11 +182,7 @@
 
     // Contact Section. //
 
-    .contact-links {
-        display: inline-block;
-        float: left;
-        width: 50%;
-    }
+
 }
 
 @media screen and (min-width: 960px) {
