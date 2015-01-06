@@ -178,6 +178,8 @@
 
 @media screen and (min-width: 960px) {
 
+    // Top Section. //
+
     #top {
         @include span(3 wide of 15);
         height: 100%;
@@ -215,6 +217,8 @@
             }
         }
     }
+
+    // Main Section. //
     
     #main, #bottom {
         @include span(12 of 15 last);
@@ -222,5 +226,19 @@
 
     .full-section {
         height: 100vh;
+    }
+
+    // Skills Section. //
+
+    .core, .workflow {
+        @include span(4 wide of 12);
+    }
+
+    .tools {
+        @include span(4 of 12 last);
+    }
+
+    .work {
+        @include span(12 of 12)
     }
 }

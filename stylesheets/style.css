@@ -518,7 +518,7 @@ body {
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 181, ../sass/_layout.scss */
+  /* line 183, ../sass/_layout.scss */
   #top {
     width: 20.27027%;
     float: left;
@@ -530,31 +530,31 @@ body {
     z-index: auto;
   }
 
-  /* line 190, ../sass/_layout.scss */
+  /* line 192, ../sass/_layout.scss */
   nav {
     height: 70%;
     position: relative;
     top: 15%;
   }
 
-  /* line 196, ../sass/_layout.scss */
+  /* line 198, ../sass/_layout.scss */
   .nav {
     height: 100%;
   }
 
-  /* line 200, ../sass/_layout.scss */
+  /* line 202, ../sass/_layout.scss */
   .n-link {
     height: 25%;
     width: 100%;
   }
-  /* line 203, ../sass/_layout.scss */
+  /* line 205, ../sass/_layout.scss */
   .n-link a {
     font-size: 2em;
     height: 100%;
     padding-top: 1.65em;
     width: 100%;
   }
-  /* line 208, ../sass/_layout.scss */
+  /* line 210, ../sass/_layout.scss */
   .n-link a.first-radius:hover {
     -moz-border-radius-topleft: 0px;
     -webkit-border-top-left-radius: 0px;
@@ -569,7 +569,7 @@ body {
     -webkit-border-top-right-radius: 5px;
     border-top-right-radius: 5px;
   }
-  /* line 212, ../sass/_layout.scss */
+  /* line 214, ../sass/_layout.scss */
   .n-link a.last-radius:hover {
     -moz-border-radius-topright: 0px;
     -webkit-border-top-right-radius: 0px;
@@ -585,15 +585,37 @@ body {
     border-bottom-right-radius: 5px;
   }
 
-  /* line 219, ../sass/_layout.scss */
+  /* line 223, ../sass/_layout.scss */
   #main, #bottom {
     width: 79.72973%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 223, ../sass/_layout.scss */
+  /* line 227, ../sass/_layout.scss */
   .full-section {
     height: 100vh;
+  }
+
+  /* line 233, ../sass/_layout.scss */
+  .core, .workflow {
+    width: 33.89831%;
+    float: left;
+    margin-right: 1.66667%;
+  }
+
+  /* line 237, ../sass/_layout.scss */
+  .tools {
+    width: 32.20339%;
+    float: right;
+    margin-right: 0;
+  }
+
+  /* line 241, ../sass/_layout.scss */
+  .work {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
