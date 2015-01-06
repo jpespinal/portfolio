@@ -121,6 +121,10 @@
 
     // Contact Section. //
 
+    .c-label, .c-links {
+        display: inline-block;
+    }
+
     .c-label {
         color: $blue;
         font-family: $cabin-sketch;
@@ -128,12 +132,10 @@
         text-align: center;
     }
 
-    .c-links {
+    .c-links a {
+        height: 50px;
         margin: 0em auto 1.25em;
-        & a {
-            height: 50px;
-            width: 50px;
-        }
+        width: 50px;
     }
 
     // Footer Section. //
