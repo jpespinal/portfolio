@@ -390,28 +390,32 @@ body {
   /* line 61, ../sass/_layout.scss */
   .full-section {
     padding: 3.8em 0% 2em;
-    margin: 0 auto;
-    width: 95%;
   }
 
-  /* line 67, ../sass/_layout.scss */
+  /* line 65, ../sass/_layout.scss */
   .sub-section {
     margin: 2em 0% 3em;
   }
 
-  /* line 71, ../sass/_layout.scss */
+  /* line 69, ../sass/_layout.scss */
   .title {
     font-size: 4em;
     margin: 0.375em 0% 0.75em;
   }
 
-  /* line 76, ../sass/_layout.scss */
+  /* line 74, ../sass/_layout.scss */
   .sub-title {
     font-size: 2em;
     margin-bottom: 0.5em;
   }
 
-  /* line 89, ../sass/_layout.scss */
+  /* line 79, ../sass/_layout.scss */
+  .content {
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  /* line 86, ../sass/_layout.scss */
   button {
     background-color: #F3F3F3;
     border: 3px solid #59C6B1;
@@ -424,63 +428,63 @@ body {
     text-align: center;
     width: 75%;
   }
-  /* line 98, ../sass/_layout.scss */
+  /* line 95, ../sass/_layout.scss */
   button:hover {
     border: 3px solid #DF4949;
   }
-  /* line 100, ../sass/_layout.scss */
+  /* line 97, ../sass/_layout.scss */
   button:hover .button-title {
     text-decoration: underline;
   }
 
-  /* line 106, ../sass/_layout.scss */
+  /* line 103, ../sass/_layout.scss */
   .button-title, .button-subtitle {
     font-family: "Cabin", arial, sans-serif;
     margin-bottom: 0.1em;
   }
 
-  /* line 111, ../sass/_layout.scss */
+  /* line 108, ../sass/_layout.scss */
   .button-title {
     color: #DF4949;
     font-size: 2em;
   }
 
-  /* line 116, ../sass/_layout.scss */
+  /* line 113, ../sass/_layout.scss */
   .button-subtitle {
     color: #334D5C;
     font-size: 1.5em;
   }
 
-  /* line 123, ../sass/_layout.scss */
+  /* line 120, ../sass/_layout.scss */
   .job {
     font-size: 1em;
   }
 
-  /* line 129, ../sass/_layout.scss */
+  /* line 126, ../sass/_layout.scss */
   .contact-list {
     text-align: center;
   }
 
-  /* line 133, ../sass/_layout.scss */
+  /* line 130, ../sass/_layout.scss */
   .contact-label {
     color: #334D5C;
     font-family: "Comic Serif Pro", georgia, serif;
     margin-bottom: 0.25em;
   }
 
-  /* line 139, ../sass/_layout.scss */
+  /* line 136, ../sass/_layout.scss */
   .contact-links {
     height: 50px;
     margin: 0em auto 1.25em;
     width: 50px;
   }
 
-  /* line 147, ../sass/_layout.scss */
+  /* line 144, ../sass/_layout.scss */
   #bottom {
     padding: 0.5em 2.5%;
   }
 
-  /* line 151, ../sass/_layout.scss */
+  /* line 148, ../sass/_layout.scss */
   .copyright {
     color: #EFC94C;
     font-size: 1em;
@@ -488,19 +492,19 @@ body {
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 162, ../sass/_layout.scss */
+  /* line 159, ../sass/_layout.scss */
   .description {
     margin: 0;
     width: auto;
   }
 
-  /* line 167, ../sass/_layout.scss */
+  /* line 164, ../sass/_layout.scss */
   .text {
     font-size: 1.2em;
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 174, ../sass/_layout.scss */
+  /* line 171, ../sass/_layout.scss */
   #top {
     width: 18.98734%;
     float: left;
@@ -512,24 +516,24 @@ body {
     z-index: auto;
   }
 
-  /* line 183, ../sass/_layout.scss */
+  /* line 180, ../sass/_layout.scss */
   nav {
     height: 70%;
     position: relative;
     top: 15%;
   }
 
-  /* line 189, ../sass/_layout.scss */
+  /* line 186, ../sass/_layout.scss */
   .nav {
     height: 100%;
   }
 
-  /* line 193, ../sass/_layout.scss */
+  /* line 190, ../sass/_layout.scss */
   .n-link {
     height: 25%;
     width: 100%;
   }
-  /* line 196, ../sass/_layout.scss */
+  /* line 193, ../sass/_layout.scss */
   .n-link a {
     font-size: 2em;
     height: 100%;
@@ -537,7 +541,7 @@ body {
     width: 100%;
   }
 
-  /* line 205, ../sass/_layout.scss */
+  /* line 202, ../sass/_layout.scss */
   #main, #bottom {
     width: 81.01266%;
     float: right;
