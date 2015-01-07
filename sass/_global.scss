@@ -9,13 +9,6 @@ body {
     @include container;
 }
 
-#container, #main {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
 // Top Section //
 
 #top {
@@ -44,12 +37,6 @@ body {
 
 .title {
     text-align: center;
-}
-
-.full-section {
-    height: 100%;
-    position: relative;
-    width: 100%;
 }
 
 // About Section //
