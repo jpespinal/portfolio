@@ -223,9 +223,12 @@
     }
 
     // Main Section. //
-    
+
     #main {
         height: 100%;
+    }
+    
+    #main, #bottom {
         @include span(12 of 15 last);
     }
 

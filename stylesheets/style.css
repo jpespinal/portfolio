@@ -581,12 +581,16 @@ body {
   /* line 227, ../sass/_layout.scss */
   #main {
     height: 100%;
+  }
+
+  /* line 231, ../sass/_layout.scss */
+  #main, #bottom {
     width: 79.72973%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 232, ../sass/_layout.scss */
+  /* line 235, ../sass/_layout.scss */
   #about, #projects, #contact {
     height: 100%;
     width: 100%;
