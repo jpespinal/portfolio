@@ -224,7 +224,15 @@
 
     // Main Section. //
     
-    #main, #bottom {
+    #container, #main, #bottom {
+        height: 100%;
+        margin: 0;
+        padding: 0;
         @include span(12 of 15 last);
+    }
+
+    .full-section {
+        height: 100%;
+        width: 100%;
     }
 }
