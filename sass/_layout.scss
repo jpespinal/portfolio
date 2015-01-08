@@ -224,12 +224,12 @@
 
     // Main Section. //
     
-    #main, #bottom {
+    #main {
         height: 100%;
         @include span(12 of 15 last);
     }
 
-    .full-section {
+    #about, #projects, #contact {
         height: 100%;
         width: 100%;
     }

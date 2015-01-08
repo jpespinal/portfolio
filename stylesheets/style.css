@@ -579,7 +579,7 @@ body {
   }
 
   /* line 227, ../sass/_layout.scss */
-  #main, #bottom {
+  #main {
     height: 100%;
     width: 79.72973%;
     float: right;
@@ -587,7 +587,7 @@ body {
   }
 
   /* line 232, ../sass/_layout.scss */
-  .full-section {
+  #about, #projects, #contact {
     height: 100%;
     width: 100%;
   }
