@@ -109,80 +109,78 @@ html {
 /* line 91, ../sass/_base.scss */
 html, body {
   height: 100%;
-  margin: 0;
-  padding: 0;
   width: 100%;
 }
 
-/* line 98, ../sass/_base.scss */
+/* line 96, ../sass/_base.scss */
 h1 {
   font-size: 1.6em;
   margin-bottom: 0.625em;
 }
 
-/* line 103, ../sass/_base.scss */
+/* line 101, ../sass/_base.scss */
 h2 {
   font-size: 1.5em;
   margin-bottom: 0.66666667em;
 }
 
-/* line 108, ../sass/_base.scss */
+/* line 106, ../sass/_base.scss */
 h3 {
   font-size: 1.4em;
   margin-bottom: 0.71428571em;
 }
 
-/* line 113, ../sass/_base.scss */
+/* line 111, ../sass/_base.scss */
 h4 {
   font-size: 1.3em;
   margin-bottom: 0.76923077em;
 }
 
-/* line 118, ../sass/_base.scss */
+/* line 116, ../sass/_base.scss */
 h5 {
   font-size: 1.2em;
   margin-bottom: 0.83333333em;
 }
 
-/* line 123, ../sass/_base.scss */
+/* line 121, ../sass/_base.scss */
 h6 {
   font-size: 1.1em;
   margin-bottom: 0.90909091em;
 }
 
-/* line 128, ../sass/_base.scss */
+/* line 126, ../sass/_base.scss */
 p {
   font-size: 1em;
   margin-bottom: 2em;
 }
 
-/* line 133, ../sass/_base.scss */
+/* line 131, ../sass/_base.scss */
 a {
   display: block;
 }
 
-/* line 137, ../sass/_base.scss */
+/* line 135, ../sass/_base.scss */
 img {
   display: inline-block;
   max-width: 100%;
 }
 
-/* line 142, ../sass/_base.scss */
+/* line 140, ../sass/_base.scss */
 br {
   margin-bottom: 1em;
 }
 
-/* line 146, ../sass/_base.scss */
+/* line 144, ../sass/_base.scss */
 em {
   color: #DF4949;
 }
 
-/* line 150, ../sass/_base.scss */
+/* line 148, ../sass/_base.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 154, ../sass/_base.scss */
+/* line 152, ../sass/_base.scss */
 abbr, acronym {
   border-bottom: 1px dotted #000;
   cursor: help;
@@ -197,6 +195,7 @@ body {
 
 /* line 8, ../sass/_global.scss */
 #container {
+  height: 100%;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -208,12 +207,12 @@ body {
   clear: both;
 }
 
-/* line 14, ../sass/_global.scss */
+/* line 15, ../sass/_global.scss */
 #top {
   background-color: #EFC94C;
 }
 
-/* line 18, ../sass/_global.scss */
+/* line 19, ../sass/_global.scss */
 .nav {
   background-color: #3C3C3C;
   border: 1px solid #3C3C3C;
@@ -222,7 +221,7 @@ body {
   border-radius: 5px;
 }
 
-/* line 24, ../sass/_global.scss */
+/* line 25, ../sass/_global.scss */
 .n-link {
   display: inline-block;
   font-weight: 700;
@@ -230,82 +229,82 @@ body {
   text-align: center;
 }
 
-/* line 33, ../sass/_global.scss */
+/* line 34, ../sass/_global.scss */
 .title, .sub-title {
   font-family: "Comic Serif Pro", georgia, serif;
   line-height: 1em;
 }
 
-/* line 38, ../sass/_global.scss */
+/* line 39, ../sass/_global.scss */
 .title {
   text-align: center;
 }
 
-/* line 44, ../sass/_global.scss */
+/* line 45, ../sass/_global.scss */
 #about {
   background-color: #F3F3F3;
   color: #334D5C;
 }
-/* line 47, ../sass/_global.scss */
+/* line 48, ../sass/_global.scss */
 #about .title {
   color: #45B29D;
 }
 
-/* line 54, ../sass/_global.scss */
+/* line 55, ../sass/_global.scss */
 #projects {
   background-color: #45B29D;
 }
-/* line 56, ../sass/_global.scss */
+/* line 57, ../sass/_global.scss */
 #projects .title {
   color: #F3F3F3;
 }
 
-/* line 63, ../sass/_global.scss */
+/* line 64, ../sass/_global.scss */
 #skills {
   background-color: #334D5C;
   color: #F3F3F3;
 }
-/* line 66, ../sass/_global.scss */
+/* line 67, ../sass/_global.scss */
 #skills .title {
   color: #DF4949;
 }
-/* line 69, ../sass/_global.scss */
+/* line 70, ../sass/_global.scss */
 #skills .sub-title {
   color: #DF4949;
 }
 
-/* line 74, ../sass/_global.scss */
+/* line 75, ../sass/_global.scss */
 .s-list {
   list-style-position: inside;
   list-style-image: url(../assets/list-diamond.svg);
 }
 
-/* line 79, ../sass/_global.scss */
+/* line 80, ../sass/_global.scss */
 .workplace, .job {
   font-weight: 700;
 }
 
-/* line 83, ../sass/_global.scss */
+/* line 84, ../sass/_global.scss */
 .workplace {
   margin: 0;
 }
 
-/* line 87, ../sass/_global.scss */
+/* line 88, ../sass/_global.scss */
 .job {
   color: #45B29D;
 }
 
-/* line 93, ../sass/_global.scss */
+/* line 94, ../sass/_global.scss */
 #contact {
   background-color: #DF4949;
   color: #334D5C;
 }
-/* line 96, ../sass/_global.scss */
+/* line 97, ../sass/_global.scss */
 #contact .title {
   color: #334D5C;
 }
 
-/* line 103, ../sass/_global.scss */
+/* line 104, ../sass/_global.scss */
 #bottom {
   background-color: #3C3C3C;
   text-align: center;
@@ -580,16 +579,14 @@ body {
   }
 
   /* line 227, ../sass/_layout.scss */
-  #container, #main, #bottom {
+  #main, #bottom {
     height: 100%;
-    margin: 0;
-    padding: 0;
     width: 79.72973%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 234, ../sass/_layout.scss */
+  /* line 232, ../sass/_layout.scss */
   .full-section {
     height: 100%;
     width: 100%;
