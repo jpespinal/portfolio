@@ -247,7 +247,7 @@
         @include span(4 wide of 12 last);
     }
 
-    .work {
-        @include span(12 of 12);
-    }
+    // .work {
+    //     @include span(12 wide of 12 last);
+    // }
 }
