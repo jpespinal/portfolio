@@ -592,7 +592,7 @@ body {
 
   /* line 235, ../sass/_layout.scss */
   #about, #projects, #contact {
-    min-height: 100%;
+    height: 100%;
   }
 
   /* line 241, ../sass/_layout.scss */
@@ -623,6 +623,11 @@ body {
   }
 
   /* line 253, ../sass/_layout.scss */
+  .core, .workflow, .tools {
+    padding-left: 8%;
+  }
+
+  /* line 257, ../sass/_layout.scss */
   .work {
     width: 100%;
     float: left;
