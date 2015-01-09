@@ -595,4 +595,11 @@ body {
     height: 100%;
     width: 100%;
   }
+
+  /* line 242, ../sass/_layout.scss */
+  .core, .workflow {
+    width: 33.89831%;
+    float: left;
+    margin-right: 1.66667%;
+  }
 }

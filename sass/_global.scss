@@ -10,7 +10,7 @@ body {
     @include container;
 }
 
-// Top Section //
+// Top Section. //
 
 #top {
     background-color: $yellow;
@@ -29,7 +29,7 @@ body {
     text-align: center;
 }
 
-// Main Section //
+// Main Section. //
 
 .title, .sub-title {
     font-family: $cabin-sketch;
@@ -40,7 +40,7 @@ body {
     text-align: center;
 }
 
-// About Section //
+// About Section. //
 
 #about {
     background-color: $light-grey;
@@ -50,7 +50,7 @@ body {
     }
 }
 
-// Projects Section //
+// Projects Section. //
 
 #projects {
     background-color: $green;
@@ -59,7 +59,7 @@ body {
     }
 }
 
-// Skills Section //
+// Skills Section. //
 
 #skills {
     background-color: $blue;
@@ -89,7 +89,7 @@ body {
     color: $green;
 }
 
-// Contact Section //
+// Contact Section. //
 
 #contact {
     background-color: $red;
@@ -99,7 +99,7 @@ body {
     }
 }
 
-// Footer Section //
+// Footer Section. //
 
 #bottom {
     background-color: $black;

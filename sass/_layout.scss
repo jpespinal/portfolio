@@ -236,4 +236,10 @@
         height: 100%;
         width: 100%;
     }
+
+    // Skills Section. //
+
+    .core, .workflow {
+        @include span(4 wide of 12);
+    }
 }
