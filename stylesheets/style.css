@@ -602,4 +602,11 @@ body {
     float: left;
     margin-right: 1.66667%;
   }
+
+  /* line 246, ../sass/_layout.scss */
+  .tool {
+    width: 33.89831%;
+    float: right;
+    margin-right: 0;
+  }
 }

@@ -242,4 +242,8 @@
     .core, .workflow {
         @include span(4 wide of 12);
     }
+
+    .tool {
+        @include span(4 wide of 12 last);
+    }
 }
