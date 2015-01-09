@@ -243,11 +243,7 @@
         @include container;
     }
 
-    .core {
-        @include span(4 wide of 12);
-    }
-
-    .workflow {
+    .core, .workflow {
         @include span(4 of 12);
     }
 
