@@ -623,11 +623,6 @@ body {
   }
 
   /* line 253, ../sass/_layout.scss */
-  .core, .workflow, .tools {
-    padding-left: 2.5%;
-  }
-
-  /* line 257, ../sass/_layout.scss */
   .work {
     width: 100%;
     float: left;

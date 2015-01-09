@@ -250,10 +250,6 @@
         @include span(4 of 12 last);
     }
 
-    .core, .workflow, .tools {
-        padding-left: 2.5%;
-    }
-
     .work {
         @include span(12 of 12);
     }
