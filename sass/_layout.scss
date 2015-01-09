@@ -239,15 +239,16 @@
 
     // Skills Section. //
 
+    #skills .content {
+        margin: 0;
+        width: 100%;
+    }
+
     .core, .workflow {
         @include span(4 of 12);
     }
 
     .tools {
         @include span(4 of 12 last);
-    }
-
-    .work {
-        @include span(12 of 12);
     }
 }
