@@ -232,16 +232,15 @@
         @include span(12 of 15 last);
     }
 
+    #about, #projects, #skills, #contact {
+        @include container;
+    }
+
     #about, #projects, #contact {
         height: 100%;
-        width: 100%;
     }
 
     // Skills Section. //
-
-    #skills {
-        @include container;
-    }
 
     .sub-section {
         text-align: center;
