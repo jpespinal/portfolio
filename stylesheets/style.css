@@ -597,26 +597,39 @@ body {
   }
 
   /* line 242, ../sass/_layout.scss */
+  #skills {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+  #skills:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
+  /* line 246, ../sass/_layout.scss */
   #skills .content {
     margin: 0;
     width: 100%;
   }
 
-  /* line 251, ../sass/_layout.scss */
+  /* line 255, ../sass/_layout.scss */
   .core, .workflow {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
   }
 
-  /* line 255, ../sass/_layout.scss */
+  /* line 259, ../sass/_layout.scss */
   .tools {
     width: 32.20339%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 259, ../sass/_layout.scss */
+  /* line 263, ../sass/_layout.scss */
   .work {
     width: 100%;
     float: left;

@@ -239,6 +239,10 @@
 
     // Skills Section. //
 
+    #skills {
+        @include container;
+    }
+
     #skills .content {
         margin: 0;
         width: 100%;
