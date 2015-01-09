@@ -602,17 +602,25 @@ body {
     width: 100%;
   }
 
-  /* line 247, ../sass/_layout.scss */
+  /* line 251, ../sass/_layout.scss */
   .core, .workflow {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
   }
 
-  /* line 251, ../sass/_layout.scss */
+  /* line 255, ../sass/_layout.scss */
   .tools {
     width: 32.20339%;
     float: right;
+    margin-right: 0;
+  }
+
+  /* line 259, ../sass/_layout.scss */
+  .work {
+    width: 100%;
+    float: left;
+    margin-left: 0;
     margin-right: 0;
   }
 }

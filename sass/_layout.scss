@@ -244,11 +244,19 @@
         width: 100%;
     }
 
+    #skills .s-list {
+
+    }
+
     .core, .workflow {
         @include span(4 of 12);
     }
 
     .tools {
         @include span(4 of 12 last);
+    }
+
+    .work {
+        @include span(12 of 12);
     }
 }
