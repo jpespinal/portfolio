@@ -243,7 +243,11 @@
         @include span(4 wide of 12);
     }
 
-    .tool {
+    .tools {
         @include span(4 wide of 12 last);
+    }
+
+    .work {
+        @include span(12 of 12);
     }
 }

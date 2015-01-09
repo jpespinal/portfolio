@@ -604,9 +604,17 @@ body {
   }
 
   /* line 246, ../sass/_layout.scss */
-  .tool {
+  .tools {
     width: 33.89831%;
     float: right;
+    margin-right: 0;
+  }
+
+  /* line 250, ../sass/_layout.scss */
+  .work {
+    width: 100%;
+    float: left;
+    margin-left: 0;
     margin-right: 0;
   }
 }
