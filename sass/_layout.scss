@@ -225,19 +225,15 @@
     // Main Section. //
 
     #main {
-        height: 100%;
+        min-height: 100%;
     }
     
     #main, #bottom {
         @include span(12 of 15 last);
     }
 
-    #about, #projects, #skills, #contact {
-        @include container;
-    }
-
     #about, #projects, #contact {
-        height: 100%;
+        min-height: 100%;
     }
 
     // Skills Section. //
