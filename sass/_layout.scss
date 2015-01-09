@@ -243,15 +243,6 @@
         @include container;
     }
 
-    #skills .content {
-        margin: 0;
-        width: 100%;
-    }
-
-    #skills .s-list {
-
-    }
-
     .core, .workflow {
         @include span(4 of 12);
     }
