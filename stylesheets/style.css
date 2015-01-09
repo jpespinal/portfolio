@@ -589,7 +589,7 @@ body {
 
   /* line 227, ../sass/_layout.scss */
   #main {
-    min-height: 100%;
+    height: 100%;
   }
 
   /* line 231, ../sass/_layout.scss */
@@ -605,8 +605,16 @@ body {
   }
 
   /* line 241, ../sass/_layout.scss */
-  .sub-title {
-    text-align: center;
+  #skills {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+  #skills:after {
+    content: " ";
+    display: block;
+    clear: both;
   }
 
   /* line 245, ../sass/_layout.scss */

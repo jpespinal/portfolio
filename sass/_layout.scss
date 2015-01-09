@@ -225,7 +225,7 @@
     // Main Section. //
 
     #main {
-        min-height: 100%;
+        height: 100%;
     }
     
     #main, #bottom {
@@ -238,8 +238,8 @@
 
     // Skills Section. //
 
-    .sub-title {
-        text-align: center;
+    #skills {
+        @include container;
     }
 
     .core, .workflow {
