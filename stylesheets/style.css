@@ -108,88 +108,79 @@ html {
    ============================================================ */
 /* line 91, ../sass/_base.scss */
 html, body {
+  height: 100%;
   width: 100%;
 }
 
-/* line 95, ../sass/_base.scss */
-html {
-  height: 100%;
-}
-
-/* line 99, ../sass/_base.scss */
-body {
-  min-height: 100%;
-}
-
-/* line 103, ../sass/_base.scss */
+/* line 96, ../sass/_base.scss */
 h1 {
   font-size: 1.6em;
   margin-bottom: 0.625em;
 }
 
-/* line 108, ../sass/_base.scss */
+/* line 101, ../sass/_base.scss */
 h2 {
   font-size: 1.5em;
   margin-bottom: 0.66666667em;
 }
 
-/* line 113, ../sass/_base.scss */
+/* line 106, ../sass/_base.scss */
 h3 {
   font-size: 1.4em;
   margin-bottom: 0.71428571em;
 }
 
-/* line 118, ../sass/_base.scss */
+/* line 111, ../sass/_base.scss */
 h4 {
   font-size: 1.3em;
   margin-bottom: 0.76923077em;
 }
 
-/* line 123, ../sass/_base.scss */
+/* line 116, ../sass/_base.scss */
 h5 {
   font-size: 1.2em;
   margin-bottom: 0.83333333em;
 }
 
-/* line 128, ../sass/_base.scss */
+/* line 121, ../sass/_base.scss */
 h6 {
   font-size: 1.1em;
   margin-bottom: 0.90909091em;
 }
 
-/* line 133, ../sass/_base.scss */
+/* line 126, ../sass/_base.scss */
 p {
   font-size: 1em;
   margin-bottom: 2em;
 }
 
-/* line 138, ../sass/_base.scss */
+/* line 131, ../sass/_base.scss */
 a {
   display: block;
 }
 
-/* line 142, ../sass/_base.scss */
+/* line 135, ../sass/_base.scss */
 img {
   display: inline-block;
   max-width: 100%;
 }
 
-/* line 147, ../sass/_base.scss */
+/* line 140, ../sass/_base.scss */
 br {
   margin-bottom: 1em;
 }
 
-/* line 151, ../sass/_base.scss */
+/* line 144, ../sass/_base.scss */
 em {
   color: #DF4949;
 }
 
-/* line 155, ../sass/_base.scss */
+/* line 148, ../sass/_base.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 159, ../sass/_base.scss */
+/* line 152, ../sass/_base.scss */
 abbr, acronym {
   border-bottom: 1px dotted #000;
   cursor: help;
