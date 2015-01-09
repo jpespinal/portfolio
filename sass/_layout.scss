@@ -243,6 +243,10 @@
         @include container;
     }
 
+    .sub-section {
+        text-align: center;
+    }
+
     .core, .workflow {
         @include span(4 of 12);
     }
