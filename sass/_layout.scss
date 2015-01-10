@@ -116,7 +116,8 @@
 
     // Footer. //
 
-    // #bottom {
-    //     @include span(12 of 15 last);
-    // }
+    #bottom {
+        height: 2em;
+        @include span(12 of 15 last);
+    }
 }

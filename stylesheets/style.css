@@ -594,4 +594,12 @@ button:hover .p-title {
     margin-left: 0;
     margin-right: 0;
   }
+
+  /* line 119, ../sass/_layout.scss */
+  #bottom {
+    height: 2em;
+    width: 79.72973%;
+    float: right;
+    margin-right: 0;
+  }
 }
