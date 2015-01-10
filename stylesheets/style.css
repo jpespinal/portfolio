@@ -560,21 +560,11 @@ button:hover .p-title {
     border-bottom-right-radius: 5px;
   }
 
-  /* line 87, ../sass/_layout.scss */
-  #main {
-    height: 100%;
-  }
-
   /* line 91, ../sass/_layout.scss */
   #main {
     width: 79.72973%;
     float: right;
     margin-right: 0;
-  }
-
-  /* line 95, ../sass/_layout.scss */
-  #about, #projects, #contact {
-    height: 100%;
   }
 
   /* line 99, ../sass/_layout.scss */
@@ -602,13 +592,6 @@ button:hover .p-title {
     width: 100%;
     float: left;
     margin-left: 0;
-    margin-right: 0;
-  }
-
-  /* line 119, ../sass/_layout.scss */
-  #bottom {
-    width: 79.72973%;
-    float: right;
     margin-right: 0;
   }
 }

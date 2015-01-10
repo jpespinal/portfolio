@@ -84,17 +84,17 @@
 
     // Main Section. //
 
-    #main {
-        height: 100%;
-    }
+    // #main {
+    //     height: 100%;
+    // }
     
     #main {
         @include span(12 of 15 last);
     }
 
-    #about, #projects, #contact {
-        height: 100%;
-    }
+    // #about, #projects, #contact {
+    //     height: 100%;
+    // }
 
     #about, #projects, #skills, #contact {
         @include clearfix;
@@ -116,7 +116,7 @@
 
     // Footer. //
 
-    #bottom {
-        @include span(12 of 15 last);
-    }
+    // #bottom {
+    //     @include span(12 of 15 last);
+    // }
 }
