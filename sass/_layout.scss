@@ -38,6 +38,10 @@
     #about, #projects, #contact {
         height: 100%;
     }
+
+    #skills {
+        min-height: 100%;
+    }
 }
 
 @media screen and (min-width: 960px) {
