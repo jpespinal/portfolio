@@ -191,9 +191,10 @@ abbr, acronym {
 body {
   background-color: white;
   font-family: "Cabin", arial, sans-serif;
+  min-width: 300px;
 }
 
-/* line 8, ../sass/_global.scss */
+/* line 9, ../sass/_global.scss */
 #container {
   height: 100%;
   max-width: 100%;
@@ -207,12 +208,28 @@ body {
   clear: both;
 }
 
-/* line 15, ../sass/_global.scss */
-#top {
-  background-color: #EFC94C;
+/* line 14, ../sass/_global.scss */
+#top, #main, #bottom {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
 }
 
-/* line 19, ../sass/_global.scss */
+/* line 20, ../sass/_global.scss */
+#top {
+  background-color: #EFC94C;
+  height: 3.8em;
+  min-width: 300px;
+  padding: 0.5em 2.5%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+
+/* line 32, ../sass/_global.scss */
 .nav {
   background-color: #3C3C3C;
   border: 1px solid #3C3C3C;
@@ -221,297 +238,251 @@ body {
   border-radius: 5px;
 }
 
-/* line 25, ../sass/_global.scss */
+/* line 38, ../sass/_global.scss */
 .n-link {
   display: inline-block;
   font-weight: 700;
   margin-right: -0.21em;
   text-align: center;
+  width: 25%;
+}
+/* line 44, ../sass/_global.scss */
+.n-link a {
+  color: #EFC94C;
+  font-size: 1em;
+  padding: 0.5em;
+}
+/* line 48, ../sass/_global.scss */
+.n-link a:hover {
+  background-color: #FFFFFF;
+  color: #3C3C3C;
+}
+/* line 52, ../sass/_global.scss */
+.n-link a.first-radius:hover {
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+/* line 55, ../sass/_global.scss */
+.n-link a.last-radius:hover {
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
-/* line 34, ../sass/_global.scss */
+/* line 61, ../sass/_global.scss */
+.active {
+  background-color: #FFFFFF;
+  border: 1px solid #3C3C3C;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* line 70, ../sass/_global.scss */
+.full-section {
+  padding: 3.8em 0% 2em;
+}
+
+/* line 74, ../sass/_global.scss */
+.sub-section {
+  margin: 2em 0% 3em;
+}
+
+/* line 78, ../sass/_global.scss */
 .title, .sub-title {
   font-family: "Comic Serif Pro", georgia, serif;
   line-height: 1em;
 }
 
-/* line 39, ../sass/_global.scss */
+/* line 83, ../sass/_global.scss */
 .title {
   text-align: center;
+  font-size: 4em;
+  margin: 0.375em 0% 0.75em;
 }
 
-/* line 45, ../sass/_global.scss */
+/* line 89, ../sass/_global.scss */
+.sub-title {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+/* line 94, ../sass/_global.scss */
+.content {
+  margin: 0 auto;
+  width: 95%;
+}
+
+/* line 101, ../sass/_global.scss */
 #about {
   background-color: #F3F3F3;
   color: #334D5C;
 }
-/* line 48, ../sass/_global.scss */
+/* line 104, ../sass/_global.scss */
 #about .title {
   color: #45B29D;
 }
 
-/* line 55, ../sass/_global.scss */
+/* line 111, ../sass/_global.scss */
 #projects {
   background-color: #45B29D;
 }
-/* line 57, ../sass/_global.scss */
+/* line 113, ../sass/_global.scss */
 #projects .title {
   color: #F3F3F3;
 }
 
-/* line 64, ../sass/_global.scss */
+/* line 118, ../sass/_global.scss */
+button {
+  background-color: #F3F3F3;
+  border: 3px solid #59C6B1;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  margin: 0em auto 3em;
+  padding: 0.2em 1.5%;
+  text-align: center;
+  width: 75%;
+}
+/* line 127, ../sass/_global.scss */
+button:hover {
+  border: 3px solid #DF4949;
+}
+/* line 129, ../sass/_global.scss */
+button:hover .p-title {
+  text-decoration: underline;
+}
+
+/* line 135, ../sass/_global.scss */
+.p-title, .p-subtitle {
+  font-family: "Cabin", arial, sans-serif;
+  margin-bottom: 0.1em;
+}
+
+/* line 140, ../sass/_global.scss */
+.p-title {
+  color: #DF4949;
+  font-size: 2em;
+}
+
+/* line 145, ../sass/_global.scss */
+.p-subtitle {
+  color: #334D5C;
+  font-size: 1.5em;
+}
+
+/* line 152, ../sass/_global.scss */
 #skills {
   background-color: #334D5C;
   color: #F3F3F3;
 }
-/* line 67, ../sass/_global.scss */
+/* line 155, ../sass/_global.scss */
 #skills .title {
   color: #DF4949;
 }
-/* line 70, ../sass/_global.scss */
+/* line 158, ../sass/_global.scss */
 #skills .sub-title {
   color: #DF4949;
 }
 
-/* line 75, ../sass/_global.scss */
+/* line 163, ../sass/_global.scss */
 .s-list {
   list-style-position: inside;
   list-style-image: url(../assets/list-diamond.svg);
 }
 
-/* line 80, ../sass/_global.scss */
+/* line 168, ../sass/_global.scss */
 .workplace, .job {
   font-weight: 700;
 }
 
-/* line 84, ../sass/_global.scss */
+/* line 172, ../sass/_global.scss */
 .workplace {
   margin: 0;
 }
 
-/* line 88, ../sass/_global.scss */
+/* line 176, ../sass/_global.scss */
 .job {
   color: #45B29D;
+  font-size: 1em;
 }
 
-/* line 94, ../sass/_global.scss */
+/* line 183, ../sass/_global.scss */
 #contact {
   background-color: #DF4949;
   color: #334D5C;
 }
-/* line 97, ../sass/_global.scss */
+/* line 186, ../sass/_global.scss */
 #contact .title {
   color: #334D5C;
 }
 
-/* line 104, ../sass/_global.scss */
-#bottom {
-  background-color: #3C3C3C;
+/* line 191, ../sass/_global.scss */
+.c-label {
+  color: #334D5C;
+  font-family: "Comic Serif Pro", georgia, serif;
+  margin-bottom: 0.25em;
   text-align: center;
 }
 
-/* This is the state page, it is where the layout is defined based on device */
-/* ========================================================
-   Media Queries.
-   ======================================================== */
-@media screen and (min-width: 0px) {
-  /* line 9, ../sass/_layout.scss */
-  body {
-    min-width: 300px;
-  }
-
-  /* line 13, ../sass/_layout.scss */
-  #top, #main, #bottom {
-    width: 100%;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  /* line 19, ../sass/_layout.scss */
-  #top {
-    height: 3.8em;
-    min-width: 300px;
-    padding: 0.5em 2.5%;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 2;
-  }
-
-  /* line 30, ../sass/_layout.scss */
-  .n-link {
-    width: 25%;
-  }
-  /* line 32, ../sass/_layout.scss */
-  .n-link a {
-    color: #EFC94C;
-    font-size: 1em;
-    padding: 0.5em;
-  }
-  /* line 36, ../sass/_layout.scss */
-  .n-link a:hover {
-    background-color: #FFFFFF;
-    color: #3C3C3C;
-  }
-  /* line 40, ../sass/_layout.scss */
-  .n-link a.first-radius:hover {
-    -moz-border-radius-topleft: 5px;
-    -webkit-border-top-left-radius: 5px;
-    border-top-left-radius: 5px;
-    -moz-border-radius-bottomleft: 5px;
-    -webkit-border-bottom-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-  }
-  /* line 43, ../sass/_layout.scss */
-  .n-link a.last-radius:hover {
-    -moz-border-radius-topright: 5px;
-    -webkit-border-top-right-radius: 5px;
-    border-top-right-radius: 5px;
-    -moz-border-radius-bottomright: 5px;
-    -webkit-border-bottom-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-  }
-
-  /* line 49, ../sass/_layout.scss */
-  .active {
-    background-color: #FFFFFF;
-    border: 1px solid #3C3C3C;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-  }
-
-  /* line 59, ../sass/_layout.scss */
-  .full-section {
-    padding: 3.8em 0% 2em;
-  }
-
-  /* line 63, ../sass/_layout.scss */
-  .sub-section {
-    margin: 2em 0% 3em;
-  }
-
-  /* line 67, ../sass/_layout.scss */
-  .title {
-    font-size: 4em;
-    margin: 0.375em 0% 0.75em;
-  }
-
-  /* line 72, ../sass/_layout.scss */
-  .sub-title {
-    font-size: 2em;
-    margin-bottom: 0.5em;
-  }
-
-  /* line 77, ../sass/_layout.scss */
-  .content {
-    margin: 0 auto;
-    width: 95%;
-  }
-
-  /* line 84, ../sass/_layout.scss */
-  button {
-    background-color: #F3F3F3;
-    border: 3px solid #59C6B1;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    display: block;
-    margin: 0em auto 3em;
-    padding: 0.2em 1.5%;
-    text-align: center;
-    width: 75%;
-  }
-  /* line 93, ../sass/_layout.scss */
-  button:hover {
-    border: 3px solid #DF4949;
-  }
-  /* line 95, ../sass/_layout.scss */
-  button:hover .p-title {
-    text-decoration: underline;
-  }
-
-  /* line 101, ../sass/_layout.scss */
-  .p-title, .p-subtitle {
-    font-family: "Cabin", arial, sans-serif;
-    margin-bottom: 0.1em;
-  }
-
-  /* line 106, ../sass/_layout.scss */
-  .p-title {
-    color: #DF4949;
-    font-size: 2em;
-  }
-
-  /* line 111, ../sass/_layout.scss */
-  .p-subtitle {
-    color: #334D5C;
-    font-size: 1.5em;
-  }
-
-  /* line 118, ../sass/_layout.scss */
-  .job {
-    font-size: 1em;
-  }
-
-  /* line 124, ../sass/_layout.scss */
-  .c-label {
-    color: #334D5C;
-    font-family: "Comic Serif Pro", georgia, serif;
-    margin-bottom: 0.25em;
-    text-align: center;
-  }
-
-  /* line 131, ../sass/_layout.scss */
-  .c-links a {
-    height: 50px;
-    margin: 0em auto 1.25em;
-    width: 50px;
-  }
-
-  /* line 139, ../sass/_layout.scss */
-  #bottom {
-    padding: 0.5em 2.5%;
-  }
-
-  /* line 143, ../sass/_layout.scss */
-  .copyright {
-    color: #EFC94C;
-    font-size: 1em;
-    margin: 0;
-  }
+/* line 198, ../sass/_global.scss */
+.c-links a {
+  height: 50px;
+  margin: 0em auto 1.25em;
+  width: 50px;
 }
+
+/* line 206, ../sass/_global.scss */
+#bottom {
+  background-color: #3C3C3C;
+  padding: 0.5em 2.5%;
+  text-align: center;
+}
+
+/* line 212, ../sass/_global.scss */
+.copyright {
+  color: #EFC94C;
+  font-size: 1em;
+  margin: 0;
+}
+
 @media screen and (min-width: 480px) {
-  /* line 154, ../sass/_layout.scss */
+  /* line 6, ../sass/_layout.scss */
   a, li, p {
     font-size: 1.2em;
   }
 
-  /* line 160, ../sass/_layout.scss */
+  /* line 12, ../sass/_layout.scss */
   .title {
     font-size: 4.2em;
   }
 
-  /* line 164, ../sass/_layout.scss */
+  /* line 16, ../sass/_layout.scss */
   .sub-title {
     font-size: 2.2em;
   }
 
-  /* line 170, ../sass/_layout.scss */
+  /* line 22, ../sass/_layout.scss */
   .p-title {
     font-size: 2.2em;
   }
 
-  /* line 174, ../sass/_layout.scss */
+  /* line 26, ../sass/_layout.scss */
   .p-subtitle {
     font-size: 1.7em;
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 187, ../sass/_layout.scss */
+  /* line 37, ../sass/_layout.scss */
   #top {
     width: 20.27027%;
     float: left;
@@ -523,31 +494,31 @@ body {
     z-index: auto;
   }
 
-  /* line 196, ../sass/_layout.scss */
+  /* line 46, ../sass/_layout.scss */
   nav {
     height: 70%;
     position: relative;
     top: 15%;
   }
 
-  /* line 202, ../sass/_layout.scss */
+  /* line 52, ../sass/_layout.scss */
   .nav {
     height: 100%;
   }
 
-  /* line 206, ../sass/_layout.scss */
+  /* line 56, ../sass/_layout.scss */
   .n-link {
     height: 25%;
     width: 100%;
   }
-  /* line 209, ../sass/_layout.scss */
+  /* line 59, ../sass/_layout.scss */
   .n-link a {
     font-size: 2em;
     height: 100%;
     padding-top: 1.65em;
     width: 100%;
   }
-  /* line 214, ../sass/_layout.scss */
+  /* line 64, ../sass/_layout.scss */
   .n-link a.first-radius:hover {
     -moz-border-radius-topleft: 0px;
     -webkit-border-top-left-radius: 0px;
@@ -562,7 +533,7 @@ body {
     -webkit-border-top-right-radius: 5px;
     border-top-right-radius: 5px;
   }
-  /* line 218, ../sass/_layout.scss */
+  /* line 68, ../sass/_layout.scss */
   .n-link a.last-radius:hover {
     -moz-border-radius-topright: 0px;
     -webkit-border-top-right-radius: 0px;
@@ -578,24 +549,24 @@ body {
     border-bottom-right-radius: 5px;
   }
 
-  /* line 227, ../sass/_layout.scss */
+  /* line 77, ../sass/_layout.scss */
   #main {
     height: 100%;
   }
 
-  /* line 231, ../sass/_layout.scss */
+  /* line 81, ../sass/_layout.scss */
   #main, #bottom {
     width: 79.72973%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 235, ../sass/_layout.scss */
+  /* line 85, ../sass/_layout.scss */
   #about, #projects, #contact {
     height: 100%;
   }
 
-  /* line 241, ../sass/_layout.scss */
+  /* line 91, ../sass/_layout.scss */
   #skills {
     max-width: 100%;
     margin-left: auto;
@@ -608,21 +579,21 @@ body {
     clear: both;
   }
 
-  /* line 245, ../sass/_layout.scss */
+  /* line 95, ../sass/_layout.scss */
   .core, .workflow {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
   }
 
-  /* line 249, ../sass/_layout.scss */
+  /* line 99, ../sass/_layout.scss */
   .tools {
     width: 32.20339%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 253, ../sass/_layout.scss */
+  /* line 103, ../sass/_layout.scss */
   .work {
     width: 100%;
     float: left;
