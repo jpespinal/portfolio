@@ -76,15 +76,15 @@
 
     #main {
         height: 100%;
-        @include container;
     }
     
     #main, #bottom {
         @include span(12 of 15 last);
     }
 
-    #about, #projects, #contact {
+    #about, #projects, #skills, #contact {
         height: 100%;
+        @include clearfix;
     }
 
     // Skills Section. //
