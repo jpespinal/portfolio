@@ -30,6 +30,16 @@
     // Contact Section. //
 }
 
+@media screen and (min-height: 640px) {
+    #main {
+        height: 100%;
+    }
+
+    #about, #projects, #contact {
+        height: 100%;
+    }
+}
+
 @media screen and (min-width: 960px) {
 
     // Top Section. //
@@ -78,12 +88,15 @@
         height: 100%;
     }
     
-    #main, #bottom {
+    #main {
         @include span(12 of 15 last);
     }
 
-    #about, #projects, #skills, #contact {
+    #about, #projects, #contact {
         height: 100%;
+    }
+
+    #about, #projects, #skills, #contact {
         @include clearfix;
     }
 
@@ -99,5 +112,11 @@
 
     .work {
         @include span(12 of 12);
+    }
+
+    // Footer. //
+
+    #bottom {
+        @include span(12 of 15 last);
     }
 }
