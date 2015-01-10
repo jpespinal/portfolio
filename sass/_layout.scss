@@ -76,6 +76,7 @@
 
     #main {
         height: 100%;
+        @include container;
     }
     
     #main, #bottom {
@@ -87,10 +88,6 @@
     }
 
     // Skills Section. //
-
-    #skills {
-        @include container;
-    }
 
     .core, .workflow {
         @include span(4 of 12);
