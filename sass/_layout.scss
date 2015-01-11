@@ -107,11 +107,11 @@
     // Skills Section. //
 
     .core, .workflow {
-        @include span(4 of 12);
+        @include span(5 of 12);
     }
 
     .tools {
-        @include span(4 of 12 last);
+        @include span(2 of 12 last);
     }
 
     .work {
