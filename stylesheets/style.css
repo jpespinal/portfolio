@@ -579,20 +579,27 @@ button:hover .p-title {
   }
 
   /* line 109, ../sass/_layout.scss */
-  .core, .workflow {
+  .core {
     width: 40.67797%;
     float: left;
     margin-right: 1.69492%;
   }
 
   /* line 113, ../sass/_layout.scss */
+  .workflow {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+
+  /* line 117, ../sass/_layout.scss */
   .tools {
-    width: 15.25424%;
+    width: 23.72881%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 117, ../sass/_layout.scss */
+  /* line 121, ../sass/_layout.scss */
   .work {
     width: 100%;
     float: left;
@@ -600,7 +607,7 @@ button:hover .p-title {
     margin-right: 0;
   }
 
-  /* line 123, ../sass/_layout.scss */
+  /* line 127, ../sass/_layout.scss */
   #bottom {
     height: 2em;
     width: 79.72973%;
