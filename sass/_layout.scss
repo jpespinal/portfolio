@@ -87,18 +87,10 @@
     }
 
     // Main Section. //
-
-    // #main {
-    //     height: 100%;
-    // }
     
     #main {
         @include span(12 of 15 last);
     }
-
-    // #about, #projects, #contact {
-    //     height: 100%;
-    // }
 
     #about, #projects, #skills, #contact {
         @include clearfix;
@@ -106,16 +98,12 @@
 
     // Skills Section. //
 
-    .core {
+    .core, .worflow {
         @include span(5 of 12);
     }
 
-    .workflow {
-        @include span(4 of 12);
-    }
-
     .tools {
-        @include span(3 of 12 last);
+        @include span(2 of 12 last);
     }
 
     .work {
