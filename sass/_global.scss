@@ -30,8 +30,8 @@ body {
 }
 
 .nav {
-    background-color: $black;
-    border: 1px solid $black;
+    background-color: $light-yellow;
+    border: 1px solid $white;
     @include border-radius(5px);
 }
 
@@ -42,7 +42,7 @@ body {
     text-align: center;
     width: 25%;
     a {
-        color: $yellow;
+        color: $black;
         font-size: 1em;
         padding: 0.5em;
         &:hover {
