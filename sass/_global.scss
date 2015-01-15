@@ -62,7 +62,9 @@ body {
     background-color: $white;
     border: 1px solid $black;
     @include border-radius(5px);
-    text-decoration: none;
+    & a {
+        text-decoration: none;
+    }
 }
 
 // Main Section. //
