@@ -256,8 +256,9 @@ body {
 .n-link a:hover {
   background-color: #FFFFFF;
   color: #3C3C3C;
+  text-decoration: none;
 }
-/* line 52, ../sass/_global.scss */
+/* line 53, ../sass/_global.scss */
 .n-link a.first-radius:hover {
   -moz-border-radius-topleft: 5px;
   -webkit-border-top-left-radius: 5px;
@@ -266,7 +267,7 @@ body {
   -webkit-border-bottom-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-/* line 55, ../sass/_global.scss */
+/* line 56, ../sass/_global.scss */
 .n-link a.last-radius:hover {
   -moz-border-radius-topright: 5px;
   -webkit-border-top-right-radius: 5px;
@@ -276,7 +277,7 @@ body {
   border-bottom-right-radius: 5px;
 }
 
-/* line 61, ../sass/_global.scss */
+/* line 62, ../sass/_global.scss */
 .active {
   background-color: #FFFFFF;
   border: 1px solid #3C3C3C;
@@ -284,66 +285,66 @@ body {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 65, ../sass/_global.scss */
+/* line 66, ../sass/_global.scss */
 .active a {
   text-decoration: none;
 }
 
-/* line 72, ../sass/_global.scss */
+/* line 73, ../sass/_global.scss */
 .full-section {
   padding: 3.8em 0% 2em;
 }
 
-/* line 76, ../sass/_global.scss */
+/* line 77, ../sass/_global.scss */
 .sub-section {
   margin: 2em 0% 3em;
 }
 
-/* line 80, ../sass/_global.scss */
+/* line 81, ../sass/_global.scss */
 .title, .sub-title {
   font-family: "Comic Serif Pro", georgia, serif;
   line-height: 1em;
 }
 
-/* line 85, ../sass/_global.scss */
+/* line 86, ../sass/_global.scss */
 .title {
   text-align: center;
   font-size: 4em;
   margin: 0.375em 0% 0.75em;
 }
 
-/* line 91, ../sass/_global.scss */
+/* line 92, ../sass/_global.scss */
 .sub-title {
   font-size: 2em;
   margin-bottom: 0.5em;
 }
 
-/* line 96, ../sass/_global.scss */
+/* line 97, ../sass/_global.scss */
 .content {
   margin: 0 auto;
   width: 95%;
 }
 
-/* line 103, ../sass/_global.scss */
+/* line 104, ../sass/_global.scss */
 #about {
   background-color: #F3F3F3;
   color: #334D5C;
 }
-/* line 106, ../sass/_global.scss */
+/* line 107, ../sass/_global.scss */
 #about .title {
   color: #45B29D;
 }
 
-/* line 113, ../sass/_global.scss */
+/* line 114, ../sass/_global.scss */
 #projects {
   background-color: #45B29D;
 }
-/* line 115, ../sass/_global.scss */
+/* line 116, ../sass/_global.scss */
 #projects .title {
   color: #F3F3F3;
 }
 
-/* line 120, ../sass/_global.scss */
+/* line 121, ../sass/_global.scss */
 button {
   background-color: #F3F3F3;
   border: 3px solid #59C6B1;
@@ -356,80 +357,80 @@ button {
   text-align: center;
   width: 75%;
 }
-/* line 129, ../sass/_global.scss */
+/* line 130, ../sass/_global.scss */
 button:hover {
   border: 3px solid #DF4949;
 }
-/* line 131, ../sass/_global.scss */
+/* line 132, ../sass/_global.scss */
 button:hover .p-title {
   text-decoration: underline;
 }
 
-/* line 137, ../sass/_global.scss */
+/* line 138, ../sass/_global.scss */
 .p-title, .p-subtitle {
   font-family: "Cabin", arial, sans-serif;
   margin-bottom: 0.1em;
 }
 
-/* line 142, ../sass/_global.scss */
+/* line 143, ../sass/_global.scss */
 .p-title {
   color: #DF4949;
   font-size: 2em;
 }
 
-/* line 147, ../sass/_global.scss */
+/* line 148, ../sass/_global.scss */
 .p-subtitle {
   color: #334D5C;
   font-size: 1.5em;
 }
 
-/* line 154, ../sass/_global.scss */
+/* line 155, ../sass/_global.scss */
 #skills {
   background-color: #334D5C;
   color: #F3F3F3;
 }
-/* line 157, ../sass/_global.scss */
+/* line 158, ../sass/_global.scss */
 #skills .title {
   color: #DF4949;
 }
-/* line 160, ../sass/_global.scss */
+/* line 161, ../sass/_global.scss */
 #skills .sub-title {
   color: #DF4949;
 }
 
-/* line 165, ../sass/_global.scss */
+/* line 166, ../sass/_global.scss */
 .s-list {
   list-style-position: inside;
   list-style-image: url(../assets/list-diamond.svg);
 }
 
-/* line 170, ../sass/_global.scss */
+/* line 171, ../sass/_global.scss */
 .workplace, .job {
   font-weight: 700;
 }
 
-/* line 174, ../sass/_global.scss */
+/* line 175, ../sass/_global.scss */
 .workplace {
   margin: 0;
 }
 
-/* line 178, ../sass/_global.scss */
+/* line 179, ../sass/_global.scss */
 .job {
   color: #45B29D;
   font-size: 1em;
 }
 
-/* line 185, ../sass/_global.scss */
+/* line 186, ../sass/_global.scss */
 #contact {
   background-color: #DF4949;
   color: #334D5C;
 }
-/* line 188, ../sass/_global.scss */
+/* line 189, ../sass/_global.scss */
 #contact .title {
   color: #334D5C;
 }
 
-/* line 193, ../sass/_global.scss */
+/* line 194, ../sass/_global.scss */
 .c-label {
   color: #334D5C;
   font-family: "Comic Serif Pro", georgia, serif;
@@ -437,21 +438,21 @@ button:hover .p-title {
   text-align: center;
 }
 
-/* line 200, ../sass/_global.scss */
+/* line 201, ../sass/_global.scss */
 .c-links a {
   height: 50px;
   margin: 0em auto 1.25em;
   width: 50px;
 }
 
-/* line 208, ../sass/_global.scss */
+/* line 209, ../sass/_global.scss */
 #bottom {
   background-color: #3C3C3C;
   padding: 0.5em 2.5%;
   text-align: center;
 }
 
-/* line 214, ../sass/_global.scss */
+/* line 215, ../sass/_global.scss */
 .copyright {
   color: #EFC94C;
   font-size: 1em;
