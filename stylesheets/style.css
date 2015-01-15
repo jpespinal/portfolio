@@ -396,7 +396,7 @@ button:hover .p-title {
 
 /* line 163, ../sass/_global.scss */
 .s-list {
-  list-style-position: outside;
+  list-style-position: inside;
   list-style-image: url(../assets/list-diamond.svg);
 }
 
