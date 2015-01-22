@@ -576,27 +576,27 @@ button:hover .p-title {
     margin-right: 0;
   }
 
-  /* line 101, ../sass/_layout.scss */
+  /* line 97, ../sass/_layout.scss */
   #skills {
     overflow: hidden;
     *zoom: 1;
   }
 
-  /* line 105, ../sass/_layout.scss */
+  /* line 101, ../sass/_layout.scss */
   .core, .workflow {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
   }
 
-  /* line 109, ../sass/_layout.scss */
+  /* line 105, ../sass/_layout.scss */
   .tools {
     width: 32.20339%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 113, ../sass/_layout.scss */
+  /* line 109, ../sass/_layout.scss */
   .work {
     width: 100%;
     float: left;
@@ -604,11 +604,8 @@ button:hover .p-title {
     margin-right: 0;
   }
 
-  /* line 119, ../sass/_layout.scss */
+  /* line 115, ../sass/_layout.scss */
   #bottom {
-    height: 2em;
-    width: 79.72973%;
-    float: right;
-    margin-right: 0;
+    display: none;
   }
 }

@@ -92,10 +92,6 @@
         @include span(12 of 15 last);
     }
 
-    // #about, #projects, #skills, #contact {
-    //     @include clearfix;
-    // }
-
     // Skills Section. //
 
     #skills {
@@ -117,7 +113,6 @@
     // Footer. //
 
     #bottom {
-        height: 2em;
-        @include span(12 of 15 last);
+        display: none;
     }
 }
