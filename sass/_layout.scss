@@ -92,18 +92,22 @@
         @include span(12 of 15 last);
     }
 
-    #about, #projects, #skills, #contact {
-        @include clearfix;
-    }
+    // #about, #projects, #skills, #contact {
+    //     @include clearfix;
+    // }
 
     // Skills Section. //
 
+    #skills {
+        @include clearfix;
+    }
+
     .core, .workflow {
-        @include span(5 of 12);
+        @include span(4 of 12);
     }
 
     .tools {
-        @include span(2 of 12 last);
+        @include span(4 of 12 last);
     }
 
     .work {

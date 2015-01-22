@@ -576,27 +576,27 @@ button:hover .p-title {
     margin-right: 0;
   }
 
-  /* line 95, ../sass/_layout.scss */
-  #about, #projects, #skills, #contact {
+  /* line 101, ../sass/_layout.scss */
+  #skills {
     overflow: hidden;
     *zoom: 1;
   }
 
-  /* line 101, ../sass/_layout.scss */
+  /* line 105, ../sass/_layout.scss */
   .core, .workflow {
-    width: 40.67797%;
+    width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
   }
 
-  /* line 105, ../sass/_layout.scss */
+  /* line 109, ../sass/_layout.scss */
   .tools {
-    width: 15.25424%;
+    width: 32.20339%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 109, ../sass/_layout.scss */
+  /* line 113, ../sass/_layout.scss */
   .work {
     width: 100%;
     float: left;
@@ -604,7 +604,7 @@ button:hover .p-title {
     margin-right: 0;
   }
 
-  /* line 115, ../sass/_layout.scss */
+  /* line 119, ../sass/_layout.scss */
   #bottom {
     height: 2em;
     width: 79.72973%;
