@@ -584,7 +584,7 @@ button:hover .p-title {
 
   /* line 101, ../sass/_layout.scss */
   .core {
-    width: 23.72881%;
+    width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
   }
@@ -598,9 +598,9 @@ button:hover .p-title {
 
   /* line 109, ../sass/_layout.scss */
   .tools {
-    width: 23.72881%;
-    float: left;
-    margin-right: 1.69492%;
+    width: 32.20339%;
+    float: right;
+    margin-right: 0;
   }
 
   /* line 113, ../sass/_layout.scss */
