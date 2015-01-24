@@ -588,23 +588,24 @@ button:hover .p-title {
     float: left;
     margin-right: 1.69492%;
     border-top: 0.5em solid #F3F3F3;
+    padding-top: 1em;
   }
 
-  /* line 106, ../sass/_layout.scss */
+  /* line 107, ../sass/_layout.scss */
   .workflow {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
   }
 
-  /* line 110, ../sass/_layout.scss */
+  /* line 111, ../sass/_layout.scss */
   .tools {
     width: 32.20339%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 114, ../sass/_layout.scss */
+  /* line 115, ../sass/_layout.scss */
   .work {
     width: 100%;
     float: left;
@@ -612,7 +613,7 @@ button:hover .p-title {
     margin-right: 0;
   }
 
-  /* line 120, ../sass/_layout.scss */
+  /* line 121, ../sass/_layout.scss */
   #bottom {
     display: none;
   }

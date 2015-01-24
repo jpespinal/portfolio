@@ -101,6 +101,7 @@
     .core {
         @include span(4 of 12);
         border-top: 0.5em solid $light-grey;
+        padding-top: 1em;
     }
 
     .workflow {
