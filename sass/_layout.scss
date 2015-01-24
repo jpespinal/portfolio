@@ -98,13 +98,12 @@
         @include clearfix;
     }
 
-    .core {
-        @include span(4 of 12);
+    .core, .workflow, .tools, .work {
         border-top: 0.5em solid $light-grey;
         padding-top: 1em;
     }
 
-    .workflow {
+    .core, .workflow {
         @include span(4 of 12);
     }
 
