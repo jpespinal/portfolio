@@ -585,7 +585,7 @@ button:hover .p-title {
   /* line 101, ../sass/_layout.scss */
   .core, .workflow, .tools, .work {
     border-top: 0.5em solid #F3F3F3;
-    padding-top: 1em;
+    padding-top: 0.8em;
   }
 
   /* line 106, ../sass/_layout.scss */
