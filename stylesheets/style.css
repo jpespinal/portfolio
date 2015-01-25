@@ -594,12 +594,6 @@ button:hover .p-title {
     font-size: 3em;
   }
 
-  /* line 111, ../sass/_layout.scss */
-  #skills {
-    overflow: hidden;
-    *zoom: 1;
-  }
-
   /* line 115, ../sass/_layout.scss */
   .core, .workflow, .tools, .work {
     border-top: 0.5em solid #F3F3F3;
