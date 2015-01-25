@@ -576,33 +576,43 @@ button:hover .p-title {
     margin-right: 0;
   }
 
-  /* line 97, ../sass/_layout.scss */
+  /* line 95, ../sass/_layout.scss */
+  .title {
+    font-size: 5em;
+  }
+
+  /* line 99, ../sass/_layout.scss */
+  .sub-title {
+    font-size: 3em;
+  }
+
+  /* line 105, ../sass/_layout.scss */
   #skills {
     overflow: hidden;
     *zoom: 1;
   }
 
-  /* line 101, ../sass/_layout.scss */
+  /* line 109, ../sass/_layout.scss */
   .core, .workflow, .tools, .work {
-    border-top: 0.25em solid #F3F3F3;
+    border-top: 0.5em solid #F3F3F3;
     padding-top: 0.8em;
   }
 
-  /* line 106, ../sass/_layout.scss */
+  /* line 114, ../sass/_layout.scss */
   .core, .workflow {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
   }
 
-  /* line 110, ../sass/_layout.scss */
+  /* line 118, ../sass/_layout.scss */
   .tools {
     width: 32.20339%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 114, ../sass/_layout.scss */
+  /* line 122, ../sass/_layout.scss */
   .work {
     width: 100%;
     float: left;
@@ -610,7 +620,7 @@ button:hover .p-title {
     margin-right: 0;
   }
 
-  /* line 120, ../sass/_layout.scss */
+  /* line 128, ../sass/_layout.scss */
   #bottom {
     display: none;
   }

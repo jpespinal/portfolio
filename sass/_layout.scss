@@ -92,6 +92,14 @@
         @include span(12 of 15 last);
     }
 
+    .title {
+        font-size: 5em;
+    }
+
+    .sub-title {
+        font-size: 3em;
+    }
+
     // Skills Section. //
 
     #skills {
@@ -99,7 +107,7 @@
     }
 
     .core, .workflow, .tools, .work {
-        border-top: 0.25em solid $light-grey;
+        border-top: 0.5em solid $light-grey;
         padding-top: 0.8em;
     }
 
