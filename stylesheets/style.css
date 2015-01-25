@@ -591,37 +591,38 @@ button:hover .p-title {
   /* line 106, ../sass/_layout.scss */
   .text {
     font-size: 1.5em;
+    line-height: inherit;
     margin: 0 auto;
     width: 90%;
   }
 
-  /* line 114, ../sass/_layout.scss */
+  /* line 115, ../sass/_layout.scss */
   #skills {
     overflow: hidden;
     *zoom: 1;
   }
 
-  /* line 118, ../sass/_layout.scss */
+  /* line 119, ../sass/_layout.scss */
   .core, .workflow, .tools, .work {
     border-top: 0.4em solid #F3F3F3;
     padding-top: 0.8em;
   }
 
-  /* line 123, ../sass/_layout.scss */
+  /* line 124, ../sass/_layout.scss */
   .core, .workflow {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
   }
 
-  /* line 127, ../sass/_layout.scss */
+  /* line 128, ../sass/_layout.scss */
   .tools {
     width: 32.20339%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 131, ../sass/_layout.scss */
+  /* line 132, ../sass/_layout.scss */
   .work {
     width: 100%;
     float: left;
@@ -629,23 +630,23 @@ button:hover .p-title {
     margin-right: 0;
   }
 
-  /* line 137, ../sass/_layout.scss */
+  /* line 138, ../sass/_layout.scss */
   #bottom {
     display: none;
   }
 }
 @media screen and (min-height: 600px) {
-  /* line 143, ../sass/_layout.scss */
+  /* line 144, ../sass/_layout.scss */
   #main {
     height: 100%;
   }
 
-  /* line 147, ../sass/_layout.scss */
+  /* line 148, ../sass/_layout.scss */
   #about, #projects, #contact {
     height: 100%;
   }
 
-  /* line 151, ../sass/_layout.scss */
+  /* line 152, ../sass/_layout.scss */
   #skills {
     min-height: 100%;
   }
