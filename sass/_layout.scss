@@ -152,3 +152,12 @@
         min-height: 100%;
     }
 }
+
+@media screen and (min-width: 320px) and (min-height: 600px) {
+
+    // About Section. //
+    
+    .title {
+        font-size: 1.25em;
+    }
+}
