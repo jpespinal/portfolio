@@ -105,15 +105,11 @@
         font-size: 3em;
     }
 
-    #about, #projects, #skills, #contact {
-        @include clearfix;
-    }
-
     // Skills Section. //
 
-    // #skills {
-    //     @include clearfix;
-    // }
+    #skills {
+        @include clearfix;
+    }
 
     .core, .workflow, .tools, .work {
         border-top: 0.5em solid $light-grey;
@@ -135,7 +131,6 @@
     // Footer. //
 
     #bottom {
-        @include span(12 of 15 last);
-        // display: none;
+        display: none;
     }
 }
