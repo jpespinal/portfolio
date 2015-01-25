@@ -657,7 +657,7 @@ button:hover .p-title {
 }
 @media screen and (min-width: 320px) and (min-height: 600px) {
   /* line 160, ../sass/_layout.scss */
-  .title {
+  .text {
     font-size: 1.25em;
   }
 }
