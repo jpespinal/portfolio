@@ -466,43 +466,48 @@ button:hover .p-title {
   }
 
   /* line 12, ../sass/_layout.scss */
+  .full-section {
+    padding: 2em 0%;
+  }
+
+  /* line 16, ../sass/_layout.scss */
   .title {
     font-size: 4.2em;
   }
 
-  /* line 16, ../sass/_layout.scss */
+  /* line 20, ../sass/_layout.scss */
   .sub-title {
     font-size: 2.2em;
   }
 
-  /* line 22, ../sass/_layout.scss */
+  /* line 26, ../sass/_layout.scss */
   .p-title {
     font-size: 2.2em;
   }
 
-  /* line 26, ../sass/_layout.scss */
+  /* line 30, ../sass/_layout.scss */
   .p-subtitle {
     font-size: 1.7em;
   }
 }
 @media screen and (min-height: 640px) {
-  /* line 34, ../sass/_layout.scss */
+  /* line 38, ../sass/_layout.scss */
   #main {
     height: 100%;
   }
 
-  /* line 38, ../sass/_layout.scss */
+  /* line 42, ../sass/_layout.scss */
   #about, #projects, #contact {
     height: 100%;
   }
 
-  /* line 42, ../sass/_layout.scss */
+  /* line 46, ../sass/_layout.scss */
   #skills {
     min-height: 100%;
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 51, ../sass/_layout.scss */
+  /* line 55, ../sass/_layout.scss */
   #top {
     width: 20.27027%;
     float: left;
@@ -514,31 +519,31 @@ button:hover .p-title {
     z-index: auto;
   }
 
-  /* line 60, ../sass/_layout.scss */
+  /* line 64, ../sass/_layout.scss */
   nav {
     height: 70%;
     position: relative;
     top: 15%;
   }
 
-  /* line 66, ../sass/_layout.scss */
+  /* line 70, ../sass/_layout.scss */
   .nav {
     height: 100%;
   }
 
-  /* line 70, ../sass/_layout.scss */
+  /* line 74, ../sass/_layout.scss */
   .n-link {
     height: 25%;
     width: 100%;
   }
-  /* line 73, ../sass/_layout.scss */
+  /* line 77, ../sass/_layout.scss */
   .n-link a {
     font-size: 2em;
     height: 100%;
     padding-top: 1.65em;
     width: 100%;
   }
-  /* line 78, ../sass/_layout.scss */
+  /* line 82, ../sass/_layout.scss */
   .n-link a.first-radius:hover {
     -moz-border-radius-topleft: 0px;
     -webkit-border-top-left-radius: 0px;
@@ -553,7 +558,7 @@ button:hover .p-title {
     -webkit-border-top-right-radius: 5px;
     border-top-right-radius: 5px;
   }
-  /* line 82, ../sass/_layout.scss */
+  /* line 86, ../sass/_layout.scss */
   .n-link a.last-radius:hover {
     -moz-border-radius-topright: 0px;
     -webkit-border-top-right-radius: 0px;
@@ -569,50 +574,50 @@ button:hover .p-title {
     border-bottom-right-radius: 5px;
   }
 
-  /* line 91, ../sass/_layout.scss */
+  /* line 95, ../sass/_layout.scss */
   #main {
     width: 79.72973%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 95, ../sass/_layout.scss */
+  /* line 99, ../sass/_layout.scss */
   .title {
     font-size: 6em;
   }
 
-  /* line 99, ../sass/_layout.scss */
+  /* line 103, ../sass/_layout.scss */
   .sub-title {
     font-size: 3em;
   }
 
-  /* line 105, ../sass/_layout.scss */
+  /* line 109, ../sass/_layout.scss */
   #skills {
     overflow: hidden;
     *zoom: 1;
   }
 
-  /* line 109, ../sass/_layout.scss */
+  /* line 113, ../sass/_layout.scss */
   .core, .workflow, .tools, .work {
     border-top: 0.5em solid #F3F3F3;
     padding-top: 0.8em;
   }
 
-  /* line 114, ../sass/_layout.scss */
+  /* line 118, ../sass/_layout.scss */
   .core, .workflow {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
   }
 
-  /* line 118, ../sass/_layout.scss */
+  /* line 122, ../sass/_layout.scss */
   .tools {
     width: 32.20339%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 122, ../sass/_layout.scss */
+  /* line 126, ../sass/_layout.scss */
   .work {
     width: 100%;
     float: left;
@@ -620,7 +625,7 @@ button:hover .p-title {
     margin-right: 0;
   }
 
-  /* line 128, ../sass/_layout.scss */
+  /* line 132, ../sass/_layout.scss */
   #bottom {
     display: none;
   }
