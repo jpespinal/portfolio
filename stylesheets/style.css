@@ -490,7 +490,7 @@ button:hover .p-title {
     font-size: 1.7em;
   }
 }
-@media screen and (min-height: 640px) {
+@media screen and (min-height: 600px) {
   /* line 38, ../sass/_layout.scss */
   #main {
     height: 100%;
