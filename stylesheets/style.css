@@ -579,46 +579,57 @@ button:hover .p-title {
     width: 79.72973%;
     float: right;
     margin-right: 0;
-    overflow: hidden;
-    *zoom: 1;
   }
 
-  /* line 100, ../sass/_layout.scss */
+  /* line 99, ../sass/_layout.scss */
   .title {
     font-size: 6em;
     margin-top: 0;
   }
 
-  /* line 105, ../sass/_layout.scss */
+  /* line 104, ../sass/_layout.scss */
   .sub-title {
     font-size: 3em;
   }
 
-  /* line 115, ../sass/_layout.scss */
+  /* line 108, ../sass/_layout.scss */
+  #about, #projects, #skills, #contact {
+    overflow: hidden;
+    *zoom: 1;
+  }
+
+  /* line 118, ../sass/_layout.scss */
   .core, .workflow, .tools, .work {
     border-top: 0.5em solid #F3F3F3;
     padding-top: 0.8em;
   }
 
-  /* line 120, ../sass/_layout.scss */
+  /* line 123, ../sass/_layout.scss */
   .core, .workflow {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
   }
 
-  /* line 124, ../sass/_layout.scss */
+  /* line 127, ../sass/_layout.scss */
   .tools {
     width: 32.20339%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 128, ../sass/_layout.scss */
+  /* line 131, ../sass/_layout.scss */
   .work {
     width: 100%;
     float: left;
     margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* line 137, ../sass/_layout.scss */
+  #bottom {
+    width: 79.72973%;
+    float: right;
     margin-right: 0;
   }
 }

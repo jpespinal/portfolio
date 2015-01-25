@@ -94,7 +94,6 @@
     
     #main {
         @include span(12 of 15 last);
-        @include clearfix;
     }
 
     .title {
@@ -104,6 +103,10 @@
 
     .sub-title {
         font-size: 3em;
+    }
+
+    #about, #projects, #skills, #contact {
+        @include clearfix;
     }
 
     // Skills Section. //
@@ -131,7 +134,8 @@
 
     // Footer. //
 
-    // #bottom {
-    //     display: none;
-    // }
+    #bottom {
+        @include span(12 of 15 last);
+        // display: none;
+    }
 }
