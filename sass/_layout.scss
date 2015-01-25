@@ -9,10 +9,6 @@
 
     // Main Section. //
 
-    .full-section {
-        padding: 2em 0%;
-    }
-
     .title {
         font-size: 4.2em;
     }
@@ -32,20 +28,6 @@
     }
 
     // Contact Section. //
-}
-
-@media screen and (min-height: 600px) {
-    #main {
-        height: 100%;
-    }
-
-    #about, #projects, #contact {
-        height: 100%;
-    }
-
-    #skills {
-        min-height: 100%;
-    }
 }
 
 @media screen and (min-width: 960px) {
@@ -96,6 +78,10 @@
         @include span(12 of 15 last);
     }
 
+    .full-section {
+        padding: 2em 0%;
+    }
+
     .title {
         font-size: 6em;
         margin-top: 0;
@@ -132,5 +118,19 @@
 
     #bottom {
         display: none;
+    }
+}
+
+@media screen and (min-height: 600px) {
+    #main {
+        height: 100%;
+    }
+
+    #about, #projects, #contact {
+        height: 100%;
+    }
+
+    #skills {
+        min-height: 100%;
     }
 }

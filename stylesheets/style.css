@@ -466,48 +466,27 @@ button:hover .p-title {
   }
 
   /* line 12, ../sass/_layout.scss */
-  .full-section {
-    padding: 2em 0%;
-  }
-
-  /* line 16, ../sass/_layout.scss */
   .title {
     font-size: 4.2em;
   }
 
-  /* line 20, ../sass/_layout.scss */
+  /* line 16, ../sass/_layout.scss */
   .sub-title {
     font-size: 2.2em;
   }
 
-  /* line 26, ../sass/_layout.scss */
+  /* line 22, ../sass/_layout.scss */
   .p-title {
     font-size: 2.2em;
   }
 
-  /* line 30, ../sass/_layout.scss */
+  /* line 26, ../sass/_layout.scss */
   .p-subtitle {
     font-size: 1.7em;
   }
 }
-@media screen and (min-height: 600px) {
-  /* line 38, ../sass/_layout.scss */
-  #main {
-    height: 100%;
-  }
-
-  /* line 42, ../sass/_layout.scss */
-  #about, #projects, #contact {
-    height: 100%;
-  }
-
-  /* line 46, ../sass/_layout.scss */
-  #skills {
-    min-height: 100%;
-  }
-}
 @media screen and (min-width: 960px) {
-  /* line 55, ../sass/_layout.scss */
+  /* line 37, ../sass/_layout.scss */
   #top {
     width: 20.27027%;
     float: left;
@@ -519,31 +498,31 @@ button:hover .p-title {
     z-index: auto;
   }
 
-  /* line 64, ../sass/_layout.scss */
+  /* line 46, ../sass/_layout.scss */
   nav {
     height: 70%;
     position: relative;
     top: 15%;
   }
 
-  /* line 70, ../sass/_layout.scss */
+  /* line 52, ../sass/_layout.scss */
   .nav {
     height: 100%;
   }
 
-  /* line 74, ../sass/_layout.scss */
+  /* line 56, ../sass/_layout.scss */
   .n-link {
     height: 25%;
     width: 100%;
   }
-  /* line 77, ../sass/_layout.scss */
+  /* line 59, ../sass/_layout.scss */
   .n-link a {
     font-size: 2em;
     height: 100%;
     padding-top: 1.65em;
     width: 100%;
   }
-  /* line 82, ../sass/_layout.scss */
+  /* line 64, ../sass/_layout.scss */
   .n-link a.first-radius:hover {
     -moz-border-radius-topleft: 0px;
     -webkit-border-top-left-radius: 0px;
@@ -558,7 +537,7 @@ button:hover .p-title {
     -webkit-border-top-right-radius: 5px;
     border-top-right-radius: 5px;
   }
-  /* line 86, ../sass/_layout.scss */
+  /* line 68, ../sass/_layout.scss */
   .n-link a.last-radius:hover {
     -moz-border-radius-topright: 0px;
     -webkit-border-top-right-radius: 0px;
@@ -574,51 +553,56 @@ button:hover .p-title {
     border-bottom-right-radius: 5px;
   }
 
-  /* line 95, ../sass/_layout.scss */
+  /* line 77, ../sass/_layout.scss */
   #main {
     width: 79.72973%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 99, ../sass/_layout.scss */
+  /* line 81, ../sass/_layout.scss */
+  .full-section {
+    padding: 2em 0%;
+  }
+
+  /* line 85, ../sass/_layout.scss */
   .title {
     font-size: 6em;
     margin-top: 0;
   }
 
-  /* line 104, ../sass/_layout.scss */
+  /* line 90, ../sass/_layout.scss */
   .sub-title {
     font-size: 3em;
   }
 
-  /* line 110, ../sass/_layout.scss */
+  /* line 96, ../sass/_layout.scss */
   #skills {
     overflow: hidden;
     *zoom: 1;
   }
 
-  /* line 114, ../sass/_layout.scss */
+  /* line 100, ../sass/_layout.scss */
   .core, .workflow, .tools, .work {
     border-top: 0.5em solid #F3F3F3;
     padding-top: 0.8em;
   }
 
-  /* line 119, ../sass/_layout.scss */
+  /* line 105, ../sass/_layout.scss */
   .core, .workflow {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
   }
 
-  /* line 123, ../sass/_layout.scss */
+  /* line 109, ../sass/_layout.scss */
   .tools {
     width: 32.20339%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 127, ../sass/_layout.scss */
+  /* line 113, ../sass/_layout.scss */
   .work {
     width: 100%;
     float: left;
@@ -626,8 +610,24 @@ button:hover .p-title {
     margin-right: 0;
   }
 
-  /* line 133, ../sass/_layout.scss */
+  /* line 119, ../sass/_layout.scss */
   #bottom {
     display: none;
+  }
+}
+@media screen and (min-height: 600px) {
+  /* line 125, ../sass/_layout.scss */
+  #main {
+    height: 100%;
+  }
+
+  /* line 129, ../sass/_layout.scss */
+  #about, #projects, #contact {
+    height: 100%;
+  }
+
+  /* line 133, ../sass/_layout.scss */
+  #skills {
+    min-height: 100%;
   }
 }
