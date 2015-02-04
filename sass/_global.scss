@@ -1,9 +1,15 @@
 /*  This is the global page, where styles that never change are defined. */
 
 body {
-    background-color: white;
+    background-color: $light-grey;
+    color: $blue;
     font-family: $cabin;
+    line-height: 1.5;
     min-width: 300px;
+}
+
+em {
+    color: $green;
 }
 
 #container {
@@ -37,7 +43,7 @@ body {
 
 .n-link {
     display: inline-block;
-    font-weight: 700;
+    font-weight: 400;
     margin-right: -0.21em;
     text-align: center;
     width: 25%;
@@ -79,6 +85,7 @@ body {
 }
 
 .title, .sub-title {
+    color: $red;
     font-family: $cabin-sketch;
     line-height: 1em;
 }
@@ -101,30 +108,15 @@ body {
 
 // About Section. //
 
-#about {
-    background-color: $light-grey;
-    color: $blue;
-    & .title {
-        color: $green;
-    }
-}
-
-.text {
-    line-height: 1.5;
-}
+// .text {
+//     line-height: 1.5;
+// }
 
 // Projects Section. //
 
-#projects {
-    background-color: $green;
-    & .title {
-        color: $light-grey;
-    }
-}
-
 button {
-    background-color: $light-grey;
-    border: 3px solid $light-green;
+    background-color: $light-orange;
+    border: 3px solid $light-orange;
     @include border-radius(5px);
     display: block;
     margin: 0em auto 3em;
@@ -132,7 +124,7 @@ button {
     text-align: center;
     width: 75%;
     &:hover {
-        border: 3px solid $red;
+        border: 3px solid $orange;
         & .p-title {
             text-decoration: underline;
         }
@@ -156,17 +148,6 @@ button {
 
 // Skills Section. //
 
-#skills {
-    background-color: $blue;
-    color: $light-grey;
-    & .title {
-        color: $red;
-    }
-    & .sub-title {
-        color: $red;
-    }
-}
-
 .s-list {
     list-style-position: inside;
     list-style-image: url(../assets/list-diamond.svg);
@@ -177,6 +158,7 @@ button {
 }
 
 .workplace {
+    color: $blue;
     margin: 0;
 }
 
@@ -186,14 +168,6 @@ button {
 }
 
 // Contact Section. //
-
-#contact {
-    background-color: $red;
-    color: $blue;
-    & .title {
-        color: $blue;
-    }
-}
 
 .c-label {
     color: $blue;
