@@ -191,7 +191,7 @@ abbr, acronym {
 body {
   background-color: #FFFFFF;
   color: #334D5C;
-  font-family: "Cabin", arial, sans-serif;
+  font-family: "Oswald", arial, sans-serif;
   line-height: 1.5;
   min-width: 300px;
 }
@@ -310,7 +310,7 @@ em {
 /* line 87, ../sass/_global.scss */
 .title, .sub-title {
   color: #334D5C;
-  font-family: "Cabin", arial, sans-serif;
+  font-family: "Oswald", arial, sans-serif;
   font-weight: 700;
   line-height: 1em;
 }
@@ -358,7 +358,7 @@ button:hover .p-title {
 
 /* line 135, ../sass/_global.scss */
 .p-title, .p-subtitle {
-  font-family: "Cabin", arial, sans-serif;
+  font-family: "Oswald", arial, sans-serif;
   margin-bottom: 0.1em;
 }
 
