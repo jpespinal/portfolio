@@ -189,7 +189,7 @@ abbr, acronym {
 /*  This is the global page, where styles that never change are defined. */
 /* line 3, ../sass/_global.scss */
 body {
-  background-color: #F3F3F3;
+  background-color: #FFFFFF;
   color: #334D5C;
   font-family: "Cabin", arial, sans-serif;
   line-height: 1.5;
