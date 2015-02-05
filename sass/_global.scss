@@ -53,8 +53,7 @@ em {
         font-size: 1em;
         padding: 0.5em;
         &:hover {
-            background-color: $light-blue;
-            color: $light-grey;
+            color: $green;
             text-decoration: none;
         }
         &.first-radius:hover {
@@ -189,7 +188,7 @@ button {
 // Footer Section. //
 
 #bottom {
-    background-color: $green;
+    background-color: $light-grey;
     padding: 0.5em 2.5%;
     text-align: center;
 }
