@@ -182,8 +182,8 @@ abbr, acronym {
 /*  This is the global page, where styles that never change are defined. */
 /* line 3, ../sass/_global.scss */
 body {
-  background-color: #FFFFFF;
-  color: #334D5C;
+  background-color: #334D5C;
+  color: #F3F3F3;
   font-family: "Droid Serif", georgia, serif;
   line-height: 1.5;
   min-width: 300px;
@@ -302,7 +302,7 @@ em {
 
 /* line 87, ../sass/_global.scss */
 .title, .sub-title {
-  color: #334D5C;
+  color: #F3F3F3;
   font-family: "Oswald", arial, sans-serif;
   font-weight: 700;
   line-height: 1em;
@@ -357,13 +357,13 @@ button:hover .p-title {
 
 /* line 140, ../sass/_global.scss */
 .p-title {
-  color: #DF4949;
+  color: #F3F3F3;
   font-size: 2em;
 }
 
 /* line 145, ../sass/_global.scss */
 .p-subtitle {
-  color: #334D5C;
+  color: #45B29D;
   font-size: 1.5em;
 }
 
@@ -380,7 +380,7 @@ button:hover .p-title {
 
 /* line 161, ../sass/_global.scss */
 .workplace {
-  color: #334D5C;
+  color: #F3F3F3;
   margin: 0;
 }
 
@@ -392,7 +392,7 @@ button:hover .p-title {
 
 /* line 173, ../sass/_global.scss */
 .c-label {
-  color: #334D5C;
+  color: #F3F3F3;
   font-family: "Oswald", arial, sans-serif;
   margin-bottom: 0.25em;
   text-align: center;

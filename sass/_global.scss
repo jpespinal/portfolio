@@ -1,8 +1,8 @@
 /*  This is the global page, where styles that never change are defined. */
 
 body {
-    background-color: $white;
-    color: $blue;
+    background-color: $blue;
+    color: $light-grey;
     font-family: $droid-serif;
     line-height: 1.5;
     min-width: 300px;
@@ -85,7 +85,7 @@ em {
 }
 
 .title, .sub-title {
-    color: $blue;
+    color: $light-grey;
     font-family: $oswald;
     font-weight: 700;
     line-height: 1em;
@@ -138,12 +138,12 @@ button {
 }
 
 .p-title {
-    color: $red;
+    color: $light-grey;
     font-size: 2em;
 }
 
 .p-subtitle {
-    color: $blue;
+    color: $green;
     font-size: 1.5em;
 }
 
@@ -159,7 +159,7 @@ button {
 }
 
 .workplace {
-    color: $blue;
+    color: $light-grey;
     margin: 0;
 }
 
@@ -171,7 +171,7 @@ button {
 // Contact Section. //
 
 .c-label {
-    color: $blue;
+    color: $light-grey;
     font-family: $oswald;
     margin-bottom: 0.25em;
     text-align: center;
