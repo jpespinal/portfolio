@@ -232,7 +232,7 @@ em {
 /* line 38, ../sass/_global.scss */
 .nav {
   background-color: #F3F3F3;
-  border: 1px solid #F3F3F3;
+  border: 1px solid #45B29D;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -248,15 +248,15 @@ em {
 }
 /* line 50, ../sass/_global.scss */
 .n-link a {
-  color: #3C3C3C;
+  color: #334D5C;
   font-family: "Oswald", arial, sans-serif;
   font-size: 1em;
   padding: 0.5em;
 }
 /* line 55, ../sass/_global.scss */
 .n-link a:hover {
-  background-color: #FFFFFF;
-  color: #3C3C3C;
+  background-color: #476170;
+  color: #F3F3F3;
   text-decoration: none;
 }
 /* line 60, ../sass/_global.scss */
@@ -280,8 +280,8 @@ em {
 
 /* line 69, ../sass/_global.scss */
 .active {
-  background-color: #FFFFFF;
-  border: 1px solid #3C3C3C;
+  background-color: #334D5C;
+  border: 1px solid #45B29D;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
