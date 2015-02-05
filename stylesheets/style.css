@@ -338,6 +338,7 @@ button {
   margin: 0em auto 3em;
   padding: 0.2em 1.5%;
   text-align: center;
+  width: 90%;
 }
 /* line 127, ../sass/_global.scss */
 button:hover {
