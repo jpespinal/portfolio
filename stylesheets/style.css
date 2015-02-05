@@ -241,7 +241,7 @@ em {
 /* line 44, ../sass/_global.scss */
 .n-link {
   display: inline-block;
-  font-weight: 400;
+  font-weight: 300;
   margin-right: -0.21em;
   text-align: center;
   width: 25%;
@@ -249,16 +249,17 @@ em {
 /* line 50, ../sass/_global.scss */
 .n-link a {
   color: #3C3C3C;
+  font-family: "Oswald", arial, sans-serif;
   font-size: 1em;
   padding: 0.5em;
 }
-/* line 54, ../sass/_global.scss */
+/* line 55, ../sass/_global.scss */
 .n-link a:hover {
   background-color: #FFFFFF;
   color: #3C3C3C;
   text-decoration: none;
 }
-/* line 59, ../sass/_global.scss */
+/* line 60, ../sass/_global.scss */
 .n-link a.first-radius:hover {
   -moz-border-radius-topleft: 5px;
   -webkit-border-top-left-radius: 5px;
@@ -267,7 +268,7 @@ em {
   -webkit-border-bottom-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-/* line 62, ../sass/_global.scss */
+/* line 63, ../sass/_global.scss */
 .n-link a.last-radius:hover {
   -moz-border-radius-topright: 5px;
   -webkit-border-top-right-radius: 5px;
@@ -277,7 +278,7 @@ em {
   border-bottom-right-radius: 5px;
 }
 
-/* line 68, ../sass/_global.scss */
+/* line 69, ../sass/_global.scss */
 .active {
   background-color: #FFFFFF;
   border: 1px solid #3C3C3C;
@@ -285,22 +286,22 @@ em {
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 72, ../sass/_global.scss */
+/* line 73, ../sass/_global.scss */
 .active a {
   text-decoration: none;
 }
 
-/* line 79, ../sass/_global.scss */
+/* line 80, ../sass/_global.scss */
 .full-section {
   padding: 3.8em 0% 2em;
 }
 
-/* line 83, ../sass/_global.scss */
+/* line 84, ../sass/_global.scss */
 .sub-section {
   margin: 2em 0% 3em;
 }
 
-/* line 87, ../sass/_global.scss */
+/* line 88, ../sass/_global.scss */
 .title, .sub-title {
   color: #F3F3F3;
   font-family: "Oswald", arial, sans-serif;
@@ -308,26 +309,26 @@ em {
   line-height: 1em;
 }
 
-/* line 94, ../sass/_global.scss */
+/* line 95, ../sass/_global.scss */
 .title {
   text-align: center;
   font-size: 4em;
   margin: 0.375em 0% 0.75em;
 }
 
-/* line 100, ../sass/_global.scss */
+/* line 101, ../sass/_global.scss */
 .sub-title {
   font-size: 2em;
   margin-bottom: 0.5em;
 }
 
-/* line 105, ../sass/_global.scss */
+/* line 106, ../sass/_global.scss */
 .content {
   margin: 0 auto;
   width: 95%;
 }
 
-/* line 118, ../sass/_global.scss */
+/* line 119, ../sass/_global.scss */
 button {
   background-color: #476170;
   border: 3px solid #476170;
@@ -338,59 +339,59 @@ button {
   margin: 0em auto 3em;
   padding: 0.2em 1.5%;
   text-align: center;
-  width: 90%;
+  width: 100%;
 }
-/* line 127, ../sass/_global.scss */
+/* line 128, ../sass/_global.scss */
 button:hover {
   border: 3px solid #45B29D;
 }
-/* line 129, ../sass/_global.scss */
+/* line 130, ../sass/_global.scss */
 button:hover .p-title {
   text-decoration: underline;
 }
 
-/* line 135, ../sass/_global.scss */
+/* line 136, ../sass/_global.scss */
 .p-title, .p-subtitle {
   font-family: "Droid Serif", georgia, serif;
   margin-bottom: 0.1em;
 }
 
-/* line 140, ../sass/_global.scss */
+/* line 141, ../sass/_global.scss */
 .p-title {
   color: #F3F3F3;
   font-size: 2em;
 }
 
-/* line 145, ../sass/_global.scss */
+/* line 146, ../sass/_global.scss */
 .p-subtitle {
   color: #45B29D;
   font-size: 1.5em;
 }
 
-/* line 152, ../sass/_global.scss */
+/* line 153, ../sass/_global.scss */
 .s-list {
   list-style-position: inside;
   list-style-image: url(../assets/list-diamond.svg);
 }
 
-/* line 157, ../sass/_global.scss */
+/* line 158, ../sass/_global.scss */
 .workplace, .job {
   font-weight: 700;
 }
 
-/* line 161, ../sass/_global.scss */
+/* line 162, ../sass/_global.scss */
 .workplace {
   color: #F3F3F3;
   margin: 0;
 }
 
-/* line 166, ../sass/_global.scss */
+/* line 167, ../sass/_global.scss */
 .job {
   color: #45B29D;
   font-size: 1em;
 }
 
-/* line 173, ../sass/_global.scss */
+/* line 174, ../sass/_global.scss */
 .c-label {
   color: #F3F3F3;
   font-family: "Oswald", arial, sans-serif;
@@ -398,21 +399,21 @@ button:hover .p-title {
   text-align: center;
 }
 
-/* line 180, ../sass/_global.scss */
+/* line 181, ../sass/_global.scss */
 .c-links a {
   height: 50px;
   margin: 0em auto 1.25em;
   width: 50px;
 }
 
-/* line 188, ../sass/_global.scss */
+/* line 189, ../sass/_global.scss */
 #bottom {
   background-color: #45B29D;
   padding: 0.5em 2.5%;
   text-align: center;
 }
 
-/* line 194, ../sass/_global.scss */
+/* line 195, ../sass/_global.scss */
 .copyright {
   color: #334D5C;
   font-size: 1em;
@@ -563,7 +564,7 @@ button:hover .p-title {
 
   /* line 118, ../sass/_layout.scss */
   .core, .workflow, .tools, .work {
-    border-top: 0.4em solid #334D5C;
+    border-top: 0.4em solid #45B29D;
     padding-top: 0.8em;
   }
 

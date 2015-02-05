@@ -43,12 +43,13 @@ em {
 
 .n-link {
     display: inline-block;
-    font-weight: 400;
+    font-weight: 300;
     margin-right: -0.21em;
     text-align: center;
     width: 25%;
     a {
         color: $black;
+        font-family: $oswald;
         font-size: 1em;
         padding: 0.5em;
         &:hover {
@@ -123,7 +124,7 @@ button {
     margin: 0em auto 3em;
     padding: 0.2em 1.5%;
     text-align: center;
-    width: 90%;
+    width: 100%;
     &:hover {
         border: 3px solid $green;
         & .p-title {
