@@ -596,25 +596,3 @@ button:hover .p-title {
     display: none;
   }
 }
-@media screen and (min-height: 600px) {
-  /* line 143, ../sass/_layout.scss */
-  #main {
-    height: 100%;
-  }
-
-  /* line 147, ../sass/_layout.scss */
-  #about, #projects, #contact {
-    height: 100%;
-  }
-
-  /* line 151, ../sass/_layout.scss */
-  #skills {
-    min-height: 100%;
-  }
-}
-@media screen and (min-width: 320px) and (min-height: 600px) {
-  /* line 160, ../sass/_layout.scss */
-  .text {
-    font-size: 1.25em;
-  }
-}
