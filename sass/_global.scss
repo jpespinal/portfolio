@@ -3,7 +3,7 @@
 body {
     background-color: $white;
     color: $blue;
-    font-family: $cabin;
+    font-family: $droid-serif;
     line-height: 1.5;
     min-width: 300px;
 }
@@ -86,7 +86,7 @@ em {
 
 .title, .sub-title {
     color: $blue;
-    font-family: $cabin;
+    font-family: $oswald;
     font-weight: 700;
     line-height: 1em;
 }
@@ -133,7 +133,7 @@ button {
 }
 
 .p-title, .p-subtitle {
-    font-family: $cabin;
+    font-family: $droid-serif;
     margin-bottom: 0.1em;
 }
 
@@ -172,7 +172,7 @@ button {
 
 .c-label {
     color: $blue;
-    font-family: $cabin-sketch;
+    font-family: $oswald;
     margin-bottom: 0.25em;
     text-align: center;
 }

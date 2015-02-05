@@ -90,13 +90,6 @@ html {
 /* ============================================================
    Typefaces / Fonts.
    ============================================================ */
-@font-face {
-  font-family: 'Comic Serif Pro';
-  src: url("../typeface/hvd_comic_serif_pro-webfont.eot");
-  src: url("../typeface/hvd_comic_serif_pro-webfont.eot?#iefix") format("embedded-opentype"), url("../typeface/hvd_comic_serif_pro-webfont.woff2") format("woff2"), url("../typeface/hvd_comic_serif_pro-webfont.woff") format("woff"), url("../typeface/hvd_comic_serif_pro-webfont.ttf") format("truetype"), url("../typeface/hvd_comic_serif_pro-webfont.svg#hvd_comic_serif_proregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
 /* ============================================================
    Breakpoint Variables.
    ============================================================ */
@@ -191,7 +184,7 @@ abbr, acronym {
 body {
   background-color: #FFFFFF;
   color: #334D5C;
-  font-family: "Oswald", arial, sans-serif;
+  font-family: "Droid Serif", georgia, serif;
   line-height: 1.5;
   min-width: 300px;
 }
@@ -358,7 +351,7 @@ button:hover .p-title {
 
 /* line 135, ../sass/_global.scss */
 .p-title, .p-subtitle {
-  font-family: "Oswald", arial, sans-serif;
+  font-family: "Droid Serif", georgia, serif;
   margin-bottom: 0.1em;
 }
 
@@ -400,7 +393,7 @@ button:hover .p-title {
 /* line 173, ../sass/_global.scss */
 .c-label {
   color: #334D5C;
-  font-family: "Comic Serif Pro", georgia, serif;
+  font-family: "Oswald", arial, sans-serif;
   margin-bottom: 0.25em;
   text-align: center;
 }

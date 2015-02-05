@@ -36,20 +36,20 @@ $susy: (
    Typefaces / Fonts.
    ============================================================ */
 
-$cabin: 'Oswald', arial, sans-serif;
-$cabin-sketch: 'Comic Serif Pro', georgia, serif;
+$oswald: 'Oswald', arial, sans-serif;
+$droid-serif: 'Droid Serif', georgia, serif;
 
-@font-face {
-    font-family: 'Comic Serif Pro';
-    src:url('../typeface/hvd_comic_serif_pro-webfont.eot');
-    src:url('../typeface/hvd_comic_serif_pro-webfont.eot?#iefix') format('embedded-opentype'),
-        url('../typeface/hvd_comic_serif_pro-webfont.woff2') format('woff2'),
-        url('../typeface/hvd_comic_serif_pro-webfont.woff') format('woff'),
-        url('../typeface/hvd_comic_serif_pro-webfont.ttf') format('truetype'),
-        url('../typeface/hvd_comic_serif_pro-webfont.svg#hvd_comic_serif_proregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
+// @font-face {
+//     font-family: 'Comic Serif Pro';
+//     src:url('../typeface/hvd_comic_serif_pro-webfont.eot');
+//     src:url('../typeface/hvd_comic_serif_pro-webfont.eot?#iefix') format('embedded-opentype'),
+//         url('../typeface/hvd_comic_serif_pro-webfont.woff2') format('woff2'),
+//         url('../typeface/hvd_comic_serif_pro-webfont.woff') format('woff'),
+//         url('../typeface/hvd_comic_serif_pro-webfont.ttf') format('truetype'),
+//         url('../typeface/hvd_comic_serif_pro-webfont.svg#hvd_comic_serif_proregular') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+// }
 
 /* ============================================================
    Breakpoint Variables.
