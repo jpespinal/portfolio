@@ -395,25 +395,26 @@ button:hover .p-title {
 .c-label {
   color: #F3F3F3;
   font-family: "Oswald", arial, sans-serif;
+  font-weight: 300;
   margin-bottom: 0.25em;
   text-align: center;
 }
 
-/* line 181, ../sass/_global.scss */
+/* line 182, ../sass/_global.scss */
 .c-links a {
   height: 50px;
   margin: 0em auto 1.25em;
   width: 50px;
 }
 
-/* line 189, ../sass/_global.scss */
+/* line 190, ../sass/_global.scss */
 #bottom {
   background-color: #45B29D;
   padding: 0.5em 2.5%;
   text-align: center;
 }
 
-/* line 195, ../sass/_global.scss */
+/* line 196, ../sass/_global.scss */
 .copyright {
   color: #334D5C;
   font-size: 1em;
