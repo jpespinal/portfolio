@@ -218,7 +218,7 @@ em {
 
 /* line 26, ../sass/_global.scss */
 #top {
-  background-color: #EFC94C;
+  background-color: #45B29D;
   height: 3.8em;
   min-width: 300px;
   padding: 0.5em 2.5%;
@@ -231,8 +231,8 @@ em {
 
 /* line 38, ../sass/_global.scss */
 .nav {
-  background-color: #EFC94C;
-  border: 1px solid #FFFFFF;
+  background-color: #45B29D;
+  border: 1px solid #F3F3F3;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -329,8 +329,8 @@ em {
 
 /* line 118, ../sass/_global.scss */
 button {
-  background-color: #F68E53;
-  border: 3px solid #F68E53;
+  background-color: #476170;
+  border: 3px solid #476170;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -342,7 +342,7 @@ button {
 }
 /* line 127, ../sass/_global.scss */
 button:hover {
-  border: 3px solid #E27A3F;
+  border: 3px solid #45B29D;
 }
 /* line 129, ../sass/_global.scss */
 button:hover .p-title {
@@ -407,14 +407,14 @@ button:hover .p-title {
 
 /* line 188, ../sass/_global.scss */
 #bottom {
-  background-color: #3C3C3C;
+  background-color: #45B29D;
   padding: 0.5em 2.5%;
   text-align: center;
 }
 
 /* line 194, ../sass/_global.scss */
 .copyright {
-  color: #EFC94C;
+  color: #334D5C;
   font-size: 1em;
   margin: 0;
 }
