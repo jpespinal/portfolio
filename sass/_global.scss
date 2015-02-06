@@ -90,7 +90,7 @@ em {
 }
 
 .sub-title {
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 400;
     margin-bottom: 0.5em;
 }
@@ -132,7 +132,7 @@ button {
     color: $green;
     font-family: $oswald;
     font-size: 2em;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .p-subtitle {
@@ -150,17 +150,19 @@ button {
 
 .workplace, .job {
     font-family: $oswald;
-    font-weight: 300;
 }
 
 .workplace {
     color: $green;
+    font-size: 2em;
+    font-weight: 400;
     margin: 0;
 }
 
 .job {
     color: $light-grey;
-    font-size: 1em;
+    font-size: 1.5em;
+    font-weight: 300;
 }
 
 // Contact Section. //
