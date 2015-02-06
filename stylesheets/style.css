@@ -325,7 +325,7 @@ button:hover .p-title {
 
 /* line 131, ../sass/_global.scss */
 .p-title {
-  color: #F3F3F3;
+  color: #45B29D;
   font-family: "Oswald", arial, sans-serif;
   font-size: 2em;
   font-weight: 300;
@@ -333,7 +333,7 @@ button:hover .p-title {
 
 /* line 138, ../sass/_global.scss */
 .p-subtitle {
-  color: #45B29D;
+  color: #F3F3F3;
   font-family: "Droid Serif", georgia, serif;
   font-size: 1.5em;
 }
@@ -352,19 +352,19 @@ button:hover .p-title {
 
 /* line 156, ../sass/_global.scss */
 .workplace {
-  color: #F3F3F3;
+  color: #45B29D;
   margin: 0;
 }
 
 /* line 161, ../sass/_global.scss */
 .job {
-  color: #45B29D;
+  color: #F3F3F3;
   font-size: 1em;
 }
 
 /* line 168, ../sass/_global.scss */
 .c-label {
-  color: #F3F3F3;
+  color: #45B29D;
   font-family: "Oswald", arial, sans-serif;
   font-weight: 300;
   margin-bottom: 0.25em;
