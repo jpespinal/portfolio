@@ -352,7 +352,7 @@ button:hover .p-title {
 /* line 155, ../sass/_global.scss */
 .workplace {
   color: #45B29D;
-  font-size: 2em;
+  font-size: 1.75em;
   font-weight: 400;
   margin: 0;
 }
@@ -360,7 +360,7 @@ button:hover .p-title {
 /* line 162, ../sass/_global.scss */
 .job {
   color: #F3F3F3;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: 300;
 }
 
