@@ -278,7 +278,7 @@ em {
 
 /* line 79, ../sass/_global.scss */
 .title, .sub-title {
-  color: #F3F3F3;
+  color: #45B29D;
   font-family: "Oswald", arial, sans-serif;
   font-weight: 400;
   line-height: 1em;
@@ -540,7 +540,7 @@ button:hover .p-title {
 
   /* line 118, ../sass/_layout.scss */
   .core, .workflow, .tools, .work {
-    border-top: 0.4em solid #45B29D;
+    border-top: 0.4em solid #476170;
     padding-top: 0.8em;
   }
 
