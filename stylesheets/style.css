@@ -376,24 +376,25 @@ button:hover .p-title {
 
 /* line 179, ../sass/_global.scss */
 .c-link {
+  display: inline-block;
   margin: 0em auto;
 }
 
-/* line 183, ../sass/_global.scss */
+/* line 184, ../sass/_global.scss */
 .c-icon {
   height: 50px;
   margin-bottom: 1.25em;
   width: 50px;
 }
 
-/* line 191, ../sass/_global.scss */
+/* line 192, ../sass/_global.scss */
 #bottom {
   background-color: #F3F3F3;
   padding: 0.5em 2.5%;
   text-align: center;
 }
 
-/* line 197, ../sass/_global.scss */
+/* line 198, ../sass/_global.scss */
 .copyright {
   color: #334D5C;
   font-family: "Oswald", arial, sans-serif;
