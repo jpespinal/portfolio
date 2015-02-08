@@ -335,22 +335,23 @@ button:hover .p-title {
 /* line 139, ../sass/_global.scss */
 .p-subtitle {
   color: #F3F3F3;
-  font-family: "Droid Serif", georgia, serif;
+  font-family: "Oswald", arial, sans-serif;
   font-size: 1.5em;
+  font-weight: 300;
 }
 
-/* line 147, ../sass/_global.scss */
+/* line 148, ../sass/_global.scss */
 .s-list {
   list-style-position: inside;
   list-style-image: url(../assets/list-diamond.svg);
 }
 
-/* line 152, ../sass/_global.scss */
+/* line 153, ../sass/_global.scss */
 .workplace, .job {
   font-family: "Oswald", arial, sans-serif;
 }
 
-/* line 156, ../sass/_global.scss */
+/* line 157, ../sass/_global.scss */
 .workplace {
   color: #45B29D;
   font-size: 1.75em;
@@ -358,14 +359,14 @@ button:hover .p-title {
   margin: 0;
 }
 
-/* line 163, ../sass/_global.scss */
+/* line 164, ../sass/_global.scss */
 .job {
   color: #F3F3F3;
   font-size: 1.25em;
   font-weight: 300;
 }
 
-/* line 171, ../sass/_global.scss */
+/* line 172, ../sass/_global.scss */
 .c-label {
   color: #45B29D;
   font-family: "Oswald", arial, sans-serif;
@@ -374,27 +375,27 @@ button:hover .p-title {
   text-align: center;
 }
 
-/* line 179, ../sass/_global.scss */
+/* line 180, ../sass/_global.scss */
 .c-link {
   display: inline-block;
   margin: 0em auto;
 }
 
-/* line 184, ../sass/_global.scss */
+/* line 185, ../sass/_global.scss */
 .c-icon {
   height: 50px;
   margin-bottom: 1.25em;
   width: 50px;
 }
 
-/* line 192, ../sass/_global.scss */
+/* line 193, ../sass/_global.scss */
 #bottom {
   background-color: #F3F3F3;
   padding: 0.5em 2.5%;
   text-align: center;
 }
 
-/* line 198, ../sass/_global.scss */
+/* line 199, ../sass/_global.scss */
 .copyright {
   color: #334D5C;
   font-family: "Oswald", arial, sans-serif;
