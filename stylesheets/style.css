@@ -174,7 +174,7 @@ abbr, acronym {
   cursor: help;
 }
 
-/*  This is the global page, where styles that never change are defined. */
+/* This is the global page, where styles that never change are defined. */
 /* line 3, ../sass/_global.scss */
 body {
   background-color: #334D5C;
