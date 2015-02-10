@@ -90,82 +90,92 @@ html {
 /* ============================================================
    Typefaces / Fonts.
    ============================================================ */
+@font-face {
+  font-family: 'Comic Serif Pro';
+  src: url("../typeface/hvd_comic_serif_pro-webfont.eot");
+  src: url("../typeface/hvd_comic_serif_pro-webfont.eot?#iefix") format("embedded-opentype"), url("../typeface/hvd_comic_serif_pro-webfont.woff2") format("woff2"), url("../typeface/hvd_comic_serif_pro-webfont.woff") format("woff"), url("../typeface/hvd_comic_serif_pro-webfont.ttf") format("truetype"), url("../typeface/hvd_comic_serif_pro-webfont.svg#hvd_comic_serif_proregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* ============================================================
+   Breakpoint Variables.
+   ============================================================ */
 /* ============================================================
    Color Variables.
    ============================================================ */
 /* ============================================================
    Base Styles.
    ============================================================ */
-/* line 70, ../sass/_base.scss */
+/* line 90, ../sass/_base.scss */
 html, body {
   height: 100%;
   width: 100%;
 }
 
-/* line 75, ../sass/_base.scss */
+/* line 95, ../sass/_base.scss */
 h1 {
   font-size: 1.6em;
   margin-bottom: 0.625em;
 }
 
-/* line 80, ../sass/_base.scss */
+/* line 100, ../sass/_base.scss */
 h2 {
   font-size: 1.5em;
   margin-bottom: 0.66666667em;
 }
 
-/* line 85, ../sass/_base.scss */
+/* line 105, ../sass/_base.scss */
 h3 {
   font-size: 1.4em;
   margin-bottom: 0.71428571em;
 }
 
-/* line 90, ../sass/_base.scss */
+/* line 110, ../sass/_base.scss */
 h4 {
   font-size: 1.3em;
   margin-bottom: 0.76923077em;
 }
 
-/* line 95, ../sass/_base.scss */
+/* line 115, ../sass/_base.scss */
 h5 {
   font-size: 1.2em;
   margin-bottom: 0.83333333em;
 }
 
-/* line 100, ../sass/_base.scss */
+/* line 120, ../sass/_base.scss */
 h6 {
   font-size: 1.1em;
   margin-bottom: 0.90909091em;
 }
 
-/* line 105, ../sass/_base.scss */
+/* line 125, ../sass/_base.scss */
 p {
   font-size: 1em;
   margin-bottom: 2em;
 }
 
-/* line 110, ../sass/_base.scss */
+/* line 130, ../sass/_base.scss */
 a {
   display: block;
 }
 
-/* line 114, ../sass/_base.scss */
+/* line 134, ../sass/_base.scss */
 img {
   display: inline-block;
   max-width: 100%;
 }
 
-/* line 119, ../sass/_base.scss */
+/* line 139, ../sass/_base.scss */
 br {
   margin-bottom: 1em;
 }
 
-/* line 123, ../sass/_base.scss */
+/* line 147, ../sass/_base.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 127, ../sass/_base.scss */
+/* line 151, ../sass/_base.scss */
 abbr, acronym {
   border-bottom: 1px dotted #000;
   cursor: help;
@@ -232,7 +242,7 @@ body {
 /* line 45, ../sass/_global.scss */
 .n-link a {
   color: #334D5C;
-  font-family: "Droid Sans", arial, sans-serif;
+  font-family: "Comic Serif Pro", arial, sans-serif;
   font-size: 1em;
   padding: 0.5em;
 }
@@ -265,7 +275,7 @@ body {
 /* line 75, ../sass/_global.scss */
 .title, .sub-title {
   color: #45B29D;
-  font-family: "Droid Sans", arial, sans-serif;
+  font-family: "Comic Serif Pro", arial, sans-serif;
   line-height: 1em;
 }
 
@@ -317,7 +327,7 @@ button:hover .p-title {
 /* line 127, ../sass/_global.scss */
 .p-title {
   color: #45B29D;
-  font-family: "Droid Sans", arial, sans-serif;
+  font-family: "Comic Serif Pro", arial, sans-serif;
   font-size: 2em;
   font-weight: 400;
   text-decoration: underline;
@@ -326,7 +336,7 @@ button:hover .p-title {
 /* line 135, ../sass/_global.scss */
 .p-subtitle {
   color: #F3F3F3;
-  font-family: "Droid Sans", arial, sans-serif;
+  font-family: "Comic Serif Pro", arial, sans-serif;
   font-size: 1.5em;
   font-weight: 300;
 }
@@ -339,7 +349,7 @@ button:hover .p-title {
 
 /* line 149, ../sass/_global.scss */
 .workplace, .job {
-  font-family: "Droid Sans", arial, sans-serif;
+  font-family: "Comic Serif Pro", arial, sans-serif;
 }
 
 /* line 153, ../sass/_global.scss */
@@ -360,7 +370,7 @@ button:hover .p-title {
 /* line 168, ../sass/_global.scss */
 .c-label {
   color: #45B29D;
-  font-family: "Droid Sans", arial, sans-serif;
+  font-family: "Comic Serif Pro", arial, sans-serif;
   font-weight: 300;
   margin-bottom: 0.25em;
   text-align: center;
@@ -389,7 +399,7 @@ button:hover .p-title {
 /* line 195, ../sass/_global.scss */
 .copyright {
   color: #334D5C;
-  font-family: "Droid Sans", arial, sans-serif;
+  font-family: "Comic Serif Pro", arial, sans-serif;
   font-size: 1em;
   font-weight: 300;
   margin: 0;

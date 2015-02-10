@@ -8,6 +8,7 @@
 @import "compass";                  // Import Compass Framework into Project.
 @import "compass/reset";            // CSS Reset.
 @import "susy";                     // Importing Susy Grid Framework into Project.
+@import "breakpoint";               // Importing Breakpoint Compass plug-in.
 
 /* ============================================================
    Establish Vertical Rhythm, PX fall back for IE8 in Compass.
@@ -34,8 +35,27 @@ $susy: (
    Typefaces / Fonts.
    ============================================================ */
 
-$oswald: 'Droid Sans', arial, sans-serif;
+$oswald: 'Comic Serif Pro', arial, sans-serif;
 $droid-serif: 'Droid Serif', georgia, serif;
+
+@font-face {
+    font-family: 'Comic Serif Pro';
+    src:url('../typeface/hvd_comic_serif_pro-webfont.eot');
+    src:url('../typeface/hvd_comic_serif_pro-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../typeface/hvd_comic_serif_pro-webfont.woff2') format('woff2'),
+        url('../typeface/hvd_comic_serif_pro-webfont.woff') format('woff'),
+        url('../typeface/hvd_comic_serif_pro-webfont.ttf') format('truetype'),
+        url('../typeface/hvd_comic_serif_pro-webfont.svg#hvd_comic_serif_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ============================================================
+   Breakpoint Variables.
+   ============================================================ */
+
+$smallest-width: 300px;
+$small-width: 480px;
 
 /* ============================================================
    Color Variables.
@@ -119,6 +139,10 @@ img {
 br {
     margin-bottom: 1em;
 }
+
+// em {
+//     color: $green;
+// }
 
 strong {
     font-weight: bold;
