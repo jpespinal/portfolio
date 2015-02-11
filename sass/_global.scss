@@ -3,7 +3,7 @@
 body {
     background-color: $blue;
     color: $light-grey;
-    font-family: $oswald;
+    font-family: $droid-serif;
     font-weight: 300;
     line-height: 1.5;
     min-width: 300px;
@@ -45,7 +45,7 @@ body {
     width: 25%;
     a {
         color: $blue;
-        font-family: $comic-serif;
+        font-family: $oswald;
         font-size: 1em;
         padding: 0.5em;
         text-decoration: none;
@@ -75,8 +75,7 @@ body {
 
 .title, .sub-title {
     color: $green;
-    font-family: $comic-serif;
-    // line-height: 1em;
+    font-family: $oswald;
 }
 
 .title {
@@ -117,19 +116,18 @@ button {
 }
 
 .p-title, .p-subtitle {
+    font-family: $oswald;
     margin-bottom: 0.1em;
 }
 
 .p-title {
     color: $green;
-    font-family: $oswald;
     font-size: 2em;
     font-weight: 400;
 }
 
 .p-subtitle {
     color: $light-grey;
-    font-family: $oswald;
     font-size: 1.5em;
     font-weight: 300;
 }
@@ -162,7 +160,8 @@ button {
 
 .c-label {
     color: $green;
-    // font-family: $oswald;
+    font-family: $oswald;
+    font-weight: 300;
     margin-bottom: 0.25em;
     text-align: center;
 }
@@ -188,7 +187,7 @@ button {
 
 .copyright {
     color: $blue;
-    font-family: $comic-serif;
+    font-family: $oswald;
     font-size: 1em;
     font-weight: 300;
     margin: 0;
