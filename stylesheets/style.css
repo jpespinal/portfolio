@@ -179,7 +179,7 @@ abbr, acronym {
 body {
   background-color: #334D5C;
   color: #F3F3F3;
-  font-family: "Droid Serif", georgia, serif;
+  font-family: "Oswald", arial, sans-serif;
   min-width: 300px;
 }
 
@@ -235,7 +235,7 @@ body {
 /* line 45, ../sass/_global.scss */
 .n-link a {
   color: #334D5C;
-  font-family: "Oswald", arial, sans-serif;
+  font-family: "Comic Serif Pro", arial, sans-serif;
   font-size: 1em;
   padding: 0.5em;
 }
@@ -268,7 +268,7 @@ body {
 /* line 75, ../sass/_global.scss */
 .title, .sub-title {
   color: #45B29D;
-  font-family: "Oswald", arial, sans-serif;
+  font-family: "Comic Serif Pro", arial, sans-serif;
   line-height: 1em;
 }
 
@@ -320,7 +320,7 @@ button:hover .p-title {
 /* line 127, ../sass/_global.scss */
 .p-title {
   color: #45B29D;
-  font-family: "Oswald", arial, sans-serif;
+  font-family: "Comic Serif Pro", arial, sans-serif;
   font-size: 2em;
   font-weight: 400;
   text-decoration: underline;
@@ -329,7 +329,7 @@ button:hover .p-title {
 /* line 135, ../sass/_global.scss */
 .p-subtitle {
   color: #F3F3F3;
-  font-family: "Oswald", arial, sans-serif;
+  font-family: "Comic Serif Pro", arial, sans-serif;
   font-size: 1.5em;
   font-weight: 300;
 }
@@ -342,7 +342,7 @@ button:hover .p-title {
 
 /* line 149, ../sass/_global.scss */
 .workplace, .job {
-  font-family: "Oswald", arial, sans-serif;
+  font-family: "Comic Serif Pro", arial, sans-serif;
 }
 
 /* line 153, ../sass/_global.scss */
@@ -363,7 +363,7 @@ button:hover .p-title {
 /* line 168, ../sass/_global.scss */
 .c-label {
   color: #45B29D;
-  font-family: "Oswald", arial, sans-serif;
+  font-family: "Comic Serif Pro", arial, sans-serif;
   font-weight: 300;
   margin-bottom: 0.25em;
   text-align: center;
@@ -392,7 +392,7 @@ button:hover .p-title {
 /* line 195, ../sass/_global.scss */
 .copyright {
   color: #334D5C;
-  font-family: "Oswald", arial, sans-serif;
+  font-family: "Comic Serif Pro", arial, sans-serif;
   font-size: 1em;
   font-weight: 300;
   margin: 0;
