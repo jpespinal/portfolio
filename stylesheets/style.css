@@ -69,15 +69,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* ============================================================
-   Establish Vertical Rhythm, PX fall back for IE8 in Compass.
-   ============================================================ */
-/* line 106, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/typography/_vertical_rhythm.scss */
-html {
-  font-size: 100%;
-  line-height: 1.5em;
-}
-
-/* ============================================================
    Susy Settings.
    ============================================================ */
 /* line 14, ../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/language/susy/_box-sizing.scss */
@@ -106,76 +97,78 @@ html {
 /* ============================================================
    Base Styles.
    ============================================================ */
-/* line 90, ../sass/_base.scss */
+/* line 81, ../sass/_base.scss */
 html, body {
+  font-size: 16px;
   height: 100%;
+  line-height: 1.5;
   width: 100%;
 }
 
-/* line 95, ../sass/_base.scss */
+/* line 88, ../sass/_base.scss */
 h1 {
   font-size: 1.6em;
   margin-bottom: 0.625em;
 }
 
-/* line 100, ../sass/_base.scss */
+/* line 93, ../sass/_base.scss */
 h2 {
   font-size: 1.5em;
   margin-bottom: 0.66666667em;
 }
 
-/* line 105, ../sass/_base.scss */
+/* line 98, ../sass/_base.scss */
 h3 {
   font-size: 1.4em;
   margin-bottom: 0.71428571em;
 }
 
-/* line 110, ../sass/_base.scss */
+/* line 103, ../sass/_base.scss */
 h4 {
   font-size: 1.3em;
   margin-bottom: 0.76923077em;
 }
 
-/* line 115, ../sass/_base.scss */
+/* line 108, ../sass/_base.scss */
 h5 {
   font-size: 1.2em;
   margin-bottom: 0.83333333em;
 }
 
-/* line 120, ../sass/_base.scss */
+/* line 113, ../sass/_base.scss */
 h6 {
   font-size: 1.1em;
   margin-bottom: 0.90909091em;
 }
 
-/* line 125, ../sass/_base.scss */
+/* line 118, ../sass/_base.scss */
 p {
   font-size: 1em;
   margin-bottom: 2em;
 }
 
-/* line 130, ../sass/_base.scss */
+/* line 123, ../sass/_base.scss */
 a {
   display: block;
 }
 
-/* line 134, ../sass/_base.scss */
+/* line 127, ../sass/_base.scss */
 img {
   display: inline-block;
   max-width: 100%;
 }
 
-/* line 139, ../sass/_base.scss */
+/* line 132, ../sass/_base.scss */
 br {
   margin-bottom: 1em;
 }
 
-/* line 147, ../sass/_base.scss */
+/* line 140, ../sass/_base.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 151, ../sass/_base.scss */
+/* line 144, ../sass/_base.scss */
 abbr, acronym {
   border-bottom: 1px dotted #000;
   cursor: help;
