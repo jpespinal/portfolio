@@ -3,7 +3,7 @@
 body {
     background-color: $blue;
     color: $light-grey;
-    font-family: $droid-serif;
+    font-family: $oswald;
     // line-height: 1.5;
     min-width: 300px;
 }
@@ -47,9 +47,9 @@ body {
         font-family: $oswald;
         font-size: 1em;
         padding: 0.5em;
+        text-decoration: none;
         &:hover {
             color: $green;
-            text-decoration: none;
         }
     }
 }
@@ -74,7 +74,7 @@ body {
 
 .title, .sub-title {
     color: $green;
-    font-family: $oswald;
+    font-family: $comic-serif;
     line-height: 1em;
 }
 
@@ -129,7 +129,7 @@ button {
     font-family: $oswald;
     font-size: 2em;
     font-weight: 400;
-    text-decoration: underline;
+    // text-decoration: underline;
 }
 
 .p-subtitle {
@@ -167,8 +167,8 @@ button {
 
 .c-label {
     color: $green;
-    font-family: $oswald;
-    font-weight: 300;
+    font-family: $comic-serif;
+    // font-weight: 300;
     margin-bottom: 0.25em;
     text-align: center;
 }
@@ -194,7 +194,7 @@ button {
 
 .copyright {
     color: $blue;
-    font-family: $oswald;
+    font-family: $comic-serif;
     font-size: 1em;
     font-weight: 300;
     margin: 0;
