@@ -271,7 +271,6 @@ body {
 .title, .sub-title {
   color: #45B29D;
   font-family: "Comic Serif Pro", georgia, serif;
-  line-height: 1em;
 }
 
 /* line 82, ../sass/_global.scss */
@@ -362,7 +361,6 @@ button:hover .p-title {
 /* line 163, ../sass/_global.scss */
 .c-label {
   color: #45B29D;
-  font-family: "Comic Serif Pro", georgia, serif;
   margin-bottom: 0.25em;
   text-align: center;
 }
