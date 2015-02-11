@@ -4,7 +4,8 @@ body {
     background-color: $blue;
     color: $light-grey;
     font-family: $oswald;
-    // line-height: 1.5;
+    font-weight: 300;
+    line-height: 1.5;
     min-width: 300px;
 }
 
@@ -44,7 +45,7 @@ body {
     width: 25%;
     a {
         color: $blue;
-        font-family: $oswald;
+        font-family: $comic-serif;
         font-size: 1em;
         padding: 0.5em;
         text-decoration: none;
@@ -80,14 +81,12 @@ body {
 
 .title {
     font-size: 4em;
-    // font-weight: 700;
     margin: 0.75em 0%;
     text-align: center;
 }
 
 .sub-title {
     font-size: 2.5em;
-    // font-weight: 400;
     margin-bottom: 0.5em;
 }
 
@@ -98,9 +97,6 @@ body {
 
 // About Section. //
 
-// .text {
-//     line-height: 1.5;
-// }
 
 // Projects Section. //
 
@@ -129,7 +125,6 @@ button {
     font-family: $oswald;
     font-size: 2em;
     font-weight: 400;
-    // text-decoration: underline;
 }
 
 .p-subtitle {
@@ -168,7 +163,6 @@ button {
 .c-label {
     color: $green;
     font-family: $comic-serif;
-    // font-weight: 300;
     margin-bottom: 0.25em;
     text-align: center;
 }
