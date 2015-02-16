@@ -228,7 +228,7 @@ body {
 /* line 39, ../sass/_global.scss */
 .n-link {
   background-color: #476170;
-  box-shadow: inset 0px 5px 0px 0px #334D5C;
+  box-shadow: inset 0px -5px 0px 0px #334D5C;
   display: inline-block;
   margin-right: -0.20em;
   text-align: center;
