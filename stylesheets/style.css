@@ -273,17 +273,17 @@ body {
 }
 
 /* line 70, ../sass/_global.scss */
-.n-link.f-radius.active {
+.n-link.f-radius:active {
   box-shadow: inset 5px 5px 5px 0px #334D5C;
 }
 
 /* line 74, ../sass/_global.scss */
-.n-link.l-radius.active {
+.n-link.l-radius:active {
   box-shadow: inset -5px 5px 5px 0px #334D5C;
 }
 
 /* line 78, ../sass/_global.scss */
-.n-link.active {
+.n-link:active {
   box-shadow: inset 0px 5px 5px 0px #334D5C;
 }
 
