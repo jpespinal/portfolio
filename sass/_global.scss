@@ -67,6 +67,10 @@ body {
     @include border-right-radius;
 }
 
+.active {
+    box-shadow: 5px 0px 0px 0px $blue;
+}
+
 // Main Section. //
 
 .full-section {
