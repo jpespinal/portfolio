@@ -64,12 +64,8 @@ body {
     @include border-right-radius;
 }
 
-.active {
-    background-color: $blue;
-    border: 1px solid $green;
-    & a {
-        text-decoration: none;
-    }
+.n-link a:active {
+    color: $green;
 }
 
 // Main Section. //
