@@ -33,21 +33,17 @@ body {
 
 .nav {
     background-color: $light-grey;
-    border: 1px solid $green;
-}
-
-nav, .nav {
-    @include border-radius;
 }
 
 .n-link {
+    background-color: $light-blue;
     display: inline-block;
     font-weight: 300;
     margin-right: -0.21em;
     text-align: center;
     width: 25%;
     a {
-        color: $blue;
+        color: $light-grey;
         font-family: $oswald;
         font-size: 1em;
         padding: 0.5em;
@@ -56,6 +52,14 @@ nav, .nav {
             color: $green;
         }
     }
+}
+
+.n-link.first-radius {
+    @include border-left-radius;
+}
+
+.n-link.last-radius {
+    @include border-right-radius;
 }
 
 .active {
