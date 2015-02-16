@@ -37,7 +37,7 @@ body {
 
 .n-link {
     background-color: $light-blue;
-    @include box-shadow($blue, 0px, 5px);
+    box-shadow: 0px 5px 0px 0px $blue;
     display: inline-block;
     font-weight: 300;
     margin-right: -0.21em;
