@@ -5,7 +5,6 @@ body {
     color: $light-grey;
     font-family: $droid-serif;
     font-weight: 300;
-    line-height: 1.5;
     min-width: 300px;
 }
 
@@ -35,6 +34,7 @@ body {
 .nav {
     background-color: $light-grey;
     border: 1px solid $green;
+    @include border-radius;
 }
 
 .n-link {

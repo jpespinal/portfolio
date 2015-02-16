@@ -181,11 +181,10 @@ body {
   color: #F3F3F3;
   font-family: "Droid Serif", georgia, serif;
   font-weight: 300;
-  line-height: 1.5;
   min-width: 300px;
 }
 
-/* line 12, ../sass/_global.scss */
+/* line 11, ../sass/_global.scss */
 #container {
   height: 100%;
   max-width: 100%;
@@ -199,7 +198,7 @@ body {
   clear: both;
 }
 
-/* line 17, ../sass/_global.scss */
+/* line 16, ../sass/_global.scss */
 #top, #main, #bottom {
   width: 100%;
   float: left;
@@ -207,7 +206,7 @@ body {
   margin-right: 0;
 }
 
-/* line 23, ../sass/_global.scss */
+/* line 22, ../sass/_global.scss */
 #top {
   background-color: #F3F3F3;
   height: 3.8em;
@@ -220,10 +219,13 @@ body {
   z-index: 2;
 }
 
-/* line 35, ../sass/_global.scss */
+/* line 34, ../sass/_global.scss */
 .nav {
   background-color: #F3F3F3;
   border: 1px solid #45B29D;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
 /* line 40, ../sass/_global.scss */
