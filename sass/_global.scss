@@ -53,6 +53,9 @@ body {
         &:hover {
             color: $green;
         }
+        &:active {
+            color: $green;
+        }
     }
 }
 
@@ -62,10 +65,6 @@ body {
 
 .n-link.l-radius {
     @include border-right-radius;
-}
-
-.n-link a:active {
-    color: $green;
 }
 
 // Main Section. //
