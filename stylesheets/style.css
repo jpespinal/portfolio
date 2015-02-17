@@ -228,7 +228,7 @@ body {
 /* line 39, ../sass/_global.scss */
 .n-link {
   background-color: #476170;
-  box-shadow: inset 0px -5px 0px 0px #334D5C;
+  box-shadow: 0px -4px 0px 0px #334D5C;
   display: inline-block;
   margin-right: -0.20em;
   text-align: center;
@@ -274,17 +274,17 @@ body {
 
 /* line 70, ../sass/_global.scss */
 .n-link.f-radius:active {
-  box-shadow: inset 5px 5px 5px 0px #334D5C;
+  box-shadow: 0px 3px 0px 0px #F3F3F3, 0px -1px 0px 0px #334D5C;
 }
 
 /* line 74, ../sass/_global.scss */
 .n-link.l-radius:active {
-  box-shadow: inset -5px 5px 5px 0px #334D5C;
+  box-shadow: 0px 3px 0px 0px #F3F3F3, 0px -1px 0px 0px #334D5C;
 }
 
 /* line 78, ../sass/_global.scss */
 .n-link:active {
-  box-shadow: inset 0px 5px 5px 0px #334D5C;
+  box-shadow: 0px 3px 0px 0px #F3F3F3, 0px -1px 0px 0px #334D5C;
 }
 
 /* line 84, ../sass/_global.scss */
