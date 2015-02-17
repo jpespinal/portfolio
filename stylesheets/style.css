@@ -209,7 +209,7 @@ body {
 /* line 22, ../sass/_global.scss */
 #top {
   background-color: #F3F3F3;
-  height: 3.5em;
+  height: 3.8em;
   min-width: 300px;
   padding: 0.5em 2.5%;
   position: fixed;
@@ -256,6 +256,7 @@ body {
 
 /* line 64, ../sass/_global.scss */
 .n-link.f-radius {
+  box-shadow: -2px 0px 0px 0px #334D5C;
   -moz-border-radius-topleft: 5px;
   -webkit-border-top-left-radius: 5px;
   border-top-left-radius: 5px;
@@ -264,7 +265,7 @@ body {
   border-bottom-left-radius: 5px;
 }
 
-/* line 68, ../sass/_global.scss */
+/* line 69, ../sass/_global.scss */
 .n-link.l-radius {
   -moz-border-radius-topright: 5px;
   -webkit-border-top-right-radius: 5px;
@@ -274,44 +275,44 @@ body {
   border-bottom-right-radius: 5px;
 }
 
-/* line 72, ../sass/_global.scss */
+/* line 73, ../sass/_global.scss */
 .n-link.f-radius:active {
   box-shadow: 0px 1px 0px 0px #334D5C;
   position: relative;
   top: 5px;
 }
 
-/* line 78, ../sass/_global.scss */
+/* line 79, ../sass/_global.scss */
 .n-link.l-radius:active {
   box-shadow: 0px 1px 0px 0px #334D5C;
   position: relative;
   top: 5px;
 }
 
-/* line 84, ../sass/_global.scss */
+/* line 85, ../sass/_global.scss */
 .n-link:active {
   box-shadow: 0px 1px 0px 0px #334D5C;
   position: relative;
   top: 5px;
 }
 
-/* line 92, ../sass/_global.scss */
+/* line 93, ../sass/_global.scss */
 .full-section {
   padding: 3.8em 0% 2em;
 }
 
-/* line 96, ../sass/_global.scss */
+/* line 97, ../sass/_global.scss */
 .sub-section {
   margin: 2em 0% 3em;
 }
 
-/* line 100, ../sass/_global.scss */
+/* line 101, ../sass/_global.scss */
 .title, .sub-title {
   color: #45B29D;
   font-family: "Istok Web", sans-serif;
 }
 
-/* line 105, ../sass/_global.scss */
+/* line 106, ../sass/_global.scss */
 .title {
   font-size: 4em;
   font-weight: 700;
@@ -319,20 +320,20 @@ body {
   text-align: center;
 }
 
-/* line 112, ../sass/_global.scss */
+/* line 113, ../sass/_global.scss */
 .sub-title {
   font-size: 2.5em;
   font-weight: 400;
   margin-bottom: 0.5em;
 }
 
-/* line 118, ../sass/_global.scss */
+/* line 119, ../sass/_global.scss */
 .content {
   margin: 0 auto;
   width: 95%;
 }
 
-/* line 128, ../sass/_global.scss */
+/* line 129, ../sass/_global.scss */
 button {
   background-color: #476170;
   border: 3px solid #476170;
@@ -342,47 +343,47 @@ button {
   text-align: center;
   width: 100%;
 }
-/* line 136, ../sass/_global.scss */
+/* line 137, ../sass/_global.scss */
 button:hover {
   border: 3px solid #45B29D;
 }
-/* line 138, ../sass/_global.scss */
+/* line 139, ../sass/_global.scss */
 button:hover .p-title {
   text-decoration: none;
 }
 
-/* line 144, ../sass/_global.scss */
+/* line 145, ../sass/_global.scss */
 .p-title, .p-subtitle {
   font-family: "Istok Web", sans-serif;
   margin-bottom: 0.1em;
 }
 
-/* line 149, ../sass/_global.scss */
+/* line 150, ../sass/_global.scss */
 .p-title {
   color: #45B29D;
   font-size: 2em;
   font-weight: 400;
 }
 
-/* line 155, ../sass/_global.scss */
+/* line 156, ../sass/_global.scss */
 .p-subtitle {
   color: #F3F3F3;
   font-size: 1.5em;
   font-weight: 300;
 }
 
-/* line 163, ../sass/_global.scss */
+/* line 164, ../sass/_global.scss */
 .s-list {
   list-style-position: inside;
   list-style-image: url(../assets/list-diamond.svg);
 }
 
-/* line 168, ../sass/_global.scss */
+/* line 169, ../sass/_global.scss */
 .workplace, .job {
   font-family: "Istok Web", sans-serif;
 }
 
-/* line 172, ../sass/_global.scss */
+/* line 173, ../sass/_global.scss */
 .workplace {
   color: #45B29D;
   font-size: 1.75em;
@@ -390,14 +391,14 @@ button:hover .p-title {
   margin: 0;
 }
 
-/* line 179, ../sass/_global.scss */
+/* line 180, ../sass/_global.scss */
 .job {
   color: #F3F3F3;
   font-size: 1.25em;
   font-weight: 300;
 }
 
-/* line 187, ../sass/_global.scss */
+/* line 188, ../sass/_global.scss */
 .c-label {
   color: #45B29D;
   font-family: "Istok Web", sans-serif;
@@ -406,27 +407,27 @@ button:hover .p-title {
   text-align: center;
 }
 
-/* line 195, ../sass/_global.scss */
+/* line 196, ../sass/_global.scss */
 .c-link {
   display: inline-block;
   margin: 0em auto;
 }
 
-/* line 200, ../sass/_global.scss */
+/* line 201, ../sass/_global.scss */
 .c-icon {
   height: 50px;
   margin-bottom: 1.25em;
   width: 50px;
 }
 
-/* line 208, ../sass/_global.scss */
+/* line 209, ../sass/_global.scss */
 #bottom {
   background-color: #F3F3F3;
   padding: 0.5em 2.5%;
   text-align: center;
 }
 
-/* line 214, ../sass/_global.scss */
+/* line 215, ../sass/_global.scss */
 .copyright {
   color: #334D5C;
   font-family: "Istok Web", sans-serif;
