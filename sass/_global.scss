@@ -68,15 +68,15 @@ body {
 }
 
 .n-link.f-radius:active {
-    box-shadow: 0px -3px 0px 0px $light-grey, 0px 3px 0px 0px $light-blue, 0px 1px 0px 0px $blue;
+    box-shadow: inset 0px -3px 0px 0px $light-grey, 0px 3px 0px 0px $light-blue, 0px 1px 0px 0px $blue;
 }
 
 .n-link.l-radius:active {
-    box-shadow: 0px -3px 0px 0px $light-grey, 0px 3px 0px 0px $light-blue, 0px 1px 0px 0px $blue;;
+    box-shadow: inset 0px -3px 0px 0px $light-grey, 0px 3px 0px 0px $light-blue, 0px 1px 0px 0px $blue;;
 }
 
 .n-link:active {
-    box-shadow: 0px -3px 0px 0px $light-grey, 0px 3px 0px 0px $light-blue, 0px 1px 0px 0px $blue;;
+    box-shadow: inset 0px -3px 0px 0px $light-grey, 0px 3px 0px 0px $light-blue, 0px 1px 0px 0px $blue;;
 }
 
 // Main Section. //
