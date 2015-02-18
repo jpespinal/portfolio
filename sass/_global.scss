@@ -146,19 +146,18 @@ button {
 
 .p-title, .p-subtitle {
     font-family: $open-sans;
+    font-weight: 400;
     margin-bottom: 0.1em;
 }
 
 .p-title {
     color: $green;
     font-size: 2em;
-    font-weight: 700;
 }
 
 .p-subtitle {
     color: $light-grey;
     font-size: 1.5em;
-    font-weight: 400;
 }
 
 // Skills Section. //
@@ -171,7 +170,7 @@ button {
 .workplace, .job {
     color: $light-grey;
     font-family: $open-sans;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .workplace {
