@@ -70,14 +70,22 @@ body {
     @include border-right-radius;
 }
 
-.n-link.f-radius:active, .n-link.f-radius.active {
-    box-shadow: -2px 0px 0px 0px $light-blue;
-}
-
 .n-link.f-radius:active, .n-link.l-radius:active, .n-link:active, .active {
     color: $green;
     position: relative;
     top: 6px;
+}
+
+.n-link.f-radius:active, .n-link.f-radius.active {
+    box-shadow: -2px 0px 0px 0px $light-blue, inset -2px -2px 1px 0px $blue;
+}
+
+.n-link.l-radius:active, .n-link.l-radius.active {
+    box-shadow: inset 2px -2px 0px 1px 0px $blue;
+}
+
+.n-link:active, .n-link.active {
+    box-shadow: inset 2px 0px 1px 0px $blue, -2px 2px 1px 0px $blue;
 }
 
 // Main Section. //
