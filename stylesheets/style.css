@@ -310,12 +310,12 @@ body {
 .title, .sub-title {
   color: #45B29D;
   font-family: "Francois One", sans-serif;
+  font-weight: 400;
 }
 
-/* line 106, ../sass/_global.scss */
+/* line 107, ../sass/_global.scss */
 .title {
   font-size: 4em;
-  font-weight: 700;
   margin: 0.75em 0%;
   text-align: center;
 }
@@ -323,22 +323,21 @@ body {
 /* line 113, ../sass/_global.scss */
 .sub-title {
   font-size: 2.5em;
-  font-weight: 400;
   margin-bottom: 0.5em;
 }
 
-/* line 119, ../sass/_global.scss */
+/* line 118, ../sass/_global.scss */
 .content {
   margin: 0 auto;
   width: 95%;
 }
 
-/* line 126, ../sass/_global.scss */
+/* line 125, ../sass/_global.scss */
 .name-card {
   margin: 3em 0 2em;
 }
 
-/* line 132, ../sass/_global.scss */
+/* line 131, ../sass/_global.scss */
 button {
   background-color: #476170;
   border: 3px solid #476170;
@@ -348,61 +347,59 @@ button {
   text-align: center;
   width: 100%;
 }
-/* line 140, ../sass/_global.scss */
+/* line 139, ../sass/_global.scss */
 button:hover {
   border: 3px solid #45B29D;
 }
-/* line 142, ../sass/_global.scss */
+/* line 141, ../sass/_global.scss */
 button:hover .p-title {
   text-decoration: none;
 }
 
-/* line 148, ../sass/_global.scss */
+/* line 147, ../sass/_global.scss */
 .p-title, .p-subtitle {
   font-family: "Francois One", sans-serif;
   font-weight: 400;
   margin-bottom: 0.1em;
 }
 
-/* line 154, ../sass/_global.scss */
+/* line 153, ../sass/_global.scss */
 .p-title {
   color: #45B29D;
   font-size: 2em;
 }
 
-/* line 159, ../sass/_global.scss */
+/* line 158, ../sass/_global.scss */
 .p-subtitle {
   color: #F3F3F3;
   font-size: 1.5em;
 }
 
-/* line 166, ../sass/_global.scss */
+/* line 165, ../sass/_global.scss */
 .s-list {
   list-style-position: inside;
   list-style-image: url(../assets/list-diamond.svg);
 }
 
-/* line 171, ../sass/_global.scss */
+/* line 170, ../sass/_global.scss */
 .workplace, .job {
+  color: #F3F3F3;
   font-family: "Francois One", sans-serif;
+  font-weight: 400;
 }
 
-/* line 175, ../sass/_global.scss */
+/* line 176, ../sass/_global.scss */
 .workplace {
-  color: #45B29D;
   font-size: 1.75em;
-  font-weight: 400;
   margin: 0;
 }
 
-/* line 182, ../sass/_global.scss */
+/* line 181, ../sass/_global.scss */
 .job {
-  color: #F3F3F3;
   font-size: 1.25em;
-  font-weight: 300;
 }
 
-/* line 190, ../sass/_global.scss */
+/* line 187, ../sass/_global.scss */
 .c-label {
   color: #45B29D;
   font-family: "Francois One", sans-serif;
@@ -411,27 +408,27 @@ button:hover .p-title {
   text-align: center;
 }
 
-/* line 198, ../sass/_global.scss */
+/* line 195, ../sass/_global.scss */
 .c-link {
   display: inline-block;
   margin: 0em auto;
 }
 
-/* line 203, ../sass/_global.scss */
+/* line 200, ../sass/_global.scss */
 .c-icon {
   height: 50px;
   margin-bottom: 1.25em;
   width: 50px;
 }
 
-/* line 211, ../sass/_global.scss */
+/* line 208, ../sass/_global.scss */
 #bottom {
   background-color: #F3F3F3;
   padding: 0.5em 2.5%;
   text-align: center;
 }
 
-/* line 217, ../sass/_global.scss */
+/* line 214, ../sass/_global.scss */
 .copyright {
   color: #334D5C;
   font-family: "Open Sans", sans-serif;
