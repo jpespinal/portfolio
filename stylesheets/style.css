@@ -278,7 +278,7 @@ body {
 }
 
 /* line 73, ../sass/_global.scss */
-.n-link.f-radius:active, .n-link.l-radius:active, .n-link:active {
+.n-link.f-radius:active, .n-link.l-radius:active, .n-link:active, .active {
   position: relative;
   top: 6px;
 }
