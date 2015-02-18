@@ -289,7 +289,7 @@ body {
 
 /* line 81, ../sass/_global.scss */
 .n-link.l-radius:active, .n-link.l-radius.active {
-  box-shadow: inset -2px -2px 1px 0px #334D5C;
+  box-shadow: 2px 0px 0px 0px #476170, inset 2px -2px 1px 0px #334D5C;
 }
 
 /* line 85, ../sass/_global.scss */
