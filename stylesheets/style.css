@@ -316,7 +316,7 @@ body {
 /* line 107, ../sass/_global.scss */
 .title {
   font-size: 4em;
-  margin: 0.75em 0%;
+  margin: 0.25em 0%;
   text-align: center;
 }
 
@@ -334,7 +334,7 @@ body {
 
 /* line 125, ../sass/_global.scss */
 .name-card {
-  margin: 3em 0 2em;
+  margin: 2em 0;
 }
 
 /* line 131, ../sass/_global.scss */
