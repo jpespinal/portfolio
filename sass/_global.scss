@@ -70,11 +70,8 @@ body {
     @include border-right-radius;
 }
 
-.n-link.f-radius:active {
-    box-shadow: -2px 0px 0px 0px $light-blue;
-}
-
 .n-link.f-radius:active, .n-link.l-radius:active, .n-link:active, .active {
+    color: $green;
     position: relative;
     top: 6px;
 }
