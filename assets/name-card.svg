@@ -10,8 +10,8 @@
                 <rect id="Rectangle-1" stroke="#F3F3F3" sketch:type="MSShapeGroup" x="0" y="0" width="300" height="200" rx="5"></rect>
                 <path d="M0,45 L300,45" id="Top-Line" stroke="#F3F3F3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
                 <path d="M0,154 L300,154" id="Line-2" stroke="#F3F3F3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-                <text id="Hello,-my-name-is:" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#F3F3F3">
-                    <tspan x="51.3" y="32">Hello, my name is:</tspan>
+                <text id="Hello,-my-name-is:" sketch:type="MSTextLayer" font-family="Open Sans" font-size="22" font-weight="normal" sketch:alignment="middle" fill="#F3F3F3">
+                    <tspan x="56.2314453" y="31">Hello, my name is:</tspan>
                 </text>
                 <path d="M16.3535534,131.353553 L6.35355339,141.353553 L6,141.707107 L5.29289322,141 L5.64644661,140.646447 L15.6464466,130.646447 L16,130.292893 L16.7071068,131 L16.3535534,131.353553 M5.64644661,131.353553 L15.6464466,141.353553 L16,141.707107 L16.7071068,141 L16.3535534,140.646447 L6.35355339,130.646447 L6,130.292893 L5.29289322,131 L5.64644661,131.353553" id="Line" stroke="#F3F3F3" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
                 <path d="M23.5,134.25 L290,134.25" id="Line" stroke="#F3F3F3" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
