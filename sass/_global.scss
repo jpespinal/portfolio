@@ -123,7 +123,7 @@ body {
 // About Section. //
 
 .name-card {
-    margin: 2em 0;
+    margin-bottom: 2em;
 }
 
 // Projects Section. //
@@ -145,18 +145,19 @@ button {
 }
 
 .p-title, .p-subtitle {
-    font-family: $francois-one;
     font-weight: 400;
     margin-bottom: 0.1em;
 }
 
 .p-title {
     color: $green;
+    font-family: $francois-one;
     font-size: 2em;
 }
 
 .p-subtitle {
     color: $light-grey;
+    font-family: $open-sans;
     font-size: 1.5em;
 }
 
@@ -185,7 +186,7 @@ button {
 // Contact Section. //
 
 .c-label {
-    color: $green;
+    color: $light-grey;
     font-family: $francois-one;
     font-weight: 300;
     margin-bottom: 0.25em;
