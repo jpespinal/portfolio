@@ -33,14 +33,15 @@ body {
 
 .nav {
     background-color: $light-grey;
+    @include border-radius;
+    box-shadow: -2px 6px 0px 0px $blue;
     margin-left: -0.13em;
 }
 
 .n-link {
     background-color: $light-blue;
-    box-shadow: 0px 6px 0px 0px $blue;
     display: inline-block;
-    margin-right: -0.27em;
+    margin-right: -0.25em;
     text-align: center;
     width: 25%;
     a {
@@ -62,7 +63,6 @@ body {
 }
 
 .n-link.f-radius {
-    box-shadow: -2px 6px 0px 0px $blue;
     @include border-left-radius;
 }
 
@@ -70,22 +70,9 @@ body {
     @include border-right-radius;
 }
 
-.n-link.f-radius:active {
-    box-shadow: 0px 1px 0px 0px $blue;
+.n-link.f-radius:active, .n-link.l-radius:active, .n-link:active {
     position: relative;
-    top: 5px;
-}
-
-.n-link.l-radius:active {
-    box-shadow: 0px 1px 0px 0px $blue;
-    position: relative;
-    top: 5px;
-}
-
-.n-link:active {
-    box-shadow: 0px 1px 0px 0px $blue;
-    position: relative;
-    top: 5px;
+    top: 6px;
 }
 
 // Main Section. //
