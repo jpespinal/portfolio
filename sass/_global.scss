@@ -69,9 +69,12 @@ body {
     @include border-right-radius;
 }
 
-.n-link.f-radius:active, .n-link.l-radius:active, .n-link:active, .active {
+.n-link.f-radius:active, .n-link.f-radius.active, .n-link.l-radius:active, .n-link.l-radius.active, .n-link:active, .n-link.active {
     position: relative;
     top: 6px;
+    & a {
+        color: $green;
+    }
 }
 
 .n-link.f-radius:active, .n-link.f-radius.active {

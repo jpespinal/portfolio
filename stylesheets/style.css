@@ -277,68 +277,72 @@ body {
 }
 
 /* line 72, ../sass/_global.scss */
-.n-link.f-radius:active, .n-link.l-radius:active, .n-link:active, .active {
+.n-link.f-radius:active, .n-link.f-radius.active, .n-link.l-radius:active, .n-link.l-radius.active, .n-link:active, .n-link.active {
   position: relative;
   top: 6px;
 }
+/* line 75, ../sass/_global.scss */
+.n-link.f-radius:active a, .n-link.f-radius.active a, .n-link.l-radius:active a, .n-link.l-radius.active a, .n-link:active a, .n-link.active a {
+  color: #45B29D;
+}
 
-/* line 77, ../sass/_global.scss */
+/* line 80, ../sass/_global.scss */
 .n-link.f-radius:active, .n-link.f-radius.active {
   box-shadow: -2px 0px 0px 0px #476170, inset -2px -2px 1px 0px #334D5C;
 }
 
-/* line 81, ../sass/_global.scss */
+/* line 84, ../sass/_global.scss */
 .n-link.l-radius:active, .n-link.l-radius.active {
   box-shadow: 2px 0px 0px 0px #476170, inset 2px -2px 1px 0px #334D5C;
 }
 
-/* line 85, ../sass/_global.scss */
+/* line 88, ../sass/_global.scss */
 .n-link:active, .n-link.active {
   box-shadow: inset 2px 0px 1px 0px #334D5C, inset -2px -2px 1px 0px #334D5C;
 }
 
-/* line 91, ../sass/_global.scss */
+/* line 94, ../sass/_global.scss */
 .full-section {
   padding: 3.8em 0% 2em;
 }
 
-/* line 95, ../sass/_global.scss */
+/* line 98, ../sass/_global.scss */
 .sub-section {
   margin: 2em 0% 3em;
 }
 
-/* line 99, ../sass/_global.scss */
+/* line 102, ../sass/_global.scss */
 .title, .sub-title {
   color: #45B29D;
   font-family: "Francois One", sans-serif;
   font-weight: 400;
 }
 
-/* line 105, ../sass/_global.scss */
+/* line 108, ../sass/_global.scss */
 .title {
   font-size: 4em;
   margin: 0.25em 0%;
   text-align: center;
 }
 
-/* line 111, ../sass/_global.scss */
+/* line 114, ../sass/_global.scss */
 .sub-title {
   font-size: 2.5em;
   margin-bottom: 0.5em;
 }
 
-/* line 116, ../sass/_global.scss */
+/* line 119, ../sass/_global.scss */
 .content {
   margin: 0 auto;
   width: 95%;
 }
 
-/* line 123, ../sass/_global.scss */
+/* line 126, ../sass/_global.scss */
 .name-card {
   margin-bottom: 2em;
 }
 
-/* line 129, ../sass/_global.scss */
+/* line 132, ../sass/_global.scss */
 button {
   background-color: #476170;
   border: 3px solid #476170;
@@ -348,59 +352,59 @@ button {
   text-align: center;
   width: 100%;
 }
-/* line 137, ../sass/_global.scss */
+/* line 140, ../sass/_global.scss */
 button:hover {
   border: 3px solid #45B29D;
 }
-/* line 139, ../sass/_global.scss */
+/* line 142, ../sass/_global.scss */
 button:hover .p-title {
   text-decoration: none;
 }
 
-/* line 145, ../sass/_global.scss */
+/* line 148, ../sass/_global.scss */
 .p-title, .p-subtitle {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   margin-bottom: 0.1em;
 }
 
-/* line 151, ../sass/_global.scss */
+/* line 154, ../sass/_global.scss */
 .p-title {
   color: #45B29D;
   font-size: 2em;
 }
 
-/* line 156, ../sass/_global.scss */
+/* line 159, ../sass/_global.scss */
 .p-subtitle {
   color: #F3F3F3;
   font-size: 1.5em;
 }
 
-/* line 163, ../sass/_global.scss */
+/* line 166, ../sass/_global.scss */
 .s-list {
   list-style-position: inside;
   list-style-image: url(../assets/list-diamond.svg);
 }
 
-/* line 168, ../sass/_global.scss */
+/* line 171, ../sass/_global.scss */
 .workplace, .job {
   color: #F3F3F3;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
 }
 
-/* line 174, ../sass/_global.scss */
+/* line 177, ../sass/_global.scss */
 .workplace {
   font-size: 1.75em;
   margin: 0;
 }
 
-/* line 179, ../sass/_global.scss */
+/* line 182, ../sass/_global.scss */
 .job {
   font-size: 1.25em;
 }
 
-/* line 185, ../sass/_global.scss */
+/* line 188, ../sass/_global.scss */
 .c-label {
   color: #F3F3F3;
   font-family: "Francois One", sans-serif;
@@ -409,27 +413,27 @@ button:hover .p-title {
   text-align: center;
 }
 
-/* line 193, ../sass/_global.scss */
+/* line 196, ../sass/_global.scss */
 .c-link {
   display: inline-block;
   margin: 0em auto;
 }
 
-/* line 198, ../sass/_global.scss */
+/* line 201, ../sass/_global.scss */
 .c-icon {
   height: 50px;
   margin-bottom: 1.25em;
   width: 50px;
 }
 
-/* line 206, ../sass/_global.scss */
+/* line 209, ../sass/_global.scss */
 #bottom {
   background-color: #F3F3F3;
   padding: 0.5em 2.5%;
   text-align: center;
 }
 
-/* line 212, ../sass/_global.scss */
+/* line 215, ../sass/_global.scss */
 .copyright {
   color: #334D5C;
   font-family: "Open Sans", sans-serif;
