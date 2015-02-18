@@ -233,7 +233,7 @@ body {
 .n-link {
   background-color: #476170;
   display: inline-block;
-  margin-right: -0.25em;
+  margin-right: -0.20em;
   text-align: center;
   width: 25%;
 }
@@ -278,53 +278,58 @@ body {
 }
 
 /* line 73, ../sass/_global.scss */
+.n-link.f-radius:active {
+  box-shadow: -2px 0px 0px 0px #476170;
+}
+
+/* line 77, ../sass/_global.scss */
 .n-link.f-radius:active, .n-link.l-radius:active, .n-link:active, .active {
   position: relative;
   top: 6px;
 }
 
-/* line 80, ../sass/_global.scss */
+/* line 84, ../sass/_global.scss */
 .full-section {
   padding: 3.8em 0% 2em;
 }
 
-/* line 84, ../sass/_global.scss */
+/* line 88, ../sass/_global.scss */
 .sub-section {
   margin: 2em 0% 3em;
 }
 
-/* line 88, ../sass/_global.scss */
+/* line 92, ../sass/_global.scss */
 .title, .sub-title {
   color: #45B29D;
   font-family: "Francois One", sans-serif;
   font-weight: 400;
 }
 
-/* line 94, ../sass/_global.scss */
+/* line 98, ../sass/_global.scss */
 .title {
   font-size: 4em;
   margin: 0.25em 0%;
   text-align: center;
 }
 
-/* line 100, ../sass/_global.scss */
+/* line 104, ../sass/_global.scss */
 .sub-title {
   font-size: 2.5em;
   margin-bottom: 0.5em;
 }
 
-/* line 105, ../sass/_global.scss */
+/* line 109, ../sass/_global.scss */
 .content {
   margin: 0 auto;
   width: 95%;
 }
 
-/* line 112, ../sass/_global.scss */
+/* line 116, ../sass/_global.scss */
 .name-card {
   margin-bottom: 2em;
 }
 
-/* line 118, ../sass/_global.scss */
+/* line 122, ../sass/_global.scss */
 button {
   background-color: #476170;
   border: 3px solid #476170;
@@ -334,60 +339,60 @@ button {
   text-align: center;
   width: 100%;
 }
-/* line 126, ../sass/_global.scss */
+/* line 130, ../sass/_global.scss */
 button:hover {
   border: 3px solid #45B29D;
 }
-/* line 128, ../sass/_global.scss */
+/* line 132, ../sass/_global.scss */
 button:hover .p-title {
   text-decoration: none;
 }
 
-/* line 134, ../sass/_global.scss */
+/* line 138, ../sass/_global.scss */
 .p-title, .p-subtitle {
   font-weight: 400;
   margin-bottom: 0.1em;
 }
 
-/* line 139, ../sass/_global.scss */
+/* line 143, ../sass/_global.scss */
 .p-title {
   color: #45B29D;
   font-family: "Francois One", sans-serif;
   font-size: 2em;
 }
 
-/* line 145, ../sass/_global.scss */
+/* line 149, ../sass/_global.scss */
 .p-subtitle {
   color: #F3F3F3;
   font-family: "Open Sans", sans-serif;
   font-size: 1.5em;
 }
 
-/* line 153, ../sass/_global.scss */
+/* line 157, ../sass/_global.scss */
 .s-list {
   list-style-position: inside;
   list-style-image: url(../assets/list-diamond.svg);
 }
 
-/* line 158, ../sass/_global.scss */
+/* line 162, ../sass/_global.scss */
 .workplace, .job {
   color: #F3F3F3;
   font-family: "Francois One", sans-serif;
   font-weight: 400;
 }
 
-/* line 164, ../sass/_global.scss */
+/* line 168, ../sass/_global.scss */
 .workplace {
   font-size: 1.75em;
   margin: 0;
 }
 
-/* line 169, ../sass/_global.scss */
+/* line 173, ../sass/_global.scss */
 .job {
   font-size: 1.25em;
 }
 
-/* line 175, ../sass/_global.scss */
+/* line 179, ../sass/_global.scss */
 .c-label {
   color: #F3F3F3;
   font-family: "Francois One", sans-serif;
@@ -396,27 +401,27 @@ button:hover .p-title {
   text-align: center;
 }
 
-/* line 183, ../sass/_global.scss */
+/* line 187, ../sass/_global.scss */
 .c-link {
   display: inline-block;
   margin: 0em auto;
 }
 
-/* line 188, ../sass/_global.scss */
+/* line 192, ../sass/_global.scss */
 .c-icon {
   height: 50px;
   margin-bottom: 1.25em;
   width: 50px;
 }
 
-/* line 196, ../sass/_global.scss */
+/* line 200, ../sass/_global.scss */
 #bottom {
   background-color: #F3F3F3;
   padding: 0.5em 2.5%;
   text-align: center;
 }
 
-/* line 202, ../sass/_global.scss */
+/* line 206, ../sass/_global.scss */
 .copyright {
   color: #334D5C;
   font-family: "Open Sans", sans-serif;
