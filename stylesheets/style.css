@@ -294,7 +294,7 @@ body {
 
 /* line 85, ../sass/_global.scss */
 .n-link:active, .n-link.active {
-  box-shadow: inset 2px 0px 1px 0px #334D5C, inset -2px 2px 1px 0px #334D5C;
+  box-shadow: inset 2px 0px 1px 0px #334D5C, inset -2px -2px 1px 0px #334D5C;
 }
 
 /* line 91, ../sass/_global.scss */
