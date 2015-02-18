@@ -3,8 +3,8 @@
 body {
     background-color: $blue;
     color: $light-grey;
-    font-family: $lato;
-    font-weight: 300;
+    font-family: $open-sans;
+    font-weight: 400;
     min-width: 300px;
 }
 
@@ -45,7 +45,7 @@ body {
     width: 25%;
     a {
         color: $light-grey;
-        font-family: $lato;
+        font-family: $francois-one;
         font-size: 1em;
         font-weight: 400;
         padding: 0.5em;
@@ -100,7 +100,7 @@ body {
 
 .title, .sub-title {
     color: $green;
-    font-family: $lato;
+    font-family: $francois-one;
 }
 
 .title {
@@ -146,20 +146,19 @@ button {
 }
 
 .p-title, .p-subtitle {
-    font-family: $lato;
+    font-family: $francois-one;
+    font-weight: 400;
     margin-bottom: 0.1em;
 }
 
 .p-title {
     color: $green;
     font-size: 2em;
-    font-weight: 400;
 }
 
 .p-subtitle {
     color: $light-grey;
     font-size: 1.5em;
-    font-weight: 300;
 }
 
 // Skills Section. //
@@ -170,7 +169,7 @@ button {
 }
 
 .workplace, .job {
-    font-family: $lato;
+    font-family: $francois-one;
 }
 
 .workplace {
@@ -190,7 +189,7 @@ button {
 
 .c-label {
     color: $green;
-    font-family: $lato;
+    font-family: $francois-one;
     font-weight: 300;
     margin-bottom: 0.25em;
     text-align: center;
@@ -217,7 +216,7 @@ button {
 
 .copyright {
     color: $blue;
-    font-family: $lato;
+    font-family: $open-sans;
     font-size: 1em;
     font-weight: 300;
     margin: 0;
