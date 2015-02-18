@@ -52,7 +52,6 @@ body {
         padding: 0.5em;
         position: relative;
         text-decoration: none;
-        transition: all .1s ease;
         &:hover {
             color: $green;
         }
@@ -71,7 +70,6 @@ body {
 }
 
 .n-link.f-radius:active, .n-link.l-radius:active, .n-link:active, .active {
-    color: $green;
     position: relative;
     top: 6px;
 }
@@ -81,11 +79,11 @@ body {
 }
 
 .n-link.l-radius:active, .n-link.l-radius.active {
-    box-shadow: inset 2px -2px 0px 1px 0px $blue;
+    box-shadow: inset -2px -2px 1px 0px $blue;
 }
 
 .n-link:active, .n-link.active {
-    box-shadow: inset 2px 0px 1px 0px $blue, -2px 2px 1px 0px $blue;
+    box-shadow: inset 2px 0px 1px 0px $blue, inset -2px 2px 1px 0px $blue;
 }
 
 // Main Section. //
