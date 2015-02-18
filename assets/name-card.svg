@@ -13,8 +13,8 @@
             <text id="Hello,-my-name-is:" sketch:type="MSTextLayer" font-family="Arial" font-size="24" font-weight="normal" sketch:alignment="middle" fill="#45B29D">
                 <tspan x="51.3046875" y="31">Hello, my name is:</tspan>
             </text>
-            <path d="M10.2928932,137.957107 L5.64644661,133.31066 L5.29289322,132.957107 L6,132.25 L6.35355339,132.603553 L11,137.25 L15.6464466,132.603553 L16,132.25 L16.7071068,132.957107 L16.3535534,133.31066 L11.7071068,137.957107 L16.3535534,142.603553 L16.7071068,142.957107 L16,143.664214 L15.6464466,143.31066 L11,138.664214 L6.35355339,143.31066 L6,143.664214 L5.29289322,142.957107 L5.64644661,142.603553 L10.2928932,137.957107 Z" id="Line" stroke="#45B29D" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
-            <path d="M25.5,137.25 L293.5,137.25" id="Line" stroke="#45B29D" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M10.2928932,123.5 L5.64644661,118.853553 L5.29289322,118.5 L6,117.792893 L6.35355339,118.146447 L11,122.792893 L15.6464466,118.146447 L16,117.792893 L16.7071068,118.5 L16.3535534,118.853553 L11.7071068,123.5 L16.3535534,128.146447 L16.7071068,128.5 L16,129.207107 L15.6464466,128.853553 L11,124.207107 L6.35355339,128.853553 L6,129.207107 L5.29289322,128.5 L5.64644661,128.146447 L10.2928932,123.5 Z" id="Line" stroke="#45B29D" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M23.5,123.25 L291.5,123.25" id="Line" stroke="#45B29D" stroke-width="0.5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
         </g>
     </g>
 </svg>
