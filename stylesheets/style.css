@@ -282,12 +282,12 @@ li.active a {
 
 /* line 78, ../sass/_global.scss */
 .full-section {
-  padding: 3.8em 0% 2em;
+  padding: 3.6em 0%;
 }
 
 /* line 82, ../sass/_global.scss */
 .sub-section {
-  margin: 2em 0% 3em;
+  margin: 3em 0%;
 }
 
 /* line 86, ../sass/_global.scss */
@@ -370,7 +370,7 @@ button:hover .p-title {
 
 /* line 156, ../sass/_global.scss */
 .workplace, .job {
-  color: #F3F3F3;
+  color: #45B29D;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
