@@ -110,6 +110,7 @@ li.active a {
 // About Section. //
 
 #about .title {
+    border-top: none;
     margin: 0.5625em 0%;
 }
 
@@ -172,6 +173,10 @@ button {
 }
 
 // Contact Section. //
+
+#contact .title {
+    border-bottom: none;
+}
 
 .c-label {
     color: $light-grey;
