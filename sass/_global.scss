@@ -90,6 +90,8 @@ li.active a {
 }
 
 .title {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
     font-size: 4em;
     margin: 1.125em 0%;
     text-align: center;
@@ -112,10 +114,6 @@ li.active a {
 }
 
 // Projects Section. //
-
-#projects h1 {
-    background-image: url(assets/hammer.svg);
-}
 
 button {
     background-color: $light-blue;
