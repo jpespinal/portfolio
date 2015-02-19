@@ -91,13 +91,13 @@ li.active a {
 
 .title {
     font-size: 4em;
-    margin: 0.25em 0%;
+    margin: 1.125em 0%;
     text-align: center;
 }
 
 .sub-title {
     font-size: 2.5em;
-    margin-bottom: 0.5em;
+    margin: 0.4em 0;
 }
 
 .content {
@@ -106,6 +106,10 @@ li.active a {
 }
 
 // About Section. //
+
+#about .title {
+    margin: 0.5625em 0%;
+}
 
 .name-card {
     margin-bottom: 2em;
