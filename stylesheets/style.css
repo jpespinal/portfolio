@@ -282,7 +282,7 @@ li.active a {
 
 /* line 78, ../sass/_global.scss */
 .full-section {
-  padding: 3.6em 0%;
+  padding-top: 3.6em;
 }
 
 /* line 82, ../sass/_global.scss */
