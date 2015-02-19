@@ -179,9 +179,12 @@ button {
 }
 
 .c-link {
-    @include border-radius;
     display: inline-block;
     margin: 0em auto;
+}
+
+.c-link a img {
+    @include border-radius;
 }
 
 .c-icon {
