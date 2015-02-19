@@ -330,7 +330,7 @@ button {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  box-shadow: -2px 0px 2px 0px rgba(0, 0, 0, 0.5), 2px 2px 2px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: -2px -2px 4px 0px rgba(0, 0, 0, 0.1), 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
   display: block;
   margin: 0em auto 3em;
   padding: 0.2em 1.5%;
@@ -393,7 +393,7 @@ button:hover .p-title {
 .c-label {
   color: #F3F3F3;
   font-family: "Open Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 0.25em;
   text-align: center;
 }
