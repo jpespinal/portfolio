@@ -397,25 +397,28 @@ button:hover .p-title {
 
 /* line 181, ../sass/_global.scss */
 .c-link {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
   display: inline-block;
   margin: 0em auto;
 }
 
-/* line 186, ../sass/_global.scss */
+/* line 187, ../sass/_global.scss */
 .c-icon {
   height: 50px;
   margin-bottom: 1.25em;
   width: 50px;
 }
 
-/* line 194, ../sass/_global.scss */
+/* line 195, ../sass/_global.scss */
 #bottom {
   background-color: #F3F3F3;
   padding: 0.5em 2.5%;
   text-align: center;
 }
 
-/* line 200, ../sass/_global.scss */
+/* line 201, ../sass/_global.scss */
 .copyright {
   color: #334D5C;
   font-family: "Open Sans", sans-serif;

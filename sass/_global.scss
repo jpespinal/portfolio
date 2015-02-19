@@ -179,6 +179,7 @@ button {
 }
 
 .c-link {
+    @include border-radius;
     display: inline-block;
     margin: 0em auto;
 }
