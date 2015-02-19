@@ -394,7 +394,7 @@ button:hover .p-title {
 /* line 177, ../sass/_global.scss */
 .c-label {
   color: #F3F3F3;
-  font-family: "Francois One", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   margin-bottom: 0.25em;
   text-align: center;
@@ -430,7 +430,7 @@ button:hover .p-title {
 /* line 208, ../sass/_global.scss */
 .copyright {
   color: #334D5C;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Francois One", sans-serif;
   font-size: 1em;
   font-weight: 300;
   margin: 0;
