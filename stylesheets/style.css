@@ -391,38 +391,47 @@ button:hover .p-title {
 }
 
 /* line 177, ../sass/_global.scss */
+.c-list {
+  margin: 1.5em 0;
+}
+
+/* line 181, ../sass/_global.scss */
 .c-label {
   color: #F3F3F3;
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
   font-weight: 400;
   margin-bottom: 0.25em;
+  text-align: center;
+}
+
+/* line 190, ../sass/_global.scss */
+.c-link {
+  display: inline-block;
+  margin: 0em 12%;
+  width: 25%;
+}
+/* line 194, ../sass/_global.scss */
+.c-link a {
   text-decoration: none;
 }
 
-/* line 186, ../sass/_global.scss */
-.c-link {
-  display: inline-block;
-  margin: 0em auto;
-  width: 150px;
-}
-
-/* line 192, ../sass/_global.scss */
+/* line 199, ../sass/_global.scss */
 .c-icon {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  margin-bottom: 1.25em;
+  margin-bottom: 1.75em;
 }
 
-/* line 201, ../sass/_global.scss */
+/* line 206, ../sass/_global.scss */
 #bottom {
   background-color: #F3F3F3;
   padding: 0.5em 2.5%;
   text-align: center;
 }
 
-/* line 207, ../sass/_global.scss */
+/* line 212, ../sass/_global.scss */
 .copyright {
   color: #334D5C;
   font-family: "Francois One", sans-serif;

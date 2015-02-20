@@ -174,26 +174,31 @@ button {
 
 // Contact Section. //
 
+.c-list {
+    margin: 1.5em 0;
+}
+
 .c-label {
     color: $light-grey;
     font-family: $open-sans;
     font-size: 1em;
     font-weight: 400;
     margin-bottom: 0.25em;
-    text-decoration: none;
+    text-align: center;
 }
 
 .c-link {
     display: inline-block;
-    margin: 0em auto;
-    width: 150px;
+    margin: 0em 12%;
+    width: 25%;
+    & a {
+        text-decoration: none;
+    }
 }
 
 .c-icon {
     @include border-radius;
-    // height: 50px;
-    margin-bottom: 1.25em;
-    // width: 50px;
+    margin-bottom: 1.75em;
 }
 
 // Footer Section. //
