@@ -394,17 +394,20 @@ button:hover .p-title {
 .c-label {
   color: #F3F3F3;
   font-family: "Open Sans", sans-serif;
+  font-size: 1em;
   font-weight: 400;
   margin-bottom: 0.25em;
+  text-decoration: none;
 }
 
-/* line 184, ../sass/_global.scss */
+/* line 186, ../sass/_global.scss */
 .c-link {
   display: inline-block;
   margin: 0em auto;
+  width: 150px;
 }
 
-/* line 189, ../sass/_global.scss */
+/* line 192, ../sass/_global.scss */
 .c-icon {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -412,14 +415,14 @@ button:hover .p-title {
   margin-bottom: 1.25em;
 }
 
-/* line 198, ../sass/_global.scss */
+/* line 201, ../sass/_global.scss */
 #bottom {
   background-color: #F3F3F3;
   padding: 0.5em 2.5%;
   text-align: center;
 }
 
-/* line 204, ../sass/_global.scss */
+/* line 207, ../sass/_global.scss */
 .copyright {
   color: #334D5C;
   font-family: "Francois One", sans-serif;
