@@ -396,37 +396,30 @@ button:hover .p-title {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   margin-bottom: 0.25em;
-  text-align: center;
 }
 
-/* line 185, ../sass/_global.scss */
+/* line 184, ../sass/_global.scss */
 .c-link {
   display: inline-block;
   margin: 0em auto;
 }
 
-/* line 190, ../sass/_global.scss */
-.c-link a img {
+/* line 189, ../sass/_global.scss */
+.c-icon {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-}
-
-/* line 194, ../sass/_global.scss */
-.c-icon {
-  height: 50px;
   margin-bottom: 1.25em;
-  width: 50px;
 }
 
-/* line 202, ../sass/_global.scss */
+/* line 198, ../sass/_global.scss */
 #bottom {
   background-color: #F3F3F3;
   padding: 0.5em 2.5%;
   text-align: center;
 }
 
-/* line 208, ../sass/_global.scss */
+/* line 204, ../sass/_global.scss */
 .copyright {
   color: #334D5C;
   font-family: "Francois One", sans-serif;

@@ -179,7 +179,6 @@ button {
     font-family: $open-sans;
     font-weight: 400;
     margin-bottom: 0.25em;
-    text-align: center;
 }
 
 .c-link {
@@ -187,14 +186,11 @@ button {
     margin: 0em auto;
 }
 
-.c-link a img {
-    @include border-radius;
-}
-
 .c-icon {
-    height: 50px;
+    @include border-radius;
+    // height: 50px;
     margin-bottom: 1.25em;
-    width: 50px;
+    // width: 50px;
 }
 
 // Footer Section. //
