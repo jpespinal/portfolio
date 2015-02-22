@@ -154,7 +154,7 @@ a {
 
 /* line 129, ../sass/_base.scss */
 img {
-  display: inline-block;
+  display: block;
   max-width: 100%;
 }
 
@@ -325,7 +325,7 @@ li.active a {
 
 /* line 116, ../sass/_global.scss */
 .name-card {
-  text-align: center;
+  margin: 0 auto;
 }
 
 /* line 122, ../sass/_global.scss */
