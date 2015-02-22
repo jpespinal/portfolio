@@ -92,14 +92,18 @@
     // About Section. //
 
     #about .title {
-        margin-left: auto;
-        margin-right: auto;
-        width: 60%;
+        float: right;
+        margin: 0;
+    }
+
+    .name-card {
+        clear: right;
+        float: left;
     }
 
     .text {
-        margin: 0 auto;
-        width: 90%;
+        clear: right;
+        float: right;
     }
 
     // Skills Section. //

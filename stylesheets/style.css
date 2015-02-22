@@ -552,44 +552,49 @@ button:hover .p-title {
 
   /* line 94, ../sass/_layout.scss */
   #about .title {
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
+    float: right;
+    margin: 0;
   }
 
-  /* line 100, ../sass/_layout.scss */
+  /* line 99, ../sass/_layout.scss */
+  .name-card {
+    clear: right;
+    float: left;
+  }
+
+  /* line 104, ../sass/_layout.scss */
   .text {
-    margin: 0 auto;
-    width: 90%;
+    clear: right;
+    float: right;
   }
 
-  /* line 107, ../sass/_layout.scss */
+  /* line 111, ../sass/_layout.scss */
   #skills {
     overflow: hidden;
     *zoom: 1;
   }
 
-  /* line 111, ../sass/_layout.scss */
+  /* line 115, ../sass/_layout.scss */
   .core, .workflow, .tools, .work {
     border-top: 0.4em solid #476170;
     padding-top: 0.8em;
   }
 
-  /* line 116, ../sass/_layout.scss */
+  /* line 120, ../sass/_layout.scss */
   .core, .workflow {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
   }
 
-  /* line 120, ../sass/_layout.scss */
+  /* line 124, ../sass/_layout.scss */
   .tools {
     width: 32.20339%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 124, ../sass/_layout.scss */
+  /* line 128, ../sass/_layout.scss */
   .work {
     width: 100%;
     float: left;
@@ -597,7 +602,7 @@ button:hover .p-title {
     margin-right: 0;
   }
 
-  /* line 130, ../sass/_layout.scss */
+  /* line 134, ../sass/_layout.scss */
   #bottom {
     display: none;
   }
