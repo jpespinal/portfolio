@@ -39,7 +39,7 @@ nav {
 .n-link {
     background-color: $light-grey;
     display: inline-block;
-    margin-right: -0.26em;
+    margin-right: -0.30em;
     text-align: center;
     width: 25%;
     a {
@@ -47,6 +47,7 @@ nav {
         font-family: $francois-one;
         font-size: 1em;
         font-weight: 400;
+        letter-spacing: 0.05em;
         padding: 0.5em;
         text-decoration: none;
         &:hover, &:active {
@@ -86,11 +87,12 @@ section {
     color: $green;
     font-family: $francois-one;
     font-weight: 400;
+    letter-spacing: 0.05em;
 }
 
 .title {
-    border-top: 1px solid;
-    border-bottom: 1px solid;
+    border-top: 1px solid #476170;
+    border-bottom: 1px solid #476170;
     font-size: 4em;
     margin: 1.125em 0%;
     text-align: center;
@@ -137,13 +139,12 @@ section {
 }
 
 .p-title, .p-subtitle {
-    font-family: $open-sans;
-    font-weight: 400;
     margin: 0;
 }
 
 .p-title {
     color: $green;
+    font-family: $francois-one;
     font-size: 1.25em;
     line-height: 1;
 }
