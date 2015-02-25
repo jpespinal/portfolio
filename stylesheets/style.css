@@ -329,7 +329,7 @@ section {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  box-shadow: inset -2px -2px 2px 0px rgba(0, 0, 0, 0.1), inset 2px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: inset -4px -4px 8px 0px rgba(0, 0, 0, 0.1), inset 4px 4px 8px 0px rgba(0, 0, 0, 0.1);
   display: block;
   margin: 0em auto 3em;
   padding: 0.5em 1.5%;
@@ -370,46 +370,44 @@ section {
 .workplace, .job {
   color: #45B29D;
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
 }
 
-/* line 160, ../sass/_global.scss */
+/* line 159, ../sass/_global.scss */
 .workplace {
   font-size: 1.75em;
   margin: 0;
 }
 
-/* line 165, ../sass/_global.scss */
+/* line 164, ../sass/_global.scss */
 .job {
   font-size: 1.25em;
 }
 
-/* line 171, ../sass/_global.scss */
+/* line 170, ../sass/_global.scss */
 .c-list {
   margin: 2.5em 0;
 }
 
-/* line 175, ../sass/_global.scss */
+/* line 174, ../sass/_global.scss */
 .c-label {
   color: #F3F3F3;
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
   margin-bottom: 0.25em;
   text-align: center;
 }
 
-/* line 183, ../sass/_global.scss */
+/* line 181, ../sass/_global.scss */
 .c-link {
   display: inline-block;
   margin: 0em 12%;
   width: 25%;
 }
-/* line 187, ../sass/_global.scss */
+/* line 185, ../sass/_global.scss */
 .c-link a {
   text-decoration: none;
 }
 
-/* line 192, ../sass/_global.scss */
+/* line 190, ../sass/_global.scss */
 .c-icon {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -417,19 +415,18 @@ section {
   margin-bottom: 1.75em;
 }
 
-/* line 199, ../sass/_global.scss */
+/* line 197, ../sass/_global.scss */
 #bottom {
   background-color: #F3F3F3;
   padding: 0.5em 2.5%;
   text-align: center;
 }
 
-/* line 205, ../sass/_global.scss */
+/* line 203, ../sass/_global.scss */
 .copyright {
   color: #334D5C;
   font-family: "Francois One", sans-serif;
   font-size: 1em;
-  font-weight: 300;
   margin: 0;
 }
 
