@@ -86,15 +86,12 @@ section {
 .title, .sub-title {
     color: $green;
     font-family: $francois-one;
-    font-weight: 400;
     letter-spacing: 0.025em;
 }
 
 .title {
-    border-top: 1px solid #476170;
-    border-bottom: 1px solid #476170;
     font-size: 4em;
-    margin: 1.125em 0%;
+    margin: 0.5625em 0%;
     text-align: center;
 }
 
@@ -109,10 +106,6 @@ section {
 }
 
 // About Section. //
-
-#about .title {
-    margin: 0.5625em 0%;
-}
 
 .name-card {
     margin: 0 auto;
@@ -132,9 +125,6 @@ section {
     width: 100%;
     &:hover {
         border: 3px solid $green;
-        & .p-title {
-            text-decoration: none;
-        }
     }
 }
 
