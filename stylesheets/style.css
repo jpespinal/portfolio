@@ -385,9 +385,9 @@ section {
 
 /* line 170, ../sass/_global.scss */
 .email {
-  color: #F3F3F3;
+  color: #59C6B1;
   display: inline-block;
-  text-decoration: dotted;
+  text-decoration: underline;
 }
 
 /* line 176, ../sass/_global.scss */
