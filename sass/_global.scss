@@ -48,7 +48,6 @@ nav {
         font-size: 1em;
         font-weight: 400;
         padding: 0.5em;
-        // position: relative;
         text-decoration: none;
         &:hover, &:active {
             color: $green;
@@ -75,7 +74,7 @@ li.active a {
 
 // Main Section. //
 
-.full-section {
+section {
     padding-top: 3.6em;
 }
 
@@ -119,7 +118,7 @@ li.active a {
 
 // Projects Section. //
 
-button {
+.project {
     background-color: $light-blue;
     border: 4px solid $light-blue;
     @include border-radius;

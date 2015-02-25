@@ -244,13 +244,13 @@ nav {
   padding: 0.5em;
   text-decoration: none;
 }
-/* line 53, ../sass/_global.scss */
+/* line 52, ../sass/_global.scss */
 .n-link a:hover, .n-link a:active {
   color: #45B29D;
   background: #334D5C;
 }
 
-/* line 60, ../sass/_global.scss */
+/* line 59, ../sass/_global.scss */
 .n-link.f-radius {
   -moz-border-radius-topleft: 5px;
   -webkit-border-top-left-radius: 5px;
@@ -260,7 +260,7 @@ nav {
   border-bottom-left-radius: 5px;
 }
 
-/* line 64, ../sass/_global.scss */
+/* line 63, ../sass/_global.scss */
 .n-link.l-radius {
   -moz-border-radius-topright: 5px;
   -webkit-border-top-right-radius: 5px;
@@ -270,34 +270,34 @@ nav {
   border-bottom-right-radius: 5px;
 }
 
-/* line 68, ../sass/_global.scss */
+/* line 67, ../sass/_global.scss */
 .active {
   background: #334D5C;
 }
 
-/* line 72, ../sass/_global.scss */
+/* line 71, ../sass/_global.scss */
 li.active a {
   color: #45B29D;
 }
 
-/* line 78, ../sass/_global.scss */
-.full-section {
+/* line 77, ../sass/_global.scss */
+section {
   padding-top: 3.6em;
 }
 
-/* line 82, ../sass/_global.scss */
+/* line 81, ../sass/_global.scss */
 .sub-section {
   margin: 3em 0%;
 }
 
-/* line 86, ../sass/_global.scss */
+/* line 85, ../sass/_global.scss */
 .title, .sub-title {
   color: #45B29D;
   font-family: "Francois One", sans-serif;
   font-weight: 400;
 }
 
-/* line 92, ../sass/_global.scss */
+/* line 91, ../sass/_global.scss */
 .title {
   border-top: 1px solid;
   border-bottom: 1px solid;
@@ -306,30 +306,30 @@ li.active a {
   text-align: center;
 }
 
-/* line 100, ../sass/_global.scss */
+/* line 99, ../sass/_global.scss */
 .sub-title {
   font-size: 2.5em;
   margin: 0.4em 0;
 }
 
-/* line 105, ../sass/_global.scss */
+/* line 104, ../sass/_global.scss */
 .content {
   margin: 0 auto;
   width: 95%;
 }
 
-/* line 112, ../sass/_global.scss */
+/* line 111, ../sass/_global.scss */
 #about .title {
   margin: 0.5625em 0%;
 }
 
-/* line 116, ../sass/_global.scss */
+/* line 115, ../sass/_global.scss */
 .name-card {
   margin: 0 auto;
 }
 
-/* line 122, ../sass/_global.scss */
-button {
+/* line 121, ../sass/_global.scss */
+.project {
   background-color: #476170;
   border: 4px solid #476170;
   -moz-border-radius: 5px;
@@ -342,65 +342,65 @@ button {
   text-align: center;
   width: 100%;
 }
-/* line 132, ../sass/_global.scss */
-button:hover {
+/* line 131, ../sass/_global.scss */
+.project:hover {
   border: 3px solid #45B29D;
 }
-/* line 134, ../sass/_global.scss */
-button:hover .p-title {
+/* line 133, ../sass/_global.scss */
+.project:hover .p-title {
   text-decoration: none;
 }
 
-/* line 140, ../sass/_global.scss */
+/* line 139, ../sass/_global.scss */
 .p-title, .p-subtitle {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   margin: 0;
 }
 
-/* line 146, ../sass/_global.scss */
+/* line 145, ../sass/_global.scss */
 .p-title {
   color: #45B29D;
   font-size: 2em;
   line-height: 1;
 }
 
-/* line 152, ../sass/_global.scss */
+/* line 151, ../sass/_global.scss */
 .p-subtitle {
   color: #F3F3F3;
   font-size: 1.5em;
 }
 
-/* line 159, ../sass/_global.scss */
+/* line 158, ../sass/_global.scss */
 .s-list {
   list-style-position: inside;
   list-style-image: url(../assets/list-diamond.svg);
 }
 
-/* line 164, ../sass/_global.scss */
+/* line 163, ../sass/_global.scss */
 .workplace, .job {
   color: #45B29D;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
 
-/* line 170, ../sass/_global.scss */
+/* line 169, ../sass/_global.scss */
 .workplace {
   font-size: 1.75em;
   margin: 0;
 }
 
-/* line 175, ../sass/_global.scss */
+/* line 174, ../sass/_global.scss */
 .job {
   font-size: 1.25em;
 }
 
-/* line 181, ../sass/_global.scss */
+/* line 180, ../sass/_global.scss */
 .c-list {
   margin: 2.5em 0;
 }
 
-/* line 185, ../sass/_global.scss */
+/* line 184, ../sass/_global.scss */
 .c-label {
   color: #F3F3F3;
   font-family: "Open Sans", sans-serif;
@@ -410,18 +410,18 @@ button:hover .p-title {
   text-align: center;
 }
 
-/* line 194, ../sass/_global.scss */
+/* line 193, ../sass/_global.scss */
 .c-link {
   display: inline-block;
   margin: 0em 12%;
   width: 25%;
 }
-/* line 198, ../sass/_global.scss */
+/* line 197, ../sass/_global.scss */
 .c-link a {
   text-decoration: none;
 }
 
-/* line 203, ../sass/_global.scss */
+/* line 202, ../sass/_global.scss */
 .c-icon {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -429,14 +429,14 @@ button:hover .p-title {
   margin-bottom: 1.75em;
 }
 
-/* line 210, ../sass/_global.scss */
+/* line 209, ../sass/_global.scss */
 #bottom {
   background-color: #F3F3F3;
   padding: 0.5em 2.5%;
   text-align: center;
 }
 
-/* line 216, ../sass/_global.scss */
+/* line 215, ../sass/_global.scss */
 .copyright {
   color: #334D5C;
   font-family: "Francois One", sans-serif;
@@ -479,19 +479,19 @@ button:hover .p-title {
     z-index: auto;
   }
 
-  /* line 50, ../sass/_layout.scss */
+  /* line 40, ../sass/_layout.scss */
   .n-link {
     height: 25%;
     width: 100%;
   }
-  /* line 53, ../sass/_layout.scss */
+  /* line 43, ../sass/_layout.scss */
   .n-link a {
     font-size: 2em;
     height: 100%;
     padding-top: 1.65em;
     width: 100%;
   }
-  /* line 58, ../sass/_layout.scss */
+  /* line 48, ../sass/_layout.scss */
   .n-link a.first-radius:hover {
     -moz-border-radius-topleft: 0px;
     -webkit-border-top-left-radius: 0px;
@@ -506,7 +506,7 @@ button:hover .p-title {
     -webkit-border-top-right-radius: 5px;
     border-top-right-radius: 5px;
   }
-  /* line 62, ../sass/_layout.scss */
+  /* line 52, ../sass/_layout.scss */
   .n-link a.last-radius:hover {
     -moz-border-radius-topright: 0px;
     -webkit-border-top-right-radius: 0px;
@@ -522,79 +522,79 @@ button:hover .p-title {
     border-bottom-right-radius: 5px;
   }
 
-  /* line 71, ../sass/_layout.scss */
+  /* line 61, ../sass/_layout.scss */
   #main {
     width: 79.72973%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 75, ../sass/_layout.scss */
-  .full-section {
+  /* line 65, ../sass/_layout.scss */
+  section {
     padding: 2em 0%;
   }
 
-  /* line 79, ../sass/_layout.scss */
+  /* line 69, ../sass/_layout.scss */
   .sub-section {
     margin-top: 0;
   }
 
-  /* line 83, ../sass/_layout.scss */
+  /* line 73, ../sass/_layout.scss */
   .title {
     font-size: 5em;
     margin-top: 0;
   }
 
-  /* line 88, ../sass/_layout.scss */
+  /* line 78, ../sass/_layout.scss */
   .sub-title {
     font-size: 3.5em;
   }
 
-  /* line 94, ../sass/_layout.scss */
+  /* line 84, ../sass/_layout.scss */
   #about .title {
     float: right;
     margin: 0;
   }
 
-  /* line 99, ../sass/_layout.scss */
+  /* line 89, ../sass/_layout.scss */
   .name-card {
     clear: right;
     float: left;
   }
 
-  /* line 104, ../sass/_layout.scss */
+  /* line 94, ../sass/_layout.scss */
   .text {
     clear: right;
     float: right;
   }
 
-  /* line 111, ../sass/_layout.scss */
+  /* line 101, ../sass/_layout.scss */
   #skills {
     overflow: hidden;
     *zoom: 1;
   }
 
-  /* line 115, ../sass/_layout.scss */
+  /* line 105, ../sass/_layout.scss */
   .core, .workflow, .tools, .work {
     border-top: 0.4em solid #476170;
     padding-top: 0.8em;
   }
 
-  /* line 120, ../sass/_layout.scss */
+  /* line 110, ../sass/_layout.scss */
   .core, .workflow {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
   }
 
-  /* line 124, ../sass/_layout.scss */
+  /* line 114, ../sass/_layout.scss */
   .tools {
     width: 32.20339%;
     float: right;
     margin-right: 0;
   }
 
-  /* line 128, ../sass/_layout.scss */
+  /* line 118, ../sass/_layout.scss */
   .work {
     width: 100%;
     float: left;
@@ -602,7 +602,7 @@ button:hover .p-title {
     margin-right: 0;
   }
 
-  /* line 134, ../sass/_layout.scss */
+  /* line 124, ../sass/_layout.scss */
   #bottom {
     display: none;
   }
