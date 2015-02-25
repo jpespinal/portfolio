@@ -47,7 +47,7 @@ nav {
         font-family: $francois-one;
         font-size: 1em;
         font-weight: 400;
-        letter-spacing: 0.05em;
+        letter-spacing: 0.025em;
         padding: 0.5em;
         text-decoration: none;
         &:hover, &:active {
@@ -146,6 +146,7 @@ section {
     color: $green;
     font-family: $francois-one;
     font-size: 1.25em;
+    letter-spacing: 0.025em;
     line-height: 1;
 }
 
