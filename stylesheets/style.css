@@ -384,11 +384,18 @@ section {
 }
 
 /* line 170, ../sass/_global.scss */
+.email {
+  color: #F3F3F3;
+  display: inline-block;
+  text-decoration: dotted;
+}
+
+/* line 176, ../sass/_global.scss */
 .c-list {
   margin: 2.5em 0;
 }
 
-/* line 174, ../sass/_global.scss */
+/* line 180, ../sass/_global.scss */
 .c-label {
   color: #F3F3F3;
   font-family: "Open Sans", sans-serif;
@@ -396,18 +403,18 @@ section {
   text-align: center;
 }
 
-/* line 181, ../sass/_global.scss */
+/* line 187, ../sass/_global.scss */
 .c-link {
   display: inline-block;
   margin: 0em 12%;
   width: 25%;
 }
-/* line 185, ../sass/_global.scss */
+/* line 191, ../sass/_global.scss */
 .c-link a {
   text-decoration: none;
 }
 
-/* line 190, ../sass/_global.scss */
+/* line 196, ../sass/_global.scss */
 .c-icon {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -415,14 +422,14 @@ section {
   margin-bottom: 1.75em;
 }
 
-/* line 197, ../sass/_global.scss */
+/* line 203, ../sass/_global.scss */
 #bottom {
   background-color: #F3F3F3;
   padding: 0.5em 2.5%;
   text-align: center;
 }
 
-/* line 203, ../sass/_global.scss */
+/* line 209, ../sass/_global.scss */
 .copyright {
   color: #334D5C;
   font-family: "Francois One", sans-serif;

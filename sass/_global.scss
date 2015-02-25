@@ -167,6 +167,12 @@ section {
 
 // Contact Section. //
 
+.email {
+    color: $light-grey;
+    display: inline-block;
+    text-decoration: dotted;
+}
+
 .c-list {
     margin: 2.5em 0;
 }
