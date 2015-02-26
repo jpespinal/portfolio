@@ -76,6 +76,7 @@
     }
 
     .sub-title {
+        border-top: 0.12em solid $light-blue;
         font-size: 3.5em;
     }
 
@@ -100,11 +101,6 @@
 
     #skills {
         @include clearfix;
-    }
-
-    .core, .workflow, .tools, .work {
-        border-top: 0.4em solid $light-blue;
-        padding-top: 0.8em;
     }
 
     .core, .workflow {
