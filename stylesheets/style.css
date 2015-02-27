@@ -341,9 +341,10 @@ section {
   margin: 0em auto 3em;
   padding: 0.5em 1.5%;
   text-align: center;
-  width: 73.68421%;
+  width: 100%;
   float: left;
-  margin-right: 5.26316%;
+  margin-left: 0;
+  margin-right: 0;
 }
 /* line 132, ../sass/_global.scss */
 .project:hover {
@@ -368,52 +369,42 @@ section {
   color: #45B29D;
 }
 
-/* line 152, ../sass/_global.scss */
-.p-info {
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  width: 21.05263%;
-  float: right;
-  margin-right: 0;
-}
-
-/* line 159, ../sass/_global.scss */
+/* line 154, ../sass/_global.scss */
 .s-list {
   list-style-position: inside;
   list-style-image: url(../assets/list-diamond.svg);
 }
 
-/* line 164, ../sass/_global.scss */
+/* line 159, ../sass/_global.scss */
 .workplace, .job {
   color: #45B29D;
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 169, ../sass/_global.scss */
+/* line 164, ../sass/_global.scss */
 .workplace {
   font-size: 1.75em;
   margin: 0;
 }
 
-/* line 174, ../sass/_global.scss */
+/* line 169, ../sass/_global.scss */
 .job {
   font-size: 1.25em;
 }
 
-/* line 180, ../sass/_global.scss */
+/* line 175, ../sass/_global.scss */
 .email {
   color: #59C6B1;
   display: inline-block;
   text-decoration: underline;
 }
 
-/* line 186, ../sass/_global.scss */
+/* line 181, ../sass/_global.scss */
 .c-list {
   margin: 2.5em 0;
 }
 
-/* line 190, ../sass/_global.scss */
+/* line 185, ../sass/_global.scss */
 .c-label {
   color: #F3F3F3;
   font-family: "Open Sans", sans-serif;
@@ -421,18 +412,18 @@ section {
   text-align: center;
 }
 
-/* line 197, ../sass/_global.scss */
+/* line 192, ../sass/_global.scss */
 .c-link {
   display: inline-block;
   margin: 0em 12%;
   width: 25%;
 }
-/* line 201, ../sass/_global.scss */
+/* line 196, ../sass/_global.scss */
 .c-link a {
   text-decoration: none;
 }
 
-/* line 206, ../sass/_global.scss */
+/* line 201, ../sass/_global.scss */
 .c-icon {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -440,14 +431,14 @@ section {
   margin-bottom: 1.75em;
 }
 
-/* line 213, ../sass/_global.scss */
+/* line 208, ../sass/_global.scss */
 #bottom {
   background-color: #F3F3F3;
   padding: 0.5em 2.5%;
   text-align: center;
 }
 
-/* line 219, ../sass/_global.scss */
+/* line 214, ../sass/_global.scss */
 .copyright {
   color: #334D5C;
   font-family: "Francois One", sans-serif;
