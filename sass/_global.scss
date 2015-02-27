@@ -147,10 +147,9 @@ section {
     color: $green;
 }
 
-
-
 .p-info {
     @include border-radius;
+    @include span(1 last);
 }
 
 // Skills Section. //
