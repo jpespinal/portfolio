@@ -17,6 +17,10 @@ body {
     @include span(4);
 }
 
+.hide1, .hide2 {
+    display: none;
+}
+
 // Top Section. //
 
 #top {
@@ -114,8 +118,8 @@ section {
 // Projects Section. //
 
 .project {
-    background-color: $light-blue;
-    border: 4px solid $light-blue;
+    background-color: $light-grey;
+    border: 4px solid $light-grey;
     @include border-radius;
     box-shadow: inset -4px -4px 8px 0px rgba(0, 0, 0, .1), inset 4px 4px 8px 0px rgba(0, 0, 0, .1);
     display: block;
@@ -133,15 +137,14 @@ section {
 }
 
 .p-title {
-    color: $green;
+    color: $blue;
     font-family: $francois-one;
     font-size: 1.25em;
     letter-spacing: 0.025em;
-    line-height: 1;
 }
 
 .p-subtitle {
-    color: $light-grey;
+    color: $green;
 }
 
 // Skills Section. //
