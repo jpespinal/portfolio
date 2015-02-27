@@ -126,7 +126,7 @@ section {
     margin: 0em auto 3em;
     padding: 0.5em 1.5%;
     text-align: center;
-    width: 100%;
+    @include span(3);
     &:hover {
         border: 4px solid $light-green;
     }
@@ -145,6 +145,11 @@ section {
 
 .p-subtitle {
     color: $green;
+}
+
+.p-info {
+    @include border-radius;
+    @include span(1 last);
 }
 
 // Skills Section. //
@@ -183,7 +188,7 @@ section {
 .c-label {
     color: $light-grey;
     font-family: $open-sans;
-    margin-bottom: 0.25em;
+    margin: 0.75em 0em;
     text-align: center;
 }
 
