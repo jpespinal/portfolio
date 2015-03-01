@@ -207,7 +207,7 @@ body {
 }
 
 /* line 20, ../sass/_global.scss */
-.hide1, .hide2 {
+.hide1, .hide-section {
   display: none;
 }
 

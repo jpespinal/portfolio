@@ -1,2 +1,2 @@
 var sections = $("#main").children();
-sections.hide();
+sections.addClass(".hide-section");
