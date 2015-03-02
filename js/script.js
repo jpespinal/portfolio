@@ -7,7 +7,7 @@ var siteSections = $("#main").children();
 var aboutSection = siteSections[0];
 
 // Hide all major sections by adding CSS class.
-sections.addClass("hide-section");
+siteSections.addClass("hide-section");
 
 // function activeNav() {
 //   if(this.click().hasClass("active"))
