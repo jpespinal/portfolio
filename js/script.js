@@ -1,12 +1,11 @@
 var nav = $("#top nav ul").children();
-var about = nav[0];
+var aboutLink = nav[0];
+
+var sections = $("#main").children();
+var aboutSection = sections[0];
+sections.addClass("hide-section");
 
 $(document).ready(function() {
-  $(about).addClass("active");
+  $(aboutLink).addClass("active");
+  $(aboutSection).removeClass("hide-section");
 });
-
-// nav.click(function() {this.addClass("active")});
-
-// var sections = $("#main").children();
-// sections.addClass("hide-section");
-// sections.click(sections.toggleClass("hide-section"));
