@@ -288,7 +288,7 @@ li.active a {
 
 /* line 82, ../sass/_global.scss */
 section {
-  padding-top: 3.6em;
+  padding: 3.6em 0;
 }
 
 /* line 86, ../sass/_global.scss */
