@@ -1,5 +1,5 @@
 var nav = $("#top nav ul").children();
-document.load(function() {nav[0].addClass("active")});
+$(nav[0].addClass("active"));
 
 // nav.click(function() {this.addClass("active")});
 
