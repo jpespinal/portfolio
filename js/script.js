@@ -9,13 +9,9 @@ var aboutSection = siteSections[0];
 // Hide all major sections by adding CSS class.
 siteSections.addClass("hide-section");
 
-// function activeNav() {
-//   if(this.click().hasClass("active"))
-// };
-
 // Upon document being ready, make user "arrive" at the About section by removing the hide class on it.
 // Add active class to About section link.
-$(document).ready(function() {
+$(function() {
   $(aboutLink).addClass("active");
   $(aboutSection).removeClass("hide-section");
 });
@@ -23,6 +19,7 @@ $(document).ready(function() {
 // 1. Capture click on Nav links.
 $("siteNav").click(function() {
   var nonActive = $("siteNav").hasClass("active");
+  console.log(nonActive);
   nonActive.removeClass("active");
   $(this).addClass("active");
 });
