@@ -81,13 +81,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* ============================================================
    Typefaces / Fonts.
    ============================================================ */
-@font-face {
-  font-family: 'Comic Serif Pro';
-  src: url("../typeface/hvd_comic_serif_pro-webfont.eot");
-  src: url("../typeface/hvd_comic_serif_pro-webfont.eot?#iefix") format("embedded-opentype"), url("../typeface/hvd_comic_serif_pro-webfont.woff2") format("woff2"), url("../typeface/hvd_comic_serif_pro-webfont.woff") format("woff"), url("../typeface/hvd_comic_serif_pro-webfont.ttf") format("truetype"), url("../typeface/hvd_comic_serif_pro-webfont.svg#hvd_comic_serif_proregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
 /* ============================================================
    Breakpoint Variables.
    ============================================================ */
@@ -97,7 +90,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* ============================================================
    Base Styles.
    ============================================================ */
-/* line 83, ../sass/_base.scss */
+/* line 55, ../sass/_base.scss */
 html, body {
   font-size: 16px;
   height: 100%;
@@ -105,70 +98,70 @@ html, body {
   width: 100%;
 }
 
-/* line 90, ../sass/_base.scss */
+/* line 62, ../sass/_base.scss */
 h1 {
   font-size: 1.6em;
   margin-bottom: 0.625em;
 }
 
-/* line 95, ../sass/_base.scss */
+/* line 67, ../sass/_base.scss */
 h2 {
   font-size: 1.5em;
   margin-bottom: 0.66666667em;
 }
 
-/* line 100, ../sass/_base.scss */
+/* line 72, ../sass/_base.scss */
 h3 {
   font-size: 1.4em;
   margin-bottom: 0.71428571em;
 }
 
-/* line 105, ../sass/_base.scss */
+/* line 77, ../sass/_base.scss */
 h4 {
   font-size: 1.3em;
   margin-bottom: 0.76923077em;
 }
 
-/* line 110, ../sass/_base.scss */
+/* line 82, ../sass/_base.scss */
 h5 {
   font-size: 1.2em;
   margin-bottom: 0.83333333em;
 }
 
-/* line 115, ../sass/_base.scss */
+/* line 87, ../sass/_base.scss */
 h6 {
   font-size: 1.1em;
   margin-bottom: 0.90909091em;
 }
 
-/* line 120, ../sass/_base.scss */
+/* line 92, ../sass/_base.scss */
 p {
   font-size: 1em;
   margin: 1.5em 0;
 }
 
-/* line 125, ../sass/_base.scss */
+/* line 97, ../sass/_base.scss */
 a {
   display: block;
 }
 
-/* line 129, ../sass/_base.scss */
+/* line 101, ../sass/_base.scss */
 img {
   display: block;
   max-width: 100%;
 }
 
-/* line 134, ../sass/_base.scss */
+/* line 106, ../sass/_base.scss */
 br {
   margin-bottom: 1em;
 }
 
-/* line 141, ../sass/_base.scss */
+/* line 113, ../sass/_base.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 145, ../sass/_base.scss */
+/* line 117, ../sass/_base.scss */
 abbr, acronym {
   border-bottom: 1px dotted #000;
   cursor: help;
@@ -207,7 +200,7 @@ body {
 }
 
 /* line 20, ../sass/_global.scss */
-.hide1, .hide-section {
+.hide-small, .hide-medium, .hide-section {
   display: none;
 }
 

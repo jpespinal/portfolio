@@ -26,22 +26,8 @@ $susy: (
    Typefaces / Fonts.
    ============================================================ */
 
-$comic-serif: 'Comic Serif Pro', georgia, serif;
-
 $francois-one: 'Francois One', sans-serif;
 $open-sans: 'Open Sans', sans-serif;
-
-@font-face {
-    font-family: 'Comic Serif Pro';
-    src:url('../typeface/hvd_comic_serif_pro-webfont.eot');
-    src:url('../typeface/hvd_comic_serif_pro-webfont.eot?#iefix') format('embedded-opentype'),
-        url('../typeface/hvd_comic_serif_pro-webfont.woff2') format('woff2'),
-        url('../typeface/hvd_comic_serif_pro-webfont.woff') format('woff'),
-        url('../typeface/hvd_comic_serif_pro-webfont.ttf') format('truetype'),
-        url('../typeface/hvd_comic_serif_pro-webfont.svg#hvd_comic_serif_proregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 
 /* ============================================================
    Breakpoint Variables.
@@ -54,25 +40,11 @@ $small-width: 480px;
    Color Variables.
    ============================================================ */
 
-$red: #DF4949;
-$light-red: #F35D5D;
-
-$orange: #E27A3F;
-$light-orange: #F68E53;
-
-$yellow: #EFC94C;
-$light-yellow: #FFDD60;
-$lightest-yellow: #FFFF9C;
-
 $green: #45B29D;
 $light-green: #59C6B1;
 
 $blue: #334D5C;
 $light-blue: #476170;
-
-$black: #3C3C3C;
-
-$white: #FFFFFF;
 
 $light-grey: #F3F3F3;
 

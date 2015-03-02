@@ -17,7 +17,7 @@ body {
     @include span(4);
 }
 
-.hide1, .hide-section {
+.hide-small, .hide-medium, .hide-section {
     display: none;
 }
 
