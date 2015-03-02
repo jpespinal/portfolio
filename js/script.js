@@ -3,7 +3,7 @@ var about = nav[0];
 
 $(document).ready(function() {
   return about.addClass("active");
-})
+});
 
 // nav.click(function() {this.addClass("active")});
 
