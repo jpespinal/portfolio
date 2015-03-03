@@ -17,17 +17,19 @@ $(function() {
 });
 
 // 1. Capture click on Nav anchor.
-$("siteNav").click(function() {
-  var notActive;
-  for(var i = 0; i < siteNav.length; i += 1) {
-    if(siteNav[i].hasClass() === "active") {
-      notActive = siteNav[i];
-    }
-  }
-  notActive.removeClass("active");
-  $("siteNav").click(function() {
-    this.addClass("active");
-  })
+$("#top a").click(function() {
+  siteNav.removeClass("active");
+  $(this).addClass("active");
+  // var notActive;
+  // for(var i = 0; i < siteNav.length; i += 1) {
+  //   if(siteNav[i].hasClass() === "active") {
+  //     notActive = siteNav[i];
+  //   }
+  // }
+  // notActive.removeClass("active");
+  // $("siteNav").click(function() {
+  //   this.addClass("active");
+  // })
 });
   // 1.1 Add active class to clicked link. Reveal linked Section.
   // 1.2 Remove active class from previously clicked link. Hide all other Sections.
