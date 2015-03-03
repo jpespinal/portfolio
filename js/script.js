@@ -17,7 +17,7 @@ $(function() {
 });
 
 // 1. Capture click on Nav links.
-$(siteNav.children()).click(function() {
+$("siteNav.children()").click(function() {
   var nonActive = $("siteNav").hasClass("active");
   console.log(nonActive);
   nonActive.removeClass("active");
