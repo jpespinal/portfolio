@@ -17,5 +17,10 @@ $(function() {
 });
 
 // 1. Capture click on Nav anchor.
+$("#top a").click(function() {
+  var notActive = siteNav.hasClass("active");
+  notActive.removeClass("active");
+  $(this).addClass("active");
+});
   // 1.1 Add active class to clicked link. Reveal linked Section.
   // 1.2 Remove active class from previously clicked link. Hide all other Sections.
