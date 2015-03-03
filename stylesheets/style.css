@@ -245,8 +245,8 @@ nav {
 }
 /* line 58, ../sass/_global.scss */
 .n-link:hover, .n-link:active {
-  color: #45B29D;
   background: #334D5C;
+  color: #45B29D;
 }
 
 /* line 64, ../sass/_global.scss */

@@ -1,5 +1,5 @@
 // Create Variables pointing to all Nav links and the About section link.
-var siteNav = $("#top nav ul li").children();
+var siteNav = $("#top li").children();
 var aboutLink = siteNav[0];
 
 // Create Variables poingting to all Sections and the About section.
