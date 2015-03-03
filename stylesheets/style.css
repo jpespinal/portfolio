@@ -275,24 +275,24 @@ nav {
   color: #45B29D;
 }
 
-/* line 83, ../sass/_global.scss */
+/* line 79, ../sass/_global.scss */
 section {
   padding: 3.6em 0;
 }
 
-/* line 87, ../sass/_global.scss */
+/* line 83, ../sass/_global.scss */
 .sub-section {
   margin: 3em 0%;
 }
 
-/* line 91, ../sass/_global.scss */
+/* line 87, ../sass/_global.scss */
 .title, .sub-title {
   color: #45B29D;
   font-family: "Francois One", sans-serif;
   letter-spacing: 0.025em;
 }
 
-/* line 97, ../sass/_global.scss */
+/* line 93, ../sass/_global.scss */
 .title {
   font-size: 5em;
   margin: 0.5625em 0%;
@@ -300,25 +300,25 @@ section {
   text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
-/* line 104, ../sass/_global.scss */
+/* line 100, ../sass/_global.scss */
 .sub-title {
   font-size: 2.5em;
   margin: 0.4em 0;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
-/* line 110, ../sass/_global.scss */
+/* line 106, ../sass/_global.scss */
 .center {
   margin: 0 auto;
   width: 95%;
 }
 
-/* line 117, ../sass/_global.scss */
+/* line 113, ../sass/_global.scss */
 .name-card {
   margin: 0 auto 4.0625em;
 }
 
-/* line 123, ../sass/_global.scss */
+/* line 119, ../sass/_global.scss */
 .project {
   background-color: #F3F3F3;
   border: 4px solid #F3F3F3;
@@ -335,17 +335,17 @@ section {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 133, ../sass/_global.scss */
+/* line 129, ../sass/_global.scss */
 .project:hover {
   border: 4px solid #59C6B1;
 }
 
-/* line 138, ../sass/_global.scss */
+/* line 134, ../sass/_global.scss */
 .p-title, .p-subtitle {
   margin: 0;
 }
 
-/* line 142, ../sass/_global.scss */
+/* line 138, ../sass/_global.scss */
 .p-title {
   color: #334D5C;
   font-family: "Francois One", sans-serif;
@@ -353,47 +353,47 @@ section {
   letter-spacing: 0.025em;
 }
 
-/* line 149, ../sass/_global.scss */
+/* line 145, ../sass/_global.scss */
 .p-subtitle {
   color: #45B29D;
 }
 
-/* line 155, ../sass/_global.scss */
+/* line 151, ../sass/_global.scss */
 .s-list {
   list-style-position: inside;
   list-style-image: url(../assets/list-diamond.svg);
 }
 
-/* line 160, ../sass/_global.scss */
+/* line 156, ../sass/_global.scss */
 .workplace, .job {
   color: #45B29D;
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 165, ../sass/_global.scss */
+/* line 161, ../sass/_global.scss */
 .workplace {
   font-size: 1.75em;
   margin: 0;
 }
 
-/* line 170, ../sass/_global.scss */
+/* line 166, ../sass/_global.scss */
 .job {
   font-size: 1.25em;
 }
 
-/* line 176, ../sass/_global.scss */
+/* line 172, ../sass/_global.scss */
 .email {
   color: #59C6B1;
   display: inline-block;
   text-decoration: underline;
 }
 
-/* line 182, ../sass/_global.scss */
+/* line 178, ../sass/_global.scss */
 .c-list {
   margin: 2.5em 0;
 }
 
-/* line 186, ../sass/_global.scss */
+/* line 182, ../sass/_global.scss */
 .c-label {
   color: #F3F3F3;
   font-family: "Open Sans", sans-serif;
@@ -401,18 +401,18 @@ section {
   text-align: center;
 }
 
-/* line 193, ../sass/_global.scss */
+/* line 189, ../sass/_global.scss */
 .c-link {
   display: inline-block;
   margin: 0em 12%;
   width: 25%;
 }
-/* line 197, ../sass/_global.scss */
+/* line 193, ../sass/_global.scss */
 .c-link a {
   text-decoration: none;
 }
 
-/* line 202, ../sass/_global.scss */
+/* line 198, ../sass/_global.scss */
 .c-icon {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -420,14 +420,14 @@ section {
   margin-bottom: 1.75em;
 }
 
-/* line 209, ../sass/_global.scss */
+/* line 205, ../sass/_global.scss */
 #bottom {
   background-color: #F3F3F3;
   padding: 0.5em 2.5%;
   text-align: center;
 }
 
-/* line 215, ../sass/_global.scss */
+/* line 211, ../sass/_global.scss */
 .copyright {
   color: #334D5C;
   font-family: "Francois One", sans-serif;
