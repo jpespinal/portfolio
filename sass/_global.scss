@@ -40,25 +40,25 @@ nav {
     @include border-radius;
 }
 
-.n-link {
-    background-color: $light-grey;
+#top li {
     display: inline-block;
     margin-right: -0.26em;
-    text-align: center;
     width: 25%;
-    a {
-        color: $blue;
-        font-family: $francois-one;
-        font-size: 1em;
-        font-weight: 400;
-        letter-spacing: 0.025em;
-        padding: 0.5em;
-        text-decoration: none;
-        &:hover, &:active {
-            color: $green;
-            background: $blue;
+}
+
+.n-link {
+    background-color: $light-grey;
+    color: $blue;
+    font-family: $francois-one;
+    font-size: 1em;
+    letter-spacing: 0.025em;
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    &:hover, &:active {
+        color: $green;
+        background: $blue;
     }
-  }
 }
 
 .n-link.f-radius {
@@ -71,11 +71,12 @@ nav {
 
 .active {
     background: $blue;
+    color: $green
 }
 
-li.active a {
-    color: $green;
-}
+// li.active a {
+//     ;
+// }
 
 // Main Section. //
 

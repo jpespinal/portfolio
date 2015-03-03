@@ -226,25 +226,25 @@ nav {
 }
 
 /* line 43, ../sass/_global.scss */
-.n-link {
-  background-color: #F3F3F3;
+#top li {
   display: inline-block;
   margin-right: -0.26em;
-  text-align: center;
   width: 25%;
 }
+
 /* line 49, ../sass/_global.scss */
-.n-link a {
+.n-link {
+  background-color: #F3F3F3;
   color: #334D5C;
   font-family: "Francois One", sans-serif;
   font-size: 1em;
-  font-weight: 400;
   letter-spacing: 0.025em;
   padding: 0.5em;
+  text-align: center;
   text-decoration: none;
 }
-/* line 57, ../sass/_global.scss */
-.n-link a:hover, .n-link a:active {
+/* line 58, ../sass/_global.scss */
+.n-link:hover, .n-link:active {
   color: #45B29D;
   background: #334D5C;
 }
@@ -272,31 +272,27 @@ nav {
 /* line 72, ../sass/_global.scss */
 .active {
   background: #334D5C;
-}
-
-/* line 76, ../sass/_global.scss */
-li.active a {
   color: #45B29D;
 }
 
-/* line 82, ../sass/_global.scss */
+/* line 83, ../sass/_global.scss */
 section {
   padding: 3.6em 0;
 }
 
-/* line 86, ../sass/_global.scss */
+/* line 87, ../sass/_global.scss */
 .sub-section {
   margin: 3em 0%;
 }
 
-/* line 90, ../sass/_global.scss */
+/* line 91, ../sass/_global.scss */
 .title, .sub-title {
   color: #45B29D;
   font-family: "Francois One", sans-serif;
   letter-spacing: 0.025em;
 }
 
-/* line 96, ../sass/_global.scss */
+/* line 97, ../sass/_global.scss */
 .title {
   font-size: 5em;
   margin: 0.5625em 0%;
@@ -304,25 +300,25 @@ section {
   text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
-/* line 103, ../sass/_global.scss */
+/* line 104, ../sass/_global.scss */
 .sub-title {
   font-size: 2.5em;
   margin: 0.4em 0;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
-/* line 109, ../sass/_global.scss */
+/* line 110, ../sass/_global.scss */
 .center {
   margin: 0 auto;
   width: 95%;
 }
 
-/* line 116, ../sass/_global.scss */
+/* line 117, ../sass/_global.scss */
 .name-card {
   margin: 0 auto 4.0625em;
 }
 
-/* line 122, ../sass/_global.scss */
+/* line 123, ../sass/_global.scss */
 .project {
   background-color: #F3F3F3;
   border: 4px solid #F3F3F3;
@@ -339,17 +335,17 @@ section {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 132, ../sass/_global.scss */
+/* line 133, ../sass/_global.scss */
 .project:hover {
   border: 4px solid #59C6B1;
 }
 
-/* line 137, ../sass/_global.scss */
+/* line 138, ../sass/_global.scss */
 .p-title, .p-subtitle {
   margin: 0;
 }
 
-/* line 141, ../sass/_global.scss */
+/* line 142, ../sass/_global.scss */
 .p-title {
   color: #334D5C;
   font-family: "Francois One", sans-serif;
@@ -357,47 +353,47 @@ section {
   letter-spacing: 0.025em;
 }
 
-/* line 148, ../sass/_global.scss */
+/* line 149, ../sass/_global.scss */
 .p-subtitle {
   color: #45B29D;
 }
 
-/* line 154, ../sass/_global.scss */
+/* line 155, ../sass/_global.scss */
 .s-list {
   list-style-position: inside;
   list-style-image: url(../assets/list-diamond.svg);
 }
 
-/* line 159, ../sass/_global.scss */
+/* line 160, ../sass/_global.scss */
 .workplace, .job {
   color: #45B29D;
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 164, ../sass/_global.scss */
+/* line 165, ../sass/_global.scss */
 .workplace {
   font-size: 1.75em;
   margin: 0;
 }
 
-/* line 169, ../sass/_global.scss */
+/* line 170, ../sass/_global.scss */
 .job {
   font-size: 1.25em;
 }
 
-/* line 175, ../sass/_global.scss */
+/* line 176, ../sass/_global.scss */
 .email {
   color: #59C6B1;
   display: inline-block;
   text-decoration: underline;
 }
 
-/* line 181, ../sass/_global.scss */
+/* line 182, ../sass/_global.scss */
 .c-list {
   margin: 2.5em 0;
 }
 
-/* line 185, ../sass/_global.scss */
+/* line 186, ../sass/_global.scss */
 .c-label {
   color: #F3F3F3;
   font-family: "Open Sans", sans-serif;
@@ -405,18 +401,18 @@ section {
   text-align: center;
 }
 
-/* line 192, ../sass/_global.scss */
+/* line 193, ../sass/_global.scss */
 .c-link {
   display: inline-block;
   margin: 0em 12%;
   width: 25%;
 }
-/* line 196, ../sass/_global.scss */
+/* line 197, ../sass/_global.scss */
 .c-link a {
   text-decoration: none;
 }
 
-/* line 201, ../sass/_global.scss */
+/* line 202, ../sass/_global.scss */
 .c-icon {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -424,14 +420,14 @@ section {
   margin-bottom: 1.75em;
 }
 
-/* line 208, ../sass/_global.scss */
+/* line 209, ../sass/_global.scss */
 #bottom {
   background-color: #F3F3F3;
   padding: 0.5em 2.5%;
   text-align: center;
 }
 
-/* line 214, ../sass/_global.scss */
+/* line 215, ../sass/_global.scss */
 .copyright {
   color: #334D5C;
   font-family: "Francois One", sans-serif;

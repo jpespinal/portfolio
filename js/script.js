@@ -16,12 +16,6 @@ $(function() {
   $(aboutSection).removeClass("hide-section");
 });
 
-// 1. Capture click on Nav links.
-$("siteNav.children()").click(function() {
-  var nonActive = $("siteNav").hasClass("active");
-  console.log(nonActive);
-  nonActive.removeClass("active");
-  $(this).addClass("active");
-});
+// 1. Capture click on Nav anchor.
   // 1.1 Add active class to clicked link. Reveal linked Section.
   // 1.2 Remove active class from previously clicked link. Hide all other Sections.
