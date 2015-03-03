@@ -1,20 +1,22 @@
 // Create Variables pointing to all Nav links and the About section link.
-var siteNav = $("#top nav ul").children();
-var aboutLink = siteNav[0];
+var siteNav = $("#top nav ul li").children();
+console.log(siteNav);
 
-// Create Variables poingting to all Sections and the About section.
-var siteSections = $("#main").children();
-var aboutSection = siteSections[0];
+// var aboutLink = siteNav[0];
 
-// Hide all major sections by adding CSS class.
-siteSections.addClass("hide-section");
+// // Create Variables poingting to all Sections and the About section.
+// var siteSections = $("#main").children();
+// var aboutSection = siteSections[0];
 
-// Upon document being ready, make user "arrive" at the About section by removing the hide class on it.
-// Add active class to About section link.
-$(function() {
-  $(aboutLink).addClass("active");
-  $(aboutSection).removeClass("hide-section");
-});
+// // Hide all major sections by adding CSS class.
+// siteSections.addClass("hide-section");
+
+// // Upon document being ready, make user "arrive" at the About section by removing the hide class on it.
+// // Add active class to About section link.
+// $(function() {
+//   $(aboutLink).addClass("active");
+//   $(aboutSection).removeClass("hide-section");
+// });
 
 // 1. Capture click on Nav anchor.
   // 1.1 Add active class to clicked link. Reveal linked Section.
