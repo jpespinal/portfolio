@@ -2,7 +2,7 @@
 
 body {
     background-color: $blue;
-    color: $light-grey;
+    color: $lightest-blue;
     font-family: $open-sans;
     font-weight: 400;
     min-width: 300px;
@@ -24,7 +24,7 @@ body {
 // Top Section. //
 
 #top {
-    background: $light-grey;
+    background: $light-blue;
     min-width: 300px;
     padding: 0.5em 2.5%;
     position: fixed;
@@ -47,8 +47,8 @@ nav {
 }
 
 .n-link {
-    background-color: $light-grey;
-    color: $blue;
+    background-color: $light-blue;
+    color: $lightest-blue;
     font-family: $francois-one;
     font-size: 1em;
     letter-spacing: 0.025em;
@@ -117,8 +117,8 @@ section {
 // Projects Section. //
 
 .project {
-    background-color: $light-grey;
-    border: 4px solid $light-grey;
+    background-color: $lightest-blue;
+    border: 4px solid $lightest-blue;
     @include border-radius;
     box-shadow: inset -4px -4px 8px 0px rgba(0, 0, 0, .1), inset 4px 4px 8px 0px rgba(0, 0, 0, .1);
     display: block;
@@ -170,7 +170,7 @@ section {
 // Contact Section. //
 
 .email {
-    color: $light-green;
+    color: $green;
     display: inline-block;
     text-decoration: underline;
 }
@@ -180,7 +180,7 @@ section {
 }
 
 .c-label {
-    color: $light-grey;
+    color: $lightest-blue;
     font-family: $open-sans;
     margin: 0.75em 0em;
     text-align: center;
@@ -203,13 +203,11 @@ section {
 // Footer Section. //
 
 #bottom {
-    background-color: $light-grey;
     padding: 0.5em 2.5%;
     text-align: center;
 }
 
 .copyright {
-    color: $blue;
     font-family: $francois-one;
     font-size: 1em;
     margin: 0;
