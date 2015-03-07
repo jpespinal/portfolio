@@ -27,7 +27,9 @@ $("#top a").click(function() {
   // 1.4 Hide all other sections.
   siteSections.addClass("hide-section");
   // 1.5 Reveal proper section.
-  if(siteSections.attr("href") === href) {
-    $(this).removeClass("hide-section");
+  for(var i = 0; i < siteSections.length; i += 1) {
+    if(siteSections[i].attr("href") === href) {
+      $(this).removeClass("hide-section");
+    }
   }
 });
