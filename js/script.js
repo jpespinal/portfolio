@@ -24,8 +24,10 @@ $("#top a").click(function() {
   $(this).addClass("active");
   // 1.3 Identify proper section.
   var href = $(this).attr("href");
-  console.log(href);
   // 1.4 Hide all other sections.
   siteSections.addClass("hide-section");
   // 1.5 Reveal proper section.
+  if(siteSections.attr("href") === href) {
+    $(this).removeClass("hide-section");
+  }
 });
