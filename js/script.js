@@ -27,7 +27,7 @@ $("#top a").click(function() {
   // 1.4 Hide all other sections.
   siteSections.addClass("hide-section");
   // 1.5 Reveal proper section.
-  $(("main").children()).each(function() {
+  $(("#main").children()).each(function() {
     var hrefSection = $(this).attr("href");
     if(hrefLink === hrefSection) {
       removeClass("hide-section");
