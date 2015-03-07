@@ -23,13 +23,14 @@ $("#top a").click(function() {
   // 1.2 Add active class to clicked link.
   $(this).addClass("active");
   // 1.3 Identify proper section.
-  var href = $(this).attr("href");
+  var hrefLink = $(this).attr("href");
   // 1.4 Hide all other sections.
   siteSections.addClass("hide-section");
   // 1.5 Reveal proper section.
-  for(var i = 0; i < siteSections.length; i += 1) {
-    if(siteSections[i].attr("href") === href) {
-      $(this).removeClass("hide-section");
+  $(("main").children()).each(function() {
+    var hrefSection = $(this).attr("href");
+    if(hrefLink === hrefSection) {
+      removeClass("hide-section");
     }
-  }
+  })
 });
