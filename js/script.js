@@ -21,9 +21,10 @@ $("#top a").click(function() {
   // 1.1 Remove active class from all links.
   siteNav.removeClass("active");
   // 1.2 Add active class to clicked link.
-  var revealLink = $(this).addClass("active");
+  $(this).addClass("active");
   // 1.3 Identify proper section.
-  var revealSection = revealLink.attr("href");
+  var href = $(this).attr("href");
+  console.log(href);
   // 1.4 Hide all other sections.
   siteSections.addClass("hide-section");
   // 1.5 Reveal proper section.
