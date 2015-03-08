@@ -27,6 +27,6 @@ $("#top a").click(function() {
   // 1.4 Hide all other sections.
   siteSections.addClass("hide-section");
   // 1.5 Reveal proper section.
-  var revealSection = $("#main sections").hasID(hrefLink);
+  var revealSection = $("#main sections").hasId(hrefLink);
   revealSection.removeClass("hide-section");
 });
