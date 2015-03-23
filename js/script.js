@@ -26,7 +26,6 @@ $("#top a").click(function() {
   var hrefLink = $(this).attr("href");
   // 1.4 Hide all other sections.
   siteSections.hide();
-  // 1.5 Find proper section.
+  // 1.5 Find proper section, reveal it.
   siteSections.filter(hrefLink).show();
-  // 1.6 Reveal proper section.
 });
