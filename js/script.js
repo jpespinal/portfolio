@@ -1,22 +1,29 @@
-// Create Variables pointing to all Nav links and the About section link.
+// Create Variables pointing to all Nav links and the About
+// section link.
 var siteNav = $("#top li").children();
 var aboutLink = siteNav[0];
 
-// Create Variables poingting to all Sections and the About section.
+// Create Variables poingting to all Sections and the About
+// section.
 var siteSections = $("#main").children();
 var aboutSection = siteSections[0];
 
 // // Hide all major sections by adding CSS class.
 siteSections.hide();
 
-// Upon document being ready, make user "arrive" at the About section by removing the hide class on it.
+// Upon document being ready, make user "arrive" at the About 
+// section by removing the hide class on it.
+
 // Add active class to About section link.
 $(function() {
   $(aboutLink).addClass("active");
   $(aboutSection).show();
 });
 
-// 1. Capture click on Nav anchor.
+// Give the site "multi-page" functionality
+// by hiding and revealing the appropriate sections.
+
+// Capture click on Nav anchor.
 $("#top a").click(function() {
   // Identifier of proper section.
   var hrefLink = $(this).attr("href");
