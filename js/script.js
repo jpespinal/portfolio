@@ -18,14 +18,14 @@ $(function() {
 
 // 1. Capture click on Nav anchor.
 $("#top a").click(function() {
-  // 1.1 Remove active class from all links.
-  siteNav.removeClass("active");
-  // 1.2 Add active class to clicked link.
-  $(this).addClass("active");
-  // 1.3 Identify proper section.
+  // Identifier of proper section.
   var hrefLink = $(this).attr("href");
-  // 1.4 Hide all other sections.
+  // Remove active class from all links.
+  siteNav.removeClass("active");
+  // Add active class to clicked link.
+  $(this).addClass("active");
+  // Hide all other sections.
   siteSections.hide();
-  // 1.5 Find proper section, reveal it.
+  // Find proper section, reveal it.
   siteSections.filter(hrefLink).show();
 });
