@@ -27,4 +27,5 @@ $("#top a").click(function() {
   // 1.4 Hide all other sections.
   siteSections.hide();
   // 1.5 Reveal proper section.
+  console.log(hrefLink.splice(0));
 });
