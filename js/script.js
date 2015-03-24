@@ -18,7 +18,6 @@ siteSections.hide();
 $(function() {
   $(aboutLink).addClass("active");
   $(aboutSection).show();
-  window.location = aboutSection;
 });
 
 // Give the site "multi-page" functionality
