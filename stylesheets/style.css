@@ -315,7 +315,7 @@ section {
 /* line 112, ../sass/_global.scss */
 #about header {
   background-clip: border-box;
-  background-image: url("../assets/about.svg") no-repeat;
+  background: url("../assets/about.svg") no-repeat;
 }
 
 /* line 117, ../sass/_global.scss */
