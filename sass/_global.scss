@@ -1,218 +1,218 @@
 /* This is the global page, where styles that never change are defined. */
 
 body {
-    background-color: $blue;
-    color: $lightest-blue;
-    font-family: $open-sans;
-    font-weight: 400;
-    min-width: 300px;
+  background-color: $blue;
+  color: $lightest-blue;
+  font-family: $open-sans;
+  font-weight: 400;
+  min-width: 300px;
 }
 
 #container {
-    height: 100%;
-    @include container;
+  height: 100%;
+  @include container;
 }
 
 #top, #main, #bottom {
-    @include span(4);
+  @include span(4);
 }
 
 .hide-small, .hide-medium, .hide-section {
-    display: none;
+  display: none;
 }
 
 // Top Section. //
 
 #top {
-    background: $blue;
-    min-width: 300px;
-    padding: 0.5em 2.5% 0em;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 2;
+  background: $blue;
+  min-width: 300px;
+  padding: 0.5em 2.5% 0em;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
 }
 
 nav {
-    background-color: $lightest-blue;
-    border: 1px solid $lightest-blue;
-    @include border-radius;
+  background-color: $lightest-blue;
+  border: 1px solid $lightest-blue;
+  @include border-radius;
 }
 
 #top li {
-    display: inline-block;
-    margin-right: -0.26em;
-    width: 25%;
+  display: inline-block;
+  margin-right: -0.26em;
+  width: 25%;
 }
 
 .n-link {
-    background-color: $light-blue;
-    color: $lightest-blue;
-    font-family: $francois-one;
-    font-size: 1em;
-    letter-spacing: 0.05em;
-    padding: 0.25em;
-    text-align: center;
-    text-decoration: none;
-    &:hover, &:active {
-        background: $lightest-blue;
-        color: $green;
-    }
+  background-color: $light-blue;
+  color: $lightest-blue;
+  font-family: $francois-one;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  padding: 0.25em;
+  text-align: center;
+  text-decoration: none;
+  &:hover, &:active {
+      background: $lightest-blue;
+      color: $green;
+  }
 }
 
 .n-link.f-radius {
-    @include border-left-radius;
+  @include border-left-radius;
 }
 
 .n-link.l-radius {
-    @include border-right-radius;
+  @include border-right-radius;
 }
 
 .active {
-    background: $lightest-blue;
-    color: $green;
+  background: $lightest-blue;
+  color: $green;
 }
 
 // Main Section. //
 
 section {
-    padding: 3.6em 0;
+  padding: 3.6em 0;
 }
 
 .sub-section {
-    margin: 3em 0%;
+  margin: 3em 0%;
 }
 
 .title, .sub-title {
-    color: $green;
-    font-family: $francois-one;
-    letter-spacing: 0.025em;
+  color: $green;
+  font-family: $francois-one;
+  letter-spacing: 0.025em;
 }
 
 .title {
-    font-size: 5em;
-    margin: 0.5625em 0%;
-    text-shadow: 4px 4px 0px rgba(0,0,0,0.2)
+  font-size: 5em;
+  margin: 0.5625em 0%;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.2)
 }
 
 .sub-title {
-    font-size: 2.5em;
-    margin: 0.4em 0;
-    text-shadow: 2px 2px 0px rgba(0,0,0,0.2)
+  font-size: 2.5em;
+  margin: 0.4em 0;
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.2)
 }
 
 .center {
-    margin: 0 auto;
-    width: 95%;
+  margin: 0 auto;
+  width: 95%;
 }
 
 // About Section. //
 
 #about header {
-    background-image: url("../assets/about.svg");
+  background-image: url("../assets/about.svg");
 }
 
-// .name-card {
-//     margin: 2em auto;
-// }
+.name-card {
+  display: none;
+}
 
 // Projects Section. //
 
 .project {
-    background-color: $lightest-blue;
-    border: 4px solid $lightest-blue;
-    @include border-radius;
-    box-shadow: inset -4px -4px 8px 0px rgba(0, 0, 0, .1), inset 4px 4px 8px 0px rgba(0, 0, 0, .1);
-    display: block;
-    margin: 0em auto 3em;
-    padding: 0.5em 1.5%;
-    text-align: center;
-    @include span(4);
-    &:hover {
-        border: 4px solid $green;
-    }
+  background-color: $lightest-blue;
+  border: 4px solid $lightest-blue;
+  @include border-radius;
+  box-shadow: inset -4px -4px 8px 0px rgba(0, 0, 0, .1), inset 4px 4px 8px 0px rgba(0, 0, 0, .1);
+  display: block;
+  margin: 0em auto 3em;
+  padding: 0.5em 1.5%;
+  text-align: center;
+  @include span(4);
+  &:hover {
+      border: 4px solid $green;
+  }
 }
 
 .p-title, .p-subtitle {
-    margin: 0;
+  margin: 0;
 }
 
 .p-title {
-    color: $blue;
-    font-family: $francois-one;
-    font-size: 1.25em;
-    letter-spacing: 0.025em;
+  color: $blue;
+  font-family: $francois-one;
+  font-size: 1.25em;
+  letter-spacing: 0.025em;
 }
 
 .p-subtitle {
-    color: $green;
+  color: $green;
 }
 
 // Skills Section. //
 
 .s-list {
-    list-style-position: inside;
-    list-style-image: url(../assets/list-diamond.svg);
+  list-style-position: inside;
+  list-style-image: url(../assets/list-diamond.svg);
 }
 
 .workplace, .job {
-    color: $green;
-    font-family: $open-sans;
+  color: $green;
+  font-family: $open-sans;
 }
 
 .workplace {
-    font-size: 1.75em;
-    margin: 0;
+  font-size: 1.75em;
+  margin: 0;
 }
 
 .job {
-    font-size: 1.25em;
+  font-size: 1.25em;
 }
 
 // Contact Section. //
 
 .email {
-    color: $green;
-    display: inline-block;
-    text-decoration: underline;
+  color: $green;
+  display: inline-block;
+  text-decoration: underline;
 }
 
 .c-list {
-    margin: 2.5em 0;
+  margin: 2.5em 0;
 }
 
 .c-label {
-    color: $lightest-blue;
-    font-family: $open-sans;
-    margin: 0.75em 0em;
-    text-align: center;
+  color: $lightest-blue;
+  font-family: $open-sans;
+  margin: 0.75em 0em;
+  text-align: center;
 }
 
 .c-link {
-    display: inline-block;
-    margin: 0em 12%;
-    width: 25%;
-    & a {
-        text-decoration: none;
-    }
+  display: inline-block;
+  margin: 0em 12%;
+  width: 25%;
+  & a {
+      text-decoration: none;
+  }
 }
 
 .c-icon {
-    @include border-radius;
-    margin-bottom: 1.75em;
+  @include border-radius;
+  margin-bottom: 1.75em;
 }
 
 // Footer Section. //
 
 #bottom {
-    padding: 0.5em 2.5%;
-    text-align: center;
+  padding: 0.5em 2.5%;
+  text-align: center;
 }
 
 .copyright {
-    font-family: $francois-one;
-    font-size: 1em;
-    margin: 0;
-    letter-spacing: 0.05em;
+  font-family: $francois-one;
+  font-size: 1em;
+  margin: 0;
+  letter-spacing: 0.05em;
 }

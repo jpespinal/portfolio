@@ -1,9 +1,9 @@
 /*  This is a starter page where a project is initialized from. Includes CSS Reset, initial 
-    settings for plug-ins, and base styles to be applied after the reset. */
+  settings for plug-ins, and base styles to be applied after the reset. */
 
 /* ============================================================
-   Imports - Compass (Reset, CSS3, Utilities, Susy, Breakpoint).
-   ============================================================ */
+ Imports - Compass (Reset, CSS3, Utilities, Susy, Breakpoint).
+ ============================================================ */
 
 @import "compass";                  // Import Compass Framework into Project.
 @import "compass/reset";            // CSS Reset.
@@ -11,8 +11,8 @@
 @import "breakpoint";               // Importing Breakpoint Compass plug-in.
 
 /* ============================================================
-   Susy Settings.
-   ============================================================ */
+ Susy Settings.
+ ============================================================ */
 
 $susy: (
   columns: 4,                       // Start with 4 columns in grid.
@@ -23,22 +23,22 @@ $susy: (
 @include global-box-sizing;
 
 /* ============================================================
-   Typefaces / Fonts.
-   ============================================================ */
+ Typefaces / Fonts.
+ ============================================================ */
 
 $francois-one: 'Francois One', sans-serif;
 $open-sans: 'Open Sans', sans-serif;
 
 /* ============================================================
-   Breakpoint Variables.
-   ============================================================ */
+ Breakpoint Variables.
+ ============================================================ */
 
 $smallest-width: 300px;
 $small-width: 480px;
 
 /* ============================================================
-   Color Variables.
-   ============================================================ */
+ Color Variables.
+ ============================================================ */
 
 $green: #45B29D;
 
@@ -47,72 +47,69 @@ $light-blue: #476170;
 $lightest-blue: #D3EDFC;
 
 /* ============================================================
-   Base Styles.
-   ============================================================ */
+ Base Styles.
+ ============================================================ */
 
 html, body {
-    font-size: 16px;
-    height: 100%;
-    line-height: 1.5;
-    width: 100%;
+  font-size: 16px;
+  height: 100%;
+  line-height: 1.5;
+  width: 100%;
 }
 
 h1 {
-    font-size: 1.6em;
-    margin-bottom: 0.625em;
+  font-size: 1.6em;
+  margin-bottom: 0.625em;
 }
 
 h2 {
-    font-size: 1.5em;
-    margin-bottom: 0.66666667em;
+  font-size: 1.5em;
+  margin-bottom: 0.66666667em;
 }
 
 h3 {
-    font-size: 1.4em;
-    margin-bottom: 0.71428571em;
+  font-size: 1.4em;
+  margin-bottom: 0.71428571em;
 }
 
 h4 {
-    font-size: 1.3em;
-    margin-bottom: 0.76923077em;
+  font-size: 1.3em;
+  margin-bottom: 0.76923077em;
 }
 
 h5 {
-    font-size: 1.2em;
-    margin-bottom: 0.83333333em;
+  font-size: 1.2em;
+  margin-bottom: 0.83333333em;
 }
 
 h6 {
-    font-size: 1.1em;
-    margin-bottom: 0.90909091em;
+  font-size: 1.1em;
+  margin-bottom: 0.90909091em;
 }
 
 p {
-    font-size: 1em;
-    margin: 1.5em 0; // Setting up Vertical Rhythm for text.
+  font-size: 1em;
+  margin: 1.5em 0; // Setting up Vertical Rhythm for text.
 }
 
 a {
-    display: block;
+  display: block;
 }
 
 img {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 br {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
-// em {
-// }
-
 strong {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 abbr, acronym {
-    border-bottom: 1px dotted #000;
-    cursor: help;
+  border-bottom: 1px dotted #000;
+  cursor: help;
 }
