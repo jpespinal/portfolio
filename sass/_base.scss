@@ -8,7 +8,6 @@
 @import "compass";                  // Import Compass Framework into Project.
 @import "compass/reset";            // CSS Reset.
 @import "susy";                     // Importing Susy Grid Framework into Project.
-@import "breakpoint";               // Importing Breakpoint Compass plug-in.
 
 /* ============================================================
  Susy Settings.
@@ -28,13 +27,6 @@ $susy: (
 
 $francois-one: 'Francois One', sans-serif;
 $open-sans: 'Open Sans', sans-serif;
-
-/* ============================================================
- Breakpoint Variables.
- ============================================================ */
-
-$smallest-width: 300px;
-$small-width: 480px;
 
 /* ============================================================
  Color Variables.
