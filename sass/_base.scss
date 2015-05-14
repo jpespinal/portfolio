@@ -2,16 +2,10 @@
   settings for plug-ins, and base styles to be applied after the reset. */
 
 /* ============================================================
- Imports - Compass (Reset, CSS3, Utilities, Susy, Breakpoint).
- ============================================================ */
-
-@import "compass";                  // Import Compass Framework into Project.
-@import "compass/reset";            // CSS Reset.
-@import "susy";                     // Importing Susy Grid Framework into Project.
-
-/* ============================================================
  Susy Settings.
  ============================================================ */
+
+@import "../bower_components/susy/sass/susy";     // Importing Susy Grid Framework into Project.
 
 $susy: (
   columns: 4,                       // Start with 4 columns in grid.

@@ -1,3 +1,7 @@
+bower_components/
+
+.idea
+
 config.rb
 
 sass/_grids.scss

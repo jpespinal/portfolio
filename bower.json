@@ -1,0 +1,26 @@
+{
+  "name": "Portfolio Site",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jpespinal/portfolio",
+  "authors": [
+    "Juan Pablo Espinal <jpespinal@jpespinal.com>"
+  ],
+  "description": "My Online Portfolio",
+  "main": "index.html",
+  "keywords": [
+    "portfolio",
+    "j.p.",
+    "espinal"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "susy": "~2.2.3"
+  }
+}
