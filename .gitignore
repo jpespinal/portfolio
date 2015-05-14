@@ -2,21 +2,10 @@ bower_components/
 
 .idea
 
-config.rb
-
-sass/_grids.scss
-sass/custom.scss
-sass/ie.scss
-sass/print.scss
-sass/screen.scss
-
 *.DS_Store
 
-stylesheets/custom.css
-stylesheets/ie.css
-stylesheets/print.css
-stylesheets/screen.css
-
 .sass-cache/
+*.css.map
 
 *.sublime-*
+
