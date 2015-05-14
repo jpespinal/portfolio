@@ -1,8 +1,8 @@
 /*  This is a starter page where a project is initialized from. Includes CSS Reset, initial 
   settings for plug-ins, and base styles to be applied after the reset. */
 /* ============================================================
- Susy Settings.
- ============================================================ */
+Susy Settings.
+============================================================ */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;

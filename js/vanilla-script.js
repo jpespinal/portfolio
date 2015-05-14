@@ -36,20 +36,25 @@ window.onload = function() {
 
 // Capture click on Nav anchor.
 siteNav.onclick = function() {
-    // Identifier of proper section.
-    var hrefLink = this.getAttribute("href");
+
+// Identify proper section.
+var hrefLink = this.getAttribute("href");
     hrefLink = hrefLink.slice(1, hrefLink.length);
     console.log(hrefLink);
-    // Remove active class from all links.
-    for (var i = 0; i < siteNav.length; i++) {
-        siteNav[i].classList.remove("active");
-    }
-    // Add active class to clicked link.
-    this.classList.add("active");
-    // Hide all other sections.
-    for (var i = 0; i < siteSections.length; i++) {
-        siteSections[i].classList.remove("hide");
-    }
-    // Find proper section, reveal it.
-    document.getElementById(hrefLink).classList.remove("hide");
+
+// Remove active class from all links.
+for (var j = 0; j < siteNav.length; j++) {
+    siteNav[i].classList.remove("active");
+}
+
+// Add active class to clicked link.
+this.classList.add("active");
+
+// Hide all other sections.
+for (var k = 0; k < siteSections.length; k++) {
+    siteSections[i].classList.add("hide");
+}
+
+// Find proper section, reveal it.
+document.getElementById(hrefLink).classList.remove("hide");
 };
