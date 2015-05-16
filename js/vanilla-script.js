@@ -41,11 +41,10 @@ window.onload = function() {
             var hrefLink = this.getAttribute("href");
             hrefLink = hrefLink.slice(1, hrefLink.length);
             console.log(hrefLink);
-            debugger;
 
             // Remove active class from all links.
             for (var j = 0; j < siteNav.length; j++) {
-                siteNav[i].classList.remove("active");
+                this.classList.remove("active");
             }
 
             // Add active class to clicked link.
