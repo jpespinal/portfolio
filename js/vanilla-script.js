@@ -35,13 +35,13 @@ window.onload = function() {
 // by hiding and revealing the appropriate sections.
 
 // Capture click on Nav anchor.
-siteNav.onclick = function() {
+siteNav.addEventListener("click", function() {
 
 // Identify proper section.
 var hrefLink = this.getAttribute("href");
     hrefLink = hrefLink.slice(1, hrefLink.length);
     console.log(hrefLink);
-
+    debugger;
 // Remove active class from all links.
 for (var j = 0; j < siteNav.length; j++) {
     siteNav[i].classList.remove("active");
@@ -57,4 +57,4 @@ for (var k = 0; k < siteSections.length; k++) {
 
 // Find proper section, reveal it.
 document.getElementById(hrefLink).classList.remove("hide");
-};
+});
