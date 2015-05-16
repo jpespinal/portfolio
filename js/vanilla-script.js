@@ -45,7 +45,7 @@ window.onload = function() {
 
             // Remove active class from all links.
             for (var j = 0; j < siteNav.length; j++) {
-                this.classList.remove("active");
+                siteNav[j].classList.remove("active");
             }
 
             // Add active class to clicked link.
@@ -53,7 +53,7 @@ window.onload = function() {
 
             // Hide all other sections.
             for (var k = 0; k < siteSections.length; k++) {
-                this.classList.add("hide");
+                siteNav[k].classList.add("hide");
             }
 
             // Find proper section, reveal it.
