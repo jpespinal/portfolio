@@ -37,6 +37,7 @@ window.onload = function() {
         // Capture click on Nav anchor.
         siteNav[i].addEventListener("click", function() {
 
+            console.log(this);
             // Identify proper section.
             var hrefLink = this.getAttribute("href");
             hrefLink = hrefLink.slice(1, hrefLink.length);
