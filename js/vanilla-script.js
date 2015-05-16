@@ -29,32 +29,35 @@ for (var i = 0; i < siteSections.length; i++) {
 window.onload = function() {
     aboutLink.classList.add("active");
     aboutSection.classList.remove("hide");
-}
 
-// Give the site "multi-page" functionality
+    // Give the site "multi-page" functionality
 // by hiding and revealing the appropriate sections.
+    for (i = 0; i < siteNav.length; i++) {
 
-// Capture click on Nav anchor.
-siteNav.addEventListener("click", function() {
+        // Capture click on Nav anchor.
+        siteNav[i].addEventListener("click", function() {
 
-// Identify proper section.
-var hrefLink = this.getAttribute("href");
-    hrefLink = hrefLink.slice(1, hrefLink.length);
-    console.log(hrefLink);
-    debugger;
-// Remove active class from all links.
-for (var j = 0; j < siteNav.length; j++) {
-    siteNav[i].classList.remove("active");
+            // Identify proper section.
+            var hrefLink = this.getAttribute("href");
+            hrefLink = hrefLink.slice(1, hrefLink.length);
+            console.log(hrefLink);
+            debugger;
+
+            // Remove active class from all links.
+            for (var j = 0; j < siteNav.length; j++) {
+                siteNav[i].classList.remove("active");
+            }
+
+            // Add active class to clicked link.
+            this.classList.add("active");
+
+            // Hide all other sections.
+            for (var k = 0; k < siteSections.length; k++) {
+                siteSections[i].classList.add("hide");
+            }
+
+            // Find proper section, reveal it.
+            document.getElementById(hrefLink).classList.remove("hide");
+        });
+    }
 }
-
-// Add active class to clicked link.
-this.classList.add("active");
-
-// Hide all other sections.
-for (var k = 0; k < siteSections.length; k++) {
-    siteSections[i].classList.add("hide");
-}
-
-// Find proper section, reveal it.
-document.getElementById(hrefLink).classList.remove("hide");
-});
