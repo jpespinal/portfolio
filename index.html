@@ -4,8 +4,8 @@
 		<meta charset="utf-8">
 		<title>J.P. Espinal</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="I'm J.P. Espinal, a Front-End Web Developer in New York City. This is my portfolio site.">
-		<meta name="keywords" content="j.p. espinal, front-end web developer, portfolio">
+		<meta name="description" content="I'm J.P. Espinal, a UX Designer / Front-End Web Developer from New York City. This is my portfolio site.">
+		<meta name="keywords" content="j.p. espinal, user experience designer, user experience, designer, front-end web developer, portfolio">
 		<meta name="author" content="Juan Pablo Espinal">
     <meta name="format-detection" content="telephone=no"> <!-- Disable telephone number detection in iOS Safari -->
 		<link rel="shortcut icon" href=""> <!-- Browser window/tab icon. -->
@@ -13,43 +13,43 @@
 		<link href="stylesheets/style.css" type="text/css" rel="stylesheet">
 	</head>
 	<body>
-		<div id="container">
-			<header id="top">
+		<div class="site">
+			<header class="site__header">
 				<nav>
 					<ul>
 						<li> 
-							<a href="#about" class="n-link f-radius">About</a>
+							<a href="#about-page" class="site__header__navlink f-radius">About</a>
 						</li>
 						<li>
-							<a href="#skills" class="n-link">Skills</a>
+							<a href="#skills-page" class="site__header__navlink">Skills</a>
 						</li>
             <li>
-              <a href="#projects" class="n-link">Projects</a>
+              <a href="#projects-page" class="site__header__navlink">Projects</a>
             </li>
 						<li>
-							<a href="#contact" class="n-link l-radius">Contact</a>
+							<a href="#contact-page" class="site__header__navlink l-radius">Contact</a>
 						</li>
 					</ul>
 				</nav>
 			</header>
-			<main role="main" id="main">
-				<section id="about">
-          <header class="center">
-            <img src="assets/name-card-lightest-blue-2.svg" alt="Hello, my name is: J.P. Espinal" class="name-card">
-            <h1 class="title">About</h1>
+			<main role="main" class="site__main">
+				<section class="page" id="about-page">
+          <header class="page__header">
+            <img src="assets/name-card-lightest-blue-2.svg" alt="Hello, my name is: J.P. Espinal" class="page__header__image--namecard">
+            <h1 class="page__header__title">About</h1>
           </header>
-					<div class="center">
-						<p class="text">I'm a Front-End Web Developer, focused on producing scalable, efficient, standards compliant code. My experience as a QA tester, paired with my ever growing interest and respect for design and UX, helps me develop with the end user in mind. Brainstorming and ideation give me life. I believe every user's web experience should be delightful, regardless of modern browser or device.</p>
+					<div class="page__container">
+						<p>I'm a Front-End Web Developer, focused on producing scalable, efficient, standards compliant code. My experience as a QA tester, paired with my ever growing interest and respect for design and UX, helps me develop with the end user in mind. Brainstorming and ideation give me life. I believe every user's web experience should be delightful, regardless of modern browser or device.</p>
 					</div>
 				</section>
-				<section id="skills">
-          <header class="center">
-              <h1 class="title">Skills</h1>
+				<section class="page" id="skills-page">
+          <header class="page__header">
+              <h1 class="page__header__title">Skills</h1>
           </header>
-					<div class="center">
-						<div class="sub-section core">
-							<h2 class="sub-title">Core</h2>
-							<ul class="s-list">
+					<div class="page__container">
+						<div class="skills-list core">
+							<h2 class="page__subtitle">Core</h2>
+							<ul>
 								<li>HTML</li>
 								<li>CSS via Sass</li>
 								<li>JavaScript</li>
@@ -59,9 +59,9 @@
 								<li>Foundation Framework</li>
 							</ul>
 						</div>
-						<div class="sub-section workflow">
-							<h2 class="sub-title">Workflow</h2>
-							<ul class="s-list">
+						<div class="skills-list workflow">
+							<h2 class="page__subtitle">Workflow</h2>
+							<ul>
 								<li>W3C validated, semantic HTML</li>
 								<li>W3C validated, modular CSS</li>
 								<li>"Mobile First" approach</li>
@@ -73,88 +73,88 @@
 								<li>SEO</li>
 							</ul>
 						</div>
-						<div class="sub-section tools">
-							<h2 class="sub-title">Tools</h2>
-							<ul class="s-list">
-                  <li>Sketch</li>
+						<div class="skills-list tools">
+							<h2 class="page__subtitle">Tools</h2>
+							<ul>
+								<li>Sketch</li>
                 <li>Pixelmator</li>
-								<li>Sublime Text</li>
+								<li>WebStorm</li>
 								<li>Git</li>
 								<li>Trello</li>
 								<li>Redmine</li>
 							</ul>
 						</div>
 						<div class="sub-section work">
-							<h2 class="sub-title">Work History</h2>
+							<h2 class="page__subtitle">Work History</h2>
 							<h3 class="workplace">ArtistFan</h3>
 							<h4 class="job">QA Tester, 09/2013 - 10/2014</h4>
 							<p>I was in charge of manually testing our application across major web browsers (except IE 8 and earlier) for consistency in functionality. I documented issues and anomalies present using a  tracking tool, making sure all features were being implemented according to specifications. I provided feedback to the Project Manager and development team on features being implemented, and retained knowledge of the application across development cycles.</p>
 						</div>
 					</div>
 				</section>
-        <section id="projects">
-          <header class="center">
-              <h1 class="title">Projects</h1>   
+        <section class="page" id="projects-page">
+          <header class="page__header">
+              <h1 class="page__header__title">Projects</h1>
           </header>
-          <div class="center">
-            <h2 class="sub-title">Front End Work</h2>
+          <div class="page__container">
+            <h2 class="page__subtitle">Front End Web Development</h2>
             <ul>
               <li class="project">
-                <h2 class="p-title">From High Above</h2>
-                <p class="p-subtitle">Recording studio in the sky!</p>
+                <h2 class="project__title">Ramirez Insomnia</h2>
+                <p class="project__subtitle">Performance Artist</p>
               </li>
               <li class="project">
-                <h2 class="p-title">Shelley Rosario</h2>
-                <p class="p-subtitle">Fashion Stylist Portfolio</p>
+                <h2 class="project__title">Title Here</h2>
+                <p class="project__subtitle">Sub-title Here</p>
               </li>
               <li class="project">
-                <h2 class="p-title">Title Here</h2>
-                <p class="p-subtitle">Sub Title Here</p>
+                <h2 class="project__title">Title Here</h2>
+                <p class="project__subtitle">Sub-title Here</p>
               </li>
             </ul>
           </div>
         </section>
-				<section id="contact">
-          <header class="center">
-              <h1 class="title">Contact</h1>
+				<section class="page" id="contact-page">
+          <header class="page__header">
+              <h1 class="page__header__title">Contact</h1>
           </header>
-					<div class="center">
-            <p>Want to say 'hello', discuss a project or contract work? I'd love to hear from you. Email: <a href="mailto:hello@jpespinal.com" class="email">hello@jpespinal.com</a></p>
+					<div class="page__container">
+            <p>Want to say 'hello', discuss a project or contract work? I'd love to hear from you. Email: <a href="mailto:hello@jpespinal.com" class="contact-email">hello@jpespinal.com</a></p>
             <p>Find me around the web:</p>
-						<ul class="c-list">
-							<li class="c-link">
+						<ul class="contact-list">
+							<li class="contact-list__link">
 								<a href="https://www.dribbble.com/jpespinal" target="_blank">
-                  <p class="c-label">Dribble</p>
-									<img src="assets/dribbble.svg" alt="Dribbble" class="c-icon">
+                  <p class="contact-list__link__label">Dribble</p>
+									<img src="assets/dribbble.svg" alt="Dribbble" class="contact-list__link__icon">
 								</a>
 							</li>
-							<li class="c-link">
+							<li class="contact-list__link">
 								<a href="https://www.github.com/jpespinal" target="_blank">
-                  <p class="c-label">GitHub</p>
-									<img src="assets/github.svg" alt="GitHub" class="c-icon">
+                  <p class="contact-list__link__label">GitHub</p>
+									<img src="assets/github.svg" alt="GitHub" class="contact-list__link__icon">
 								</a>
 							</li>
-							<li class="c-link">
+							<li class="contact-list__link">
 								<a href="https://www.twitter.com/jpespinal" target="_blank">
-                  <p class="c-label">Twitter</p>
-									<img src="assets/twitter.svg" alt="Twitter" class="c-icon">
+                  <p class="contact-list__link__label">Twitter</p>
+									<img src="assets/twitter.svg" alt="Twitter" class="contact-list__link__icon">
 								</a>
 							</li>
-              <li class="c-link">
+              <li class="contact-list__link">
                 <a href="https://www.linkedin.com/in/jpespinal" target="_blank">
-                  <p class="c-label">LinkedIn</p>
-                  <img src="assets/linkedin.svg" alt="LinkedIn" class="c-icon">
+                  <p class="contact-list__link__label">LinkedIn</p>
+                  <img src="assets/linkedin.svg" alt="LinkedIn" class="contact-list__link__icon">
                 </a>
               </li>
 						</ul>
 					</div>
 				</section>
 			</main>
-			<footer id="bottom">
-				<p class="copyright">&copy; 2014 Juan Pablo Espinal</p>
+			<footer class="site__footer">
+				<p class="site__footer__copyright">&copy; 2014 Juan Pablo Espinal</p>
 			</footer>
 		</div>
-    <!--<script src="//code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>-->
-		<script src="js/vanilla-script.js" type="text/javascript"></script>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+		<!--<script src="js/vanilla-script.js" type="text/javascript"></script>-->
 	</body>
 </html>

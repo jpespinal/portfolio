@@ -8,9 +8,9 @@ Susy Settings.
 @import "../bower_components/susy/sass/susy";     // Importing Susy Grid Framework into Project.
 
 $susy: (
-  columns: 4,                       // Start with 4 columns in grid.
-  global-box-sizing: border-box,    // Set up Border Box sizing.
-  gutters: 1/4,                     // Column gutters 1/4 size of columns.
+  columns: 4,                                     // Start with 4 columns in grid.
+  global-box-sizing: border-box,                  // Set up Border Box sizing.
+  gutters: 1/4,                                   // Column gutters 1/4 size of columns.
 );
 
 @include global-box-sizing;
@@ -75,11 +75,16 @@ h6 {
 
 p {
   font-size: 1em;
-  margin: 1.5em 0;    // Setting up Vertical Rhythm for text.
+  margin: 1.5em 0;                  // Setting up Vertical Rhythm for text.
 }
 
 a {
   display: block;
+}
+
+ul {
+  list-style-position: inside;
+  list-style-image: url(../assets/list-diamond.svg);
 }
 
 img {

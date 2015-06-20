@@ -4,14 +4,14 @@
 
 // Create Variables pointing to all Nav links and the About
 // section link.
-var siteNav = document.getElementsByClassName("n-link");
+var siteNav = document.getElementsByClassName("nav-link");
 var aboutLink = siteNav[0];
 console.log(siteNav);
 console.log(aboutLink);
 
 // Create Variables pointing to all Sections and the About
 // section.
-var siteSections = document.getElementsByTagName("section");
+var siteSections = document.getElementsByTagName("page");
 var aboutSection = siteSections[0];
 console.log(siteSections);
 console.log(aboutSection);
@@ -20,7 +20,7 @@ console.log(aboutSection);
 for (var i = 0; i < siteSections.length; i++) {
     siteSections[i].classList.add("hide");
 
-}
+};
 
 // Upon document being ready, make user "arrive" at the About
 // section by removing the hide class on it.
@@ -31,13 +31,14 @@ window.onload = function() {
     aboutSection.classList.remove("hide");
 
     // Give the site "multi-page" functionality
-// by hiding and revealing the appropriate sections.
+    // by hiding and revealing the appropriate sections.
     for (i = 0; i < siteNav.length; i++) {
 
         // Capture click on Nav anchor.
         siteNav[i].addEventListener("click", function() {
 
             console.log(this);
+
             // Identify proper section.
             var hrefLink = this.getAttribute("href");
             hrefLink = hrefLink.slice(1, hrefLink.length);

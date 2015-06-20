@@ -1,34 +1,34 @@
 
 @media screen and (min-width: 480px) {
 
-    // Main Section. //
+    // Site Main. //
 
-    .title {
+    .page__header__title {
         font-size: 4.2em;
     }
 
-    .sub-title {
+    .page__subtitle {
         font-size: 2.7em;
     }
 
-    // Projects Section. //
+    // Projects Page. //
 
-    .p-title {
+    .project__title {
         font-size: 2.2em;
     }
 
-    .p-subtitle {
+    .project__subtitle {
         font-size: 1.7em;
     }
 
-    // Contact Section. //
+    // Contact Page. //
 }
 
 @media screen and (min-width: 960px) {
 
-    // Top Section. //
+    // Site Header. //
 
-    #top {
+    .site__header {
         @include span(3 wide of 15);
         height: 100%;
         right: auto;
@@ -37,70 +37,65 @@
         z-index: auto;
     }
 
-    .n-link {
+    .site__header li {
         height: 25%;
         width: 100%;
-        a {
+        .site__header__navlink {
             font-size: 2em;
             height: 100%;
             padding-top: 1.65em;
             width: 100%;
-            &.first-radius:hover {
+            &.f-radius:hover {
                 border-radius: 5px 5px 0 0;
             }
-            &.last-radius:hover {
+            &.l-radius:hover {
                 border-radius: 0 0 5px 5px;
             }
         }
     }
 
-    // Main Section. //
+    // Site Main. //
     
-    #main {
+    .site__main {
         @include span(12 of 15 last);
     }
 
-    section {
-        padding: 2em 0%;
+    .page {
+        padding: 2em 0;
     }
 
-    .sub-section {
-        margin-top: 0;
-    }
-
-    .title {
+    .page__header__title {
         font-size: 5em;
         margin-top: 0;
     }
 
-    .sub-title {
+    .page__subtitle {
         border-top: 0.12em solid $light-blue;
         font-size: 3.5em;
     }
 
-    // About Section. //
+    // About Page. //
 
-    #about .title {
+    #about-page .page__header__title {
         float: right;
         margin: 0;
     }
 
-    .name-card {
+    .page__header__image--namecard {
         clear: right;
         float: left;
     }
 
-    .text {
-        clear: right;
-        float: right;
-    }
+    // Skills Page. //
 
-    // Skills Section. //
-
-    #skills:after {
+    #skills-page:after {
         content: "";
         display: table;
         clear: both;
+    }
+
+    .skills-list {
+        margin-top: 0;
     }
 
     .core, .workflow {
@@ -115,9 +110,9 @@
         @include span(12 of 12);
     }
 
-    // Footer. //
+    // Site Footer. //
 
-    #bottom {
+    .site__footer {
         display: none;
     }
 }

@@ -8,12 +8,11 @@ body {
   min-width: 300px;
 }
 
-#container {
-  height: 100%;
+.site {
   @include container;
 }
 
-#top, #main, #bottom {
+.site__header, .site__main, .site__footer {
   @include span(4);
 }
 
@@ -21,12 +20,12 @@ body {
   display: none;
 }
 
-// Top Section. //
+// Site Header. //
 
-#top {
+.site__header {
   background: $blue;
   min-width: 300px;
-  padding: 0.5em 2.5% 0em;
+  padding: 0.5em 2.5% 0;
   position: fixed;
   top: 0;
   right: 0;
@@ -34,19 +33,19 @@ body {
   z-index: 2;
 }
 
-nav {
-  background-color: $lightest-blue;
+.site__header nav {
+  background-color: $blue;
   border: 1px solid $lightest-blue;
   border-radius: 5px;
 }
 
-#top li {
+.site__header li {
   display: inline-block;
   margin-right: -0.26em;
   width: 25%;
 }
 
-.n-link {
+.site__header__navlink {
   background-color: $light-blue;
   color: $lightest-blue;
   font-family: $francois-one;
@@ -61,11 +60,11 @@ nav {
   }
 }
 
-.n-link.f-radius {
+.site__header__navlink.f-radius {
   border-radius: 5px 0 0 5px;
 }
 
-.n-link.l-radius {
+.site__header__navlink.l-radius {
   border-radius: 0 5px 5px 0;
 }
 
@@ -74,87 +73,50 @@ nav {
   color: $green;
 }
 
-// Main Section. //
+// Site Main. //
 
-section {
+.page {
   padding: 3.6em 0;
 }
 
-.sub-section {
-  margin: 3em 0%;
-}
-
-.title, .sub-title {
+.page__header__title, .page__subtitle {
   color: $green;
   font-family: $francois-one;
   letter-spacing: 0.025em;
 }
 
-.title {
+.page__header__title {
   font-size: 5em;
-  margin: 0.5625em 0%;
-  text-shadow: 4px 4px 0px rgba(0,0,0,0.2)
+  margin: 0.5625em 0;
+  text-shadow: 4px 4px 0 rgba(0,0,0,0.2)
 }
 
-.sub-title {
+.page__subtitle {
   font-size: 2.5em;
   margin: 0.4em 0;
-  text-shadow: 2px 2px 0px rgba(0,0,0,0.2)
+  text-shadow: 2px 2px 0 rgba(0,0,0,0.2)
 }
 
-.center {
+.page__header, .page__container {
   margin: 0 auto;
   width: 95%;
 }
 
-// About Section. //
+// About Page. //
 
-#about header {
+#about-page .page__header {
   background-clip: border-box;
   background: url("../assets/about.svg") no-repeat;
 }
 
-.name-card {
+.page__header__image--namecard {
   display: none;
 }
 
-// Projects Section. //
+// Skills Page. //
 
-.project {
-  background-color: $lightest-blue;
-  border: 4px solid $lightest-blue;
-  border-radius: 5px;
-  box-shadow: inset -4px -4px 8px 0px rgba(0, 0, 0, .1), inset 4px 4px 8px 0px rgba(0, 0, 0, .1);
-  display: block;
-  margin: 0em auto 3em;
-  padding: 0.5em 1.5%;
-  text-align: center;
-  @include span(4);
-  &:hover {
-      border: 4px solid $green;
-  }
-}
-
-.p-title, .p-subtitle {
-  margin: 0;
-}
-
-.p-title {
-  color: $blue;
-  font-family: $francois-one;
-  font-size: 1.25em;
-  letter-spacing: 0.025em;
-}
-
-.p-subtitle {
-  color: $green;
-}
-
-// Skills Section. //
-
-.s-list {
-  list-style-position: inside;
-  list-style-image: url(../assets/list-diamond.svg);
+.skills-list {
+  margin: 3em 0;
 }
 
 .workplace, .job {
@@ -171,47 +133,79 @@ section {
   font-size: 1.25em;
 }
 
-// Contact Section. //
+// Projects Page. //
 
-.email {
+.project {
+  background-color: $lightest-blue;
+  border: 4px solid $lightest-blue;
+  border-radius: 5px;
+  box-shadow: inset -4px -4px 8px 0 rgba(0, 0, 0, .1), inset 4px 4px 8px 0 rgba(0, 0, 0, .1);
+  display: block;
+  margin: 0 auto 3em;
+  padding: 0.5em 1.5%;
+  text-align: center;
+  @include span(4);
+  &:hover {
+      border: 4px solid $green;
+  }
+}
+
+.project__title, .project__subtitle {
+  margin: 0;
+}
+
+.project__title {
+  color: $blue;
+  font-family: $francois-one;
+  font-size: 1.25em;
+  letter-spacing: 0.025em;
+}
+
+.project__subtitle {
+  color: $green;
+}
+
+// Contact Page. //
+
+.contact-email {
   color: $green;
   display: inline-block;
   text-decoration: underline;
 }
 
-.c-list {
+.contact-list {
   margin: 2.5em 0;
 }
 
-.c-label {
-  color: $lightest-blue;
-  font-family: $open-sans;
-  margin: 0.75em 0em;
-  text-align: center;
-}
-
-.c-link {
+.contact-list__link {
   display: inline-block;
-  margin: 0em 12%;
+  margin: 0 12%;
   width: 25%;
   & a {
-      text-decoration: none;
+    text-decoration: none;
   }
 }
 
-.c-icon {
+.contact-list__link__label {
+  color: $lightest-blue;
+  font-family: $open-sans;
+  margin: 0.75em 0;
+  text-align: center;
+}
+
+.contact-list__link__icon {
   border-radius: 5px;
   margin-bottom: 1.75em;
 }
 
-// Footer Section. //
+// Site Footer. //
 
-#bottom {
+.site__footer {
   padding: 0.5em 2.5%;
   text-align: center;
 }
 
-.copyright {
+.site__footer__copyright {
   font-family: $francois-one;
   font-size: 1em;
   margin: 0;
