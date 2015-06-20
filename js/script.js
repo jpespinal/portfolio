@@ -1,11 +1,11 @@
 // Create Variables pointing to all Nav links and the About
 // section link.
-var siteNav = $("#top li").children();
+var siteNav = $(".site__header__navlink");
 var aboutLink = siteNav[0];
 
 // Create Variables poingting to all Sections and the About
 // section.
-var siteSections = $("#main").children();
+var siteSections = $(".site__main").children();
 var aboutSection = siteSections[0];
 
 // // Hide all major sections by adding CSS class.
@@ -24,7 +24,7 @@ $(function() {
 // by hiding and revealing the appropriate sections.
 
 // Capture click on Nav anchor.
-$("#top a").click(function() {
+$(".site__header__navlink").click(function() {
   // Identifier of proper section.
   var hrefLink = $(this).attr("href");
   // Remove active class from all links.
