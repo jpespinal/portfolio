@@ -1,8 +1,8 @@
 /*  This is a starter page where a project is initialized from. Includes CSS Reset, initial 
   settings for plug-ins, and base styles to be applied after the reset. */
 /* ============================================================
-Susy Settings.
-============================================================ */
+ Susy Settings.
+ ============================================================ */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -143,6 +143,11 @@ body {
 
 .page {
   padding: 3.6em 0; }
+
+.page::after {
+  content: "";
+  display: table;
+  clear: both; }
 
 .page__header__title, .page__subtitle {
   color: #45B29D;
@@ -306,11 +311,6 @@ body {
   .page__header__image--namecard {
     clear: right;
     float: left; }
-
-  #skills-page:after {
-    content: "";
-    display: table;
-    clear: both; }
 
   .skills-list {
     margin-top: 0; }
