@@ -56,7 +56,8 @@ a {
 
 ul {
   list-style-position: inside;
-  list-style-image: url(../assets/list-diamond.svg); }
+  list-style-image: url(../assets/list-diamond.svg);
+  padding: 0; }
 
 img {
   display: block;
@@ -112,6 +113,9 @@ body {
   background-color: #334D5C;
   border: 1px solid #D3EDFC;
   border-radius: 5px; }
+
+.site__header ul {
+  margin: 0; }
 
 .site__header li {
   display: inline-block;
