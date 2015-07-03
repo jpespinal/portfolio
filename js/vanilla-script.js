@@ -16,17 +16,11 @@ var aboutSection = siteSections[0];
 console.log(siteSections);
 console.log(aboutSection);
 
-// // Hide all major sections by adding CSS class.
-//for (var i = 0; i < siteSections.length; i++) {
-//    siteSections[i].classList.add("hide");
-//
-//};
+ // Hide all major sections by adding CSS class.
+for (var i = 0; i < siteSections.length; i++) {
+    siteSections[i].classList.add("hide");
 
-//** Same as above but now using Iterative Array Method.
-
-siteSections.forEach(function(item, index) {
-    siteSections[index].classList.add("hide");
-});
+};
 
 // Upon document being ready, make user "arrive" at the About
 // section by removing the hide class on it.
