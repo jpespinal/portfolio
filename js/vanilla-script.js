@@ -4,14 +4,14 @@
 
 // Create Variables pointing to all Nav links and the About
 // section link.
-var siteNav = document.getElementsByClassName("nav-link");
+var siteNav = document.getElementsByClassName("site__header__navlink");
 var aboutLink = siteNav[0];
 console.log(siteNav);
 console.log(aboutLink);
 
 // Create Variables pointing to all Sections and the About
 // section.
-var siteSections = document.getElementsByTagName("page");
+var siteSections = document.getElementsByClassName("page");
 var aboutSection = siteSections[0];
 console.log(siteSections);
 console.log(aboutSection);
@@ -20,7 +20,7 @@ console.log(aboutSection);
 for (var i = 0; i < siteSections.length; i++) {
     siteSections[i].classList.add("hide");
 
-};
+}
 
 // Upon document being ready, make user "arrive" at the About
 // section by removing the hide class on it.
