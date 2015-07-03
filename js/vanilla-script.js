@@ -54,7 +54,7 @@ window.onload = function() {
 
             // Hide all other sections.
             for (var k = 0; k < siteSections.length; k++) {
-                siteNav[k].classList.add("hide");
+                siteSections[k].classList.add("hide");
             }
 
             // Find proper section, reveal it.
