@@ -25,7 +25,7 @@ console.log(aboutSection);
 //** Same as above but now using Iterative Array Method.
 
 siteSections.forEach(function(item, index, array) {
-    item.classList.add("hide");
+    index.classList.add("hide");
 });
 
 // Upon document being ready, make user "arrive" at the About
