@@ -17,10 +17,16 @@ console.log(siteSections);
 console.log(aboutSection);
 
 // // Hide all major sections by adding CSS class.
-for (var i = 0; i < siteSections.length; i++) {
-    siteSections[i].classList.add("hide");
+//for (var i = 0; i < siteSections.length; i++) {
+//    siteSections[i].classList.add("hide");
+//
+//};
 
-}
+//** Same as above but now using Iterative Array Method.
+
+siteSections.forEach( function(item, index, array) {
+    siteSections[index].classList.add("hide");
+});
 
 // Upon document being ready, make user "arrive" at the About
 // section by removing the hide class on it.
@@ -61,4 +67,4 @@ window.onload = function() {
             document.getElementById(hrefLink).classList.remove("hide");
         });
     }
-}
+};
