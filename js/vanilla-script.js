@@ -11,14 +11,14 @@ console.log(aboutLink);
 
 // Create Variables pointing to all Sections and the About
 // section.
-var siteSections = document.getElementsByClassName("page");
-var aboutSection = siteSections[0];
-console.log(siteSections);
-console.log(aboutSection);
+var sitePages = document.getElementsByClassName("page");
+var aboutPage = sitePages[0];
+console.log(sitePages);
+console.log(aboutPage);
 
  // Hide all major sections by adding CSS class.
-for (var i = 0; i < siteSections.length; i++) {
-    siteSections[i].classList.add("hide");
+for (var i = 0; i < sitePages.length; i++) {
+    sitePages[i].classList.add("hide");
 }
 
 //// Upon document being ready, make user "arrive" at the About
