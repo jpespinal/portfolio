@@ -18,7 +18,7 @@ console.log(aboutSection);
 
  // Hide all major sections by adding CSS class.
 for (var i = 0; i < siteSections.length; i++) {
-    siteSections[i].setAttribute("class", "hide");
+    siteSections[i].classList.add("hide");
 }
 
 //// Upon document being ready, make user "arrive" at the About
