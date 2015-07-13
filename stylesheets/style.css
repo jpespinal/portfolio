@@ -76,7 +76,7 @@ abbr, acronym {
 /* This is the global page, where styles that never change are defined. */
 body {
   background-color: #334D5C;
-  color: #D3EDFC;
+  color: #FFF;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   min-width: 300px; }
@@ -111,7 +111,7 @@ body {
 
 .site__header nav {
   background-color: #334D5C;
-  border: 1px solid #D3EDFC;
+  border: 1px solid #FFF;
   border-radius: 5px; }
 
 .site__header ul {
@@ -124,7 +124,7 @@ body {
 
 .site__header__navlink {
   background-color: #476170;
-  color: #D3EDFC;
+  color: #FFF;
   font-family: "Francois One", sans-serif;
   font-size: 1em;
   letter-spacing: 0.05em;
@@ -132,7 +132,7 @@ body {
   text-align: center;
   text-decoration: none; }
   .site__header__navlink:hover, .site__header__navlink:active {
-    background: #D3EDFC;
+    background: #FFF;
     color: #45B29D; }
 
 .site__header__navlink.f-radius {
@@ -142,7 +142,7 @@ body {
   border-radius: 0 5px 5px 0; }
 
 .active {
-  background: #D3EDFC;
+  background: #FFF;
   color: #45B29D; }
 
 .page {
@@ -194,8 +194,8 @@ body {
   font-size: 1.25em; }
 
 .project {
-  background-color: #D3EDFC;
-  border: 4px solid #D3EDFC;
+  background-color: #FFF;
+  border: 4px solid #FFF;
   border-radius: 5px;
   box-shadow: inset -4px -4px 8px 0 rgba(0, 0, 0, 0.1), inset 4px 4px 8px 0 rgba(0, 0, 0, 0.1);
   display: block;
@@ -237,7 +237,7 @@ body {
     text-decoration: none; }
 
 .contact-list__link__label {
-  color: #D3EDFC;
+  color: #FFF;
   font-family: "Open Sans", sans-serif;
   margin: 0.75em 0;
   text-align: center; }
