@@ -320,7 +320,8 @@ body {
     margin-right: 0; }
 
   .page {
-    padding: 2em 0; }
+    padding: 2em 0;
+    height: 100vmin; }
 
   .page__header__title {
     font-size: 5em;
