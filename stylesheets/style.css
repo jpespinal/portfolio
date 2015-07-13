@@ -337,7 +337,7 @@ body {
   .page__subtitle {
     font-size: 3.5em; }
 
-  #skills-page .project__subtitle {
+  .core, .workflow, .tools, .work {
     border-top: 0.12em solid #59C6B1; }
 
   .skills-list {
