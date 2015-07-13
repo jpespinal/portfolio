@@ -1,90 +1,88 @@
 
 @media screen and (min-width: 480px) {
 
-    // Site Main. //
+  // Site Main. //
 
-    .page__header__title {
-        font-size: 4.2em;
-    }
+  .page__header__title {
+    font-size: 4.2em;
+  }
 
-    .page__subtitle {
-        font-size: 2.7em;
-    }
+  .page__subtitle {
+    font-size: 2.7em;
+  }
 
-    // Projects Page. //
+  // Projects Page. //
 
-    .project__title {
-        font-size: 2.2em;
-    }
+  .project__title {
+    font-size: 2.2em;
+  }
 
-    .project__subtitle {
-        font-size: 1.7em;
-    }
+  .project__subtitle {
+    font-size: 1.7em;
+  }
 
-    // Contact Page. //
 }
 
 @media screen and (min-width: 960px) {
 
-    // Site Header. //
+  // Site Header. //
 
-    .site__header {
-        @include span(3 wide of 15);
-        height: 100%;
-        right: auto;
-        bottom: 0;
-        min-width: 0;
-        z-index: auto;
+  .site__header {
+    @include span(3 wide of 15);
+    height: 100%;
+    right: auto;
+    bottom: 0;
+    min-width: 0;
+    z-index: auto;
+  }
+
+  .site__header li {
+    height: 25%;
+    width: 100%;
+    .site__header__navlink {
+      font-size: 2em;
+      height: 100%;
+      padding-top: 1.65em;
+      width: 100%;
+      &.f-radius:hover {
+        border-radius: 5px 5px 0 0;
+      }
+      &.l-radius:hover {
+        border-radius: 0 0 5px 5px;
+      }
     }
+  }
 
-    .site__header li {
-        height: 25%;
-        width: 100%;
-        .site__header__navlink {
-            font-size: 2em;
-            height: 100%;
-            padding-top: 1.65em;
-            width: 100%;
-            &.f-radius:hover {
-                border-radius: 5px 5px 0 0;
-            }
-            &.l-radius:hover {
-                border-radius: 0 0 5px 5px;
-            }
-        }
-    }
-
-    // Site Main. //
+  // Site Main. //
     
-    .site__main {
-        @include span(12 of 15 last);
-    }
+  .site__main {
+    @include span(12 of 15 last);
+  }
 
-    .page {
-        padding: 2em 0;
-        height: 100vmin;
-    }
+  .page {
+    padding: 2em 0;
+  }
 
-    .page__header__title {
-        font-size: 5em;
-        margin-top: 0;
-    }
+  .page__header__title {
+    font-size: 5em;
+    margin-top: 0;
+  }
 
-    .page__subtitle {
-        font-size: 3.5em;
-    }
+  .page__subtitle {
+    font-size: 3.5em;
+  }
 
-    // About Page. //
+  // About Page. //
 
-    #about-page .page__header__title {
-        float: right;
-        margin: 0;
-    }
+  #about-page .page__header__title {
+    float: right;
+    margin: 0;
+  }
 
-    .page__header__image--namecard {
-        clear: right;
-        float: left;
-    }
+  .page__header__image--namecard {
+    clear: right;
+    float: left;
+  }
 
   // Skills Page. //
 
@@ -119,4 +117,5 @@
   .site__footer {
     display: none;
   }
+
 }
