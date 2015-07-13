@@ -172,6 +172,9 @@ body {
   margin: 0 auto;
   width: 95%; }
 
+#about-page {
+  background-color: #DF4949; }
+
 #about-page .page__header {
   background-clip: border-box;
   background: url("../assets/about.svg") no-repeat; }
@@ -220,6 +223,9 @@ body {
 
 .project__subtitle {
   color: #45B29D; }
+
+#contact-page {
+  background-color: #334D5C; }
 
 .contact-email {
   color: #45B29D;
