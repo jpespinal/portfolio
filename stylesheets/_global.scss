@@ -90,7 +90,6 @@ body {
 }
 
 .page__header__title, .page__subtitle {
-  color: $green;
   font-family: $francois-one;
   letter-spacing: 0.025em;
 }
@@ -123,11 +122,23 @@ body {
   background: url("../assets/about.svg") no-repeat;
 }
 
+#about-page .page__header__title, .page__subtitle {
+  color: $blue;
+}
+
 .page__header__image--namecard {
   display: none;
 }
 
 // Skills Page. //
+
+#skills-page {
+  background-color: $green;
+}
+
+#skills-page .page__header__title, .page__subtitle {
+  color: $orange;
+}
 
 .skills-list {
   margin: 3em 0;
@@ -148,6 +159,14 @@ body {
 }
 
 // Projects Page. //
+
+#project-page {
+  background-color: $orange;
+}
+
+#project-page .page__header__title, .page__subtitle {
+  color: $green;
+}
 
 .project {
   background-color: $white;
@@ -185,8 +204,12 @@ body {
   background-color: #334D5C;
 }
 
+#contact-page .page__header__title, .page__subtitle {
+  color: $red;
+}
+
 .contact-email {
-  color: $green;
+  color: $red;
   display: inline-block;
   text-decoration: underline;
 }

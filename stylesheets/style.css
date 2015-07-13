@@ -154,7 +154,6 @@ body {
   clear: both; }
 
 .page__header__title, .page__subtitle {
-  color: #45B29D;
   font-family: "Francois One", sans-serif;
   letter-spacing: 0.025em; }
 
@@ -179,8 +178,17 @@ body {
   background-clip: border-box;
   background: url("../assets/about.svg") no-repeat; }
 
+#about-page .page__header__title, .page__subtitle {
+  color: #334D5C; }
+
 .page__header__image--namecard {
   display: none; }
+
+#skills-page {
+  background-color: #45B29D; }
+
+#skills-page .page__header__title, .page__subtitle {
+  color: #E27A3F; }
 
 .skills-list {
   margin: 3em 0; }
@@ -195,6 +203,12 @@ body {
 
 .job {
   font-size: 1.25em; }
+
+#project-page {
+  background-color: #E27A3F; }
+
+#project-page .page__header__title, .page__subtitle {
+  color: #45B29D; }
 
 .project {
   background-color: #FFF;
@@ -227,8 +241,11 @@ body {
 #contact-page {
   background-color: #334D5C; }
 
+#contact-page .page__header__title, .page__subtitle {
+  color: #DF4949; }
+
 .contact-email {
-  color: #45B29D;
+  color: #DF4949;
   display: inline-block;
   text-decoration: underline; }
 
