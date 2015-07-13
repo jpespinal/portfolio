@@ -75,7 +75,6 @@ abbr, acronym {
 
 /* This is the global page, where styles that never change are defined. */
 body {
-  background-color: #334D5C;
   color: #FFF;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
