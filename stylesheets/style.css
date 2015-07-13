@@ -178,7 +178,7 @@ body {
   background-clip: border-box;
   background: url("../assets/about.svg") no-repeat; }
 
-#about-page .page__header__title, .page__subtitle {
+#about-page .page__header__title, #about-page .page__subtitle {
   color: #334D5C; }
 
 .page__header__image--namecard {
@@ -187,7 +187,7 @@ body {
 #skills-page {
   background-color: #45B29D; }
 
-#skills-page .page__header__title, .page__subtitle {
+#skills-page .page__header__title, #skills-page .page__subtitle {
   color: #E27A3F; }
 
 .skills-list {
@@ -207,7 +207,7 @@ body {
 #projects-page {
   background-color: #E27A3F; }
 
-#projects-page .page__header__title, .page__subtitle {
+#projects-page .page__header__title, #projects-page .page__subtitle {
   color: #45B29D; }
 
 .project {
@@ -241,7 +241,7 @@ body {
 #contact-page {
   background-color: #334D5C; }
 
-#contact-page .page__header__title, .page__subtitle {
+#contact-page .page__header__title, #contact-page .page__subtitle {
   color: #DF4949; }
 
 .contact-email {

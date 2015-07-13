@@ -122,7 +122,7 @@ body {
   background: url("../assets/about.svg") no-repeat;
 }
 
-#about-page .page__header__title, .page__subtitle {
+#about-page .page__header__title, #about-page .page__subtitle {
   color: $blue;
 }
 
@@ -136,7 +136,7 @@ body {
   background-color: $green;
 }
 
-#skills-page .page__header__title, .page__subtitle {
+#skills-page .page__header__title, #skills-page .page__subtitle {
   color: $orange;
 }
 
@@ -164,7 +164,7 @@ body {
   background-color: $orange;
 }
 
-#projects-page .page__header__title, .page__subtitle {
+#projects-page .page__header__title, #projects-page .page__subtitle {
   color: $green;
 }
 
@@ -204,7 +204,7 @@ body {
   background-color: #334D5C;
 }
 
-#contact-page .page__header__title, .page__subtitle {
+#contact-page .page__header__title, #contact-page .page__subtitle {
   color: $red;
 }
 
