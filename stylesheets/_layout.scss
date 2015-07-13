@@ -65,8 +65,9 @@
   }
 
   .page__header__title {
+    float: right;
     font-size: 5em;
-    margin-top: 0;
+    margin: 0;
   }
 
   .page__subtitle {
@@ -75,15 +76,10 @@
 
   // About Page. //
 
-  #about-page .page__header__title {
-    float: right;
-    margin: 0;
-  }
-
-  .page__header__image--namecard {
-    clear: right;
-    float: left;
-  }
+  //.page__header__image--namecard {
+  //  clear: right;
+  //  float: left;
+  //}
 
   // Skills Page. //
 

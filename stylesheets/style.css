@@ -325,19 +325,12 @@ body {
     padding: 2em 0; }
 
   .page__header__title {
+    float: right;
     font-size: 5em;
-    margin-top: 0; }
+    margin: 0; }
 
   .page__subtitle {
     font-size: 3.5em; }
-
-  #about-page .page__header__title {
-    float: right;
-    margin: 0; }
-
-  .page__header__image--namecard {
-    clear: right;
-    float: left; }
 
   #skills-page .project__subtitle {
     border-top: 0.12em solid #59C6B1; }
