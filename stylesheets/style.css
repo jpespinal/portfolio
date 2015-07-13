@@ -204,10 +204,10 @@ body {
 .job {
   font-size: 1.25em; }
 
-#project-page {
+#projects-page {
   background-color: #E27A3F; }
 
-#project-page .page__header__title, .page__subtitle {
+#projects-page .page__header__title, .page__subtitle {
   color: #45B29D; }
 
 .project {
