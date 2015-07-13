@@ -324,6 +324,11 @@ body {
     min-height: 100vh;
     padding: 2em 0; }
 
+  .page__header::after {
+    content: "";
+    display: table;
+    clear: both; }
+
   .page__header__title {
     float: right;
     font-size: 5em;
