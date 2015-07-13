@@ -71,7 +71,6 @@
     }
 
     .page__subtitle {
-        border-top: 0.12em solid $light-blue;
         font-size: 3.5em;
     }
 
@@ -87,27 +86,37 @@
         float: left;
     }
 
-    // Skills Page. //
+  // Skills Page. //
 
-    .skills-list {
-        margin-top: 0;
-    }
+  #skills-page .project__subtitle {
+    border-top: 0.12em solid $light-green;
+  }
 
-    .core, .workflow {
-        @include span(4 of 12);
-    }
+  .skills-list {
+    margin-top: 0;
+  }
 
-    .tools {
-        @include span(4 of 12 last);
-    }
+  .core, .workflow {
+    @include span(4 of 12);
+  }
 
-    .work {
-        @include span(12 of 12);
-    }
+  .tools {
+    @include span(4 of 12 last);
+  }
 
-    // Site Footer. //
+  .work {
+    @include span(12 of 12);
+  }
 
-    .site__footer {
-        display: none;
-    }
+  // Project Page. //
+
+  #project-page .project__subtitle {
+    border-top: 0.12em solid $light-orange;
+  }
+
+  // Site Footer. //
+
+  .site__footer {
+    display: none;
+  }
 }
