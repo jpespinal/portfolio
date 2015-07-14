@@ -198,10 +198,10 @@ body {
   font-size: 1.25em; }
 
 #projects-page {
-  background-color: #DF4949; }
+  background-color: #EFC94C; }
 
 #projects-page .page__header__title, #projects-page .page__subtitle {
-  color: #EFC94C; }
+  color: #DF4949; }
 
 .project {
   background-color: #F35D5D;
@@ -229,7 +229,7 @@ body {
   letter-spacing: 0.025em; }
 
 .project__subtitle {
-  color: #F35D5D; }
+  color: #FFDD60; }
 
 #contact-page {
   background-color: #334D5C; }
@@ -324,7 +324,7 @@ body {
 
   .page__header__title {
     float: right;
-    font-size: 5em;
+    font-size: 7em;
     margin: 0; }
 
   .page__subtitle {
