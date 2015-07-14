@@ -92,12 +92,12 @@
 
   // Skills Page. //
 
-  .core, .workflow, .tools, .work {
-    border-top: 0.5em solid $light-green;
-  }
-
   .skills-list {
     margin-top: 0;
+  }
+
+  .skills-list .page__subtitle {
+    border-top: 0.5em solid $light-green;
   }
 
   .core, .workflow {
