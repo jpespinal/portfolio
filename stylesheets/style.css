@@ -82,8 +82,7 @@ body {
   display: none; }
 
 .site__header {
-  background: #334D5C;
-  border-bottom: 1px solid #FFF;
+  background: #476170;
   min-width: 300px;
   padding: 0.5em 2.5%;
   position: fixed;
@@ -93,7 +92,7 @@ body {
   z-index: 2; }
 
 .site__header nav {
-  background-color: #334D5C;
+  background-color: #476170;
   border: 1px solid #FFF;
   border-radius: 5px; }
 
