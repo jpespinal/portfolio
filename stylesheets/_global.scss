@@ -116,18 +116,18 @@ body {
   background-color: $red;
 }
 
-#about-page .page__header {
-  background-clip: border-box;
-  background: url("../assets/about.svg") no-repeat;
-}
+//#about-page .page__header {
+//  background-clip: border-box;
+//  background: url("../assets/about.svg") no-repeat;
+//}
 
 #about-page .page__header__title, #about-page .page__subtitle {
-  color: $blue;
+  color: $yellow;
 }
 
-.page__header__image--namecard {
-  display: none;
-}
+//.page__header__image--namecard {
+//  display: none;
+//}
 
 // Skills Page. //
 
@@ -136,7 +136,7 @@ body {
 }
 
 #skills-page .page__header__title, #skills-page .page__subtitle {
-  color: $orange;
+  color: $blue;
 }
 
 .skills-list {
@@ -144,7 +144,7 @@ body {
 }
 
 .workplace, .job {
-  color: $orange;
+  color: $blue;
   font-family: $open-sans;
 }
 
@@ -160,16 +160,16 @@ body {
 // Projects Page. //
 
 #projects-page {
-  background-color: $orange;
+  background-color: $red;
 }
 
 #projects-page .page__header__title, #projects-page .page__subtitle {
-  color: $green;
+  color: $yellow;
 }
 
 .project {
-  background-color: $white;
-  border: 4px solid $white;
+  background-color: $light-red;
+  border: 4px solid $light-red;
   border-radius: 5px;
   box-shadow: inset -4px -4px 8px 0 rgba(0, 0, 0, .1), inset 4px 4px 8px 0 rgba(0, 0, 0, .1);
   display: block;
@@ -178,7 +178,7 @@ body {
   text-align: center;
   @include span(4);
   &:hover {
-      border: 4px solid $green;
+      border: 4px solid $light-yellow;
   }
 }
 
@@ -187,28 +187,28 @@ body {
 }
 
 .project__title {
-  color: $green;
+  color: $light-yellow;
   font-family: $francois-one;
   font-size: 1.25em;
   letter-spacing: 0.025em;
 }
 
 .project__subtitle {
-  color: $orange;
+  color: $light-red;
 }
 
 // Contact Page. //
 
 #contact-page {
-  background-color: #334D5C;
+  background-color: $blue;
 }
 
 #contact-page .page__header__title, #contact-page .page__subtitle {
-  color: $red;
+  color: $green;
 }
 
 .contact-email {
-  color: $red;
+  color: $green;
   display: inline-block;
   text-decoration: underline;
 }
@@ -227,7 +227,7 @@ body {
 }
 
 .contact-list__link__label {
-  color: $white;
+  color: $light-green;
   font-family: $open-sans;
   margin: 0.75em 0;
   text-align: center;
