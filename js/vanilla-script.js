@@ -6,15 +6,11 @@
 // section link.
 var siteNav = document.getElementsByClassName("site__header__navlink");
 var aboutLink = siteNav[0];
-console.log(siteNav);
-console.log(aboutLink);
 
 // Create Variables pointing to all Sections and the About
 // section.
 var sitePages = document.getElementsByClassName("page");
 var aboutPage = sitePages[0];
-console.log(sitePages);
-console.log(aboutPage);
 
  // Hide all major sections by adding CSS class.
 for (var i = 0; i < sitePages.length; i++) {
