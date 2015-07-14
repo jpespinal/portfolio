@@ -240,11 +240,13 @@ body {
 // Site Footer. //
 
 .site__footer {
+  background-color: $blue;
   padding: 0.5em 2.5%;
   text-align: center;
 }
 
 .site__footer__copyright {
+  color: $green;
   font-family: $francois-one;
   font-size: 1em;
   margin: 0;

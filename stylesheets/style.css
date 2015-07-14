@@ -262,10 +262,12 @@ body {
   margin-bottom: 1.75em; }
 
 .site__footer {
+  background-color: #334D5C;
   padding: 0.5em 2.5%;
   text-align: center; }
 
 .site__footer__copyright {
+  color: #45B29D;
   font-family: "Francois One", sans-serif;
   font-size: 1em;
   margin: 0;
