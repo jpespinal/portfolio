@@ -23,8 +23,9 @@ body {
 
 .site__header {
   background: $blue;
+  border-bottom: 1px solid $white;
   min-width: 300px;
-  padding: 0.5em 2.5% 0;
+  padding: 0.5em 2.5%;
   position: fixed;
   top: 0;
   right: 0;

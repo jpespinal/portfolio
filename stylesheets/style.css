@@ -83,8 +83,9 @@ body {
 
 .site__header {
   background: #334D5C;
+  border-bottom: 1px solid #FFF;
   min-width: 300px;
-  padding: 0.5em 2.5% 0;
+  padding: 0.5em 2.5%;
   position: fixed;
   top: 0;
   right: 0;
