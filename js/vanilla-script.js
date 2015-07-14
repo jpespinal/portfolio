@@ -1,7 +1,3 @@
-/**
- * Created by juanpespinal on 5/11/15.
- */
-
 // Create Variables pointing to all Nav links and the About
 // section link.
 var siteNav = document.getElementsByClassName("site__header__navlink");
