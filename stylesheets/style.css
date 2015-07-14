@@ -180,19 +180,18 @@ body {
 #skills-page {
   background-color: #45B29D; }
 
-#skills-page .page__header__title, #skills-page .page__subtitle {
+#skills-page .page__header__title, #skills-page .page__subtitle, .workplace, .job {
   color: #334D5C; }
 
 .skills-list {
   margin: 3em 0; }
 
 .workplace, .job {
-  color: #334D5C;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  margin: 0; }
 
 .workplace {
-  font-size: 1.75em;
-  margin: 0; }
+  font-size: 1.75em; }
 
 .job {
   font-size: 1.25em; }
@@ -329,6 +328,9 @@ body {
 
   .page__subtitle {
     font-size: 3.5em; }
+
+  #about-page {
+    font-size: 1.25em; }
 
   .skills-list {
     margin-top: 0; }

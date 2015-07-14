@@ -135,7 +135,7 @@ body {
   background-color: $green;
 }
 
-#skills-page .page__header__title, #skills-page .page__subtitle {
+#skills-page .page__header__title, #skills-page .page__subtitle, .workplace, .job {
   color: $blue;
 }
 
@@ -144,13 +144,12 @@ body {
 }
 
 .workplace, .job {
-  color: $blue;
   font-family: $open-sans;
+  margin: 0;
 }
 
 .workplace {
   font-size: 1.75em;
-  margin: 0;
 }
 
 .job {
