@@ -96,8 +96,8 @@
     margin-top: 0;
   }
 
-  .skills-list .page__subtitle {
-    border-top: 0.5em solid $light-green;
+  .skills-list .page__subtitle, .work {
+    border-top: 0.15em solid $light-green;
   }
 
   .core, .workflow {

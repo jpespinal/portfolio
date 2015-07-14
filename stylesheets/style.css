@@ -333,8 +333,8 @@ body {
   .skills-list {
     margin-top: 0; }
 
-  .skills-list .page__subtitle {
-    border-top: 0.5em solid #59C6B1; }
+  .skills-list .page__subtitle, .work {
+    border-top: 0.15em solid #59C6B1; }
 
   .core, .workflow {
     width: 32.20339%;
