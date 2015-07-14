@@ -39,14 +39,17 @@
   .site__header li {
     height: 25%;
     width: 100%;
+
     .site__header__navlink {
       font-size: 2em;
       height: 100%;
       padding-top: 1.65em;
       width: 100%;
+
       &.f-radius:hover {
         border-radius: 5px 5px 0 0;
       }
+
       &.l-radius:hover {
         border-radius: 0 0 5px 5px;
       }
@@ -90,7 +93,7 @@
   // Skills Page. //
 
   .core, .workflow, .tools, .work {
-    border-top: 0.12em solid $light-green;
+    border-top: 0.5em solid $light-green;
   }
 
   .skills-list {
