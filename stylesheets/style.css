@@ -40,14 +40,6 @@ h4 {
   font-size: 1.3em;
   margin-bottom: 0.76923077em; }
 
-h5 {
-  font-size: 1.2em;
-  margin-bottom: 0.83333333em; }
-
-h6 {
-  font-size: 1.1em;
-  margin-bottom: 0.90909091em; }
-
 p {
   font-size: 1em;
   margin: 1.5em 0; }
@@ -63,16 +55,6 @@ ul {
 img {
   display: block;
   max-width: 100%; }
-
-br {
-  margin-bottom: 1em; }
-
-strong {
-  font-weight: bold; }
-
-abbr, acronym {
-  border-bottom: 1px dotted #000;
-  cursor: help; }
 
 /* This is the global page, where styles that never change are defined. */
 body {
@@ -159,6 +141,9 @@ body {
   font-family: "Francois One", sans-serif;
   letter-spacing: 0.025em; }
 
+.page__header__title, .page__subtitle, .text {
+  text-align: center; }
+
 .page__header__title {
   font-size: 5em;
   margin: 0.5625em 0;
@@ -204,7 +189,7 @@ body {
     border: 4px solid #45B29D; }
 
 .project__title, .project__subtitle {
-  color: #45B29D;
+  color: #FFF;
   font-family: "Francois One", sans-serif;
   letter-spacing: 0.025em;
   margin: 0; }
