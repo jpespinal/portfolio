@@ -25,6 +25,10 @@
 
 @media screen and (min-width: 960px) {
 
+  body {
+    font-size: 1.25em;
+  }
+
   // Site Header. //
 
   .site__header {
@@ -86,9 +90,9 @@
 
   // About Page. //
 
-  #about-page {
-    font-size: 1.25em;
-  }
+  //#about-page {
+  //  font-size: 1.25em;
+  //}
 
 
   // Skills Page. //
