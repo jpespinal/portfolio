@@ -1,9 +1,10 @@
 // Store Site Nav in variable.
-var siteNav = document.getElementsByClassName("site__header")[0];
+var siteHeader = document.getElementsByClassName("site__header")[0];
+var siteNav = siteHeader.getElementsByTagName("nav")[0];
 
 // Store all Nav links and the About section link in variables.
 var siteLinks = document.getElementsByClassName("site__header__navlink");
-var aboutLink = siteNav[0];
+var aboutLink = siteLinks[0];
 
 // Store all Site "Pages" and the About section in variables.
 var sitePages = document.getElementsByClassName("page");
@@ -12,23 +13,23 @@ var aboutPage = sitePages[0];
 // Create Object literal that will store Site colors.
 var siteColors = {
     aboutPage: {
-        backgroundColorOne: "#DF4949",
-        backgroundColorTwo: "#F35D5D",
+        mainColor: "#DF4949",
+        lightColor: "#F35D5D",
         headingColor: "#EFC94C"
     },
     skillsPage: {
-        backgroundColorOne: "#45B29D",
-        backgroundColorTwo: "#59C6B1",
+        mainColor: "#45B29D",
+        lightColor: "#59C6B1",
         headingColor: "#334D5C"
     },
     projectsPage: {
-        backgroundColorOne: "#EFC94C",
-        backgroundColorTwo: "#FFDD60",
+        mainColor: "#EFC94C",
+        lightColor: "#FFDD60",
         headingColor: "#DF4949"
     },
     contactPage: {
-        backgroundColorOne: "#334D5C",
-        backgroundColorTwo: "#476170",
+        mainColor: "#334D5C",
+        lightColor: "#476170",
         headingColor: "#45B29D"
     }
 };
@@ -79,9 +80,13 @@ for (i = 0; i < siteLinks.length; i++) {
     });
 }
 
-/*
-siteNav.style.background("backgroundColorTwo");
-document.getElementById(hrefLink).style.background("backgroundColorOne");
-hrefLink.getElementsByClassName("title").style.color("headingColor");
-hrefLink.getElementsByClassName("subtitle").style.color("headingColor");
-*/
+
+//// Change Site Header colors.
+//siteHeader.style.background("lightColor");
+//siteNav.style.background("lightColor");
+//siteLinks.style.color("headingColor");
+//
+//// Change Site Page colors.
+//document.getElementById(hrefLink).style.background("mainColor");
+//hrefLink.getElementsByClassName("title").style.color("headingColor");
+//hrefLink.getElementsByClassName("subtitle").style.color("headingColor");
