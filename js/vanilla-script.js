@@ -106,8 +106,19 @@ for (i = 0; i < siteLinks.length; i++) {
             // Change Site Page colors.
             var changedColor = document.getElementById(hrefLink);
             changedColor.style.backgroundColor = siteColors.skillsPage.mainColor;
-            changedColor.getElementsByClassName("title").style.color = siteColors.skillsPage.headingColor;
-            changedColor.getElementsByClassName("subtitle").style.color = siteColors.skillsPage.headingColor;
+
+
+            var colorTitles = document.getElementsByClassName("title");
+
+            for (var m = 0; m < colorTitles.length; m++) {
+                colorTitles[m].style.color = siteColors.skillsPage.headingColor;
+            }
+
+            var colorSubtitles = document.getElementsByClassName("subtitle");
+
+            for (var n = 0; n < colorSubtitles; n++){
+                colorSubtitles[n].style.color = siteColors.skillsPage.headingColor;
+            }
         }
     });
 }
