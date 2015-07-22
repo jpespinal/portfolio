@@ -1,13 +1,20 @@
 // Store Site Nav in variable.
 var siteHeader = document.getElementsByClassName("site__header")[0];
+console.log(siteHeader);
+
 var siteNav = siteHeader.getElementsByTagName("nav")[0];
+console.log(siteNav);
 
 // Store all Nav links and the About section link in variables.
 var siteLinks = document.getElementsByClassName("site__header__navlink");
+console.log(siteLinks);
+
 var aboutLink = siteLinks[0];
 
 // Store all Site "Pages" and the About section in variables.
 var sitePages = document.getElementsByClassName("page");
+console.log(sitePages);
+
 var aboutPage = sitePages[0];
 
 // Create Object literal that will store Site colors.
