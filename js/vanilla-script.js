@@ -85,14 +85,16 @@ for (i = 0; i < siteLinks.length; i++) {
         //Constraint: Colors are changed every time user clicks Nav Link.
         //Constraint: Each page has it's defined set of colors.
 
-        // Change Site Header colors.
-        siteHeader.style.background(siteColors.hrefLink.lightColor);
-        siteNav.style.background(siteColors.hrefLink.lightColor);
-        siteLinks.style.color(siteColors.hrefLink.headingColor);
+        if (hrefLink === "skillsPage") {
+            // Change Site Header colors.
+            siteHeader.style.background(siteColors.skillsPage.lightColor);
+            siteNav.style.background(siteColors.skillsPage.lightColor);
+            siteLinks.style.color(siteColors.skillsPage.headingColor);
 
-        // Change Site Page colors.
-        document.getElementById(hrefLink).style.background(siteColors.hrefLink.mainColor);
-        hrefLink.getElementsByClassName("title").style.color(siteColors.hrefLink.headingColor);
-        hrefLink.getElementsByClassName("subtitle").style.color(siteColors.hrefLink.headingColor);
+            // Change Site Page colors.
+            document.getElementById(hrefLink).style.background(siteColors.skillsPage.mainColor);
+            hrefLink.getElementsByClassName("title").style.color(siteColors.skillsPage.headingColor);
+            hrefLink.getElementsByClassName("subtitle").style.color(siteColors.skillsPage.headingColor);
+        }
     });
 }
