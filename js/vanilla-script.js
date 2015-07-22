@@ -88,15 +88,15 @@ for (i = 0; i < siteLinks.length; i++) {
         if (hrefLink == "skillsPage") {
 
             // Change Site Header colors.
-            siteHeader.bgColor = siteColors.skillsPage.lightColor;
-            siteNav.bgColor = siteColors.skillsPage.lightColor;
-            siteLinks.bgColor = siteColors.skillsPage.headingColor;
+            siteHeader.style.backgroundColor = siteColors.skillsPage.lightColor;
+            siteNav.style.backgroundColor = siteColors.skillsPage.lightColor;
+            siteLinks.style.backgroundColor = siteColors.skillsPage.headingColor;
 
             // Change Site Page colors.
             var changedColor = document.getElementById(hrefLink);
-            changedColor.bgColor = siteColors.skillsPage.mainColor;
-            changedColor.getElementsByClassName("title").color = siteColors.skillsPage.headingColor;
-            changedColor.getElementsByClassName("subtitle").color = siteColors.skillsPage.headingColor;
+            changedColor.style.backgroundColor = siteColors.skillsPage.mainColor;
+            changedColor.getElementsByClassName("title").style.color = siteColors.skillsPage.headingColor;
+            changedColor.getElementsByClassName("subtitle").style.color = siteColors.skillsPage.headingColor;
         }
     });
 }
