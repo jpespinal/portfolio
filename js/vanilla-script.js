@@ -79,20 +79,20 @@ for (i = 0; i < siteLinks.length; i++) {
 
         // Find proper section by using href, and reveal section by removing the css hide class.
         document.getElementById(hrefLink).classList.remove("hide");
+
+        //Code Color change functionality.
+        //Problem: Add cool color combinations to each site page for wow effect.
+        //Constraint: Colors are changed every time user clicks Nav Link.
+        //Constraint: Each page has it's defined set of colors.
+
+        // Change Site Header colors.
+        siteHeader.style.background(siteColors.hrefLink.lightColor);
+        siteNav.style.background(siteColors.hrefLink.lightColor);
+        siteLinks.style.color(siteColors.hrefLink.headingColor);
+
+        // Change Site Page colors.
+        document.getElementById(hrefLink).style.background(siteColors.hrefLink.mainColor);
+        hrefLink.getElementsByClassName("title").style.color(siteColors.hrefLink.headingColor);
+        hrefLink.getElementsByClassName("subtitle").style.color(siteColors.hrefLink.headingColor);
     });
 }
-
-// Code Color change functionality.
-// Problem: Add cool color combinations to each site page for wow effect.
-// Constraint: Colors are changed every time user clicks Nav Link.
-// Constraint: Each page has it's defined set of colors.
-//
-//// Change Site Header colors.
-//siteHeader.style.background("lightColor");
-//siteNav.style.background("lightColor");
-//siteLinks.style.color("headingColor");
-//
-//// Change Site Page colors.
-//document.getElementById(hrefLink).style.background("mainColor");
-//hrefLink.getElementsByClassName("title").style.color("headingColor");
-//hrefLink.getElementsByClassName("subtitle").style.color("headingColor");
