@@ -85,7 +85,8 @@ for (i = 0; i < siteLinks.length; i++) {
         //Constraint: Colors are changed every time user clicks Nav Link.
         //Constraint: Each page has it's defined set of colors.
 
-        if (hrefLink === "skillsPage") {
+        if (hrefLink == "skillsPage") {
+
             // Change Site Header colors.
             siteHeader.bgColor = siteColors.skillsPage.lightColor;
             siteNav.bgColor = siteColors.skillsPage.lightColor;
