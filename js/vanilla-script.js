@@ -92,9 +92,10 @@ for (i = 0; i < siteLinks.length; i++) {
             siteLinks.bgColor = siteColors.skillsPage.headingColor;
 
             // Change Site Page colors.
-            document.getElementById(hrefLink).bgColor = siteColors.skillsPage.mainColor;
-            hrefLink.getElementsByClassName("title").color = siteColors.skillsPage.headingColor;
-            hrefLink.getElementsByClassName("subtitle").color = siteColors.skillsPage.headingColor;
+            var changedColor = document.getElementById(hrefLink);
+            changedColor.bgColor = siteColors.skillsPage.mainColor;
+            changedColor.getElementsByClassName("title").color = siteColors.skillsPage.headingColor;
+            changedColor.getElementsByClassName("subtitle").color = siteColors.skillsPage.headingColor;
         }
     });
 }
