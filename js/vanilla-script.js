@@ -96,8 +96,9 @@ for (i = 0; i < siteLinks.length; i++) {
 
             // Change Site Header colors.
             siteHeader.style.backgroundColor = siteColors.skillsPage.lightColor;
-            siteNav.style.backgroundColor = siteColors.skillsPage.lightColor;
-            siteLinks.style.backgroundColor = siteColors.skillsPage.headingColor;
+            //siteNav.style.backgroundColor = siteColors.skillsPage.lightColor;
+            siteLinks.style.backgroundColor = siteColors.skillsPage.lightColor;
+            siteLinks.style.color = siteColors.skillsPage.headingColor;
 
             // Change Site Page colors.
             var changedColor = document.getElementById(hrefLink);
