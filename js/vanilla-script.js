@@ -62,6 +62,8 @@ for (i = 0; i < siteLinks.length; i++) {
         // Remove the pound symbol.
         hrefLink = hrefLink.slice(1, hrefLink.length);
 
+        console.log(hrefLink);
+
         // Remove active class from all links.
         for (var j = 0; j < siteLinks.length; j++) {
             siteLinks[j].classList.remove("active");
@@ -80,7 +82,11 @@ for (i = 0; i < siteLinks.length; i++) {
     });
 }
 
-
+// Code Color change functionality.
+// Problem: Add cool color combinations to each site page for wow effect.
+// Constraint: Colors are changed every time user clicks Nav Link.
+// Constraint: Each page has it's defined set of colors.
+//
 //// Change Site Header colors.
 //siteHeader.style.background("lightColor");
 //siteNav.style.background("lightColor");
