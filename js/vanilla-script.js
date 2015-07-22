@@ -97,8 +97,11 @@ for (i = 0; i < siteLinks.length; i++) {
             // Change Site Header colors.
             siteHeader.style.backgroundColor = siteColors.skillsPage.lightColor;
             //siteNav.style.backgroundColor = siteColors.skillsPage.lightColor;
-            siteLinks.style.backgroundColor = siteColors.skillsPage.lightColor;
-            siteLinks.style.color = siteColors.skillsPage.headingColor;
+
+            for (var l = 0; l < siteLinks.length; l++) {
+                siteLinks[l].style.backgroundColor = siteColors.skillsPage.lightColor;
+                siteLinks[l].style.color = siteColors.skillsPage.headingColor;
+            }
 
             // Change Site Page colors.
             var changedColor = document.getElementById(hrefLink);
